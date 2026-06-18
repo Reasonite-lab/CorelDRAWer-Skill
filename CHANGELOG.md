@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.2.1] — 2025-06-19
+
+### Added
+- **Nature Figure Hunter** (`nature_figure_hunter.py`): search → download PDF → extract figures
+  - 82 figures from 20 Communications Earth & Environment papers
+  - JPEG (DCTDecode) and FlateDecode (PNG raw) extraction
+- **11 new lithology patterns** (29 total): breccia, tuff, andesite, rhyolite, gabbro, serpentinite, slate, quartzite, evaporite, ophiolite, phosphorite
+- **Nature style preset** (`--style nature`): Arial font, thinner lines, muted colors
+- **Curve track support** (`curves[]`): right-side geophysical/geochemical log panels
+- **CITATION.cff**: Zotero/Endnote citation file
+- Citation notice in SVG footer
+
 All notable changes to CorelDRAWer-Skill will be documented in this file.
 
 ## [v2.1] — 2025-06-18
