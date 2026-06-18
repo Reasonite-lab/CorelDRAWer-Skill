@@ -1,0 +1,43 @@
+{
+  "title": "Adelaide Rift Cross-Section — Ediacaran Sequence Stratigraphy",
+  "orientation": "W → E",
+  "vertical_exaggeration": 3,
+  "boreholes": [
+    {
+      "id": "SCYW-1 (West)",
+      "x": 0, "elevation": 420, "depth": 550,
+      "layers": [
+        {"formation":"Pound Ss (quartzite)","thick":180,"c":0,"m":10,"y":25,"k":8,"pattern":"sand"},
+        {"formation":"Wonoka Fm (limestone)","thick":250,"c":0,"m":0,"y":0,"k":30,"pattern":"lime"},
+        {"formation":"Bunyeroo Fm (siltstone)","thick":100,"c":0,"m":15,"y":30,"k":15,"pattern":"silt"},
+        {"formation":"ABC Quartzite","thick":200,"c":0,"m":0,"y":10,"k":10,"pattern":"sand"},
+        {"formation":"Elatina diamictite","thick":40,"c":50,"m":20,"y":50,"k":30,"pattern":"conglo"}
+      ]
+    },
+    {
+      "id": "SCYW-2 (Central)",
+      "x": 3500, "elevation": 380, "depth": 680,
+      "layers": [
+        {"formation":"Pound Ss (quartzite)","thick":220,"c":0,"m":10,"y":25,"k":8,"pattern":"sand"},
+        {"formation":"Wonoka Fm (limestone)","thick":320,"c":0,"m":0,"y":0,"k":30,"pattern":"lime"},
+        {"formation":"Bunyeroo Fm (siltstone)","thick":140,"c":0,"m":15,"y":30,"k":15,"pattern":"silt"},
+        {"formation":"ABC Quartzite","thick":260,"c":0,"m":0,"y":10,"k":10,"pattern":"sand"},
+        {"formation":"Elatina diamictite","thick":65,"c":50,"m":20,"y":50,"k":30,"pattern":"conglo"}
+      ]
+    },
+    {
+      "id": "SCYW-3 (East)",
+      "x": 6200, "elevation": 510, "depth": 480,
+      "layers": [
+        {"formation":"Pound Ss (quartzite)","thick":150,"c":0,"m":10,"y":25,"k":8,"pattern":"sand"},
+        {"formation":"Wonoka Fm (limestone)","thick":300,"c":0,"m":0,"y":0,"k":30,"pattern":"lime"},
+        {"formation":"Bunyeroo Fm (siltstone)","thick":120,"c":0,"m":15,"y":30,"k":15,"pattern":"silt"},
+        {"formation":"ABC Quartzite","thick":180,"c":0,"m":0,"y":10,"k":10,"pattern":"sand"},
+        {"formation":"Elatina diamictite","thick":30,"c":50,"m":20,"y":50,"k":30,"pattern":"conglo"}
+      ]
+    }
+  ],
+  "faults": [
+    {"x": 2000, "dip": 60, "direction": "E", "type": "normal", "throw": 120}
+  ]
+}
