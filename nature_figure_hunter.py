@@ -61,8 +61,9 @@ def download_pdf(doi_or_url, output_dir='papers'):
     return pdf, safe_name
 
 def extract_images(pdf_bytes, prefix='fig', output_dir='figures'):
-    """Extract JPEG images from PDF."""
+    """Extract JPEG and PNG images from PDF."""
     os.makedirs(output_dir, exist_ok=True)
+    import zlib
 
     pos = 0
     count = 0
@@ -73,8 +74,11 @@ def extract_images(pdf_bytes, prefix='fig', output_dir='figures'):
         if img_start == -1:
             break
 
-        chunk = pdf_bytes[max(0, img_start-100):img_start+600]
+        chunk = pdf_bytes[max(0, img_start-100):img_start+800]
         is_jpg = b'/DCTDecode' in chunk
+        is_flate = b'/FlateDecode' in chunk
+        is_png_hint = b'/ColorSpace/DeviceRGB' in chunk and not is_jpg
+
         w_m = re.search(rb'/Width\s+(\d+)', chunk)
         h_m = re.search(rb'/Height\s+(\d+)', chunk)
         l_m = re.search(rb'/Length\s+(\d+)', chunk)
@@ -82,8 +86,8 @@ def extract_images(pdf_bytes, prefix='fig', output_dir='figures'):
         height = int(h_m.group(1)) if h_m else 0
         data_len = int(l_m.group(1)) if l_m else 0
 
-        stream_start = pdf_bytes.find(b'stream', img_start, img_start+600)
-        if stream_start >= 0 and is_jpg and width >= 300:
+        stream_start = pdf_bytes.find(b'stream', img_start, img_start+800)
+        if stream_start >= 0 and width >= 300:
             data_start = stream_start + 6
             if pdf_bytes[data_start:data_start+1] == b'\n':
                 data_start += 1
@@ -91,12 +95,29 @@ def extract_images(pdf_bytes, prefix='fig', output_dir='figures'):
                 data_start += 2
 
             data = pdf_bytes[data_start:data_start+data_len]
-            count += 1
-            fname = f'{output_dir}/{prefix}_{count:02d}_{width}x{height}.jpg'
-            with open(fname, 'wb') as f:
-                f.write(data)
-            result.append((fname, width, height, len(data)))
-            print(f'  🖼️  {fname} ({width}×{height})')
+
+            if is_jpg:
+                count += 1
+                fname = f'{output_dir}/{prefix}_{count:02d}_{width}x{height}.jpg'
+                with open(fname, 'wb') as f:
+                    f.write(data)
+                result.append((fname, width, height, len(data)))
+                print(f'  🖼️  {fname} ({width}×{height})')
+
+            elif is_flate and is_png_hint and width >= 400:
+                try:
+                    raw = zlib.decompress(data)
+                    count += 1
+                    fname = f'{output_dir}/{prefix}_{count:02d}_{width}x{height}.png'
+                    # Save as raw RGB → PNG using simple header
+                    # For now, save as .raw for manual conversion
+                    fname_raw = fname.replace('.png', '.raw')
+                    with open(fname_raw, 'wb') as f:
+                        f.write(raw)
+                    result.append((fname, width, height, len(raw)))
+                    print(f'  📦 {fname_raw} ({width}x{height}, FlateDecode)')
+                except:
+                    pass
 
         pos = stream_start + 10 if stream_start >= 0 else img_start + 1
 
