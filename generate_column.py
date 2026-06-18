@@ -739,6 +739,7 @@ def generate_svg(data, output_path=None, style='default'):
     svg = ET.Element('svg', {
         'xmlns': 'http://www.w3.org/2000/svg',
         'xmlns:xlink': 'http://www.w3.org/1999/xlink',
+        'xmlns:inkscape': 'http://www.inkscape.org/namespaces/inkscape',
         'viewBox': f'0 0 {page_w} {page_h}',
         'width': f'{page_w}mm',
         'height': f'{page_h}mm',
