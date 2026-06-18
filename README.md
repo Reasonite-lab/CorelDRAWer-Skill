@@ -7,6 +7,8 @@
 ## What is this?
 
 A **Reasonix skill** that turns natural-language descriptions into:
+- **Stratigraphic columns** — 11-column adaptive layout, 18 lithology patterns, 15 fossil types
+- **Geological cross-sections** — multi-borehole subsurface profiles with faults
 - **SVG vector graphics** (default) — drag into CorelDRAW, Illustrator, or view in browser
 - **CorelDRAW COM automation** (Windows) — directly control CorelDRAW to draw
 - **VBA macro code** (legacy) — copy-paste into CorelDRAW's Alt+F11 editor
@@ -47,6 +49,36 @@ python3 cdr_com_auto.py --com data.json
 ### 🥉 VBA Code (Legacy)
 
 The AI can also generate VBA code. In CorelDRAW: Alt+F11 → Import → Run `DrawColumn`.
+
+## Geological Cross-Sections (v1.0)
+
+Generate subsurface profiles from borehole data:
+
+```bash
+python3 generate_cross_section.py boreholes.json cross_section.svg
+```
+
+Features:
+- **Multi-borehole**: automatic surface profile + layer correlation
+- **Faults**: dip line, throw arrows, type label (normal/reverse)
+- **Pattern fills**: same 18 lithology patterns as columns
+- **Dual scale bars**: horizontal + vertical with exaggeration note
+- **SVG layers**: cdr-background, cdr-title, cdr-body, cdr-legend, cdr-footer
+
+```json
+{
+  "title": "Cross-Section A-A'",
+  "orientation": "NW → SE",
+  "vertical_exaggeration": 5,
+  "boreholes": [
+    {"id": "ZK001", "x": 0, "elevation": 520, "depth": 180,
+     "layers": [{"formation": "Alluvium", "thick": 8, "pattern": "conglo", ...}]}
+  ],
+  "faults": [
+    {"x": 200, "dip": 72, "direction": "NE", "type": "normal", "throw": 40}
+  ]
+}
+```
 
 ## v2.0 Features
 
@@ -167,11 +199,13 @@ python3 generate_column.py
 
 | File | Purpose |
 |------|---------|
-| `generate_column.py` | SVG vector generator (zero dependencies, pure Python stdlib) |
+| `generate_column.py` | SVG vector generator — stratigraphic columns (zero deps) |
+| `generate_cross_section.py` | SVG vector generator — geological cross-sections (zero deps) |
 | `cdr_com_auto.py` | CorelDRAW COM automation / VBA code generator |
-| `data_template.json` | Stratigraphic data template — edit to switch regions |
-| `borehole_column.bas` | Full VBA macro (legacy, 688 lines) |
-| `output.svg` | Example SVG output (Zigui 14-layer standard section) |
+| `data_template.json` | Stratigraphic column data template |
+| `borehole_column.bas` | Legacy VBA macro (reference, 688 lines) |
+| `output.svg` | Example SVG: Zigui 14-layer standard section |
+| `cross_section_demo.svg` | Example SVG: 3-borehole cross-section with fault |
 | `.reasonix/skills/coreldraw-vba/SKILL.md` | Skill definition document |
 | `README_zh.md` | Chinese documentation |
 

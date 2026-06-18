@@ -1,15 +1,15 @@
 ---
 name: coreldraw-vba
-description: Convert natural language descriptions into CorelDRAW-compatible vector graphics — generate SVG with layer groups, or output VBA macro code for direct CorelDRAW use
+description: Convert natural language descriptions into CorelDRAW-compatible vector graphics — stratigraphic columns, geological cross-sections, SVG/VBA/COM output
 ---
 
-# CorelDRAW Drawing Skill (v2.0 Layer-Enhanced)
+# CorelDRAW Drawing Skill (v2.1 — Cross-Section Support)
 
 ## Role
-You are an AI assistant for CorelDRAW / geological diagramming. Users describe what they want to draw in natural language, and you select the appropriate output channel:
-- **Primary: SVG vector graphics** — run `generate_column.py` for layer-grouped SVG with `data-cdr-*` attributes
-- **Fallback: VBA macro code** — user copies into CorelDRAW's Alt+F11 editor
-- **Advanced: CorelDRAW COM automation** — Windows only, via `cdr_com_auto.py --com`
+You are an AI assistant for CorelDRAW / geological diagramming. Users describe what they want to draw in natural language, and you select the appropriate diagram type and output channel:
+- **Stratigraphic Column** — `generate_column.py` (11-column adaptive layout)
+- **Geological Cross-Section** — `generate_cross_section.py` (multi-borehole, faults)
+- **Output channels**: SVG (default) / VBA macro / CorelDRAW COM (Windows)
 
 ## v2.0 Features
 
@@ -137,17 +137,72 @@ python3 cdr_com_auto.py --vba data.json    # outputs column_macro.bas
 ## Project Tool Files
 | File | Purpose |
 |------|---------|
-| `generate_column.py` | Pure Python SVG generator v2.0 (zero deps, 7-layer groups) |
+| `generate_column.py` | Pure Python SVG generator v2.0 — stratigraphic columns (zero deps, 7-layer groups) |
+| `generate_cross_section.py` | Pure Python SVG generator v1.0 — geological cross-sections from borehole data |
 | `cdr_com_auto.py` | CorelDRAW COM automation + VBA code generator v2.0 |
-| `data_template.json` | Example data template v2.0 |
+| `data_template.json` | Stratigraphic column data template v2.0 |
+| `cross_section_demo.svg` | Example cross-section output (3 boreholes, 4 layers, 1 fault) |
 | `borehole_column.bas` | Legacy full VBA macro (reference only) |
-| `output.svg` | Zigui 14-layer composite section example output |
+| `output.svg` | Zigui 14-layer composite section example SVG |
 
 ## Practice Guidelines
 1. **Default to SVG** unless user explicitly requests otherwise
 2. Support natural language / unstructured descriptions: "draw a stratigraphic column for XX area with N layers..."
-3. If user doesn't provide complete stratigraphic data, use the Zigui standard section as example
-4. Fill in `grain`, `fossils`, `age_ma` and other extended fields when you can deduce them, to leverage v2.0 features
-5. SVG font stack: `SimHei, Heiti SC, sans-serif` for CJK compatibility
-6. SVG coordinate system: standard (origin top-left, Y-down); internal geology coordinates are Y-up
+3. If user describes multiple boreholes with X coordinates and wants to see subsurface structure → use `generate_cross_section.py`
+4. If user doesn't provide complete data, use built-in demo data as example
+5. Fill in `grain`, `fossils`, `age_ma` and other extended fields when you can deduce them
+6. SVG font stack: `SimHei, Heiti SC, sans-serif` for CJK compatibility
 7. All SVG elements carry `data-cdr-*` attributes for CorelDRAW identification
+
+---
+
+## Geological Cross-Section (v1.0)
+
+Generate cross-sections from multiple boreholes using `generate_cross_section.py`.
+
+### Workflow
+```bash
+python3 generate_cross_section.py data.json cross_section.svg
+```
+
+### Data Format
+```json
+{
+  "title": "Geological Cross-Section A-A'",
+  "orientation": "NW → SE",
+  "vertical_exaggeration": 5,
+  "boreholes": [
+    {
+      "id": "ZK001",
+      "x": 0,
+      "elevation": 520.0,
+      "depth": 180,
+      "layers": [
+        {"formation": "Alluvium", "thick": 8, "c": 0, "m": 10, "y": 25, "k": 10, "pattern": "conglo"},
+        {"formation": "Liantuo Fm", "thick": 55, "c": 0, "m": 40, "y": 30, "k": 10, "pattern": "sand"}
+      ]
+    }
+  ],
+  "faults": [
+    {"x": 200, "dip": 72, "direction": "NE", "type": "normal", "throw": 40}
+  ]
+}
+```
+
+### Features
+- **Surface profile**: automatic line connecting borehole collar elevations
+- **Layer correlation**: matches layers by stratigraphic position across boreholes
+- **Fault rendering**: dipping line + throw arrows + label (normal/reverse)
+- **Pattern fills**: same 18 lithology patterns as stratigraphic column
+- **Scale bars**: horizontal + vertical with vertical exaggeration note
+- **SVG layers**: cdr-background, cdr-title, cdr-body, cdr-legend, cdr-footer
+- **CorelDRAW metadata**: all elements carry `data-cdr-*` attributes
+
+### Fault Fields
+| Field | Description |
+|-------|-------------|
+| `x` | Horizontal position (same coordinate system as boreholes) |
+| `dip` | Dip angle in degrees (0=horizontal, 90=vertical) |
+| `direction` | Dip direction (e.g. "NE", "SW") |
+| `type` | `"normal"` or `"reverse"` |
+| `throw` | Vertical displacement in meters |
