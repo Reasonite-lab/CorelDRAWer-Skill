@@ -1,5 +1,5 @@
 {
-  "_comment": "地层柱状图数据模板 — 修改此文件即可切换地区/地层",
+  "_comment": "地层柱状图数据模板 v2.0 — 支持化石/构造/粒度/年龄等扩展字段",
   "_docs": "运行: python3 generate_column.py data_template.json output.svg",
   "title": "综合地层柱状图",
   "location": "",
@@ -13,7 +13,9 @@
       "thick": 15,
       "descr": "黄褐色砂砾石层、亚砂土",
       "c": 0, "m": 10, "y": 25, "k": 10,
-      "pattern": "conglo"
+      "pattern": "conglo",
+      "grain": 6,
+      "age_ma": 0.01
     },
     {
       "erathem": "古生界",
@@ -24,7 +26,10 @@
       "thick": 95,
       "descr": "黑色炭质页岩夹薄层硅质岩",
       "c": 0, "m": 5, "y": 10, "k": 65,
-      "pattern": "carbShale"
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": ["trilobite", "brachiopod"],
+      "age_ma": 541
     },
     {
       "erathem": "新元古界",
@@ -35,7 +40,11 @@
       "thick": 350,
       "descr": "灰白色厚层白云岩，含燧石条带",
       "c": 0, "m": 0, "y": 5, "k": 10,
-      "pattern": "dolo"
+      "pattern": "dolo",
+      "grain": 2,
+      "fossils": ["stromatolite"],
+      "age_ma": 551,
+      "contact": "conformity"
     },
     {
       "erathem": "新元古界",
@@ -46,7 +55,11 @@
       "thick": 120,
       "descr": "紫红色中厚层砂岩、含砾砂岩",
       "c": 0, "m": 40, "y": 30, "k": 10,
-      "pattern": "sand"
+      "pattern": "sand",
+      "grain": 4,
+      "age_ma": 780,
+      "contact": "unconformity",
+      "structures": ["cross_bed"]
     }
   ]
 }
