@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 253 333" width="253mm" height="333mm" version="1.1">
+  <rect x="0" y="0" width="253" height="333" fill="#fff" stroke="none" stroke-width="0"/>
+  <defs>
+    <clipPath id="clip_0">
+      <rect x="80.3" y="268.4179104477612" width="37.2" height="7.582089552238806"/>
+    </clipPath>
+    <clipPath id="clip_1">
+      <rect x="80.3" y="235.2462686567164" width="37.2" height="33.17164179104477"/>
+    </clipPath>
+    <clipPath id="clip_2">
+      <rect x="80.3" y="214.3955223880597" width="37.2" height="20.850746268656714"/>
+    </clipPath>
+    <clipPath id="clip_3">
+      <rect x="80.3" y="168.90298507462688" width="37.2" height="45.492537313432834"/>
+    </clipPath>
+    <clipPath id="clip_4">
+      <rect x="80.3" y="153.73880597014926" width="37.2" height="15.164179104477611"/>
+    </clipPath>
+    <clipPath id="clip_5">
+      <rect x="80.3" y="127.20149253731344" width="37.2" height="26.53731343283582"/>
+    </clipPath>
+    <clipPath id="clip_6">
+      <rect x="80.3" y="107.29850746268657" width="37.2" height="19.902985074626866"/>
+    </clipPath>
+    <clipPath id="clip_7">
+      <rect x="80.3" y="76.97014925373135" width="37.2" height="30.328358208955223"/>
+    </clipPath>
+    <clipPath id="clip_8">
+      <rect x="80.3" y="39.05970149253732" width="37.2" height="37.91044776119403"/>
+    </clipPath>
+    <clipPath id="clip_9">
+      <rect x="80.3" y="22.00000000000001" width="37.2" height="17.05970149253731"/>
+    </clipPath>
+    <clipPath id="lgclip_0">
+      <rect x="213" y="209.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_1">
+      <rect x="213" y="216.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_2">
+      <rect x="213" y="223.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_3">
+      <rect x="213" y="230.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_4">
+      <rect x="213" y="237.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_5">
+      <rect x="213" y="244.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_6">
+      <rect x="213" y="251.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_7">
+      <rect x="213" y="258.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_8">
+      <rect x="213" y="265.5" width="6" height="6"/>
+    </clipPath>
+  </defs>
+  <text x="106.5" y="302" font-family="SimHei, Heiti SC, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">准噶尔盆地中拐凸起 ZJ14 井综合地层柱状图</text>
+  <text x="106.5" y="296" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="normal" text-anchor="middle" fill="#555">准噶尔盆地 · 中拐凸起</text>
+  <rect x="8" y="276" width="197" height="14" fill="#f5f5f5" stroke="#000" stroke-width="0.4"/>
+  <text x="14.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">界</text>
+  <text x="27.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">系</text>
+  <text x="40.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">统</text>
+  <text x="57.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">组</text>
+  <text x="73.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">代号</text>
+  <text x="100.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">岩 性 柱</text>
+  <text x="123.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.6" font-weight="bold" text-anchor="middle" fill="#000">粒度</text>
+  <text x="132.0" y="279.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">厚度</text>
+  <text x="132.0" y="286.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">(m)</text>
+  <text x="169.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">岩 性 描 述</text>
+  <line x1="21" y1="22" x2="21" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="34" y1="22" x2="34" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="47" y1="22" x2="47" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="67" y1="22" x2="67" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="80" y1="22" x2="80" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="120" y1="22" x2="120" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="127" y1="22" x2="127" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="137" y1="22" x2="137" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="8" y1="276" x2="205" y2="276" stroke="#000" stroke-width="0.4"/>
+  <line x1="80" y1="276.0" x2="118" y2="276.0" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="274.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">0</text>
+  <line x1="80" y1="266.5223880597015" x2="118" y2="266.5223880597015" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="257.04477611940297" x2="118" y2="257.04477611940297" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="255.54477611940297" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">200</text>
+  <line x1="80" y1="247.56716417910448" x2="118" y2="247.56716417910448" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="238.08955223880596" x2="118" y2="238.08955223880596" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="236.58955223880596" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">400</text>
+  <line x1="80" y1="228.61194029850748" x2="118" y2="228.61194029850748" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="219.13432835820896" x2="118" y2="219.13432835820896" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="217.63432835820896" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">600</text>
+  <line x1="80" y1="209.65671641791045" x2="118" y2="209.65671641791045" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="200.17910447761193" x2="118" y2="200.17910447761193" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="198.67910447761193" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">800</text>
+  <line x1="80" y1="190.70149253731344" x2="118" y2="190.70149253731344" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="181.22388059701493" x2="118" y2="181.22388059701493" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="179.72388059701493" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1000</text>
+  <line x1="80" y1="171.74626865671644" x2="118" y2="171.74626865671644" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="162.26865671641792" x2="118" y2="162.26865671641792" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="160.76865671641792" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1200</text>
+  <line x1="80" y1="152.7910447761194" x2="118" y2="152.7910447761194" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="143.31343283582092" x2="118" y2="143.31343283582092" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="141.81343283582092" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1400</text>
+  <line x1="80" y1="133.8358208955224" x2="118" y2="133.8358208955224" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="124.35820895522389" x2="118" y2="124.35820895522389" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="122.85820895522389" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1600</text>
+  <line x1="80" y1="114.88059701492537" x2="118" y2="114.88059701492537" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="105.40298507462688" x2="118" y2="105.40298507462688" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="103.90298507462688" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1800</text>
+  <line x1="80" y1="95.92537313432837" x2="118" y2="95.92537313432837" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="86.44776119402985" x2="118" y2="86.44776119402985" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="84.94776119402985" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">2000</text>
+  <line x1="80" y1="76.97014925373136" x2="118" y2="76.97014925373136" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="67.49253731343285" x2="118" y2="67.49253731343285" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="65.99253731343285" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">2200</text>
+  <line x1="80" y1="58.01492537313433" x2="118" y2="58.01492537313433" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="48.537313432835845" x2="118" y2="48.537313432835845" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="47.037313432835845" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">2400</text>
+  <line x1="80" y1="39.05970149253733" x2="118" y2="39.05970149253733" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="80" y1="29.582089552238813" x2="118" y2="29.582089552238813" stroke="#aaa" stroke-width="0.15"/>
+  <text x="117" y="28.082089552238813" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">2600</text>
+  <line x1="80" y1="22" x2="80" y2="276" stroke="#ccc" stroke-width="0.1"/>
+  <rect x="8" y="214.3955223880597" width="13" height="61.6044776119403" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="14.5" y="245.19776119402985" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">新生界</text>
+  <rect x="8" y="107.29850746268657" width="13" height="107.09701492537313" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="14.5" y="160.84701492537314" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">中生界</text>
+  <rect x="8" y="22.00000000000001" width="13" height="85.29850746268656" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="14.5" y="64.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">古生界</text>
+  <rect x="21" y="268.4179104477612" width="13" height="7.582089552238813" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="272.2089552238806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">第四系</text>
+  <rect x="21" y="235.2462686567164" width="13" height="33.17164179104478" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="251.8320895522388" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">新近系</text>
+  <rect x="21" y="214.3955223880597" width="13" height="20.850746268656707" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="224.82089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">古近系</text>
+  <rect x="21" y="168.90298507462688" width="13" height="45.49253731343282" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">白垩系</text>
+  <rect x="21" y="127.20149253731344" width="13" height="41.70149253731344" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="148.05223880597015" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">侏罗系</text>
+  <rect x="21" y="107.29850746268657" width="13" height="19.90298507462687" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="117.25" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">三叠系</text>
+  <rect x="21" y="76.97014925373135" width="13" height="30.328358208955223" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="92.13432835820896" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">二叠系</text>
+  <rect x="21" y="22.00000000000001" width="13" height="54.970149253731336" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="27.5" y="49.48507462686568" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">石炭系</text>
+  <rect x="34" y="268.4179104477612" width="13" height="7.582089552238813" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="272.2089552238806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">更新统</text>
+  <rect x="34" y="235.2462686567164" width="13" height="33.17164179104478" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="251.8320895522388" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">上新统</text>
+  <rect x="34" y="214.3955223880597" width="13" height="20.850746268656707" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="224.82089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">渐新统</text>
+  <rect x="34" y="168.90298507462688" width="13" height="45.49253731343282" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">下统</text>
+  <rect x="34" y="153.73880597014926" width="13" height="15.164179104477626" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="161.32089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">中统</text>
+  <rect x="34" y="127.20149253731344" width="13" height="26.537313432835816" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="140.47014925373134" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">下统</text>
+  <rect x="34" y="107.29850746268657" width="13" height="19.90298507462687" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="117.25" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">中上统</text>
+  <rect x="34" y="76.97014925373135" width="13" height="30.328358208955223" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="92.13432835820896" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">中统</text>
+  <rect x="34" y="39.05970149253732" width="13" height="37.91044776119403" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="58.01492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">上统</text>
+  <rect x="34" y="22.00000000000001" width="13" height="17.05970149253731" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="40.5" y="30.529850746268664" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">下统</text>
+  <g id="layer_0">
+    <rect x="80.3" y="268.4179104477612" width="37.2" height="7.582089552238806" fill="#eadebb" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_0)">
+      <circle cx="84.332" cy="272.44991044776117" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="90.092" cy="272.44991044776117" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="95.852" cy="272.44991044776117" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="101.61200000000001" cy="272.44991044776117" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="107.37200000000001" cy="272.44991044776117" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="113.13200000000002" cy="272.44991044776117" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+    </g>
+  </g>
+  <text x="48" y="272.2089552238806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">西域组</text>
+  <text x="68" y="272.2089552238806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">Q₁x</text>
+  <polygon points="120.5,268.4179104477612 126.5,268.4179104477612 126.5,276 120.5,276" fill="#999" opacity="0.5"/>
+  <text x="128" y="272.2089552238806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">80.0</text>
+  <text x="138" y="272.2089552238806" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰色砂砾石层、含砾粗砂岩，未固结</text>
+  <line x1="8" y1="276" x2="205" y2="276" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,268.4179104477612 126.5,268.4179104477612 126.5,276 120.5,276" fill="#999" opacity="0.5"/>
+  <circle cx="77.3" cy="270.6925373134328" r="1" fill="#c0392b"/>
+  <text x="73.3" y="270.6925373134328" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="end" fill="#c0392b">SP1</text>
+  <g id="layer_1">
+    <rect x="80.3" y="235.2462686567164" width="37.2" height="33.17164179104477" fill="#d8ad82" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_1)">
+      <line x1="81.3" y1="236.8462686567164" x2="116.5" y2="236.8462686567164" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="240.0462686567164" x2="116.5" y2="240.0462686567164" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="243.24626865671638" x2="116.5" y2="243.24626865671638" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="246.44626865671637" x2="116.5" y2="246.44626865671637" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="249.64626865671636" x2="116.5" y2="249.64626865671636" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="252.84626865671635" x2="116.5" y2="252.84626865671635" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="256.04626865671634" x2="116.5" y2="256.04626865671634" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="259.2462686567163" x2="116.5" y2="259.2462686567163" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="262.4462686567163" x2="116.5" y2="262.4462686567163" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="265.6462686567163" x2="116.5" y2="265.6462686567163" stroke="#aaa" stroke-width="0.2"/>
+      <circle cx="83.5" cy="238.4462686567164" r="0.2" fill="#888"/>
+      <circle cx="83.5" cy="244.8462686567164" r="0.2" fill="#888"/>
+      <circle cx="83.5" cy="251.2462686567164" r="0.2" fill="#888"/>
+      <circle cx="83.5" cy="257.6462686567164" r="0.2" fill="#888"/>
+      <circle cx="83.5" cy="264.0462686567164" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="238.4462686567164" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="244.8462686567164" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="251.2462686567164" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="257.6462686567164" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="264.0462686567164" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="238.4462686567164" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="244.8462686567164" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="251.2462686567164" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="257.6462686567164" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="264.0462686567164" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="238.4462686567164" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="244.8462686567164" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="251.2462686567164" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="257.6462686567164" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="264.0462686567164" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="238.4462686567164" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="244.8462686567164" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="251.2462686567164" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="257.6462686567164" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="264.0462686567164" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="238.4462686567164" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="244.8462686567164" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="251.2462686567164" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="257.6462686567164" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="264.0462686567164" r="0.2" fill="#888"/>
+    </g>
+  </g>
+  <text x="48" y="251.8320895522388" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">独山子组</text>
+  <text x="68" y="251.8320895522388" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">N₂d</text>
+  <polygon points="120.5,235.2462686567164 122.5,235.2462686567164 122.5,268.4179104477612 120.5,268.4179104477612" fill="#999" opacity="0.5"/>
+  <text x="128" y="251.8320895522388" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">350.0</text>
+  <text x="138" y="251.8320895522388" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">棕红色泥岩夹灰绿色砂岩、粉砂岩</text>
+  <line x1="8" y1="268.4179104477612" x2="205" y2="268.4179104477612" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,235.2462686567164 122.5,235.2462686567164 122.5,268.4179104477612 120.5,268.4179104477612" fill="#999" opacity="0.5"/>
+  <path d="M 94.9,235.2462686567164 Q 96.9,234.2462686567164 98.9,235.2462686567164 Q 100.9,236.2462686567164 102.9,235.2462686567164" fill="none" stroke="#c0392b" stroke-width="0.3"/>
+  <g id="layer_2">
+    <rect x="80.3" y="214.3955223880597" width="37.2" height="20.850746268656714" fill="#acbfa2" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_2)">
+      <line x1="80.8" y1="214.9715223880597" x2="117.0" y2="214.9715223880597" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="216.89152238805968" x2="117.0" y2="216.89152238805968" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="218.81152238805967" x2="117.0" y2="218.81152238805967" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="220.73152238805966" x2="117.0" y2="220.73152238805966" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="222.65152238805965" x2="117.0" y2="222.65152238805965" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="224.57152238805963" x2="117.0" y2="224.57152238805963" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="226.49152238805962" x2="117.0" y2="226.49152238805962" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="228.4115223880596" x2="117.0" y2="228.4115223880596" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="230.3315223880596" x2="117.0" y2="230.3315223880596" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="232.25152238805958" x2="117.0" y2="232.25152238805958" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.8" y1="234.17152238805957" x2="117.0" y2="234.17152238805957" stroke="#555" stroke-width="0.22"/>
+    </g>
+  </g>
+  <text x="48" y="224.82089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">安集海河组</text>
+  <text x="68" y="224.82089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">E₃a</text>
+  <polygon points="120.5,214.3955223880597 121.5,214.3955223880597 121.5,235.2462686567164 120.5,235.2462686567164" fill="#999" opacity="0.5"/>
+  <text x="128" y="224.82089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">220.0</text>
+  <text x="138" y="224.82089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰绿色泥岩夹薄层砂岩、介壳灰岩</text>
+  <line x1="8" y1="235.2462686567164" x2="205" y2="235.2462686567164" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,214.3955223880597 121.5,214.3955223880597 121.5,235.2462686567164 120.5,235.2462686567164" fill="#999" opacity="0.5"/>
+  <g id="layer_3">
+    <rect x="80.3" y="168.90298507462688" width="37.2" height="45.492537313432834" fill="#c6d19c" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_3)">
+      <circle cx="81.17999999999999" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="81.17999999999999" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="82.94" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="84.7" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="86.46000000000001" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="88.22000000000001" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="89.98000000000002" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="91.74000000000002" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="93.50000000000003" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="95.26000000000003" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="97.02000000000004" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="98.78000000000004" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="100.54000000000005" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="102.30000000000005" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="104.06000000000006" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="105.82000000000006" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="107.58000000000007" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="109.34000000000007" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="111.10000000000008" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="112.86000000000008" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="114.62000000000009" cy="213.78298507462665" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="169.78298507462688" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="171.54298507462687" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="173.30298507462686" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="175.06298507462685" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="176.82298507462684" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="178.58298507462683" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="180.34298507462682" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="182.10298507462682" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="183.8629850746268" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="185.6229850746268" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="187.3829850746268" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="189.14298507462678" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="190.90298507462677" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="192.66298507462676" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="194.42298507462675" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="196.18298507462674" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="197.94298507462673" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="199.70298507462672" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="201.46298507462672" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="203.2229850746267" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="204.9829850746267" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="206.7429850746267" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="208.50298507462668" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="210.26298507462667" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="212.02298507462666" r="0.25" fill="#666"/>
+      <circle cx="116.3800000000001" cy="213.78298507462665" r="0.25" fill="#666"/>
+    </g>
+  </g>
+  <text x="48" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">吐谷鲁群</text>
+  <text x="68" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">K₁tg</text>
+  <polygon points="120.5,168.90298507462688 123.5,168.90298507462688 123.5,214.3955223880597 120.5,214.3955223880597" fill="#999" opacity="0.5"/>
+  <text x="128" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">480.0</text>
+  <text x="138" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰绿色细砂岩、粉砂岩与棕红色泥岩不等厚互层</text>
+  <line x1="8" y1="214.3955223880597" x2="205" y2="214.3955223880597" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,168.90298507462688 123.5,168.90298507462688 123.5,214.3955223880597 120.5,214.3955223880597" fill="#999" opacity="0.5"/>
+  <text x="77.3" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="3" font-weight="bold" text-anchor="middle" fill="#c0392b">★</text>
+  <text x="73.3" y="191.6492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="end" fill="#c0392b">F1</text>
+  <g id="layer_4">
+    <rect x="80.3" y="153.73880597014926" width="37.2" height="15.164179104477611" fill="#b2a98e" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_4)">
+      <circle cx="81.42" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="81.42" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="81.42" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="81.42" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="81.42" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="81.42" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="81.42" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="83.66" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="83.66" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="83.66" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="83.66" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="83.66" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="83.66" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="83.66" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="85.89999999999999" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="85.89999999999999" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="85.89999999999999" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="85.89999999999999" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="85.89999999999999" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="85.89999999999999" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="85.89999999999999" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="88.13999999999999" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="88.13999999999999" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="88.13999999999999" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="88.13999999999999" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="88.13999999999999" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="88.13999999999999" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="88.13999999999999" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="90.37999999999998" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="90.37999999999998" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="90.37999999999998" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="90.37999999999998" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="90.37999999999998" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="90.37999999999998" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="90.37999999999998" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="92.61999999999998" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="92.61999999999998" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="92.61999999999998" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="92.61999999999998" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="92.61999999999998" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="92.61999999999998" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="92.61999999999998" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="94.85999999999997" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="94.85999999999997" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="94.85999999999997" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="94.85999999999997" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="94.85999999999997" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="94.85999999999997" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="94.85999999999997" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="97.09999999999997" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="97.09999999999997" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="97.09999999999997" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="97.09999999999997" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="97.09999999999997" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="97.09999999999997" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="97.09999999999997" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="99.33999999999996" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="99.33999999999996" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="99.33999999999996" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="99.33999999999996" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="99.33999999999996" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="99.33999999999996" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="99.33999999999996" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="101.57999999999996" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="101.57999999999996" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="101.57999999999996" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="101.57999999999996" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="101.57999999999996" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="101.57999999999996" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="101.57999999999996" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="103.81999999999995" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="103.81999999999995" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="103.81999999999995" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="103.81999999999995" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="103.81999999999995" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="103.81999999999995" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="103.81999999999995" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="106.05999999999995" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="106.05999999999995" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="106.05999999999995" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="106.05999999999995" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="106.05999999999995" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="106.05999999999995" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="106.05999999999995" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="108.29999999999994" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="108.29999999999994" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="108.29999999999994" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="108.29999999999994" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="108.29999999999994" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="108.29999999999994" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="108.29999999999994" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="110.53999999999994" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="110.53999999999994" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="110.53999999999994" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="110.53999999999994" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="110.53999999999994" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="110.53999999999994" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="110.53999999999994" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="112.77999999999993" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="112.77999999999993" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="112.77999999999993" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="112.77999999999993" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="112.77999999999993" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="112.77999999999993" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="112.77999999999993" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="115.01999999999992" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="115.01999999999992" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="115.01999999999992" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="115.01999999999992" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="115.01999999999992" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="115.01999999999992" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="115.01999999999992" cy="168.29880597014932" r="0.35" fill="#555"/>
+      <circle cx="117.25999999999992" cy="154.85880597014926" r="0.35" fill="#555"/>
+      <circle cx="117.25999999999992" cy="157.09880597014927" r="0.35" fill="#555"/>
+      <circle cx="117.25999999999992" cy="159.33880597014928" r="0.35" fill="#555"/>
+      <circle cx="117.25999999999992" cy="161.5788059701493" r="0.35" fill="#555"/>
+      <circle cx="117.25999999999992" cy="163.8188059701493" r="0.35" fill="#555"/>
+      <circle cx="117.25999999999992" cy="166.0588059701493" r="0.35" fill="#555"/>
+      <circle cx="117.25999999999992" cy="168.29880597014932" r="0.35" fill="#555"/>
+    </g>
+  </g>
+  <text x="48" y="161.32089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">西山窑组</text>
+  <text x="68" y="161.32089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">J₂x</text>
+  <polygon points="120.5,153.73880597014926 124.5,153.73880597014926 124.5,168.90298507462688 120.5,168.90298507462688" fill="#999" opacity="0.5"/>
+  <text x="128" y="161.32089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">160.0</text>
+  <text x="138" y="161.32089552238807" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰白色中粗砂岩、含砾砂岩夹煤层和炭质泥岩</text>
+  <line x1="8" y1="168.90298507462688" x2="205" y2="168.90298507462688" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,153.73880597014926 124.5,153.73880597014926 124.5,168.90298507462688 120.5,168.90298507462688" fill="#999" opacity="0.5"/>
+  <g id="layer_5">
+    <rect x="80.3" y="127.20149253731344" width="37.2" height="26.53731343283582" fill="#7f796c" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_5)">
+      <line x1="81.3" y1="136.04726368159206" x2="116.5" y2="136.04726368159206" stroke="#fff" stroke-width="0.3"/>
+      <line x1="81.3" y1="144.89303482587064" x2="116.5" y2="144.89303482587064" stroke="#fff" stroke-width="0.3"/>
+    </g>
+  </g>
+  <text x="48" y="140.47014925373134" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">八道湾组</text>
+  <text x="68" y="140.47014925373134" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">J₁b</text>
+  <polygon points="120.5,127.20149253731344 125.5,127.20149253731344 125.5,153.73880597014926 120.5,153.73880597014926" fill="#999" opacity="0.5"/>
+  <text x="128" y="140.47014925373134" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">280.0</text>
+  <text x="138" y="140.47014925373134" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰色砂砾岩、砂岩夹泥岩及工业煤层</text>
+  <line x1="8" y1="153.73880597014926" x2="205" y2="153.73880597014926" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,127.20149253731344 125.5,127.20149253731344 125.5,153.73880597014926 120.5,153.73880597014926" fill="#999" opacity="0.5"/>
+  <path d="M 94.9,125.70149253731344 L 96.9,128.20149253731344 L 98.9,125.70149253731344 L 100.9,128.20149253731344 L 102.9,125.70149253731344" fill="none" stroke="#c0392b" stroke-width="0.35"/>
+  <text x="77.3" y="143.12388059701493" font-family="SimHei, Heiti SC, sans-serif" font-size="3" font-weight="bold" text-anchor="middle" fill="#c0392b">▲</text>
+  <text x="73.3" y="143.12388059701493" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="end" fill="#c0392b">Coal</text>
+  <g id="layer_6">
+    <rect x="80.3" y="107.29850746268657" width="37.2" height="19.902985074626866" fill="#b6c69f" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_6)">
+      <line x1="81.3" y1="108.89850746268657" x2="116.5" y2="108.89850746268657" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="112.09850746268657" x2="116.5" y2="112.09850746268657" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="115.29850746268657" x2="116.5" y2="115.29850746268657" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="118.49850746268658" x2="116.5" y2="118.49850746268658" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="121.69850746268658" x2="116.5" y2="121.69850746268658" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="81.3" y1="124.89850746268658" x2="116.5" y2="124.89850746268658" stroke="#aaa" stroke-width="0.2"/>
+      <circle cx="83.5" cy="110.49850746268658" r="0.2" fill="#888"/>
+      <circle cx="83.5" cy="116.89850746268658" r="0.2" fill="#888"/>
+      <circle cx="83.5" cy="123.29850746268659" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="110.49850746268658" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="116.89850746268658" r="0.2" fill="#888"/>
+      <circle cx="89.9" cy="123.29850746268659" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="110.49850746268658" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="116.89850746268658" r="0.2" fill="#888"/>
+      <circle cx="96.30000000000001" cy="123.29850746268659" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="110.49850746268658" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="116.89850746268658" r="0.2" fill="#888"/>
+      <circle cx="102.70000000000002" cy="123.29850746268659" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="110.49850746268658" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="116.89850746268658" r="0.2" fill="#888"/>
+      <circle cx="109.10000000000002" cy="123.29850746268659" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="110.49850746268658" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="116.89850746268658" r="0.2" fill="#888"/>
+      <circle cx="115.50000000000003" cy="123.29850746268659" r="0.2" fill="#888"/>
+    </g>
+  </g>
+  <text x="48" y="117.25" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">小泉沟群</text>
+  <text x="68" y="117.25" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">T₂₋₃xq</text>
+  <polygon points="120.5,107.29850746268657 122.5,107.29850746268657 122.5,127.20149253731344 120.5,127.20149253731344" fill="#999" opacity="0.5"/>
+  <text x="128" y="117.25" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">210.0</text>
+  <text x="138" y="117.25" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰绿色泥岩、粉砂岩夹细砂岩</text>
+  <line x1="8" y1="127.20149253731344" x2="205" y2="127.20149253731344" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,107.29850746268657 122.5,107.29850746268657 122.5,127.20149253731344 120.5,127.20149253731344" fill="#999" opacity="0.5"/>
+  <g id="layer_7">
+    <rect x="80.3" y="76.97014925373135" width="37.2" height="30.328358208955223" fill="#7e857e" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_7)">
+      <line x1="80.6" y1="77.64214925373135" x2="117.2" y2="77.64214925373135" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="76.97014925373135" x2="82.092" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="76.97014925373135" x2="85.452" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="76.97014925373135" x2="88.812" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="76.97014925373135" x2="92.172" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="76.97014925373135" x2="95.532" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="76.97014925373135" x2="98.892" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="76.97014925373135" x2="102.252" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="76.97014925373135" x2="105.612" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="76.97014925373135" x2="108.972" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="76.97014925373135" x2="112.332" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="76.97014925373135" x2="115.692" y2="78.31414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="79.88214925373134" x2="117.2" y2="79.88214925373134" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="79.21014925373134" x2="82.092" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="79.21014925373134" x2="85.452" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="79.21014925373134" x2="88.812" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="79.21014925373134" x2="92.172" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="79.21014925373134" x2="95.532" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="79.21014925373134" x2="98.892" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="79.21014925373134" x2="102.252" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="79.21014925373134" x2="105.612" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="79.21014925373134" x2="108.972" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="79.21014925373134" x2="112.332" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="79.21014925373134" x2="115.692" y2="80.55414925373134" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="82.12214925373134" x2="117.2" y2="82.12214925373134" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.6" y1="84.36214925373133" x2="117.2" y2="84.36214925373133" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="83.69014925373133" x2="82.092" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="83.69014925373133" x2="85.452" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="83.69014925373133" x2="88.812" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="83.69014925373133" x2="92.172" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="83.69014925373133" x2="95.532" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="83.69014925373133" x2="98.892" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="83.69014925373133" x2="102.252" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="83.69014925373133" x2="105.612" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="83.69014925373133" x2="108.972" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="83.69014925373133" x2="112.332" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="83.69014925373133" x2="115.692" y2="85.03414925373133" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="86.60214925373133" x2="117.2" y2="86.60214925373133" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="85.93014925373133" x2="82.092" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="85.93014925373133" x2="85.452" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="85.93014925373133" x2="88.812" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="85.93014925373133" x2="92.172" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="85.93014925373133" x2="95.532" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="85.93014925373133" x2="98.892" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="85.93014925373133" x2="102.252" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="85.93014925373133" x2="105.612" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="85.93014925373133" x2="108.972" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="85.93014925373133" x2="112.332" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="85.93014925373133" x2="115.692" y2="87.27414925373132" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="88.84214925373132" x2="117.2" y2="88.84214925373132" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.6" y1="91.08214925373132" x2="117.2" y2="91.08214925373132" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="90.41014925373132" x2="82.092" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="90.41014925373132" x2="85.452" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="90.41014925373132" x2="88.812" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="90.41014925373132" x2="92.172" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="90.41014925373132" x2="95.532" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="90.41014925373132" x2="98.892" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="90.41014925373132" x2="102.252" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="90.41014925373132" x2="105.612" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="90.41014925373132" x2="108.972" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="90.41014925373132" x2="112.332" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="90.41014925373132" x2="115.692" y2="91.75414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="93.32214925373131" x2="117.2" y2="93.32214925373131" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="92.65014925373131" x2="82.092" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="92.65014925373131" x2="85.452" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="92.65014925373131" x2="88.812" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="92.65014925373131" x2="92.172" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="92.65014925373131" x2="95.532" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="92.65014925373131" x2="98.892" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="92.65014925373131" x2="102.252" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="92.65014925373131" x2="105.612" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="92.65014925373131" x2="108.972" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="92.65014925373131" x2="112.332" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="92.65014925373131" x2="115.692" y2="93.99414925373131" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="95.5621492537313" x2="117.2" y2="95.5621492537313" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.6" y1="97.8021492537313" x2="117.2" y2="97.8021492537313" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="97.1301492537313" x2="82.092" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="97.1301492537313" x2="85.452" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="97.1301492537313" x2="88.812" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="97.1301492537313" x2="92.172" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="97.1301492537313" x2="95.532" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="97.1301492537313" x2="98.892" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="97.1301492537313" x2="102.252" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="97.1301492537313" x2="105.612" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="97.1301492537313" x2="108.972" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="97.1301492537313" x2="112.332" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="97.1301492537313" x2="115.692" y2="98.4741492537313" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="100.0421492537313" x2="117.2" y2="100.0421492537313" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="99.3701492537313" x2="82.092" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="99.3701492537313" x2="85.452" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="99.3701492537313" x2="88.812" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="99.3701492537313" x2="92.172" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="99.3701492537313" x2="95.532" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="99.3701492537313" x2="98.892" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="99.3701492537313" x2="102.252" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="99.3701492537313" x2="105.612" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="99.3701492537313" x2="108.972" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="99.3701492537313" x2="112.332" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="99.3701492537313" x2="115.692" y2="100.71414925373129" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="102.28214925373129" x2="117.2" y2="102.28214925373129" stroke="#555" stroke-width="0.22"/>
+      <line x1="80.6" y1="104.52214925373129" x2="117.2" y2="104.52214925373129" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="103.85014925373129" x2="82.092" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="103.85014925373129" x2="85.452" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="103.85014925373129" x2="88.812" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="103.85014925373129" x2="92.172" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="103.85014925373129" x2="95.532" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="103.85014925373129" x2="98.892" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="103.85014925373129" x2="102.252" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="103.85014925373129" x2="105.612" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="103.85014925373129" x2="108.972" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="103.85014925373129" x2="112.332" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="103.85014925373129" x2="115.692" y2="105.19414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.6" y1="106.76214925373128" x2="117.2" y2="106.76214925373128" stroke="#555" stroke-width="0.22"/>
+      <line x1="82.092" y1="106.09014925373128" x2="82.092" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.452" y1="106.09014925373128" x2="85.452" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.812" y1="106.09014925373128" x2="88.812" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="92.172" y1="106.09014925373128" x2="92.172" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.532" y1="106.09014925373128" x2="95.532" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.892" y1="106.09014925373128" x2="98.892" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.252" y1="106.09014925373128" x2="102.252" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.612" y1="106.09014925373128" x2="105.612" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.972" y1="106.09014925373128" x2="108.972" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.332" y1="106.09014925373128" x2="112.332" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.692" y1="106.09014925373128" x2="115.692" y2="107.43414925373128" stroke="#999" stroke-width="0.15"/>
+    </g>
+  </g>
+  <text x="48" y="92.13432835820896" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">芦草沟组</text>
+  <text x="68" y="92.13432835820896" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">P₂l</text>
+  <polygon points="120.5,76.97014925373135 121.5,76.97014925373135 121.5,107.29850746268657 120.5,107.29850746268657" fill="#999" opacity="0.5"/>
+  <text x="128" y="92.13432835820896" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">320.0</text>
+  <text x="138" y="92.13432835820896" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">深灰色页岩、白云质泥岩夹薄层灰岩（主力烃源岩）</text>
+  <line x1="8" y1="107.29850746268657" x2="205" y2="107.29850746268657" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,76.97014925373135 121.5,76.97014925373135 121.5,107.29850746268657 120.5,107.29850746268657" fill="#999" opacity="0.5"/>
+  <g id="layer_8">
+    <rect x="80.3" y="39.05970149253732" width="37.2" height="37.91044776119403" fill="#8ca57c" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_8)">
+      <line x1="81.164" y1="39.34770149253732" x2="82.316" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="40.49970149253732" x2="83.468" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="39.34770149253732" x2="86.63600000000001" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="40.49970149253732" x2="87.78800000000001" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="39.34770149253732" x2="90.956" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="40.49970149253732" x2="92.108" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="39.34770149253732" x2="95.276" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="40.49970149253732" x2="96.428" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="39.34770149253732" x2="99.59599999999999" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="40.49970149253732" x2="100.74799999999999" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="39.34770149253732" x2="103.91599999999998" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="40.49970149253732" x2="105.06799999999998" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="39.34770149253732" x2="108.23599999999998" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="40.49970149253732" x2="109.38799999999998" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="39.34770149253732" x2="112.55599999999997" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="40.49970149253732" x2="113.70799999999997" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="39.34770149253732" x2="116.87599999999996" y2="40.49970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="40.49970149253732" x2="118.02799999999996" y2="39.34770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="42.22770149253732" x2="82.316" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="43.37970149253732" x2="83.468" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="42.22770149253732" x2="86.63600000000001" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="43.37970149253732" x2="87.78800000000001" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="42.22770149253732" x2="90.956" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="43.37970149253732" x2="92.108" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="42.22770149253732" x2="95.276" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="43.37970149253732" x2="96.428" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="42.22770149253732" x2="99.59599999999999" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="43.37970149253732" x2="100.74799999999999" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="42.22770149253732" x2="103.91599999999998" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="43.37970149253732" x2="105.06799999999998" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="42.22770149253732" x2="108.23599999999998" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="43.37970149253732" x2="109.38799999999998" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="42.22770149253732" x2="112.55599999999997" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="43.37970149253732" x2="113.70799999999997" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="42.22770149253732" x2="116.87599999999996" y2="43.37970149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="43.37970149253732" x2="118.02799999999996" y2="42.22770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="45.10770149253732" x2="82.316" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="46.259701492537324" x2="83.468" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="45.10770149253732" x2="86.63600000000001" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="46.259701492537324" x2="87.78800000000001" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="45.10770149253732" x2="90.956" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="46.259701492537324" x2="92.108" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="45.10770149253732" x2="95.276" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="46.259701492537324" x2="96.428" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="45.10770149253732" x2="99.59599999999999" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="46.259701492537324" x2="100.74799999999999" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="45.10770149253732" x2="103.91599999999998" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="46.259701492537324" x2="105.06799999999998" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="45.10770149253732" x2="108.23599999999998" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="46.259701492537324" x2="109.38799999999998" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="45.10770149253732" x2="112.55599999999997" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="46.259701492537324" x2="113.70799999999997" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="45.10770149253732" x2="116.87599999999996" y2="46.259701492537324" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="46.259701492537324" x2="118.02799999999996" y2="45.10770149253732" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="47.987701492537326" x2="82.316" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="49.13970149253733" x2="83.468" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="47.987701492537326" x2="86.63600000000001" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="49.13970149253733" x2="87.78800000000001" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="47.987701492537326" x2="90.956" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="49.13970149253733" x2="92.108" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="47.987701492537326" x2="95.276" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="49.13970149253733" x2="96.428" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="47.987701492537326" x2="99.59599999999999" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="49.13970149253733" x2="100.74799999999999" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="47.987701492537326" x2="103.91599999999998" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="49.13970149253733" x2="105.06799999999998" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="47.987701492537326" x2="108.23599999999998" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="49.13970149253733" x2="109.38799999999998" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="47.987701492537326" x2="112.55599999999997" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="49.13970149253733" x2="113.70799999999997" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="47.987701492537326" x2="116.87599999999996" y2="49.13970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="49.13970149253733" x2="118.02799999999996" y2="47.987701492537326" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="50.86770149253733" x2="82.316" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="52.01970149253733" x2="83.468" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="50.86770149253733" x2="86.63600000000001" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="52.01970149253733" x2="87.78800000000001" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="50.86770149253733" x2="90.956" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="52.01970149253733" x2="92.108" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="50.86770149253733" x2="95.276" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="52.01970149253733" x2="96.428" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="50.86770149253733" x2="99.59599999999999" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="52.01970149253733" x2="100.74799999999999" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="50.86770149253733" x2="103.91599999999998" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="52.01970149253733" x2="105.06799999999998" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="50.86770149253733" x2="108.23599999999998" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="52.01970149253733" x2="109.38799999999998" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="50.86770149253733" x2="112.55599999999997" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="52.01970149253733" x2="113.70799999999997" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="50.86770149253733" x2="116.87599999999996" y2="52.01970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="52.01970149253733" x2="118.02799999999996" y2="50.86770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="53.74770149253733" x2="82.316" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="54.89970149253733" x2="83.468" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="53.74770149253733" x2="86.63600000000001" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="54.89970149253733" x2="87.78800000000001" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="53.74770149253733" x2="90.956" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="54.89970149253733" x2="92.108" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="53.74770149253733" x2="95.276" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="54.89970149253733" x2="96.428" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="53.74770149253733" x2="99.59599999999999" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="54.89970149253733" x2="100.74799999999999" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="53.74770149253733" x2="103.91599999999998" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="54.89970149253733" x2="105.06799999999998" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="53.74770149253733" x2="108.23599999999998" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="54.89970149253733" x2="109.38799999999998" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="53.74770149253733" x2="112.55599999999997" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="54.89970149253733" x2="113.70799999999997" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="53.74770149253733" x2="116.87599999999996" y2="54.89970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="54.89970149253733" x2="118.02799999999996" y2="53.74770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="56.627701492537334" x2="82.316" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="57.779701492537335" x2="83.468" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="56.627701492537334" x2="86.63600000000001" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="57.779701492537335" x2="87.78800000000001" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="56.627701492537334" x2="90.956" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="57.779701492537335" x2="92.108" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="56.627701492537334" x2="95.276" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="57.779701492537335" x2="96.428" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="56.627701492537334" x2="99.59599999999999" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="57.779701492537335" x2="100.74799999999999" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="56.627701492537334" x2="103.91599999999998" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="57.779701492537335" x2="105.06799999999998" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="56.627701492537334" x2="108.23599999999998" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="57.779701492537335" x2="109.38799999999998" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="56.627701492537334" x2="112.55599999999997" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="57.779701492537335" x2="113.70799999999997" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="56.627701492537334" x2="116.87599999999996" y2="57.779701492537335" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="57.779701492537335" x2="118.02799999999996" y2="56.627701492537334" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="59.507701492537336" x2="82.316" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="60.65970149253734" x2="83.468" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="59.507701492537336" x2="86.63600000000001" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="60.65970149253734" x2="87.78800000000001" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="59.507701492537336" x2="90.956" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="60.65970149253734" x2="92.108" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="59.507701492537336" x2="95.276" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="60.65970149253734" x2="96.428" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="59.507701492537336" x2="99.59599999999999" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="60.65970149253734" x2="100.74799999999999" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="59.507701492537336" x2="103.91599999999998" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="60.65970149253734" x2="105.06799999999998" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="59.507701492537336" x2="108.23599999999998" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="60.65970149253734" x2="109.38799999999998" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="59.507701492537336" x2="112.55599999999997" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="60.65970149253734" x2="113.70799999999997" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="59.507701492537336" x2="116.87599999999996" y2="60.65970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="60.65970149253734" x2="118.02799999999996" y2="59.507701492537336" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="62.38770149253734" x2="82.316" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="63.53970149253734" x2="83.468" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="62.38770149253734" x2="86.63600000000001" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="63.53970149253734" x2="87.78800000000001" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="62.38770149253734" x2="90.956" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="63.53970149253734" x2="92.108" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="62.38770149253734" x2="95.276" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="63.53970149253734" x2="96.428" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="62.38770149253734" x2="99.59599999999999" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="63.53970149253734" x2="100.74799999999999" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="62.38770149253734" x2="103.91599999999998" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="63.53970149253734" x2="105.06799999999998" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="62.38770149253734" x2="108.23599999999998" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="63.53970149253734" x2="109.38799999999998" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="62.38770149253734" x2="112.55599999999997" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="63.53970149253734" x2="113.70799999999997" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="62.38770149253734" x2="116.87599999999996" y2="63.53970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="63.53970149253734" x2="118.02799999999996" y2="62.38770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="65.26770149253734" x2="82.316" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="66.41970149253734" x2="83.468" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="65.26770149253734" x2="86.63600000000001" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="66.41970149253734" x2="87.78800000000001" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="65.26770149253734" x2="90.956" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="66.41970149253734" x2="92.108" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="65.26770149253734" x2="95.276" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="66.41970149253734" x2="96.428" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="65.26770149253734" x2="99.59599999999999" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="66.41970149253734" x2="100.74799999999999" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="65.26770149253734" x2="103.91599999999998" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="66.41970149253734" x2="105.06799999999998" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="65.26770149253734" x2="108.23599999999998" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="66.41970149253734" x2="109.38799999999998" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="65.26770149253734" x2="112.55599999999997" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="66.41970149253734" x2="113.70799999999997" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="65.26770149253734" x2="116.87599999999996" y2="66.41970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="66.41970149253734" x2="118.02799999999996" y2="65.26770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="68.14770149253734" x2="82.316" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="69.29970149253734" x2="83.468" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="68.14770149253734" x2="86.63600000000001" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="69.29970149253734" x2="87.78800000000001" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="68.14770149253734" x2="90.956" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="69.29970149253734" x2="92.108" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="68.14770149253734" x2="95.276" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="69.29970149253734" x2="96.428" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="68.14770149253734" x2="99.59599999999999" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="69.29970149253734" x2="100.74799999999999" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="68.14770149253734" x2="103.91599999999998" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="69.29970149253734" x2="105.06799999999998" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="68.14770149253734" x2="108.23599999999998" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="69.29970149253734" x2="109.38799999999998" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="68.14770149253734" x2="112.55599999999997" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="69.29970149253734" x2="113.70799999999997" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="68.14770149253734" x2="116.87599999999996" y2="69.29970149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="69.29970149253734" x2="118.02799999999996" y2="68.14770149253734" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="71.02770149253733" x2="82.316" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="72.17970149253733" x2="83.468" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="71.02770149253733" x2="86.63600000000001" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="72.17970149253733" x2="87.78800000000001" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="71.02770149253733" x2="90.956" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="72.17970149253733" x2="92.108" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="71.02770149253733" x2="95.276" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="72.17970149253733" x2="96.428" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="71.02770149253733" x2="99.59599999999999" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="72.17970149253733" x2="100.74799999999999" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="71.02770149253733" x2="103.91599999999998" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="72.17970149253733" x2="105.06799999999998" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="71.02770149253733" x2="108.23599999999998" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="72.17970149253733" x2="109.38799999999998" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="71.02770149253733" x2="112.55599999999997" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="72.17970149253733" x2="113.70799999999997" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="71.02770149253733" x2="116.87599999999996" y2="72.17970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="72.17970149253733" x2="118.02799999999996" y2="71.02770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="81.164" y1="73.90770149253733" x2="82.316" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="82.316" y1="75.05970149253733" x2="83.468" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="85.48400000000001" y1="73.90770149253733" x2="86.63600000000001" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="86.63600000000001" y1="75.05970149253733" x2="87.78800000000001" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="89.804" y1="73.90770149253733" x2="90.956" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="90.956" y1="75.05970149253733" x2="92.108" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="94.124" y1="73.90770149253733" x2="95.276" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="95.276" y1="75.05970149253733" x2="96.428" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="98.44399999999999" y1="73.90770149253733" x2="99.59599999999999" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="99.59599999999999" y1="75.05970149253733" x2="100.74799999999999" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="102.76399999999998" y1="73.90770149253733" x2="103.91599999999998" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="103.91599999999998" y1="75.05970149253733" x2="105.06799999999998" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="107.08399999999997" y1="73.90770149253733" x2="108.23599999999998" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="108.23599999999998" y1="75.05970149253733" x2="109.38799999999998" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="111.40399999999997" y1="73.90770149253733" x2="112.55599999999997" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="112.55599999999997" y1="75.05970149253733" x2="113.70799999999997" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="115.72399999999996" y1="73.90770149253733" x2="116.87599999999996" y2="75.05970149253733" stroke="#555" stroke-width="0.2"/>
+      <line x1="116.87599999999996" y1="75.05970149253733" x2="118.02799999999996" y2="73.90770149253733" stroke="#555" stroke-width="0.2"/>
+    </g>
+  </g>
+  <text x="48" y="58.01492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">巴塔玛依内山组</text>
+  <text x="68" y="58.01492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">C₂b</text>
+  <polygon points="120.5,39.05970149253732 123.5,39.05970149253732 123.5,76.97014925373135 120.5,76.97014925373135" fill="#999" opacity="0.5"/>
+  <text x="128" y="58.01492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">400.0</text>
+  <text x="138" y="58.01492537313433" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰绿色安山岩、凝灰岩夹火山角砾岩</text>
+  <line x1="8" y1="76.97014925373135" x2="205" y2="76.97014925373135" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,39.05970149253732 123.5,39.05970149253732 123.5,76.97014925373135 120.5,76.97014925373135" fill="#999" opacity="0.5"/>
+  <g id="layer_9">
+    <rect x="80.3" y="22.00000000000001" width="37.2" height="17.05970149253731" fill="#919991" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_9)">
+      <line x1="26.04029850746268" y1="22.00000000000001" x2="43.099999999999994" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="29.24029850746268" y1="22.00000000000001" x2="46.29999999999999" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="32.44029850746268" y1="22.00000000000001" x2="49.499999999999986" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="35.64029850746268" y1="22.00000000000001" x2="52.69999999999999" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="38.840298507462684" y1="22.00000000000001" x2="55.89999999999999" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="42.04029850746269" y1="22.00000000000001" x2="59.099999999999994" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="45.24029850746269" y1="22.00000000000001" x2="62.3" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="48.44029850746269" y1="22.00000000000001" x2="65.5" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="51.640298507462695" y1="22.00000000000001" x2="68.7" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="54.8402985074627" y1="22.00000000000001" x2="71.9" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="58.0402985074627" y1="22.00000000000001" x2="75.10000000000001" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="61.240298507462704" y1="22.00000000000001" x2="78.30000000000001" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="64.4402985074627" y1="22.00000000000001" x2="81.50000000000001" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="67.6402985074627" y1="22.00000000000001" x2="84.70000000000002" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="70.8402985074627" y1="22.00000000000001" x2="87.90000000000002" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="74.04029850746271" y1="22.00000000000001" x2="91.10000000000002" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="77.24029850746271" y1="22.00000000000001" x2="94.30000000000003" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="80.44029850746271" y1="22.00000000000001" x2="97.50000000000003" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="83.64029850746272" y1="22.00000000000001" x2="100.70000000000003" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="86.84029850746272" y1="22.00000000000001" x2="103.90000000000003" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="90.04029850746272" y1="22.00000000000001" x2="107.10000000000004" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="93.24029850746273" y1="22.00000000000001" x2="110.30000000000004" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="96.44029850746273" y1="22.00000000000001" x2="113.50000000000004" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="99.64029850746273" y1="22.00000000000001" x2="116.70000000000005" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="102.84029850746273" y1="22.00000000000001" x2="119.90000000000005" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="106.04029850746274" y1="22.00000000000001" x2="123.10000000000005" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="109.24029850746274" y1="22.00000000000001" x2="126.30000000000005" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="112.44029850746274" y1="22.00000000000001" x2="129.50000000000006" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="115.64029850746275" y1="22.00000000000001" x2="132.70000000000005" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="118.84029850746275" y1="22.00000000000001" x2="135.90000000000006" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="122.04029850746275" y1="22.00000000000001" x2="139.10000000000005" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="125.24029850746275" y1="22.00000000000001" x2="142.30000000000007" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="128.44029850746276" y1="22.00000000000001" x2="145.50000000000006" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="131.64029850746275" y1="22.00000000000001" x2="148.70000000000005" y2="39.05970149253732" stroke="#555" stroke-width="0.25"/>
+      <line x1="26.04029850746268" y1="39.05970149253732" x2="43.099999999999994" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="29.24029850746268" y1="39.05970149253732" x2="46.29999999999999" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="32.44029850746268" y1="39.05970149253732" x2="49.499999999999986" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="35.64029850746268" y1="39.05970149253732" x2="52.69999999999999" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="38.840298507462684" y1="39.05970149253732" x2="55.89999999999999" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="42.04029850746269" y1="39.05970149253732" x2="59.099999999999994" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="45.24029850746269" y1="39.05970149253732" x2="62.3" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="48.44029850746269" y1="39.05970149253732" x2="65.5" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="51.640298507462695" y1="39.05970149253732" x2="68.7" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="54.8402985074627" y1="39.05970149253732" x2="71.9" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="58.0402985074627" y1="39.05970149253732" x2="75.10000000000001" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="61.240298507462704" y1="39.05970149253732" x2="78.30000000000001" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="64.4402985074627" y1="39.05970149253732" x2="81.50000000000001" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="67.6402985074627" y1="39.05970149253732" x2="84.70000000000002" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="70.8402985074627" y1="39.05970149253732" x2="87.90000000000002" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="74.04029850746271" y1="39.05970149253732" x2="91.10000000000002" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="77.24029850746271" y1="39.05970149253732" x2="94.30000000000003" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="80.44029850746271" y1="39.05970149253732" x2="97.50000000000003" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="83.64029850746272" y1="39.05970149253732" x2="100.70000000000003" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="86.84029850746272" y1="39.05970149253732" x2="103.90000000000003" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="90.04029850746272" y1="39.05970149253732" x2="107.10000000000004" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="93.24029850746273" y1="39.05970149253732" x2="110.30000000000004" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="96.44029850746273" y1="39.05970149253732" x2="113.50000000000004" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="99.64029850746273" y1="39.05970149253732" x2="116.70000000000005" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="102.84029850746273" y1="39.05970149253732" x2="119.90000000000005" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="106.04029850746274" y1="39.05970149253732" x2="123.10000000000005" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="109.24029850746274" y1="39.05970149253732" x2="126.30000000000005" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="112.44029850746274" y1="39.05970149253732" x2="129.50000000000006" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="115.64029850746275" y1="39.05970149253732" x2="132.70000000000005" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="118.84029850746275" y1="39.05970149253732" x2="135.90000000000006" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="122.04029850746275" y1="39.05970149253732" x2="139.10000000000005" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="125.24029850746275" y1="39.05970149253732" x2="142.30000000000007" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="128.44029850746276" y1="39.05970149253732" x2="145.50000000000006" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+      <line x1="131.64029850746275" y1="39.05970149253732" x2="148.70000000000005" y2="22.00000000000001" stroke="#555" stroke-width="0.25"/>
+    </g>
+  </g>
+  <text x="48" y="30.529850746268664" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">塔木岗组</text>
+  <text x="68" y="30.529850746268664" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">C₁t</text>
+  <polygon points="120.5,22.00000000000001 124.5,22.00000000000001 124.5,39.05970149253732 120.5,39.05970149253732" fill="#999" opacity="0.5"/>
+  <text x="128" y="30.529850746268664" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">180.0</text>
+  <text x="138" y="30.529850746268664" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">深灰色硅质岩、凝灰质砂岩（基底未钻穿）</text>
+  <line x1="8" y1="39.05970149253732" x2="205" y2="39.05970149253732" stroke="#bbb" stroke-width="0.12"/>
+  <polygon points="120.5,22.00000000000001 124.5,22.00000000000001 124.5,39.05970149253732 120.5,39.05970149253732" fill="#999" opacity="0.5"/>
+  <line x1="8" y1="276" x2="205" y2="276" stroke="#000" stroke-width="0.35"/>
+  <line x1="8" y1="214.3955223880597" x2="205" y2="214.3955223880597" stroke="#000" stroke-width="0.35"/>
+  <line x1="8" y1="107.29850746268657" x2="205" y2="107.29850746268657" stroke="#000" stroke-width="0.35"/>
+  <line x1="21" y1="276" x2="205" y2="276" stroke="#555" stroke-width="0.22"/>
+  <line x1="21" y1="268.4179104477612" x2="205" y2="268.4179104477612" stroke="#555" stroke-width="0.22"/>
+  <line x1="21" y1="235.2462686567164" x2="205" y2="235.2462686567164" stroke="#555" stroke-width="0.22"/>
+  <line x1="21" y1="214.3955223880597" x2="205" y2="214.3955223880597" stroke="#555" stroke-width="0.22"/>
+  <line x1="21" y1="168.90298507462688" x2="205" y2="168.90298507462688" stroke="#555" stroke-width="0.22"/>
+  <line x1="21" y1="127.20149253731344" x2="205" y2="127.20149253731344" stroke="#555" stroke-width="0.22"/>
+  <line x1="21" y1="107.29850746268657" x2="205" y2="107.29850746268657" stroke="#555" stroke-width="0.22"/>
+  <line x1="21" y1="76.97014925373135" x2="205" y2="76.97014925373135" stroke="#555" stroke-width="0.22"/>
+  <line x1="8" y1="22" x2="205" y2="22" stroke="#000" stroke-width="0.4"/>
+  <line x1="8" y1="22" x2="8" y2="290" stroke="#000" stroke-width="0.4"/>
+  <line x1="205" y1="22" x2="205" y2="290" stroke="#000" stroke-width="0.4"/>
+  <line x1="8" y1="290" x2="205" y2="290" stroke="#000" stroke-width="0.4"/>
+  <text x="8" y="17" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#666">准噶尔盆地中拐凸起 ZJ14 井综合地层柱状图  |  总厚 2,680m  |  10 层  |  比例尺 1:10,551</text>
+  <rect x="209" y="203.0" width="38" height="73.0" fill="#fff" stroke="#666" stroke-width="0.25"/>
+  <text x="228.0" y="208.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.5" font-weight="bold" text-anchor="middle" fill="#000">图  例</text>
+  <line x1="212" y1="211.0" x2="244" y2="211.0" stroke="#ccc" stroke-width="0.15"/>
+  <rect x="213" y="209.5" width="6" height="6" fill="#eadebb" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_0)">
+    <circle cx="217.032" cy="213.532" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+  </g>
+  <text x="222" y="212.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">西域组</text>
+  <rect x="213" y="216.5" width="6" height="6" fill="#d8ad82" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_1)">
+    <line x1="214" y1="218.1" x2="218" y2="218.1" stroke="#aaa" stroke-width="0.2"/>
+    <line x1="214" y1="221.29999999999998" x2="218" y2="221.29999999999998" stroke="#aaa" stroke-width="0.2"/>
+    <circle cx="216.2" cy="219.7" r="0.2" fill="#888"/>
+  </g>
+  <text x="222" y="219.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">独山子组</text>
+  <rect x="213" y="223.5" width="6" height="6" fill="#acbfa2" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_2)">
+    <line x1="213.5" y1="224.076" x2="218.5" y2="224.076" stroke="#555" stroke-width="0.22"/>
+    <line x1="213.5" y1="225.99599999999998" x2="218.5" y2="225.99599999999998" stroke="#555" stroke-width="0.22"/>
+    <line x1="213.5" y1="227.91599999999997" x2="218.5" y2="227.91599999999997" stroke="#555" stroke-width="0.22"/>
+  </g>
+  <text x="222" y="226.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">安集海河组</text>
+  <rect x="213" y="230.5" width="6" height="6" fill="#c6d19c" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_3)">
+    <circle cx="213.88" cy="231.38" r="0.25" fill="#666"/>
+    <circle cx="213.88" cy="233.14" r="0.25" fill="#666"/>
+    <circle cx="213.88" cy="234.89999999999998" r="0.25" fill="#666"/>
+    <circle cx="215.64" cy="231.38" r="0.25" fill="#666"/>
+    <circle cx="215.64" cy="233.14" r="0.25" fill="#666"/>
+    <circle cx="215.64" cy="234.89999999999998" r="0.25" fill="#666"/>
+    <circle cx="217.39999999999998" cy="231.38" r="0.25" fill="#666"/>
+    <circle cx="217.39999999999998" cy="233.14" r="0.25" fill="#666"/>
+    <circle cx="217.39999999999998" cy="234.89999999999998" r="0.25" fill="#666"/>
+  </g>
+  <text x="222" y="233.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">吐谷鲁群</text>
+  <rect x="213" y="237.5" width="6" height="6" fill="#b2a98e" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_4)">
+    <circle cx="214.12" cy="238.62" r="0.35" fill="#555"/>
+    <circle cx="214.12" cy="240.86" r="0.35" fill="#555"/>
+    <circle cx="214.12" cy="243.10000000000002" r="0.35" fill="#555"/>
+    <circle cx="216.36" cy="238.62" r="0.35" fill="#555"/>
+    <circle cx="216.36" cy="240.86" r="0.35" fill="#555"/>
+    <circle cx="216.36" cy="243.10000000000002" r="0.35" fill="#555"/>
+    <circle cx="218.60000000000002" cy="238.62" r="0.35" fill="#555"/>
+    <circle cx="218.60000000000002" cy="240.86" r="0.35" fill="#555"/>
+    <circle cx="218.60000000000002" cy="243.10000000000002" r="0.35" fill="#555"/>
+  </g>
+  <text x="222" y="240.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">西山窑组</text>
+  <rect x="213" y="244.5" width="6" height="6" fill="#7f796c" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_5)">
+    <line x1="214" y1="246.5" x2="218" y2="246.5" stroke="#fff" stroke-width="0.3"/>
+    <line x1="214" y1="248.5" x2="218" y2="248.5" stroke="#fff" stroke-width="0.3"/>
+  </g>
+  <text x="222" y="247.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">八道湾组</text>
+  <rect x="213" y="251.5" width="6" height="6" fill="#7e857e" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_6)">
+    <line x1="213.3" y1="252.172" x2="218.7" y2="252.172" stroke="#555" stroke-width="0.22"/>
+    <line x1="214.792" y1="251.5" x2="214.792" y2="252.844" stroke="#999" stroke-width="0.15"/>
+    <line x1="218.152" y1="251.5" x2="218.152" y2="252.844" stroke="#999" stroke-width="0.15"/>
+    <line x1="213.3" y1="254.412" x2="218.7" y2="254.412" stroke="#555" stroke-width="0.22"/>
+    <line x1="214.792" y1="253.74" x2="214.792" y2="255.084" stroke="#999" stroke-width="0.15"/>
+    <line x1="218.152" y1="253.74" x2="218.152" y2="255.084" stroke="#999" stroke-width="0.15"/>
+    <line x1="213.3" y1="256.652" x2="218.7" y2="256.652" stroke="#555" stroke-width="0.22"/>
+  </g>
+  <text x="222" y="254.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">芦草沟组</text>
+  <rect x="213" y="258.5" width="6" height="6" fill="#8ca57c" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_7)">
+    <line x1="213.864" y1="258.788" x2="215.016" y2="259.94" stroke="#555" stroke-width="0.2"/>
+    <line x1="215.016" y1="259.94" x2="216.168" y2="258.788" stroke="#555" stroke-width="0.2"/>
+    <line x1="218.184" y1="258.788" x2="219.33599999999998" y2="259.94" stroke="#555" stroke-width="0.2"/>
+    <line x1="219.33599999999998" y1="259.94" x2="220.488" y2="258.788" stroke="#555" stroke-width="0.2"/>
+    <line x1="213.864" y1="261.668" x2="215.016" y2="262.82" stroke="#555" stroke-width="0.2"/>
+    <line x1="215.016" y1="262.82" x2="216.168" y2="261.668" stroke="#555" stroke-width="0.2"/>
+    <line x1="218.184" y1="261.668" x2="219.33599999999998" y2="262.82" stroke="#555" stroke-width="0.2"/>
+    <line x1="219.33599999999998" y1="262.82" x2="220.488" y2="261.668" stroke="#555" stroke-width="0.2"/>
+  </g>
+  <text x="222" y="261.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">巴塔玛依内山组</text>
+  <rect x="213" y="265.5" width="6" height="6" fill="#919991" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_8)">
+    <line x1="201" y1="265.5" x2="207" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="204.2" y1="265.5" x2="210.2" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="207.39999999999998" y1="265.5" x2="213.39999999999998" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="210.59999999999997" y1="265.5" x2="216.59999999999997" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="213.79999999999995" y1="265.5" x2="219.79999999999995" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="216.99999999999994" y1="265.5" x2="222.99999999999994" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="220.19999999999993" y1="265.5" x2="226.19999999999993" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="223.39999999999992" y1="265.5" x2="229.39999999999992" y2="271.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="201" y1="271.5" x2="207" y2="265.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="204.2" y1="271.5" x2="210.2" y2="265.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="207.39999999999998" y1="271.5" x2="213.39999999999998" y2="265.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="210.59999999999997" y1="271.5" x2="216.59999999999997" y2="265.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="213.79999999999995" y1="271.5" x2="219.79999999999995" y2="265.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="216.99999999999994" y1="271.5" x2="222.99999999999994" y2="265.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="220.19999999999993" y1="271.5" x2="226.19999999999993" y2="265.5" stroke="#555" stroke-width="0.25"/>
+    <line x1="223.39999999999992" y1="271.5" x2="229.39999999999992" y2="265.5" stroke="#555" stroke-width="0.25"/>
+  </g>
+  <text x="222" y="268.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">塔木岗组</text>
+</svg>

@@ -1,3 +1,7 @@
 .codegraph/
 reasonix.toml
 output.svg
+__pycache__/
+*.pyc
+.reasonix_backup/
+.DS_Store

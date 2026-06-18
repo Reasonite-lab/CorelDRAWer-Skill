@@ -1,0 +1,179 @@
+{
+  "title": "准噶尔盆地中拐凸起 ZJ14 井综合地层柱状图",
+  "location": "准噶尔盆地 · 中拐凸起",
+  "layers": [
+    {
+      "erathem": "新生界",
+      "system": "第四系",
+      "series": "更新统",
+      "formation": "西域组",
+      "symbol": "Q₁x",
+      "thick": 80,
+      "descr": "灰色砂砾石层、含砾粗砂岩，未固结",
+      "c": 0,
+      "m": 5,
+      "y": 20,
+      "k": 8,
+      "pattern": "conglo",
+      "grain": "gravel",
+      "markers": [
+        {
+          "y_offset": 0.3,
+          "symbol": "dot",
+          "label": "SP1"
+        }
+      ]
+    },
+    {
+      "erathem": "新生界",
+      "system": "新近系",
+      "series": "上新统",
+      "formation": "独山子组",
+      "symbol": "N₂d",
+      "thick": 350,
+      "descr": "棕红色泥岩夹灰绿色砂岩、粉砂岩",
+      "c": 0,
+      "m": 20,
+      "y": 40,
+      "k": 15,
+      "pattern": "silt",
+      "grain": "silt",
+      "contact": "disconformity"
+    },
+    {
+      "erathem": "新生界",
+      "system": "古近系",
+      "series": "渐新统",
+      "formation": "安集海河组",
+      "symbol": "E₃a",
+      "thick": 220,
+      "descr": "灰绿色泥岩夹薄层砂岩、介壳灰岩",
+      "c": 10,
+      "m": 0,
+      "y": 15,
+      "k": 25,
+      "pattern": "mud",
+      "grain": "clay"
+    },
+    {
+      "erathem": "中生界",
+      "system": "白垩系",
+      "series": "下统",
+      "formation": "吐谷鲁群",
+      "symbol": "K₁tg",
+      "thick": 480,
+      "descr": "灰绿色细砂岩、粉砂岩与棕红色泥岩不等厚互层",
+      "c": 5,
+      "m": 0,
+      "y": 25,
+      "k": 18,
+      "pattern": "finesand",
+      "grain": "fine_sand",
+      "markers": [
+        {
+          "y_offset": 0.5,
+          "symbol": "star",
+          "label": "F1"
+        }
+      ]
+    },
+    {
+      "erathem": "中生界",
+      "system": "侏罗系",
+      "series": "中统",
+      "formation": "西山窑组",
+      "symbol": "J₂x",
+      "thick": 160,
+      "descr": "灰白色中粗砂岩、含砾砂岩夹煤层和炭质泥岩",
+      "c": 0,
+      "m": 5,
+      "y": 20,
+      "k": 30,
+      "pattern": "sand",
+      "grain": "medium_sand"
+    },
+    {
+      "erathem": "中生界",
+      "system": "侏罗系",
+      "series": "下统",
+      "formation": "八道湾组",
+      "symbol": "J₁b",
+      "thick": 280,
+      "descr": "灰色砂砾岩、砂岩夹泥岩及工业煤层",
+      "c": 0,
+      "m": 5,
+      "y": 15,
+      "k": 50,
+      "pattern": "coal",
+      "grain": "coarse_sand",
+      "contact": "unconformity",
+      "markers": [
+        {
+          "y_offset": 0.6,
+          "symbol": "triangle",
+          "label": "Coal"
+        }
+      ]
+    },
+    {
+      "erathem": "中生界",
+      "system": "三叠系",
+      "series": "中上统",
+      "formation": "小泉沟群",
+      "symbol": "T₂₋₃xq",
+      "thick": 210,
+      "descr": "灰绿色泥岩、粉砂岩夹细砂岩",
+      "c": 8,
+      "m": 0,
+      "y": 20,
+      "k": 22,
+      "pattern": "silt",
+      "grain": "silt"
+    },
+    {
+      "erathem": "古生界",
+      "system": "二叠系",
+      "series": "中统",
+      "formation": "芦草沟组",
+      "symbol": "P₂l",
+      "thick": 320,
+      "descr": "深灰色页岩、白云质泥岩夹薄层灰岩（主力烃源岩）",
+      "c": 10,
+      "m": 5,
+      "y": 10,
+      "k": 45,
+      "pattern": "shale",
+      "grain": "clay"
+    },
+    {
+      "erathem": "古生界",
+      "system": "石炭系",
+      "series": "上统",
+      "formation": "巴塔玛依内山组",
+      "symbol": "C₂b",
+      "thick": 400,
+      "descr": "灰绿色安山岩、凝灰岩夹火山角砾岩",
+      "c": 15,
+      "m": 0,
+      "y": 25,
+      "k": 35,
+      "pattern": "basalt",
+      "grain": "fine_sand"
+    },
+    {
+      "erathem": "古生界",
+      "system": "石炭系",
+      "series": "下统",
+      "formation": "塔木岗组",
+      "symbol": "C₁t",
+      "thick": 180,
+      "descr": "深灰色硅质岩、凝灰质砂岩（基底未钻穿）",
+      "c": 5,
+      "m": 0,
+      "y": 5,
+      "k": 40,
+      "pattern": "chert",
+      "grain": "medium_sand"
+    }
+  ]
+}

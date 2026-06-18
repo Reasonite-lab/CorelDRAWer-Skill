@@ -46,25 +46,27 @@ DEFAULT_DATA = {
     ]
 }
 
-# Layout (mm units → SVG user units)
+# Layout (mm units → SVG user units) — 9列标准格式 (Nature/SR style)
 MARGIN_LEFT   = 8
-MARGIN_TOP    = 35    # top margin (was 30)
+MARGIN_TOP    = 35
 TABLE_TOP     = 290
 TABLE_BOTTOM  = 22
 HEADER_H      = 14
-TABLE_RIGHT   = 203  # total table width (COL_X[8] + COL_W[8])
+TABLE_RIGHT   = 205  # total table width
 
+# 列坐标：1界 2系 3统 4组 5代号 6柱状图 7粒度 8厚度 9描述
 COL_X = [0,
     MARGIN_LEFT,                          # 1: 界
-    MARGIN_LEFT + 14,                     # 2: 系
-    MARGIN_LEFT + 28,                     # 3: 统
-    MARGIN_LEFT + 42,                     # 4: 组
-    MARGIN_LEFT + 62,                     # 5: 代号
-    MARGIN_LEFT + 75,                     # 6: 柱状图
-    MARGIN_LEFT + 110,                    # 7: 厚度
-    MARGIN_LEFT + 122,                    # 8: 岩性描述
+    MARGIN_LEFT + 13,                     # 2: 系
+    MARGIN_LEFT + 26,                     # 3: 统
+    MARGIN_LEFT + 39,                     # 4: 组
+    MARGIN_LEFT + 59,                     # 5: 代号
+    MARGIN_LEFT + 72,                     # 6: 柱状图
+    MARGIN_LEFT + 112,                    # 7: 粒度曲线 (NEW)
+    MARGIN_LEFT + 119,                    # 8: 厚度
+    MARGIN_LEFT + 129,                    # 9: 岩性描述
 ]
-COL_W = [0, 14, 14, 14, 20, 13, 35, 12, 73]
+COL_W = [0, 13, 13, 13, 20, 13, 40, 7, 10, 65]
 
 PAT_SPACING = 3.2
 
@@ -462,7 +464,7 @@ def generate_svg(data, output_path=None):
     
     header_labels = [
         ('界', 1), ('系', 2), ('统', 3), ('组', 4), ('代号', 5),
-        ('柱 状 图', 6), ('厚度\n(m)', 7), ('岩 性 描 述', 8)
+        ('岩 性 柱', 6), ('粒度', 7), ('厚度\n(m)', 8), ('岩 性 描 述', 9)
     ]
     for label, col in header_labels:
         cx = COL_X[col] + COL_W[col] / 2
@@ -474,7 +476,7 @@ def generate_svg(data, output_path=None):
                      bold=True, anchor='middle', fill='#000')
     
     # Vertical column lines
-    for ci in range(2, 9):
+    for ci in range(2, 10):
         add_line(svg, COL_X[ci], TABLE_BOTTOM, COL_X[ci], TABLE_TOP,
                  stroke='#999', sw=0.2)
     
@@ -578,7 +580,7 @@ def generate_svg(data, output_path=None):
             pat_g = ET.SubElement(col_g, 'g', {'clip-path': f'url(#{clip_id})'})
             PATTERNS[pattern_name](pat_g, colLeft, bottomY, colW_actual, layH)
         
-        # === Text columns 4-5, 7-8 (per-layer, no merging) ===
+        # === Text columns 4-5, 8-9 (per-layer, no merging) ===
         midY_ = (topY + bottomY) / 2
         
         # 组名
@@ -589,16 +591,71 @@ def generate_svg(data, output_path=None):
         sym = layer.get('symbol', '')
         if sym:
             add_text(svg, COL_X[5] + 1, midY_, sym, size=2.2, bold=True, fill='#000')
+        
+        # === Grain size column (col 7) — triangular indicator ===
+        grain = layer.get('grain', '')
+        if grain:
+            grain_levels = {'clay': 1, 'silt': 2, 'fine_sand': 3,
+                           'medium_sand': 4, 'coarse_sand': 5, 'gravel': 6}
+            gv = grain_levels.get(grain, 3)
+            gsx = COL_X[7] + 0.5
+            gsw = COL_W[7] - 1
+            grain_w = gsw * gv / 6
+            points = f'{gsx},{bottomY} {gsx+grain_w:.1f},{bottomY} {gsx+grain_w:.1f},{topY} {gsx},{topY}'
+            ET.SubElement(svg, 'polygon', {
+                'points': points, 'fill': '#999', 'opacity': '0.5'
+            })
+        
         # 厚度
-        add_text(svg, COL_X[7] + 1, midY_, f"{layer['thick']:.1f}", size=2.2, fill='#222')
+        add_text(svg, COL_X[8] + 1, midY_, f"{layer['thick']:.1f}", size=2.2, fill='#222')
         # 描述
         d = layer.get('descr', '')
         if d:
-            add_text(svg, COL_X[8] + 1, midY_, d, size=2, fill='#333')
+            add_text(svg, COL_X[9] + 1, midY_, d, size=2, fill='#333')
         
         # Row separator (thin, all columns)
         add_line(svg, MARGIN_LEFT, topY, TABLE_RIGHT, topY,
                  stroke='#bbb', sw=0.12)
+        
+        # === Grain size column (col 7) ===
+        grain = layer.get('grain', '')
+        if grain:
+            grain_levels = {'clay': 1, 'silt': 2, 'fine_sand': 3,
+                           'medium_sand': 4, 'coarse_sand': 5, 'gravel': 6}
+            gv = grain_levels.get(grain, 3)
+            gsx = COL_X[7] + 0.5
+            gsw = COL_W[7] - 1
+            grain_w = gsw * gv / 6
+            pts = f'{gsx},{bottomY} {gsx+grain_w:.1f},{bottomY} {gsx+grain_w:.1f},{topY} {gsx},{topY}'
+            ET.SubElement(svg, 'polygon', {'points': pts, 'fill': '#999', 'opacity': '0.5'})
+        
+        # === Contact symbol (bottom of layer) ===
+        contact = layer.get('contact', '')
+        if contact and i < n_layers - 1:
+            cx = colLeft + colW_actual / 2
+            cy = bottomY
+            if contact == 'disconformity':
+                d_path = f'M {cx-4},{cy} Q {cx-2},{cy-1} {cx},{cy} Q {cx+2},{cy+1} {cx+4},{cy}'
+                ET.SubElement(svg, 'path', {'d': d_path, 'fill': 'none', 'stroke': '#c0392b', 'stroke-width': '0.3'})
+            elif contact == 'unconformity':
+                saw = f'M {cx-4},{cy-1.5} L {cx-2},{cy+1} L {cx},{cy-1.5} L {cx+2},{cy+1} L {cx+4},{cy-1.5}'
+                ET.SubElement(svg, 'path', {'d': saw, 'fill': 'none', 'stroke': '#c0392b', 'stroke-width': '0.35'})
+        
+        # === Sample markers ===
+        markers = layer.get('markers', [])
+        for mk in markers:
+            mk_y = bottomY + mk.get('y_offset', 0.5) * layH
+            mk_sym = mk.get('symbol', 'dot')
+            mk_label = mk.get('label', '')
+            mk_x = colLeft - 3
+            if mk_sym == 'star':
+                add_text(svg, mk_x, mk_y, '★', size=3, fill='#c0392b', anchor='middle', bold=True)
+            elif mk_sym == 'triangle':
+                add_text(svg, mk_x, mk_y, '▲', size=3, fill='#c0392b', anchor='middle', bold=True)
+            else:
+                add_circle(svg, mk_x, mk_y, 1, fill='#c0392b')
+            if mk_label:
+                add_text(svg, mk_x - 4, mk_y, mk_label, size=1.8, fill='#c0392b', anchor='end')
     
     # ===== Major boundary lines (界 level — thick) =====
     for start, end, topY, bottomY, val in erathem_groups:
