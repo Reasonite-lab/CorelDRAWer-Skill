@@ -252,11 +252,19 @@ def generate_cross_section(data, output_path=None):
         ]
     }
     """
+    # Input validation
+    if not data.get('boreholes'):
+        raise ValueError("No boreholes data provided")
+    
     boreholes = data['boreholes']
+    if len(boreholes) < 2:
+        # Single borehole → draw a column-like view
+        pass  # still works, just no correlation lines
+    
     faults = data.get('faults', [])
     title = data.get('title', "Geological Cross-Section")
     orientation = data.get('orientation', '')
-    vx = data.get('vertical_exaggeration', 5)
+    vx = min(max(data.get('vertical_exaggeration', 5), 1), 20)  # clamp 1-20
 
     # ============================
     # Coordinate calculations
@@ -441,7 +449,6 @@ def generate_cross_section(data, output_path=None):
                 clip = ET.SubElement(defs, 'clipPath', {'id': clip_id})
                 ET.SubElement(clip, 'polygon', {'points': pts_str})
                 pat_g = ET.SubElement(layer_g, 'g', {'clip-path': f'url(#{clip_id})'})
-                # Pattern at a moderate scale across the band
                 min_x_svg = min(p[0] for p in top_points)
                 max_x_svg = max(p[0] for p in top_points)
                 min_y_svg = min(p[1] for p in top_points)
@@ -449,7 +456,13 @@ def generate_cross_section(data, output_path=None):
                 band_w = max_x_svg - min_x_svg
                 band_h = max_y_svg - min_y_svg
                 if band_w > 0 and band_h > 0:
+                    # Adaptive spacing: wider bands get sparser patterns
+                    global PAT_SPACING
+                    saved_sp = PAT_SPACING
+                    scale_factor = max(1.0, band_w / 200)
+                    PAT_SPACING = saved_sp * scale_factor
                     PATTERNS[pattern_name](pat_g, min_x_svg, min_y_svg, band_w, band_h)
+                    PAT_SPACING = saved_sp
 
             # Formation label at midpoint
             mid_x = sum(p[0] for p in top_points) / len(top_points)

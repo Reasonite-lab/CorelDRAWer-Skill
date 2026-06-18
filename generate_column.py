@@ -474,9 +474,19 @@ def generate_svg(data, output_path=None):
     - markers: [{"symbol":"star","y_offset":0.5,"label":"S1"}]
     - age_ma: numeric age in millions of years
     """
+    # Input validation
+    if not data.get('layers'):
+        raise ValueError("No layers data provided")
+
     layers = data['layers']
-    title = data.get('title', '综合地层柱状图')
+    title = data.get('title', 'Composite Stratigraphic Column')
     location = data.get('location', '')
+
+    total_thick = sum(l['thick'] for l in layers)
+    if total_thick <= 0:
+        raise ValueError("Total thickness must be > 0")
+
+    n_layers = len(layers)
 
     total_thick = sum(l['thick'] for l in layers)
     n_layers = len(layers)

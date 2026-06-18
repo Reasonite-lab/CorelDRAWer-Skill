@@ -1,0 +1,23 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Python
+*.py text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.json text eol=lf
+
+# SVG (text-based vector graphics)
+*.svg text eol=lf
+
+# VBA
+*.bas text eol=crlf
+
+# Binary
+*.png binary
+*.pdf binary
+*.db binary
+*.db-shm binary
+*.db-wal binary
+*.sock binary

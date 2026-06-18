@@ -25,14 +25,19 @@ No build/test commands. The only operation is:
 ## Architecture
 
 ```
-.reasonix/skills/coreldraw-vba/SKILL.md   ← Skill definition (v2.0)
-generate_column.py                         ← SVG generator (zero deps)
+.reasonix/skills/coreldraw-vba/SKILL.md   ← Skill definition (v2.1)
+generate_column.py                         ← SVG generator — stratigraphic columns
+generate_cross_section.py                  ← SVG generator — geological cross-sections
 cdr_com_auto.py                            ← VBA/COM generator
-data_template.json                         ← Data format template
+data_template.json                         ← Column data format template
 borehole_column.bas                        ← Legacy VBA macro (reference)
+cross_section_demo.svg                     ← Example cross-section output
+output.svg                                 ← Example column output
 AGENTS.md                                  ← This file
 README.md                                  ← English documentation
 README_zh.md                               ← Chinese documentation
+CHANGELOG.md                               ← Version history
+LICENSE                                    ← MIT License
 ```
 
 ## Conventions
