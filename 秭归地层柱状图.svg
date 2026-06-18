@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 251 333" width="251mm" height="333mm" version="1.1">
+  <rect x="0" y="0" width="251" height="333" fill="#fff" stroke="none" stroke-width="0"/>
+  <defs>
+    <clipPath id="clip_0">
+      <rect x="83.3" y="258.87640449438203" width="32.2" height="17.123595505617978"/>
+    </clipPath>
+    <clipPath id="clip_1">
+      <rect x="83.3" y="252.45505617977528" width="32.2" height="6.421348314606742"/>
+    </clipPath>
+    <clipPath id="clip_2">
+      <rect x="83.3" y="226.76966292134833" width="32.2" height="25.685393258426966"/>
+    </clipPath>
+    <clipPath id="clip_3">
+      <rect x="83.3" y="176.82584269662922" width="32.2" height="49.9438202247191"/>
+    </clipPath>
+    <clipPath id="clip_4">
+      <rect x="83.3" y="163.26966292134833" width="32.2" height="13.556179775280897"/>
+    </clipPath>
+    <clipPath id="clip_5">
+      <rect x="83.3" y="141.86516853932585" width="32.2" height="21.40449438202247"/>
+    </clipPath>
+    <clipPath id="clip_6">
+      <rect x="83.3" y="130.4494382022472" width="32.2" height="11.415730337078651"/>
+    </clipPath>
+    <clipPath id="clip_7">
+      <rect x="83.3" y="114.75280898876404" width="32.2" height="15.696629213483146"/>
+    </clipPath>
+    <clipPath id="clip_8">
+      <rect x="83.3" y="84.78651685393258" width="32.2" height="29.96629213483146"/>
+    </clipPath>
+    <clipPath id="clip_9">
+      <rect x="83.3" y="44.831460674157306" width="32.2" height="39.955056179775276"/>
+    </clipPath>
+    <clipPath id="clip_10">
+      <rect x="83.3" y="36.26966292134831" width="32.2" height="8.561797752808989"/>
+    </clipPath>
+    <clipPath id="clip_11">
+      <rect x="83.3" y="29.84831460674157" width="32.2" height="6.421348314606742"/>
+    </clipPath>
+    <clipPath id="clip_12">
+      <rect x="83.3" y="24.85393258426966" width="32.2" height="4.9943820224719095"/>
+    </clipPath>
+    <clipPath id="clip_13">
+      <rect x="83.3" y="21.35393258426966" width="32.2" height="3.5"/>
+    </clipPath>
+    <clipPath id="lgclip_0">
+      <rect x="211" y="223.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_1">
+      <rect x="211" y="230.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_2">
+      <rect x="211" y="237.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_3">
+      <rect x="211" y="244.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_4">
+      <rect x="211" y="251.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_5">
+      <rect x="211" y="258.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_6">
+      <rect x="211" y="265.5" width="6" height="6"/>
+    </clipPath>
+  </defs>
+  <text x="105.5" y="302" font-family="SimHei, Heiti SC, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">秭归地区综合地层柱状图</text>
+  <text x="105.5" y="296" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="normal" text-anchor="middle" fill="#555">湖北秭归</text>
+  <rect x="8" y="276" width="195" height="14" fill="#f5f5f5" stroke="#000" stroke-width="0.4"/>
+  <text x="15.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">界</text>
+  <text x="29.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">系</text>
+  <text x="43.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">统</text>
+  <text x="60.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">组</text>
+  <text x="76.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">代号</text>
+  <text x="100.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">柱 状 图</text>
+  <text x="124.0" y="279.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.6" font-weight="bold" text-anchor="middle" fill="#000">厚度</text>
+  <text x="124.0" y="286.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.6" font-weight="bold" text-anchor="middle" fill="#000">(m)</text>
+  <text x="166.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000">岩 性 描 述</text>
+  <line x1="22" y1="22" x2="22" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="36" y1="22" x2="36" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="50" y1="22" x2="50" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="70" y1="22" x2="70" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="83" y1="22" x2="83" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="118" y1="22" x2="118" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="130" y1="22" x2="130" y2="290" stroke="#999" stroke-width="0.2"/>
+  <line x1="8" y1="276" x2="203" y2="276" stroke="#000" stroke-width="0.4"/>
+  <line x1="83" y1="276.0" x2="116" y2="276.0" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="274.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">0</text>
+  <line x1="83" y1="261.7303370786517" x2="116" y2="261.7303370786517" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="247.46067415730337" x2="116" y2="247.46067415730337" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="245.96067415730337" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">200</text>
+  <line x1="83" y1="233.19101123595505" x2="116" y2="233.19101123595505" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="218.92134831460675" x2="116" y2="218.92134831460675" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="217.42134831460675" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">400</text>
+  <line x1="83" y1="204.65168539325845" x2="116" y2="204.65168539325845" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="190.38202247191012" x2="116" y2="190.38202247191012" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="188.88202247191012" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">600</text>
+  <line x1="83" y1="176.1123595505618" x2="116" y2="176.1123595505618" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="161.8426966292135" x2="116" y2="161.8426966292135" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="160.3426966292135" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">800</text>
+  <line x1="83" y1="147.57303370786516" x2="116" y2="147.57303370786516" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="133.30337078651687" x2="116" y2="133.30337078651687" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="131.80337078651687" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1000</text>
+  <line x1="83" y1="119.03370786516854" x2="116" y2="119.03370786516854" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="104.76404494382024" x2="116" y2="104.76404494382024" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="103.26404494382024" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1200</text>
+  <line x1="83" y1="90.49438202247191" x2="116" y2="90.49438202247191" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="76.22471910112361" x2="116" y2="76.22471910112361" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="74.72471910112361" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1400</text>
+  <line x1="83" y1="61.95505617977528" x2="116" y2="61.95505617977528" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="47.685393258426984" x2="116" y2="47.685393258426984" stroke="#aaa" stroke-width="0.15"/>
+  <text x="115" y="46.185393258426984" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888">1600</text>
+  <line x1="83" y1="33.41573033707866" x2="116" y2="33.41573033707866" stroke="#aaa" stroke-width="0.15"/>
+  <line x1="83" y1="22" x2="83" y2="276" stroke="#ccc" stroke-width="0.1"/>
+  <rect x="8" y="176.82584269662922" width="14" height="99.17415730337078" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="15.0" y="226.41292134831463" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">新元古界</text>
+  <rect x="8" y="21.35393258426966" width="14" height="155.47191011235955" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="15.0" y="99.08988764044945" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">古生界</text>
+  <rect x="22" y="252.45505617977528" width="14" height="23.544943820224717" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="29.0" y="264.22752808988764" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">南华系</text>
+  <rect x="22" y="176.82584269662922" width="14" height="75.62921348314606" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="29.0" y="214.64044943820227" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">震旦系</text>
+  <rect x="22" y="44.831460674157306" width="14" height="131.9943820224719" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="29.0" y="110.82865168539327" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">寒武系</text>
+  <rect x="22" y="21.35393258426966" width="14" height="23.477528089887645" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="29.0" y="33.092696629213485" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">奥陶系</text>
+  <rect x="36" y="226.76966292134833" width="14" height="49.23033707865167" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="43.0" y="251.38483146067415" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">下统</text>
+  <rect x="36" y="176.82584269662922" width="14" height="49.943820224719104" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="43.0" y="201.79775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">上统</text>
+  <rect x="36" y="114.75280898876404" width="14" height="62.07303370786518" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="43.0" y="145.78932584269663" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">下统</text>
+  <rect x="36" y="84.78651685393258" width="14" height="29.966292134831463" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="43.0" y="99.76966292134831" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">中上统</text>
+  <rect x="36" y="44.831460674157306" width="14" height="39.955056179775276" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="43.0" y="64.80898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">上统</text>
+  <rect x="36" y="24.85393258426966" width="14" height="19.977528089887645" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="43.0" y="34.842696629213485" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">下统</text>
+  <rect x="36" y="21.35393258426966" width="14" height="3.5" fill="#fafaf8" stroke="none" stroke-width="0"/>
+  <text x="43.0" y="23.10393258426966" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222">中统</text>
+  <g id="layer_0">
+    <rect x="83.3" y="258.87640449438203" width="32.2" height="17.123595505617978" fill="#e589a0" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_0)">
+      <circle cx="84.42" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="84.42" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="84.42" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="84.42" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="84.42" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="84.42" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="84.42" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="84.42" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="86.66" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="88.89999999999999" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="91.13999999999999" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="93.37999999999998" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="95.61999999999998" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="97.85999999999997" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="100.09999999999997" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="102.33999999999996" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="104.57999999999996" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="106.81999999999995" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="109.05999999999995" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="111.29999999999994" cy="275.6764044943821" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="259.99640449438203" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="262.23640449438204" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="264.47640449438205" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="266.71640449438206" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="268.95640449438207" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="271.1964044943821" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="273.4364044943821" r="0.35" fill="#555"/>
+      <circle cx="113.53999999999994" cy="275.6764044943821" r="0.35" fill="#555"/>
+    </g>
+  </g>
+  <text x="51" y="267.43820224719104" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">莲沱组</text>
+  <text x="71" y="267.43820224719104" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">Nh₁l</text>
+  <text x="119" y="267.43820224719104" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">120.0</text>
+  <text x="131" y="267.43820224719104" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">紫红色中厚层砂岩、含砾砂岩，底部为砾岩</text>
+  <line x1="8" y1="276" x2="203" y2="276" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_1">
+    <rect x="83.3" y="252.45505617977528" width="32.2" height="6.421348314606742" fill="#adcca3" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_1)">
+      <circle cx="87.332" cy="256.48705617977527" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="93.092" cy="256.48705617977527" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="98.852" cy="256.48705617977527" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="104.61200000000001" cy="256.48705617977527" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+      <circle cx="110.37200000000001" cy="256.48705617977527" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+    </g>
+  </g>
+  <text x="51" y="255.66573033707866" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">南沱组</text>
+  <text x="71" y="255.66573033707866" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">Nh₁n</text>
+  <text x="119" y="255.66573033707866" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">45.0</text>
+  <text x="131" y="255.66573033707866" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰绿色冰碛砾岩、含砾砂质泥岩</text>
+  <line x1="8" y1="258.87640449438203" x2="203" y2="258.87640449438203" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_2">
+    <rect x="83.3" y="226.76966292134833" width="32.2" height="25.685393258426966" fill="#a9b2a0" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_2)">
+      <line x1="25.414606741573024" y1="226.76966292134833" x2="51.099999999999994" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="29.254606741573024" y1="226.76966292134833" x2="54.93999999999999" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="33.094606741573024" y1="226.76966292134833" x2="58.77999999999999" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="36.93460674157302" y1="226.76966292134833" x2="62.61999999999999" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="40.774606741573024" y1="226.76966292134833" x2="66.46" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="44.61460674157303" y1="226.76966292134833" x2="70.3" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="48.45460674157303" y1="226.76966292134833" x2="74.14" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="52.294606741573034" y1="226.76966292134833" x2="77.98" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="56.13460674157304" y1="226.76966292134833" x2="81.82000000000001" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="59.97460674157304" y1="226.76966292134833" x2="85.66000000000001" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="63.814606741573044" y1="226.76966292134833" x2="89.50000000000001" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="67.65460674157305" y1="226.76966292134833" x2="93.34000000000002" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="71.49460674157305" y1="226.76966292134833" x2="97.18000000000002" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="75.33460674157305" y1="226.76966292134833" x2="101.02000000000002" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="79.17460674157306" y1="226.76966292134833" x2="104.86000000000003" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="83.01460674157306" y1="226.76966292134833" x2="108.70000000000003" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="86.85460674157306" y1="226.76966292134833" x2="112.54000000000003" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="90.69460674157307" y1="226.76966292134833" x2="116.38000000000004" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="94.53460674157307" y1="226.76966292134833" x2="120.22000000000004" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.37460674157307" y1="226.76966292134833" x2="124.06000000000004" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.21460674157308" y1="226.76966292134833" x2="127.90000000000005" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="106.05460674157308" y1="226.76966292134833" x2="131.74000000000004" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="109.89460674157309" y1="226.76966292134833" x2="135.58000000000004" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="113.73460674157309" y1="226.76966292134833" x2="139.42000000000004" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="117.57460674157309" y1="226.76966292134833" x2="143.26000000000005" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="121.4146067415731" y1="226.76966292134833" x2="147.10000000000005" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="125.2546067415731" y1="226.76966292134833" x2="150.94000000000005" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="129.0946067415731" y1="226.76966292134833" x2="154.78000000000006" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="132.9346067415731" y1="226.76966292134833" x2="158.62000000000006" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="136.7746067415731" y1="226.76966292134833" x2="162.46000000000006" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="140.6146067415731" y1="226.76966292134833" x2="166.30000000000007" y2="252.45505617977528" stroke="#999" stroke-width="0.15"/>
+      <line x1="25.414606741573024" y1="252.45505617977528" x2="51.099999999999994" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="29.254606741573024" y1="252.45505617977528" x2="54.93999999999999" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="33.094606741573024" y1="252.45505617977528" x2="58.77999999999999" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="36.93460674157302" y1="252.45505617977528" x2="62.61999999999999" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="40.774606741573024" y1="252.45505617977528" x2="66.46" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="44.61460674157303" y1="252.45505617977528" x2="70.3" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="48.45460674157303" y1="252.45505617977528" x2="74.14" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="52.294606741573034" y1="252.45505617977528" x2="77.98" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="56.13460674157304" y1="252.45505617977528" x2="81.82000000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="59.97460674157304" y1="252.45505617977528" x2="85.66000000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="63.814606741573044" y1="252.45505617977528" x2="89.50000000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="67.65460674157305" y1="252.45505617977528" x2="93.34000000000002" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="71.49460674157305" y1="252.45505617977528" x2="97.18000000000002" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="75.33460674157305" y1="252.45505617977528" x2="101.02000000000002" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="79.17460674157306" y1="252.45505617977528" x2="104.86000000000003" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="83.01460674157306" y1="252.45505617977528" x2="108.70000000000003" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="86.85460674157306" y1="252.45505617977528" x2="112.54000000000003" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="90.69460674157307" y1="252.45505617977528" x2="116.38000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="94.53460674157307" y1="252.45505617977528" x2="120.22000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.37460674157307" y1="252.45505617977528" x2="124.06000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="102.21460674157308" y1="252.45505617977528" x2="127.90000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="106.05460674157308" y1="252.45505617977528" x2="131.74000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="109.89460674157309" y1="252.45505617977528" x2="135.58000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="113.73460674157309" y1="252.45505617977528" x2="139.42000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="117.57460674157309" y1="252.45505617977528" x2="143.26000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="121.4146067415731" y1="252.45505617977528" x2="147.10000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="125.2546067415731" y1="252.45505617977528" x2="150.94000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="129.0946067415731" y1="252.45505617977528" x2="154.78000000000006" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="132.9346067415731" y1="252.45505617977528" x2="158.62000000000006" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="136.7746067415731" y1="252.45505617977528" x2="162.46000000000006" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="140.6146067415731" y1="252.45505617977528" x2="166.30000000000007" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+    </g>
+  </g>
+  <text x="51" y="239.6123595505618" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">陡山沱组</text>
+  <text x="71" y="239.6123595505618" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">Z₁d</text>
+  <text x="119" y="239.6123595505618" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">180.0</text>
+  <text x="131" y="239.6123595505618" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰黑色薄层泥质白云岩夹炭质页岩</text>
+  <line x1="8" y1="252.45505617977528" x2="203" y2="252.45505617977528" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_3">
+    <rect x="83.3" y="176.82584269662922" width="32.2" height="49.9438202247191" fill="#e5e5da" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_3)">
+      <line x1="1.1561797752809042" y1="176.82584269662922" x2="51.1" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="4.996179775280904" y1="176.82584269662922" x2="54.94" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="8.836179775280904" y1="176.82584269662922" x2="58.78" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="12.676179775280904" y1="176.82584269662922" x2="62.620000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="16.516179775280904" y1="176.82584269662922" x2="66.46000000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="20.356179775280903" y1="176.82584269662922" x2="70.3" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="24.196179775280903" y1="176.82584269662922" x2="74.14" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="28.036179775280903" y1="176.82584269662922" x2="77.98" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="31.876179775280903" y1="176.82584269662922" x2="81.82" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="35.71617977528091" y1="176.82584269662922" x2="85.66" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="39.55617977528091" y1="176.82584269662922" x2="89.5" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="43.39617977528091" y1="176.82584269662922" x2="93.34" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="47.23617977528092" y1="176.82584269662922" x2="97.18" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="51.07617977528092" y1="176.82584269662922" x2="101.02000000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="54.91617977528092" y1="176.82584269662922" x2="104.86000000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="58.75617977528093" y1="176.82584269662922" x2="108.70000000000002" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="62.59617977528093" y1="176.82584269662922" x2="112.54000000000002" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="66.43617977528093" y1="176.82584269662922" x2="116.38000000000002" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="70.27617977528094" y1="176.82584269662922" x2="120.22000000000003" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="74.11617977528094" y1="176.82584269662922" x2="124.06000000000003" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="77.95617977528094" y1="176.82584269662922" x2="127.90000000000003" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="81.79617977528095" y1="176.82584269662922" x2="131.74000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.63617977528095" y1="176.82584269662922" x2="135.58000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="89.47617977528095" y1="176.82584269662922" x2="139.42000000000004" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="93.31617977528096" y1="176.82584269662922" x2="143.26000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="97.15617977528096" y1="176.82584269662922" x2="147.10000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="100.99617977528096" y1="176.82584269662922" x2="150.94000000000005" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="104.83617977528097" y1="176.82584269662922" x2="154.78000000000006" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.67617977528097" y1="176.82584269662922" x2="158.62000000000006" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.51617977528097" y1="176.82584269662922" x2="162.46000000000006" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="116.35617977528098" y1="176.82584269662922" x2="166.30000000000007" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="120.19617977528098" y1="176.82584269662922" x2="170.14000000000007" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="124.03617977528098" y1="176.82584269662922" x2="173.98000000000008" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="127.87617977528099" y1="176.82584269662922" x2="177.82000000000008" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="131.71617977528098" y1="176.82584269662922" x2="181.66000000000008" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="135.55617977528098" y1="176.82584269662922" x2="185.50000000000009" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="139.39617977528098" y1="176.82584269662922" x2="189.3400000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="143.236179775281" y1="176.82584269662922" x2="193.1800000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="147.076179775281" y1="176.82584269662922" x2="197.0200000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="150.916179775281" y1="176.82584269662922" x2="200.8600000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="154.756179775281" y1="176.82584269662922" x2="204.7000000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="158.596179775281" y1="176.82584269662922" x2="208.5400000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="162.436179775281" y1="176.82584269662922" x2="212.3800000000001" y2="226.76966292134833" stroke="#999" stroke-width="0.15"/>
+      <line x1="1.1561797752809042" y1="226.76966292134833" x2="51.1" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="4.996179775280904" y1="226.76966292134833" x2="54.94" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="8.836179775280904" y1="226.76966292134833" x2="58.78" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="12.676179775280904" y1="226.76966292134833" x2="62.620000000000005" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="16.516179775280904" y1="226.76966292134833" x2="66.46000000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="20.356179775280903" y1="226.76966292134833" x2="70.3" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="24.196179775280903" y1="226.76966292134833" x2="74.14" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="28.036179775280903" y1="226.76966292134833" x2="77.98" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="31.876179775280903" y1="226.76966292134833" x2="81.82" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="35.71617977528091" y1="226.76966292134833" x2="85.66" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="39.55617977528091" y1="226.76966292134833" x2="89.5" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="43.39617977528091" y1="226.76966292134833" x2="93.34" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="47.23617977528092" y1="226.76966292134833" x2="97.18" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="51.07617977528092" y1="226.76966292134833" x2="101.02000000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="54.91617977528092" y1="226.76966292134833" x2="104.86000000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="58.75617977528093" y1="226.76966292134833" x2="108.70000000000002" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="62.59617977528093" y1="226.76966292134833" x2="112.54000000000002" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="66.43617977528093" y1="226.76966292134833" x2="116.38000000000002" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="70.27617977528094" y1="226.76966292134833" x2="120.22000000000003" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="74.11617977528094" y1="226.76966292134833" x2="124.06000000000003" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="77.95617977528094" y1="226.76966292134833" x2="127.90000000000003" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="81.79617977528095" y1="226.76966292134833" x2="131.74000000000004" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.63617977528095" y1="226.76966292134833" x2="135.58000000000004" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="89.47617977528095" y1="226.76966292134833" x2="139.42000000000004" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="93.31617977528096" y1="226.76966292134833" x2="143.26000000000005" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="97.15617977528096" y1="226.76966292134833" x2="147.10000000000005" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="100.99617977528096" y1="226.76966292134833" x2="150.94000000000005" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="104.83617977528097" y1="226.76966292134833" x2="154.78000000000006" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.67617977528097" y1="226.76966292134833" x2="158.62000000000006" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.51617977528097" y1="226.76966292134833" x2="162.46000000000006" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="116.35617977528098" y1="226.76966292134833" x2="166.30000000000007" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="120.19617977528098" y1="226.76966292134833" x2="170.14000000000007" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="124.03617977528098" y1="226.76966292134833" x2="173.98000000000008" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="127.87617977528099" y1="226.76966292134833" x2="177.82000000000008" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="131.71617977528098" y1="226.76966292134833" x2="181.66000000000008" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="135.55617977528098" y1="226.76966292134833" x2="185.50000000000009" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="139.39617977528098" y1="226.76966292134833" x2="189.3400000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="143.236179775281" y1="226.76966292134833" x2="193.1800000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="147.076179775281" y1="226.76966292134833" x2="197.0200000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="150.916179775281" y1="226.76966292134833" x2="200.8600000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="154.756179775281" y1="226.76966292134833" x2="204.7000000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="158.596179775281" y1="226.76966292134833" x2="208.5400000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+      <line x1="162.436179775281" y1="226.76966292134833" x2="212.3800000000001" y2="176.82584269662922" stroke="#999" stroke-width="0.15"/>
+    </g>
+  </g>
+  <text x="51" y="201.79775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">灯影组</text>
+  <text x="71" y="201.79775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">Z₂dy</text>
+  <text x="119" y="201.79775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">350.0</text>
+  <text x="131" y="201.79775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰白色厚层白云岩，含燧石条带</text>
+  <line x1="8" y1="226.76966292134833" x2="203" y2="226.76966292134833" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_4">
+    <rect x="83.3" y="163.26966292134833" width="32.2" height="13.556179775280897" fill="#595450" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_4)">
+      <line x1="83.6" y1="163.94166292134832" x2="115.2" y2="163.94166292134832" stroke="#eee" stroke-width="0.18"/>
+      <line x1="83.6" y1="166.18166292134833" x2="115.2" y2="166.18166292134833" stroke="#eee" stroke-width="0.18"/>
+      <line x1="83.6" y1="168.42166292134834" x2="115.2" y2="168.42166292134834" stroke="#eee" stroke-width="0.18"/>
+      <line x1="83.6" y1="170.66166292134835" x2="115.2" y2="170.66166292134835" stroke="#eee" stroke-width="0.18"/>
+      <line x1="83.6" y1="172.90166292134836" x2="115.2" y2="172.90166292134836" stroke="#eee" stroke-width="0.18"/>
+      <line x1="83.6" y1="175.14166292134837" x2="115.2" y2="175.14166292134837" stroke="#eee" stroke-width="0.18"/>
+    </g>
+  </g>
+  <text x="51" y="170.04775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">水井沱组</text>
+  <text x="71" y="170.04775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">∈₁s</text>
+  <text x="119" y="170.04775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">95.0</text>
+  <text x="131" y="170.04775280898878" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">黑色炭质页岩夹薄层硅质岩</text>
+  <line x1="8" y1="176.82584269662922" x2="203" y2="176.82584269662922" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_5">
+    <rect x="83.3" y="141.86516853932585" width="32.2" height="21.40449438202247" fill="#cdd897" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_5)">
+      <line x1="84.3" y1="143.46516853932584" x2="114.5" y2="143.46516853932584" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="84.3" y1="146.66516853932583" x2="114.5" y2="146.66516853932583" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="84.3" y1="149.86516853932582" x2="114.5" y2="149.86516853932582" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="84.3" y1="153.0651685393258" x2="114.5" y2="153.0651685393258" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="84.3" y1="156.2651685393258" x2="114.5" y2="156.2651685393258" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="84.3" y1="159.4651685393258" x2="114.5" y2="159.4651685393258" stroke="#aaa" stroke-width="0.2"/>
+      <line x1="84.3" y1="162.66516853932578" x2="114.5" y2="162.66516853932578" stroke="#aaa" stroke-width="0.2"/>
+      <circle cx="86.5" cy="145.06516853932584" r="0.2" fill="#888"/>
+      <circle cx="86.5" cy="151.46516853932584" r="0.2" fill="#888"/>
+      <circle cx="86.5" cy="157.86516853932585" r="0.2" fill="#888"/>
+      <circle cx="92.9" cy="145.06516853932584" r="0.2" fill="#888"/>
+      <circle cx="92.9" cy="151.46516853932584" r="0.2" fill="#888"/>
+      <circle cx="92.9" cy="157.86516853932585" r="0.2" fill="#888"/>
+      <circle cx="99.30000000000001" cy="145.06516853932584" r="0.2" fill="#888"/>
+      <circle cx="99.30000000000001" cy="151.46516853932584" r="0.2" fill="#888"/>
+      <circle cx="99.30000000000001" cy="157.86516853932585" r="0.2" fill="#888"/>
+      <circle cx="105.70000000000002" cy="145.06516853932584" r="0.2" fill="#888"/>
+      <circle cx="105.70000000000002" cy="151.46516853932584" r="0.2" fill="#888"/>
+      <circle cx="105.70000000000002" cy="157.86516853932585" r="0.2" fill="#888"/>
+      <circle cx="112.10000000000002" cy="145.06516853932584" r="0.2" fill="#888"/>
+      <circle cx="112.10000000000002" cy="151.46516853932584" r="0.2" fill="#888"/>
+      <circle cx="112.10000000000002" cy="157.86516853932585" r="0.2" fill="#888"/>
+    </g>
+  </g>
+  <text x="51" y="152.56741573033707" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">石牌组</text>
+  <text x="71" y="152.56741573033707" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">∈₁sp</text>
+  <text x="119" y="152.56741573033707" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">150.0</text>
+  <text x="131" y="152.56741573033707" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">黄绿色粉砂质页岩、泥质粉砂岩</text>
+  <line x1="8" y1="163.26966292134833" x2="203" y2="163.26966292134833" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_6">
+    <rect x="83.3" y="130.4494382022472" width="32.2" height="11.415730337078651" fill="#a5a5a5" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_6)">
+      <rect x="83.6" y="130.7494382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="130.7494382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="130.7494382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="130.7494382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="130.7494382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="130.7494382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="130.7494382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="86.0" y="132.9194382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="90.8" y="132.9194382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="95.6" y="132.9194382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="100.39999999999999" y="132.9194382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="105.19999999999999" y="132.9194382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="109.99999999999999" y="132.9194382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="114.79999999999998" y="132.9194382022472" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="83.6" y="135.08943820224718" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="135.08943820224718" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="135.08943820224718" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="135.08943820224718" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="135.08943820224718" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="135.08943820224718" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="135.08943820224718" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="86.0" y="137.25943820224717" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="90.8" y="137.25943820224717" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="95.6" y="137.25943820224717" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="100.39999999999999" y="137.25943820224717" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="105.19999999999999" y="137.25943820224717" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="109.99999999999999" y="137.25943820224717" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="114.79999999999998" y="137.25943820224717" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="83.6" y="139.42943820224716" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="139.42943820224716" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="139.42943820224716" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="139.42943820224716" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="139.42943820224716" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="139.42943820224716" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="139.42943820224716" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="86.0" y="141.59943820224714" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="90.8" y="141.59943820224714" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="95.6" y="141.59943820224714" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="100.39999999999999" y="141.59943820224714" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="105.19999999999999" y="141.59943820224714" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="109.99999999999999" y="141.59943820224714" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="114.79999999999998" y="141.59943820224714" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    </g>
+  </g>
+  <text x="51" y="136.1573033707865" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">天河板组</text>
+  <text x="71" y="136.1573033707865" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">∈₁t</text>
+  <text x="119" y="136.1573033707865" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">80.0</text>
+  <text x="131" y="136.1573033707865" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">深灰色中厚层鲕状灰岩</text>
+  <line x1="8" y1="141.86516853932585" x2="203" y2="141.86516853932585" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_7">
+    <rect x="83.3" y="114.75280898876404" width="32.2" height="15.696629213483146" fill="#eaeade" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_7)">
+      <line x1="35.403370786516845" y1="114.75280898876404" x2="51.099999999999994" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="39.24337078651685" y1="114.75280898876404" x2="54.94" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="43.08337078651685" y1="114.75280898876404" x2="58.78" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="46.923370786516855" y1="114.75280898876404" x2="62.620000000000005" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="50.76337078651686" y1="114.75280898876404" x2="66.46000000000001" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="54.60337078651686" y1="114.75280898876404" x2="70.30000000000001" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="58.443370786516866" y1="114.75280898876404" x2="74.14000000000001" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="62.28337078651687" y1="114.75280898876404" x2="77.98000000000002" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="66.12337078651687" y1="114.75280898876404" x2="81.82000000000002" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="69.96337078651688" y1="114.75280898876404" x2="85.66000000000003" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="73.80337078651688" y1="114.75280898876404" x2="89.50000000000003" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="77.64337078651688" y1="114.75280898876404" x2="93.34000000000003" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="81.48337078651689" y1="114.75280898876404" x2="97.18000000000004" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.32337078651689" y1="114.75280898876404" x2="101.02000000000004" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="89.1633707865169" y1="114.75280898876404" x2="104.86000000000004" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="93.0033707865169" y1="114.75280898876404" x2="108.70000000000005" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="96.8433707865169" y1="114.75280898876404" x2="112.54000000000005" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="100.6833707865169" y1="114.75280898876404" x2="116.38000000000005" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="104.5233707865169" y1="114.75280898876404" x2="120.22000000000006" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.36337078651691" y1="114.75280898876404" x2="124.06000000000006" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.20337078651691" y1="114.75280898876404" x2="127.90000000000006" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="116.04337078651692" y1="114.75280898876404" x2="131.74000000000007" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="119.88337078651692" y1="114.75280898876404" x2="135.58000000000007" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="123.72337078651692" y1="114.75280898876404" x2="139.42000000000007" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="127.56337078651693" y1="114.75280898876404" x2="143.26000000000008" y2="130.4494382022472" stroke="#999" stroke-width="0.15"/>
+      <line x1="35.403370786516845" y1="130.4494382022472" x2="51.099999999999994" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="39.24337078651685" y1="130.4494382022472" x2="54.94" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="43.08337078651685" y1="130.4494382022472" x2="58.78" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="46.923370786516855" y1="130.4494382022472" x2="62.620000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="50.76337078651686" y1="130.4494382022472" x2="66.46000000000001" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="54.60337078651686" y1="130.4494382022472" x2="70.30000000000001" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="58.443370786516866" y1="130.4494382022472" x2="74.14000000000001" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="62.28337078651687" y1="130.4494382022472" x2="77.98000000000002" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="66.12337078651687" y1="130.4494382022472" x2="81.82000000000002" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="69.96337078651688" y1="130.4494382022472" x2="85.66000000000003" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="73.80337078651688" y1="130.4494382022472" x2="89.50000000000003" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="77.64337078651688" y1="130.4494382022472" x2="93.34000000000003" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="81.48337078651689" y1="130.4494382022472" x2="97.18000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="85.32337078651689" y1="130.4494382022472" x2="101.02000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="89.1633707865169" y1="130.4494382022472" x2="104.86000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="93.0033707865169" y1="130.4494382022472" x2="108.70000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="96.8433707865169" y1="130.4494382022472" x2="112.54000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="100.6833707865169" y1="130.4494382022472" x2="116.38000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="104.5233707865169" y1="130.4494382022472" x2="120.22000000000006" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.36337078651691" y1="130.4494382022472" x2="124.06000000000006" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="112.20337078651691" y1="130.4494382022472" x2="127.90000000000006" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="116.04337078651692" y1="130.4494382022472" x2="131.74000000000007" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="119.88337078651692" y1="130.4494382022472" x2="135.58000000000007" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="123.72337078651692" y1="130.4494382022472" x2="139.42000000000007" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="127.56337078651693" y1="130.4494382022472" x2="143.26000000000008" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+    </g>
+  </g>
+  <text x="51" y="122.60112359550561" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">石龙洞组</text>
+  <text x="71" y="122.60112359550561" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">∈₁sl</text>
+  <text x="119" y="122.60112359550561" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">110.0</text>
+  <text x="131" y="122.60112359550561" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰白色厚层白云岩</text>
+  <line x1="8" y1="130.4494382022472" x2="203" y2="130.4494382022472" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_8">
+    <rect x="83.3" y="84.78651685393258" width="32.2" height="29.96629213483146" fill="#e0d5be" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_8)">
+      <line x1="21.13370786516853" y1="84.78651685393258" x2="51.099999999999994" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="24.97370786516853" y1="84.78651685393258" x2="54.93999999999999" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="28.81370786516853" y1="84.78651685393258" x2="58.77999999999999" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="32.65370786516853" y1="84.78651685393258" x2="62.61999999999999" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="36.49370786516853" y1="84.78651685393258" x2="66.46" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="40.333707865168535" y1="84.78651685393258" x2="70.3" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="44.17370786516854" y1="84.78651685393258" x2="74.14" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="48.01370786516854" y1="84.78651685393258" x2="77.98" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="51.853707865168545" y1="84.78651685393258" x2="81.82000000000001" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="55.69370786516855" y1="84.78651685393258" x2="85.66000000000001" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="59.53370786516855" y1="84.78651685393258" x2="89.50000000000001" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="63.373707865168555" y1="84.78651685393258" x2="93.34000000000002" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="67.21370786516856" y1="84.78651685393258" x2="97.18000000000002" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="71.05370786516856" y1="84.78651685393258" x2="101.02000000000002" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="74.89370786516857" y1="84.78651685393258" x2="104.86000000000003" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="78.73370786516857" y1="84.78651685393258" x2="108.70000000000003" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="82.57370786516857" y1="84.78651685393258" x2="112.54000000000003" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="86.41370786516858" y1="84.78651685393258" x2="116.38000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="90.25370786516858" y1="84.78651685393258" x2="120.22000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="94.09370786516858" y1="84.78651685393258" x2="124.06000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="97.93370786516859" y1="84.78651685393258" x2="127.90000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="101.77370786516859" y1="84.78651685393258" x2="131.74000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.61370786516859" y1="84.78651685393258" x2="135.58000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="109.4537078651686" y1="84.78651685393258" x2="139.42000000000004" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="113.2937078651686" y1="84.78651685393258" x2="143.26000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="117.1337078651686" y1="84.78651685393258" x2="147.10000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="120.9737078651686" y1="84.78651685393258" x2="150.94000000000005" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="124.81370786516861" y1="84.78651685393258" x2="154.78000000000006" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="128.6537078651686" y1="84.78651685393258" x2="158.62000000000006" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="132.4937078651686" y1="84.78651685393258" x2="162.46000000000006" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="136.3337078651686" y1="84.78651685393258" x2="166.30000000000007" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="140.1737078651686" y1="84.78651685393258" x2="170.14000000000007" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="144.0137078651686" y1="84.78651685393258" x2="173.98000000000008" y2="114.75280898876404" stroke="#999" stroke-width="0.15"/>
+      <line x1="21.13370786516853" y1="114.75280898876404" x2="51.099999999999994" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="24.97370786516853" y1="114.75280898876404" x2="54.93999999999999" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="28.81370786516853" y1="114.75280898876404" x2="58.77999999999999" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="32.65370786516853" y1="114.75280898876404" x2="62.61999999999999" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="36.49370786516853" y1="114.75280898876404" x2="66.46" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="40.333707865168535" y1="114.75280898876404" x2="70.3" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="44.17370786516854" y1="114.75280898876404" x2="74.14" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="48.01370786516854" y1="114.75280898876404" x2="77.98" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="51.853707865168545" y1="114.75280898876404" x2="81.82000000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="55.69370786516855" y1="114.75280898876404" x2="85.66000000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="59.53370786516855" y1="114.75280898876404" x2="89.50000000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="63.373707865168555" y1="114.75280898876404" x2="93.34000000000002" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="67.21370786516856" y1="114.75280898876404" x2="97.18000000000002" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="71.05370786516856" y1="114.75280898876404" x2="101.02000000000002" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="74.89370786516857" y1="114.75280898876404" x2="104.86000000000003" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="78.73370786516857" y1="114.75280898876404" x2="108.70000000000003" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="82.57370786516857" y1="114.75280898876404" x2="112.54000000000003" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="86.41370786516858" y1="114.75280898876404" x2="116.38000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="90.25370786516858" y1="114.75280898876404" x2="120.22000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="94.09370786516858" y1="114.75280898876404" x2="124.06000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="97.93370786516859" y1="114.75280898876404" x2="127.90000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="101.77370786516859" y1="114.75280898876404" x2="131.74000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.61370786516859" y1="114.75280898876404" x2="135.58000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="109.4537078651686" y1="114.75280898876404" x2="139.42000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="113.2937078651686" y1="114.75280898876404" x2="143.26000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="117.1337078651686" y1="114.75280898876404" x2="147.10000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="120.9737078651686" y1="114.75280898876404" x2="150.94000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="124.81370786516861" y1="114.75280898876404" x2="154.78000000000006" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="128.6537078651686" y1="114.75280898876404" x2="158.62000000000006" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="132.4937078651686" y1="114.75280898876404" x2="162.46000000000006" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="136.3337078651686" y1="114.75280898876404" x2="166.30000000000007" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="140.1737078651686" y1="114.75280898876404" x2="170.14000000000007" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="144.0137078651686" y1="114.75280898876404" x2="173.98000000000008" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+    </g>
+  </g>
+  <text x="51" y="99.76966292134831" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">覃家庙组</text>
+  <text x="71" y="99.76966292134831" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">∈₂₋₃q</text>
+  <text x="119" y="99.76966292134831" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">210.0</text>
+  <text x="131" y="99.76966292134831" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">浅灰色薄-中厚层白云岩、泥质白云岩</text>
+  <line x1="8" y1="114.75280898876404" x2="203" y2="114.75280898876404" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_9">
+    <rect x="83.3" y="44.831460674157306" width="32.2" height="39.955056179775276" fill="#eaeae3" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_9)">
+      <line x1="11.144943820224725" y1="44.831460674157306" x2="51.1" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="14.984943820224725" y1="44.831460674157306" x2="54.94" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="18.824943820224725" y1="44.831460674157306" x2="58.78" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="22.664943820224725" y1="44.831460674157306" x2="62.620000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="26.504943820224725" y1="44.831460674157306" x2="66.46000000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="30.344943820224724" y1="44.831460674157306" x2="70.3" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="34.184943820224724" y1="44.831460674157306" x2="74.14" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="38.02494382022472" y1="44.831460674157306" x2="77.97999999999999" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="41.864943820224724" y1="44.831460674157306" x2="81.82" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="45.70494382022473" y1="44.831460674157306" x2="85.66" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="49.54494382022473" y1="44.831460674157306" x2="89.5" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="53.384943820224734" y1="44.831460674157306" x2="93.34" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="57.22494382022474" y1="44.831460674157306" x2="97.18" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="61.06494382022474" y1="44.831460674157306" x2="101.02000000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="64.90494382022474" y1="44.831460674157306" x2="104.86000000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="68.74494382022475" y1="44.831460674157306" x2="108.70000000000002" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="72.58494382022475" y1="44.831460674157306" x2="112.54000000000002" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="76.42494382022475" y1="44.831460674157306" x2="116.38000000000002" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.26494382022476" y1="44.831460674157306" x2="120.22000000000003" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="84.10494382022476" y1="44.831460674157306" x2="124.06000000000003" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="87.94494382022476" y1="44.831460674157306" x2="127.90000000000003" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="91.78494382022477" y1="44.831460674157306" x2="131.74000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.62494382022477" y1="44.831460674157306" x2="135.58000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="99.46494382022478" y1="44.831460674157306" x2="139.42000000000004" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="103.30494382022478" y1="44.831460674157306" x2="143.26000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="107.14494382022478" y1="44.831460674157306" x2="147.10000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="110.98494382022479" y1="44.831460674157306" x2="150.94000000000005" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="114.82494382022479" y1="44.831460674157306" x2="154.78000000000006" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="118.66494382022479" y1="44.831460674157306" x2="158.62000000000006" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="122.5049438202248" y1="44.831460674157306" x2="162.46000000000006" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="126.3449438202248" y1="44.831460674157306" x2="166.30000000000007" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="130.1849438202248" y1="44.831460674157306" x2="170.14000000000007" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="134.0249438202248" y1="44.831460674157306" x2="173.98000000000008" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="137.8649438202248" y1="44.831460674157306" x2="177.82000000000008" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="141.7049438202248" y1="44.831460674157306" x2="181.66000000000008" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="145.5449438202248" y1="44.831460674157306" x2="185.50000000000009" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="149.3849438202248" y1="44.831460674157306" x2="189.3400000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="153.2249438202248" y1="44.831460674157306" x2="193.1800000000001" y2="84.78651685393258" stroke="#999" stroke-width="0.15"/>
+      <line x1="11.144943820224725" y1="84.78651685393258" x2="51.1" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="14.984943820224725" y1="84.78651685393258" x2="54.94" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="18.824943820224725" y1="84.78651685393258" x2="58.78" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="22.664943820224725" y1="84.78651685393258" x2="62.620000000000005" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="26.504943820224725" y1="84.78651685393258" x2="66.46000000000001" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="30.344943820224724" y1="84.78651685393258" x2="70.3" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="34.184943820224724" y1="84.78651685393258" x2="74.14" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="38.02494382022472" y1="84.78651685393258" x2="77.97999999999999" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="41.864943820224724" y1="84.78651685393258" x2="81.82" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="45.70494382022473" y1="84.78651685393258" x2="85.66" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="49.54494382022473" y1="84.78651685393258" x2="89.5" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="53.384943820224734" y1="84.78651685393258" x2="93.34" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="57.22494382022474" y1="84.78651685393258" x2="97.18" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="61.06494382022474" y1="84.78651685393258" x2="101.02000000000001" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="64.90494382022474" y1="84.78651685393258" x2="104.86000000000001" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="68.74494382022475" y1="84.78651685393258" x2="108.70000000000002" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="72.58494382022475" y1="84.78651685393258" x2="112.54000000000002" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="76.42494382022475" y1="84.78651685393258" x2="116.38000000000002" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="80.26494382022476" y1="84.78651685393258" x2="120.22000000000003" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="84.10494382022476" y1="84.78651685393258" x2="124.06000000000003" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="87.94494382022476" y1="84.78651685393258" x2="127.90000000000003" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="91.78494382022477" y1="84.78651685393258" x2="131.74000000000004" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.62494382022477" y1="84.78651685393258" x2="135.58000000000004" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="99.46494382022478" y1="84.78651685393258" x2="139.42000000000004" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="103.30494382022478" y1="84.78651685393258" x2="143.26000000000005" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="107.14494382022478" y1="84.78651685393258" x2="147.10000000000005" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="110.98494382022479" y1="84.78651685393258" x2="150.94000000000005" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="114.82494382022479" y1="84.78651685393258" x2="154.78000000000006" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="118.66494382022479" y1="84.78651685393258" x2="158.62000000000006" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="122.5049438202248" y1="84.78651685393258" x2="162.46000000000006" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="126.3449438202248" y1="84.78651685393258" x2="166.30000000000007" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="130.1849438202248" y1="84.78651685393258" x2="170.14000000000007" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="134.0249438202248" y1="84.78651685393258" x2="173.98000000000008" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="137.8649438202248" y1="84.78651685393258" x2="177.82000000000008" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="141.7049438202248" y1="84.78651685393258" x2="181.66000000000008" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="145.5449438202248" y1="84.78651685393258" x2="185.50000000000009" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="149.3849438202248" y1="84.78651685393258" x2="189.3400000000001" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+      <line x1="153.2249438202248" y1="84.78651685393258" x2="193.1800000000001" y2="44.831460674157306" stroke="#999" stroke-width="0.15"/>
+    </g>
+  </g>
+  <text x="51" y="64.80898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">三游洞组</text>
+  <text x="71" y="64.80898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">∈₃s</text>
+  <text x="119" y="64.80898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">280.0</text>
+  <text x="131" y="64.80898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰白色厚层-块状白云岩</text>
+  <line x1="8" y1="84.78651685393258" x2="203" y2="84.78651685393258" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_10">
+    <rect x="83.3" y="36.26966292134831" width="32.2" height="8.561797752808989" fill="#b2b2b2" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_10)">
+      <rect x="83.6" y="36.56966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="36.56966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="36.56966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="36.56966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="36.56966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="36.56966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="36.56966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="86.0" y="38.73966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="90.8" y="38.73966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="95.6" y="38.73966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="100.39999999999999" y="38.73966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="105.19999999999999" y="38.73966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="109.99999999999999" y="38.73966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="114.79999999999998" y="38.73966292134831" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="83.6" y="40.909662921348314" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="40.909662921348314" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="40.909662921348314" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="40.909662921348314" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="40.909662921348314" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="40.909662921348314" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="40.909662921348314" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="86.0" y="43.079662921348316" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="90.8" y="43.079662921348316" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="95.6" y="43.079662921348316" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="100.39999999999999" y="43.079662921348316" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="105.19999999999999" y="43.079662921348316" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="109.99999999999999" y="43.079662921348316" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="114.79999999999998" y="43.079662921348316" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    </g>
+  </g>
+  <text x="51" y="40.550561797752806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">南津关组</text>
+  <text x="71" y="40.550561797752806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">O₁n</text>
+  <text x="119" y="40.550561797752806" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">60.0</text>
+  <text x="131" y="40.550561797752806" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">深灰色生物碎屑灰岩</text>
+  <line x1="8" y1="44.831460674157306" x2="203" y2="44.831460674157306" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_11">
+    <rect x="83.3" y="29.84831460674157" width="32.2" height="6.421348314606742" fill="#bfbfbf" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_11)">
+      <line x1="83.6" y1="30.52031460674157" x2="115.2" y2="30.52031460674157" stroke="#555" stroke-width="0.22"/>
+      <line x1="85.092" y1="29.84831460674157" x2="85.092" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.452" y1="29.84831460674157" x2="88.452" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="91.812" y1="29.84831460674157" x2="91.812" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.172" y1="29.84831460674157" x2="95.172" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.532" y1="29.84831460674157" x2="98.532" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="101.892" y1="29.84831460674157" x2="101.892" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.252" y1="29.84831460674157" x2="105.252" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.612" y1="29.84831460674157" x2="108.612" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="111.972" y1="29.84831460674157" x2="111.972" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.332" y1="29.84831460674157" x2="115.332" y2="31.192314606741572" stroke="#999" stroke-width="0.15"/>
+      <line x1="83.6" y1="32.760314606741574" x2="115.2" y2="32.760314606741574" stroke="#555" stroke-width="0.22"/>
+      <line x1="85.092" y1="32.08831460674158" x2="85.092" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="88.452" y1="32.08831460674158" x2="88.452" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="91.812" y1="32.08831460674158" x2="91.812" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="95.172" y1="32.08831460674158" x2="95.172" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="98.532" y1="32.08831460674158" x2="98.532" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="101.892" y1="32.08831460674158" x2="101.892" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="105.252" y1="32.08831460674158" x2="105.252" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="108.612" y1="32.08831460674158" x2="108.612" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="111.972" y1="32.08831460674158" x2="111.972" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="115.332" y1="32.08831460674158" x2="115.332" y2="33.43231460674157" stroke="#999" stroke-width="0.15"/>
+      <line x1="83.6" y1="35.000314606741576" x2="115.2" y2="35.000314606741576" stroke="#555" stroke-width="0.22"/>
+    </g>
+  </g>
+  <text x="51" y="33.05898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">分乡组</text>
+  <text x="71" y="33.05898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">O₁f</text>
+  <text x="119" y="33.05898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">45.0</text>
+  <text x="131" y="33.05898876404494" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰绿色页岩夹薄层灰岩</text>
+  <line x1="8" y1="36.26966292134831" x2="203" y2="36.26966292134831" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_12">
+    <rect x="83.3" y="24.85393258426966" width="32.2" height="4.9943820224719095" fill="#adadad" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_12)">
+      <rect x="83.6" y="25.15393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="25.15393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="25.15393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="25.15393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="25.15393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="25.15393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="25.15393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="86.0" y="27.323932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="90.8" y="27.323932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="95.6" y="27.323932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="100.39999999999999" y="27.323932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="105.19999999999999" y="27.323932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="109.99999999999999" y="27.323932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="114.79999999999998" y="27.323932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="83.6" y="29.493932584269665" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="29.493932584269665" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="29.493932584269665" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="29.493932584269665" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="29.493932584269665" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="29.493932584269665" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="29.493932584269665" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    </g>
+  </g>
+  <text x="51" y="27.351123595505616" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">红花园组</text>
+  <text x="71" y="27.351123595505616" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">O₁h</text>
+  <text x="119" y="27.351123595505616" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">35.0</text>
+  <text x="131" y="27.351123595505616" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">灰色厚层生物碎屑灰岩</text>
+  <line x1="8" y1="29.84831460674157" x2="203" y2="29.84831460674157" stroke="#bbb" stroke-width="0.12"/>
+  <g id="layer_13">
+    <rect x="83.3" y="21.35393258426966" width="32.2" height="3.5" fill="#e5a0b7" stroke="#555" stroke-width="0.15"/>
+    <g clip-path="url(#clip_13)">
+      <rect x="83.6" y="21.65393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="88.39999999999999" y="21.65393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="93.19999999999999" y="21.65393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="97.99999999999999" y="21.65393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="102.79999999999998" y="21.65393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="107.59999999999998" y="21.65393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="112.39999999999998" y="21.65393258426966" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="86.0" y="23.823932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="90.8" y="23.823932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="95.6" y="23.823932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="100.39999999999999" y="23.823932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="105.19999999999999" y="23.823932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="109.99999999999999" y="23.823932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="114.79999999999998" y="23.823932584269663" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    </g>
+  </g>
+  <text x="51" y="23.10393258426966" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">宝塔组</text>
+  <text x="71" y="23.10393258426966" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000">O₂b</text>
+  <text x="119" y="23.10393258426966" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222">20.0</text>
+  <text x="131" y="23.10393258426966" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">紫红色中厚层龟裂纹灰岩</text>
+  <line x1="8" y1="24.85393258426966" x2="203" y2="24.85393258426966" stroke="#bbb" stroke-width="0.12"/>
+  <line x1="8" y1="276" x2="203" y2="276" stroke="#000" stroke-width="0.35"/>
+  <line x1="8" y1="176.82584269662922" x2="203" y2="176.82584269662922" stroke="#000" stroke-width="0.35"/>
+  <line x1="22" y1="276" x2="203" y2="276" stroke="#555" stroke-width="0.22"/>
+  <line x1="22" y1="252.45505617977528" x2="203" y2="252.45505617977528" stroke="#555" stroke-width="0.22"/>
+  <line x1="22" y1="176.82584269662922" x2="203" y2="176.82584269662922" stroke="#555" stroke-width="0.22"/>
+  <line x1="22" y1="44.831460674157306" x2="203" y2="44.831460674157306" stroke="#555" stroke-width="0.22"/>
+  <line x1="8" y1="22" x2="203" y2="22" stroke="#000" stroke-width="0.4"/>
+  <line x1="8" y1="22" x2="8" y2="290" stroke="#000" stroke-width="0.4"/>
+  <line x1="203" y1="22" x2="203" y2="290" stroke="#000" stroke-width="0.4"/>
+  <line x1="8" y1="290" x2="203" y2="290" stroke="#000" stroke-width="0.4"/>
+  <text x="8" y="17" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#666">秭归地区综合地层柱状图  |  总厚 1,780m  |  14 层  |  比例尺 1:7,007</text>
+  <rect x="207" y="217.0" width="38" height="59.0" fill="#fff" stroke="#666" stroke-width="0.25"/>
+  <text x="226.0" y="222.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.5" font-weight="bold" text-anchor="middle" fill="#000">图  例</text>
+  <line x1="210" y1="225.0" x2="242" y2="225.0" stroke="#ccc" stroke-width="0.15"/>
+  <rect x="211" y="223.5" width="6" height="6" fill="#e589a0" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_0)">
+    <circle cx="212.12" cy="224.62" r="0.35" fill="#555"/>
+    <circle cx="212.12" cy="226.86" r="0.35" fill="#555"/>
+    <circle cx="212.12" cy="229.10000000000002" r="0.35" fill="#555"/>
+    <circle cx="214.36" cy="224.62" r="0.35" fill="#555"/>
+    <circle cx="214.36" cy="226.86" r="0.35" fill="#555"/>
+    <circle cx="214.36" cy="229.10000000000002" r="0.35" fill="#555"/>
+    <circle cx="216.60000000000002" cy="224.62" r="0.35" fill="#555"/>
+    <circle cx="216.60000000000002" cy="226.86" r="0.35" fill="#555"/>
+    <circle cx="216.60000000000002" cy="229.10000000000002" r="0.35" fill="#555"/>
+  </g>
+  <text x="220" y="226.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">莲沱组</text>
+  <rect x="211" y="230.5" width="6" height="6" fill="#adcca3" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_1)">
+    <circle cx="215.032" cy="234.532" r="1.5" fill="none" stroke="#000" stroke-width="0.2"/>
+  </g>
+  <text x="220" y="233.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">南沱组</text>
+  <rect x="211" y="237.5" width="6" height="6" fill="#a9b2a0" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_2)">
+    <line x1="199" y1="237.5" x2="205" y2="243.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="202.84" y1="237.5" x2="208.84" y2="243.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="206.68" y1="237.5" x2="212.68" y2="243.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="210.52" y1="237.5" x2="216.52" y2="243.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="214.36" y1="237.5" x2="220.36" y2="243.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="218.20000000000002" y1="237.5" x2="224.20000000000002" y2="243.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="222.04000000000002" y1="237.5" x2="228.04000000000002" y2="243.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="199" y1="243.5" x2="205" y2="237.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="202.84" y1="243.5" x2="208.84" y2="237.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="206.68" y1="243.5" x2="212.68" y2="237.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="210.52" y1="243.5" x2="216.52" y2="237.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="214.36" y1="243.5" x2="220.36" y2="237.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="218.20000000000002" y1="243.5" x2="224.20000000000002" y2="237.5" stroke="#999" stroke-width="0.15"/>
+    <line x1="222.04000000000002" y1="243.5" x2="228.04000000000002" y2="237.5" stroke="#999" stroke-width="0.15"/>
+  </g>
+  <text x="220" y="240.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">陡山沱组</text>
+  <rect x="211" y="244.5" width="6" height="6" fill="#595450" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_3)">
+    <line x1="211.3" y1="245.172" x2="216.7" y2="245.172" stroke="#eee" stroke-width="0.18"/>
+    <line x1="211.3" y1="247.412" x2="216.7" y2="247.412" stroke="#eee" stroke-width="0.18"/>
+    <line x1="211.3" y1="249.65200000000002" x2="216.7" y2="249.65200000000002" stroke="#eee" stroke-width="0.18"/>
+  </g>
+  <text x="220" y="247.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">水井沱组</text>
+  <rect x="211" y="251.5" width="6" height="6" fill="#cdd897" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_4)">
+    <line x1="212" y1="253.1" x2="216" y2="253.1" stroke="#aaa" stroke-width="0.2"/>
+    <line x1="212" y1="256.3" x2="216" y2="256.3" stroke="#aaa" stroke-width="0.2"/>
+    <circle cx="214.2" cy="254.7" r="0.2" fill="#888"/>
+  </g>
+  <text x="220" y="254.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">石牌组</text>
+  <rect x="211" y="258.5" width="6" height="6" fill="#a5a5a5" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_5)">
+    <rect x="211.3" y="258.8" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    <rect x="216.10000000000002" y="258.8" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    <rect x="213.70000000000002" y="260.97" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    <rect x="211.3" y="263.14000000000004" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    <rect x="216.10000000000002" y="263.14000000000004" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+  </g>
+  <text x="220" y="261.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">天河板组</text>
+  <rect x="211" y="265.5" width="6" height="6" fill="#bfbfbf" stroke="#888" stroke-width="0.12"/>
+  <g clip-path="url(#lgclip_6)">
+    <line x1="211.3" y1="266.172" x2="216.7" y2="266.172" stroke="#555" stroke-width="0.22"/>
+    <line x1="212.792" y1="265.5" x2="212.792" y2="266.84400000000005" stroke="#999" stroke-width="0.15"/>
+    <line x1="216.152" y1="265.5" x2="216.152" y2="266.84400000000005" stroke="#999" stroke-width="0.15"/>
+    <line x1="211.3" y1="268.41200000000003" x2="216.7" y2="268.41200000000003" stroke="#555" stroke-width="0.22"/>
+    <line x1="212.792" y1="267.74" x2="212.792" y2="269.08400000000006" stroke="#999" stroke-width="0.15"/>
+    <line x1="216.152" y1="267.74" x2="216.152" y2="269.08400000000006" stroke="#999" stroke-width="0.15"/>
+    <line x1="211.3" y1="270.65200000000004" x2="216.7" y2="270.65200000000004" stroke="#555" stroke-width="0.22"/>
+  </g>
+  <text x="220" y="268.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333">分乡组</text>
+</svg>

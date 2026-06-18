@@ -48,11 +48,11 @@ DEFAULT_DATA = {
 
 # Layout (mm units → SVG user units)
 MARGIN_LEFT   = 8
-MARGIN_TOP    = 30
+MARGIN_TOP    = 35    # top margin (was 30)
 TABLE_TOP     = 290
 TABLE_BOTTOM  = 22
 HEADER_H      = 14
-TABLE_RIGHT   = 195  # total table width
+TABLE_RIGHT   = 203  # total table width (COL_X[8] + COL_W[8])
 
 COL_X = [0,
     MARGIN_LEFT,                          # 1: 界
@@ -94,13 +94,17 @@ def el(name, **attrs):
         e.set(k.replace('_', '-'), str(v))
     return e
 
-def add_text(parent, x, y, text, size=7, bold=False, anchor='start', fill='#000'):
-    """Add a <text> element."""
-    t = el('text', x=x, y=y, fontFamily='SimHei, Heiti SC, sans-serif',
-           fontSize=size, fontWeight='bold' if bold else 'normal',
-           textAnchor=anchor, fill=fill)
+def add_text(parent, x, y, text, size=2.8, bold=False, anchor='start', fill='#000'):
+    """Add a <text> element with correct SVG attributes."""
+    t = ET.SubElement(parent, 'text')
+    t.set('x', str(x))
+    t.set('y', str(y))
+    t.set('font-family', 'SimHei, Heiti SC, sans-serif')
+    t.set('font-size', str(size))
+    t.set('font-weight', 'bold' if bold else 'normal')
+    t.set('text-anchor', anchor)
+    t.set('fill', fill)
     t.text = str(text)
-    parent.append(t)
     return t
 
 def add_rect(parent, x, y, w, h, fill=None, stroke='#000', sw=0.2, **extra):
@@ -420,8 +424,8 @@ def generate_svg(data, output_path=None):
     scale_f = draw_h / total_thick if total_thick > 0 else 1
     
     # Page dimensions
-    page_w = TABLE_RIGHT + 55
-    page_h = TABLE_TOP + MARGIN_TOP + 10
+    page_w = TABLE_RIGHT + 48   # 203 + 48 = 251, room for legend
+    page_h = TABLE_TOP + MARGIN_TOP + 8   # 290 + 35 + 8 = 333
     
     # ===== Build SVG =====
     svg = ET.Element('svg', {
@@ -441,12 +445,12 @@ def generate_svg(data, output_path=None):
     
     # ===== Title =====
     title_x = (MARGIN_LEFT + TABLE_RIGHT) / 2
-    add_text(svg, title_x, TABLE_TOP + MARGIN_TOP - 8, title,
-             size=11, bold=True, anchor='middle', fill='#000')
+    add_text(svg, title_x, TABLE_TOP + 12, title,
+             size=4.5, bold=True, anchor='middle', fill='#000')
     
     if location:
-        add_text(svg, title_x, TABLE_TOP + MARGIN_TOP + 5, location,
-                 size=7, bold=False, anchor='middle', fill='#555')
+        add_text(svg, title_x, TABLE_TOP + 6, location,
+                 size=2.8, bold=False, anchor='middle', fill='#555')
     
     # ===== Table Header =====
     headerT = TABLE_TOP
@@ -466,7 +470,7 @@ def generate_svg(data, output_path=None):
         lines = label.split('\n')
         for li, line_text in enumerate(lines):
             ly = midY - (len(lines) - 1) * 3.5 + li * 7
-            add_text(svg, cx, ly, line_text, size=6.5 if col != 7 else 6,
+            add_text(svg, cx, ly, line_text, size=2.8 if col != 7 else 2.6,
                      bold=True, anchor='middle', fill='#000')
     
     # Vertical column lines
@@ -493,72 +497,118 @@ def generate_svg(data, output_path=None):
             add_line(svg, tickX, tickY, tickRight, tickY, stroke='#aaa', sw=0.15)
             if tick_val % (tick_interval * 2) == 0:
                 add_text(svg, tickRight - 1, tickY - 1.5, str(tick_val),
-                         size=5.5, anchor='end', fill='#888')
+                         size=2.2, anchor='end', fill='#888')
         tick_val += tick_interval
     
     # Depth ruler vertical line
     add_line(svg, tickX, TABLE_BOTTOM, tickX, headerB, stroke='#ccc', sw=0.1)
     
-    # ===== Layer rows =====
+    # ===== Pre-calculate layer Y positions =====
+    layer_tops = []    # list of (topY, bottomY, height)
     currentY = headerB
+    for layer in layers:
+        layH = max(layer['thick'] * scale_f, 3.5)
+        layBottom = currentY - layH
+        layer_tops.append((currentY, layBottom, layH))
+        currentY = layBottom
+    
+    # ===== Identify merge groups for columns 1-3 =====
+    # Each group: (start_idx, end_idx, topY, bottomY, value)
+    def find_merge_groups(col_key):
+        groups = []
+        if not layers: return groups
+        start = 0
+        for i in range(1, len(layers)):
+            if layers[i].get(col_key, '') != layers[start].get(col_key, ''):
+                groups.append((start, i-1,
+                    layer_tops[start][0], layer_tops[i-1][1],
+                    layers[start].get(col_key, '')))
+                start = i
+        groups.append((start, len(layers)-1,
+            layer_tops[start][0], layer_tops[-1][1],
+            layers[start].get(col_key, '')))
+        return groups
+    
+    erathem_groups = find_merge_groups('erathem')
+    system_groups = find_merge_groups('system')
+    series_groups = find_merge_groups('series')
+    
+    # ===== Layer rows =====
     colLeft = COL_X[6] + 0.3
     colRight = COL_X[6] + COL_W[6] - 2.5
     colW_actual = colRight - colLeft
     
+    # Draw merged cell backgrounds (界 / 系 / 统)
+    for groups, col_idx, fill_hex in [
+        (erathem_groups, 1, '#fafaf8'),
+        (system_groups, 2, '#fafaf8'),
+        (series_groups, 3, '#fafaf8')
+    ]:
+        for start, end, topY, bottomY, val in groups:
+            if val:
+                add_rect(svg, COL_X[col_idx], bottomY,
+                         COL_W[col_idx], topY - bottomY,
+                         fill=fill_hex, stroke='none', sw=0)
+                midY = (topY + bottomY) / 2
+                add_text(svg, COL_X[col_idx] + COL_W[col_idx]/2, midY, val,
+                         size=2.4, bold=False, anchor='middle', fill='#222')
+    
+    # Draw each layer (组/代号/柱状图/厚度/描述)
     for i, layer in enumerate(layers):
-        layH = max(layer['thick'] * scale_f, 3.5)
-        layBottom = currentY - layH
+        topY, bottomY, layH = layer_tops[i]
         
         c, m, y, k = layer['c'], layer['m'], layer['y'], layer['k']
         fill_color = cmyk_fill(c, m, y, k)
         pattern_name = layer.get('pattern', 'pure')
         
-        # === Column rectangle (col 6) ===
+        # === Column rectangle (col 6) with pattern ===
         col_g = ET.SubElement(svg, 'g')
         col_g.set('id', f'layer_{i}')
         
-        rect = add_rect(col_g, colLeft, layBottom, colW_actual, layH,
-                        fill=fill_color, stroke='#555', sw=0.15)
+        add_rect(col_g, colLeft, bottomY, colW_actual, layH,
+                 fill=fill_color, stroke='#555', sw=0.15)
         
-        # Pattern overlay
         if pattern_name != 'pure' and pattern_name in PATTERNS:
-            # Create a clip path for this layer
             clip_id = f'clip_{i}'
             clip = ET.SubElement(defs, 'clipPath', {'id': clip_id})
             ET.SubElement(clip, 'rect', {
-                'x': str(colLeft), 'y': str(layBottom),
+                'x': str(colLeft), 'y': str(bottomY),
                 'width': str(colW_actual), 'height': str(layH)
             })
-            
-            # Pattern group with clip
             pat_g = ET.SubElement(col_g, 'g', {'clip-path': f'url(#{clip_id})'})
-            PATTERNS[pattern_name](pat_g, colLeft, layBottom, colW_actual, layH)
+            PATTERNS[pattern_name](pat_g, colLeft, bottomY, colW_actual, layH)
         
-        # === Text columns ===
-        midY_ = (currentY + layBottom) / 2
+        # === Text columns 4-5, 7-8 (per-layer, no merging) ===
+        midY_ = (topY + bottomY) / 2
         
-        # Col 1-5, 7-8
-        texts = [
-            (1, layer.get('erathem', ''), 5.5, False),
-            (2, layer.get('system', ''), 5.5, False),
-            (3, layer.get('series', ''), 5.5, False),
-            (4, layer.get('formation', ''), 5.5, False),
-            (5, layer.get('symbol', ''), 5, True),
-            (7, f"{layer['thick']:.1f}", 5.5, False),
-            (8, layer.get('descr', ''), 5, False),
-        ]
+        # 组名
+        fm = layer.get('formation', '')
+        if fm:
+            add_text(svg, COL_X[4] + 1, midY_, fm, size=2.2, fill='#222')
+        # 代号
+        sym = layer.get('symbol', '')
+        if sym:
+            add_text(svg, COL_X[5] + 1, midY_, sym, size=2.2, bold=True, fill='#000')
+        # 厚度
+        add_text(svg, COL_X[7] + 1, midY_, f"{layer['thick']:.1f}", size=2.2, fill='#222')
+        # 描述
+        d = layer.get('descr', '')
+        if d:
+            add_text(svg, COL_X[8] + 1, midY_, d, size=2, fill='#333')
         
-        for tcol, ttxt, tsize, tbold in texts:
-            if ttxt:
-                tx = COL_X[tcol] + 1
-                add_text(svg, tx, midY_, ttxt, size=tsize, bold=tbold,
-                         anchor='start', fill='#000' if tbold else '#222')
-        
-        # === Row separator line ===
-        add_line(svg, MARGIN_LEFT, currentY, TABLE_RIGHT, currentY,
-                 stroke='#999', sw=0.2)
-        
-        currentY = layBottom
+        # Row separator (thin, all columns)
+        add_line(svg, MARGIN_LEFT, topY, TABLE_RIGHT, topY,
+                 stroke='#bbb', sw=0.12)
+    
+    # ===== Major boundary lines (界 level — thick) =====
+    for start, end, topY, bottomY, val in erathem_groups:
+        add_line(svg, MARGIN_LEFT, topY, TABLE_RIGHT, topY,
+                 stroke='#000', sw=0.35)
+    # 系 level — medium
+    for start, end, topY, bottomY, val in system_groups:
+        add_line(svg, MARGIN_LEFT + COL_W[1], topY, TABLE_RIGHT, topY,
+                 stroke='#555', sw=0.22)
+    # 统 level — thin (already drawn per-layer above)
     
     # ===== Bottom border =====
     add_line(svg, MARGIN_LEFT, TABLE_BOTTOM, TABLE_RIGHT, TABLE_BOTTOM,
@@ -577,9 +627,10 @@ def generate_svg(data, output_path=None):
     footer_text = (f"{title}  |  总厚 {total_thick:,.0f}m  |  {n_layers} 层  "
                    f"|  比例尺 1:{ratio:,}")
     add_text(svg, MARGIN_LEFT, TABLE_BOTTOM - 5, footer_text,
-             size=5.5, fill='#666')
+             size=2, fill='#666')
     
     # ===== Legend (right side) =====
+    # Collect unique patterns in stratigraphic order
     unique = {}
     for layer in layers:
         pn = layer.get('pattern', 'pure')
@@ -587,27 +638,51 @@ def generate_svg(data, output_path=None):
             unique[pn] = layer
     
     if len(unique) > 1:
-        lgX = TABLE_RIGHT + 4
-        lgY = TABLE_TOP - HEADER_H
-        lgH = len(unique) * 8 + 10
+        lgX = TABLE_RIGHT + 4          # 20
+        lgY = TABLE_TOP - HEADER_H     # 276
+        lgW = 38
+        itemH = 7.0
+        nUnique = len(unique)
+        lgH = nUnique * itemH + 10     # top margin for title
         
-        add_rect(svg, lgX, lgY - lgH, 42, lgH,
-                 fill='#fff', stroke='#999', sw=0.25)
-        add_text(svg, lgX + 3, lgY - lgH + 8, '图例',
-                 size=6.5, bold=True, fill='#000')
+        # Legend box
+        add_rect(svg, lgX, lgY - lgH, lgW, lgH,
+                 fill='#fff', stroke='#666', sw=0.25)
         
-        for j, (pn, ldata) in enumerate(sorted(unique.items())):
-            iy = lgY - 8 - j * 8
-            # Color swatch
-            c, m, y, k = ldata['c'], ldata['m'], ldata['y'], ldata['k']
-            fc = cmyk_fill(c, m, y, k)
-            add_rect(svg, lgX + 3, iy - 4, 7, 7, fill=fc, stroke='#666', sw=0.12)
-            # Mini pattern
+        # Legend title (inside box, at top)
+        add_text(svg, lgX + lgW/2, lgY - lgH + 5.5, '图  例',
+                 size=2.5, bold=True, anchor='middle', fill='#000')
+        
+        # Separator line under title
+        add_line(svg, lgX + 3, lgY - lgH + 8, lgX + lgW - 3, lgY - lgH + 8,
+                 stroke='#ccc', sw=0.15)
+        
+        # Legend items (top to bottom, in stratigraphic order)
+        for j, (pn, ldata) in enumerate(unique.items()):
+            iy = lgY - lgH + 9.5 + j * itemH  # first item center Y
+            swatchY = iy - 3  # swatch top
+            
+            # Clip path for this swatch (prevent pattern overflow)
+            clip_id = f'lgclip_{j}'
+            clip = ET.SubElement(defs, 'clipPath', {'id': clip_id})
+            ET.SubElement(clip, 'rect', {
+                'x': str(lgX + 4), 'y': str(swatchY),
+                'width': '6', 'height': '6'
+            })
+            
+            # Color swatch (6x6mm)
+            c, m, y_, k = ldata['c'], ldata['m'], ldata['y'], ldata['k']
+            fc = cmyk_fill(c, m, y_, k)
+            add_rect(svg, lgX + 4, swatchY, 6, 6, fill=fc, stroke='#888', sw=0.12)
+            
+            # Mini pattern (clipped!)
             if pn != 'pure' and pn in PATTERNS:
-                PATTERNS[pn](svg, lgX + 3, iy - 4, 7, 7)
-            # Label
-            add_text(svg, lgX + 12, iy + 0.5,
-                     ldata.get('formation', '')[:14], size=5, fill='#555')
+                pat_g = ET.SubElement(svg, 'g', {'clip-path': f'url(#{clip_id})'})
+                PATTERNS[pn](pat_g, lgX + 4, swatchY, 6, 6)
+            
+            # Label text
+            add_text(svg, lgX + 13, iy, ldata.get('formation', ''),
+                     size=2, fill='#333')
     
     # ===== Pretty-print and output =====
     rough = ET.tostring(svg, encoding='unicode')
