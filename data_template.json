@@ -1,0 +1,52 @@
+{
+  "_comment": "地层柱状图数据模板 — 修改此文件即可切换地区/地层",
+  "_docs": "运行: python3 generate_column.py data_template.json output.svg",
+  "title": "综合地层柱状图",
+  "location": "",
+  "layers": [
+    {
+      "erathem": "新生界",
+      "system": "第四系",
+      "series": "全新统",
+      "formation": "冲积层",
+      "symbol": "Qh",
+      "thick": 15,
+      "descr": "黄褐色砂砾石层、亚砂土",
+      "c": 0, "m": 10, "y": 25, "k": 10,
+      "pattern": "conglo"
+    },
+    {
+      "erathem": "古生界",
+      "system": "寒武系",
+      "series": "下统",
+      "formation": "水井沱组",
+      "symbol": "∈₁s",
+      "thick": 95,
+      "descr": "黑色炭质页岩夹薄层硅质岩",
+      "c": 0, "m": 5, "y": 10, "k": 65,
+      "pattern": "carbShale"
+    },
+    {
+      "erathem": "新元古界",
+      "system": "震旦系",
+      "series": "上统",
+      "formation": "灯影组",
+      "symbol": "Z₂dy",
+      "thick": 350,
+      "descr": "灰白色厚层白云岩，含燧石条带",
+      "c": 0, "m": 0, "y": 5, "k": 10,
+      "pattern": "dolo"
+    },
+    {
+      "erathem": "新元古界",
+      "system": "南华系",
+      "series": "下统",
+      "formation": "莲沱组",
+      "symbol": "Nh₁l",
+      "thick": 120,
+      "descr": "紫红色中厚层砂岩、含砾砂岩",
+      "c": 0, "m": 40, "y": 30, "k": 10,
+      "pattern": "sand"
+    }
+  ]
+}
