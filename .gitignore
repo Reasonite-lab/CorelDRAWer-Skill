@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 .reasonix_backup/
 .DS_Store
+column_macro.bas
