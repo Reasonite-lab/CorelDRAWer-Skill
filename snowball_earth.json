@@ -1,0 +1,15 @@
+{
+  "_ref": "Snowball Earth cap carbonate — Marinoan glaciation (Hoffman et al., 2017, Science Advances; Jiang et al., 2003, Nature)",
+  "title": "Nantuo-Doushantuo Transition — Snowball Earth Cap Carbonate",
+  "location": "Jiulongwan, Three Gorges, South China",
+  "layers": [
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Terreneuvian","formation":"Yanjiahe Fm","symbol":"∈₁y","thick":35,"descr":"Siliceous shale with SSF","c":0,"m":0,"y":5,"k":50,"pattern":"shale","grain":1,"fossils":["brachiopod"],"age_ma":530},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Upper","formation":"Dengying Fm","symbol":"Z₂dy","thick":280,"descr":"Thick-bedded peritidal dolomite","c":0,"m":0,"y":3,"k":8,"pattern":"dolo","grain":2,"age_ma":548,"contact":"disconformity"},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Lower","formation":"Doushantuo Fm","symbol":"Z₁d","thick":70,"descr":"Black shale with large acanthomorphic acritarchs","c":0,"m":5,"y":10,"k":50,"pattern":"shale","grain":1,"fossils":["algae","spore"],"age_ma":580},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Lower","formation":"Doushantuo Fm","symbol":"Z₁d","thick":25,"descr":"Grey dolomitic limestone (upper cap)","c":0,"m":0,"y":5,"k":20,"pattern":"doloLime","grain":2,"age_ma":590},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Lower","formation":"Doushantuo Fm","symbol":"Z₁d","thick":8,"descr":"Pink crystalline dolomite (middle cap)","c":0,"m":0,"y":10,"k":8,"pattern":"dolo","grain":2,"age_ma":595},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Lower","formation":"Doushantuo Fm","symbol":"Z₁d","thick":6,"descr":"Pale grey microcrystalline dolomite with tepee structures (lower cap)","c":0,"m":0,"y":5,"k":10,"pattern":"dolo","grain":2,"structures":["crack"],"age_ma":600,"markers":[{"symbol":"star","y_offset":0.5,"label":"Cap carbonate"}]},
+    {"erathem":"Neoproterozoic","system":"Cryogenian","series":"Upper","formation":"Nantuo Fm","symbol":"Nh₂n","thick":55,"descr":"Green-grey massive diamictite with striated clasts","c":50,"m":20,"y":50,"k":30,"pattern":"conglo","grain":6,"age_ma":635,"contact":"unconformity"},
+    {"erathem":"Neoproterozoic","system":"Cryogenian","series":"Upper","formation":"Nantuo Fm","symbol":"Nh₂n","thick":30,"descr":"Dark grey sandy diamictite with dropstones","c":30,"m":10,"y":25,"k":25,"pattern":"conglo","grain":5,"age_ma":640}
+  ]
+}

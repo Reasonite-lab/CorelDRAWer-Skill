@@ -1,0 +1,15 @@
+{
+  "_ref": "Ediacaran-Cambrian boundary, Three Gorges, South China (Zhu et al., 2017, Geology; Wood et al., 2019, Nature Eco Evo)",
+  "title": "Yanjiahe Section — Ediacaran-Cambrian Boundary",
+  "location": "Three Gorges, Yichang, South China",
+  "layers": [
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Series 2","formation":"Tianheban Fm","symbol":"∈₂t","thick":80,"descr":"Grey oolitic limestone with trilobite fragments","c":0,"m":0,"y":0,"k":30,"pattern":"lime","grain":3,"fossils":["trilobite"],"structures":["ooid"],"age_ma":515},
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Series 2","formation":"Shuijingtuo Fm","symbol":"∈₂s","thick":95,"descr":"Black carbonaceous shale with Chengjiang-type fossils","c":0,"m":5,"y":10,"k":65,"pattern":"carbShale","grain":1,"fossils":["trilobite","brachiopod","spore"],"age_ma":518},
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Terreneuvian","formation":"Yanjiahe Fm","symbol":"∈₁y","thick":35,"descr":"Grey-black siliceous shale with small shelly fossils","c":0,"m":0,"y":5,"k":50,"pattern":"shale","grain":1,"fossils":["brachiopod","algae"],"age_ma":530,"contact":"conformity"},
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Terreneuvian","formation":"Yanjiahe Fm","symbol":"∈₁y","thick":15,"descr":"Dark grey phosphatic limestone with SSF assemblages","c":0,"m":0,"y":0,"k":45,"pattern":"lime","grain":2,"fossils":["brachiopod","foraminifera"],"age_ma":535,"markers":[{"symbol":"star","y_offset":0.3,"label":"FAD Trichophycus"}]},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Upper","formation":"Dengying Fm","symbol":"Z₂dy","thick":120,"descr":"Light grey thick-bedded dolomite with Cloudina fossils","c":5,"m":0,"y":8,"k":10,"pattern":"dolo","grain":2,"fossils":["stromatolite"],"age_ma":541,"contact":"unconformity"},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Upper","formation":"Dengying Fm","symbol":"Z₂dy","thick":230,"descr":"Grey-white massive dolomite with chert nodules","c":0,"m":0,"y":3,"k":8,"pattern":"dolo","grain":2,"structures":["concretion"],"age_ma":548},
+    {"erathem":"Neoproterozoic","system":"Ediacaran","series":"Lower","formation":"Doushantuo Fm","symbol":"Z₁d","thick":180,"descr":"Dark grey dolomitic shale with Doushantuo-type acritarchs","c":5,"m":0,"y":10,"k":35,"pattern":"doloLime","grain":1,"fossils":["algae","spore"],"age_ma":580},
+    {"erathem":"Neoproterozoic","system":"Cryogenian","series":"Upper","formation":"Nantuo Fm","symbol":"Nh₂n","thick":45,"descr":"Dark green-grey diamictite (Snowball Earth glacial)","c":50,"m":20,"y":50,"k":30,"pattern":"conglo","grain":6,"age_ma":635,"contact":"unconformity"}
+  ]
+}

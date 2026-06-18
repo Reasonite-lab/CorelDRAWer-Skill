@@ -1,0 +1,14 @@
+{
+  "_ref": "Meishan GSSP — Permian-Triassic boundary (Yin et al., 2001, EPSL; Burgess et al., 2014, PNAS)",
+  "title": "Meishan Section — Permian-Triassic Boundary GSSP",
+  "location": "Meishan, Zhejiang, South China",
+  "layers": [
+    {"erathem":"Mesozoic","system":"Triassic","series":"Lower","formation":"Yinkeng Fm","symbol":"T₁y","thick":3.5,"descr":"Pale yellow calcareous mudstone with ammonoids (H. parvus FAD)","c":0,"m":0,"y":10,"k":10,"pattern":"mud","grain":1,"fossils":["ammonite","bivalve"],"age_ma":251.9,"contact":"conformity","markers":[{"symbol":"star","y_offset":0.1,"label":"GSSP"}]},
+    {"erathem":"Mesozoic","system":"Triassic","series":"Lower","formation":"Yinkeng Fm","symbol":"T₁y","thick":7,"descr":"Grey medium-bedded argillaceous limestone","c":0,"m":0,"y":0,"k":25,"pattern":"lime","grain":2,"fossils":["ammonite","conodont","bivalve"],"age_ma":252.0},
+    {"erathem":"Paleozoic","system":"Permian","series":"Upper","formation":"Changxing Fm","symbol":"P₃c","thick":12,"descr":"Dark grey medium-bedded bioclastic limestone","c":0,"m":0,"y":0,"k":35,"pattern":"lime","grain":2,"fossils":["conodont","brachiopod","foraminifera"],"age_ma":252.2,"contact":"conformity"},
+    {"erathem":"Paleozoic","system":"Permian","series":"Upper","formation":"Changxing Fm","symbol":"P₃c","thick":8,"descr":"Dark grey thin-bedded cherty limestone","c":0,"m":0,"y":0,"k":40,"pattern":"chert","grain":1,"fossils":["conodont","brachiopod"],"age_ma":252.5},
+    {"erathem":"Paleozoic","system":"Permian","series":"Upper","formation":"Changxing Fm","symbol":"P₃c","thick":15,"descr":"Black calcareous shale with limestone interbeds","c":0,"m":5,"y":15,"k":55,"pattern":"shale","grain":1,"fossils":["brachiopod","conodont"],"age_ma":253.0},
+    {"erathem":"Paleozoic","system":"Permian","series":"Upper","formation":"Longtan Fm","symbol":"P₃l","thick":22,"descr":"Grey sandstone interbedded with mudstone and coal seams","c":0,"m":15,"y":30,"k":20,"pattern":"sand","grain":4,"structures":["cross_bed"],"age_ma":255.0,"contact":"disconformity"},
+    {"erathem":"Paleozoic","system":"Permian","series":"Middle","formation":"Gufeng Fm","symbol":"P₂g","thick":18,"descr":"Black siliceous shale with phosphate nodules","c":0,"m":0,"y":10,"k":60,"pattern":"carbShale","grain":1,"fossils":["ammonite","conodont"],"structures":["concretion"],"age_ma":265.0}
+  ]
+}

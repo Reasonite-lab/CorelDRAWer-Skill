@@ -1,98 +1,109 @@
 #!/usr/bin/env python3
 """
-CorelDRAWer — Unified CLI for geological diagram generation
-═════════════════════════════════════════════════════════
-Usage:
-  python3 coreldrawer.py column [data.json] [output.svg]
-  python3 coreldrawer.py xsection [data.json] [output.svg]
-  python3 coreldrawer.py vba [data.json]
-  python3 coreldrawer.py com [data.json]       # Windows only
+CorelDRAWer — Unified CLI for geological diagram generation.
 
-Examples:
-  python3 coreldrawer.py column                          # built-in demo
-  python3 coreldrawer.py column data.json output.svg     # from JSON
-  python3 coreldrawer.py xsection boreholes.json xsec.svg
-  python3 coreldrawer.py vba data.json                   # → column_macro.bas
-  python3 coreldrawer.py com data.json                   # → CorelDRAW directly
-═════════════════════════════════════════════════════════
+Usage:
+  coreldrawer column [data.json] [output.svg]
+  coreldrawer xsection [data.json] [output.svg]
+  coreldrawer vba [data.json] [output.bas]
+  coreldrawer com [data.json]               # Windows only
 """
 
+import argparse
+import json
 import sys
-import os
 
-def print_help():
-    print(__doc__)
+
+def cmd_column(args):
+    from generate_column import generate_svg, DEFAULT_DATA
+    data = DEFAULT_DATA
+    if args.input:
+        with open(args.input, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    out = args.output or 'output.svg'
+    try:
+        generate_svg(data, out)
+        n = len(data['layers'])
+        total = sum(l['thick'] for l in data['layers'])
+        print(f"✅ Column saved: {out}  ({n} layers, {total:,.0f}m)")
+    except (ValueError, KeyError) as e:
+        print(f"❌ {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def cmd_xsection(args):
+    from generate_cross_section import generate_cross_section, DEMO_DATA
+    data = DEMO_DATA
+    if args.input:
+        with open(args.input, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    out = args.output or 'cross_section.svg'
+    try:
+        generate_cross_section(data, out)
+        n = len(data['boreholes'])
+        f = len(data.get('faults', []))
+        print(f"✅ Cross-section saved: {out}  ({n} boreholes, {f} faults)")
+    except (ValueError, KeyError) as e:
+        print(f"❌ {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def cmd_vba(args):
+    from cdr_com_auto import generate_vba_code
+    from generate_column import DEFAULT_DATA
+    data = DEFAULT_DATA
+    if args.input:
+        with open(args.input, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    out = args.output or 'column_macro.bas'
+    try:
+        generate_vba_code(data, out)
+        print(f"✅ VBA saved: {out}  (Alt+F11 → Import → Run DrawColumn)")
+    except Exception as e:
+        print(f"❌ {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def cmd_com(args):
+    from cdr_com_auto import com_draw_column
+    from generate_column import DEFAULT_DATA
+    data = DEFAULT_DATA
+    if args.input:
+        with open(args.input, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    try:
+        if not com_draw_column(data):
+            print("⚠️  COM unavailable — use 'vba' for macro fallback")
+            sys.exit(1)
+    except Exception as e:
+        print(f"❌ {e}", file=sys.stderr)
+        sys.exit(1)
+
 
 def main():
-    if len(sys.argv) < 2 or sys.argv[1] in ('--help', '-h', 'help'):
-        print_help()
-        return
+    parser = argparse.ArgumentParser(
+        description="CorelDRAWer — Geological Diagram Generator",
+        epilog="Examples:\n  coreldrawer column\n  coreldrawer column data.json out.svg\n  coreldrawer xsection bh.json xsec.svg")
+    sub = parser.add_subparsers(dest='command')
 
-    cmd = sys.argv[1]
-    args = sys.argv[2:]
+    p = sub.add_parser('column', help='Stratigraphic column')
+    p.add_argument('input', nargs='?', help='JSON input')
+    p.add_argument('output', nargs='?', help='SVG output')
 
-    json_file = None
-    output_file = None
+    p = sub.add_parser('xsection', help='Cross-section')
+    p.add_argument('input', nargs='?')
+    p.add_argument('output', nargs='?')
 
-    for a in args:
-        if a.endswith('.json'):
-            json_file = a
-        elif a.endswith('.svg') or a.endswith('.bas'):
-            output_file = a
+    p = sub.add_parser('vba', help='VBA macro')
+    p.add_argument('input', nargs='?')
+    p.add_argument('output', nargs='?')
 
-    if cmd == 'column':
-        from generate_column import generate_svg, DEFAULT_DATA
-        data = DEFAULT_DATA
-        if json_file:
-            import json
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        out = output_file or 'output.svg'
-        generate_svg(data, out)
-        print(f"✅ Stratigraphic column saved: {out}")
+    p = sub.add_parser('com', help='CorelDRAW COM (Windows)')
+    p.add_argument('input', nargs='?')
 
-    elif cmd == 'xsection':
-        from generate_cross_section import generate_cross_section, DEMO_DATA
-        data = DEMO_DATA
-        if json_file:
-            import json
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        out = output_file or 'cross_section.svg'
-        generate_cross_section(data, out)
-        print(f"✅ Cross-section saved: {out}")
-
-    elif cmd == 'vba':
-        from cdr_com_auto import generate_vba_code
-        data = None
-        if json_file:
-            import json
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        if data is None:
-            # Use built-in column demo
-            from generate_column import DEFAULT_DATA
-            data = DEFAULT_DATA
-        out = output_file or 'column_macro.bas'
-        generate_vba_code(data, out)
-        print(f"✅ VBA macro saved: {out}")
-        print(f"   Open CorelDRAW → Alt+F11 → Import → Run DrawColumn")
-
-    elif cmd == 'com':
-        from cdr_com_auto import com_draw_column
-        data = None
-        if json_file:
-            import json
-            with open(json_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-        if data is None:
-            from generate_column import DEFAULT_DATA
-            data = DEFAULT_DATA
-        com_draw_column(data)
-
-    else:
-        print(f"Unknown command: {cmd}")
-        print_help()
+    args = parser.parse_args()
+    {'column': cmd_column, 'xsection': cmd_xsection,
+     'vba': cmd_vba, 'com': cmd_com}.get(args.command, lambda _: parser.print_help())(args)
 
 
 if __name__ == '__main__':

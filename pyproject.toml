@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backend"
+
+[project]
+name = "coreldrawer"
+version = "0.1.0"
+description = "AI-powered geological diagram generation — stratigraphic columns and cross-sections as SVG vector graphics"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Reasonite-lab" }]
+keywords = ["geology", "stratigraphy", "svg", "coreldraw", "diagram", "cross-section"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Multimedia :: Graphics :: Presentation",
+]
+requires-python = ">=3.8"
+dependencies = []  # zero external dependencies
+
+[project.urls]
+Homepage = "https://github.com/Reasonite-lab/CorelDRAWer-Skill"
+Repository = "https://github.com/Reasonite-lab/CorelDRAWer-Skill"
+Changelog = "https://github.com/Reasonite-lab/CorelDRAWer-Skill/blob/main/CHANGELOG.md"
+
+[project.scripts]
+coreldrawer = "coreldrawer:main"
+
+[project.optional-dependencies]
+com = ["pywin32>=300"]
+dev = ["pytest>=7"]
+all = ["pywin32>=300", "pytest>=7"]
+
+[tool.setuptools]
+py-modules = ["coreldrawer", "generate_column", "generate_cross_section", "cdr_com_auto"]

@@ -1,0 +1,1 @@
+# CorelDRAWer test suite

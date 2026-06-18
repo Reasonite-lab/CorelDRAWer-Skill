@@ -6,3 +6,5 @@ __pycache__/
 .reasonix_backup/
 .DS_Store
 column_macro.bas
+cross_section.svg
+.github/

@@ -1,0 +1,46 @@
+{
+  "title": "Three Gorges Transect — Ediacaran-Cambrian Cross-Section",
+  "orientation": "NW → SE (along Yangtze River)",
+  "vertical_exaggeration": 4,
+  "boreholes": [
+    {
+      "id": "ZK-NW",
+      "x": 0,
+      "elevation": 680,
+      "depth": 450,
+      "layers": [
+        {"formation":"Shuijingtuo Fm (black shale)","thick":85,"c":0,"m":5,"y":10,"k":65,"pattern":"carbShale"},
+        {"formation":"Yanjiahe Fm (siliceous)","thick":40,"c":0,"m":0,"y":5,"k":50,"pattern":"shale"},
+        {"formation":"Dengying Fm (dolomite)","thick":350,"c":0,"m":0,"y":3,"k":8,"pattern":"dolo"},
+        {"formation":"Doushantuo Fm","thick":120,"c":5,"m":0,"y":10,"k":35,"pattern":"doloLime"}
+      ]
+    },
+    {
+      "id": "ZK-Center",
+      "x": 2800,
+      "elevation": 520,
+      "depth": 520,
+      "layers": [
+        {"formation":"Shuijingtuo Fm (black shale)","thick":95,"c":0,"m":5,"y":10,"k":65,"pattern":"carbShale"},
+        {"formation":"Yanjiahe Fm (siliceous)","thick":55,"c":0,"m":0,"y":5,"k":50,"pattern":"shale"},
+        {"formation":"Dengying Fm (dolomite)","thick":480,"c":0,"m":0,"y":3,"k":8,"pattern":"dolo"},
+        {"formation":"Doushantuo Fm","thick":150,"c":5,"m":0,"y":10,"k":35,"pattern":"doloLime"}
+      ]
+    },
+    {
+      "id": "ZK-SE",
+      "x": 5200,
+      "elevation": 380,
+      "depth": 280,
+      "layers": [
+        {"formation":"Shuijingtuo Fm (black shale)","thick":65,"c":0,"m":5,"y":10,"k":65,"pattern":"carbShale"},
+        {"formation":"Yanjiahe Fm (siliceous)","thick":30,"c":0,"m":0,"y":5,"k":50,"pattern":"shale"},
+        {"formation":"Dengying Fm (dolomite)","thick":220,"c":0,"m":0,"y":3,"k":8,"pattern":"dolo"},
+        {"formation":"Doushantuo Fm","thick":85,"c":5,"m":0,"y":10,"k":35,"pattern":"doloLime"}
+      ]
+    }
+  ],
+  "faults": [
+    {"x": 1500, "dip": 68, "direction": "SE", "type": "normal", "throw": 80}
+  ]
+}

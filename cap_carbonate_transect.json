@@ -1,0 +1,38 @@
+{
+  "title": "Marinoan Cap Carbonate Transect — South China Basin",
+  "orientation": "Platform → Basin (NW → SE)",
+  "vertical_exaggeration": 6,
+  "boreholes": [
+    {
+      "id": "Platform",
+      "x": 0, "elevation": 850, "depth": 320,
+      "layers": [
+        {"formation":"Dengying Fm (dolomite)","thick":280,"c":0,"m":0,"y":3,"k":8,"pattern":"dolo"},
+        {"formation":"Doushantuo cap carb","thick":45,"c":0,"m":0,"y":5,"k":15,"pattern":"lime"},
+        {"formation":"Nantuo diamictite","thick":15,"c":50,"m":20,"y":50,"k":30,"pattern":"conglo"}
+      ]
+    },
+    {
+      "id": "Slope",
+      "x": 3000, "elevation": 520, "depth": 480,
+      "layers": [
+        {"formation":"Dengying Fm (dolomite)","thick":350,"c":0,"m":0,"y":3,"k":8,"pattern":"dolo"},
+        {"formation":"Doushantuo cap carb","thick":120,"c":5,"m":0,"y":10,"k":20,"pattern":"doloLime"},
+        {"formation":"Nantuo diamictite","thick":55,"c":50,"m":20,"y":50,"k":30,"pattern":"conglo"}
+      ]
+    },
+    {
+      "id": "Basin",
+      "x": 5500, "elevation": 320, "depth": 380,
+      "layers": [
+        {"formation":"Dengying Fm (dolomite)","thick":200,"c":0,"m":0,"y":3,"k":8,"pattern":"dolo"},
+        {"formation":"Doushantuo shale","thick":180,"c":0,"m":5,"y":10,"k":50,"pattern":"shale"},
+        {"formation":"Nantuo diamictite","thick":80,"c":50,"m":20,"y":50,"k":30,"pattern":"conglo"}
+      ]
+    }
+  ],
+  "faults": [
+    {"x": 1800, "dip": 55, "direction": "SE", "type": "normal", "throw": 150},
+    {"x": 4200, "dip": 45, "direction": "SE", "type": "normal", "throw": 90}
+  ]
+}
