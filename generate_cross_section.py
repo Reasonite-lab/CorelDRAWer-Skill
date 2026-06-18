@@ -715,6 +715,9 @@ def generate_cross_section(data, output_path=None):
     footer_text = f"{title}  |  {n_bh} boreholes  |  V.E. = {vx}×"
     add_text(footer_g, MARGIN, page_h - 8, footer_text, size=2.2, fill='#888',
              data_cdr_type='footer-text')
+    add_text(footer_g, MARGIN, page_h - 12,
+             "Generated with CorelDRAWer-Skill (github.com/Reasonite-lab/CorelDRAWer-Skill)",
+             size=1.6, fill='#ccc', data_cdr_type='footer-citation')
 
     # Output
     rough = ET.tostring(svg, encoding='unicode')

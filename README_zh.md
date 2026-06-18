@@ -195,3 +195,19 @@ python3 generate_column.py
 ## License
 
 MIT
+
+## 引用
+
+使用 CorelDRAWer-Skill 请引用：
+
+```bibtex
+@software{coreldrawer_skill,
+  author = {Reasonite-lab},
+  title = {CorelDRAWer-Skill: AI-powered geological diagram generation},
+  year = {2025},
+  url = {https://github.com/Reasonite-lab/CorelDRAWer-Skill},
+  version = {0.2.1}
+}
+```
+
+或使用 [CITATION.cff](CITATION.cff) 导入 Zotero / Endnote。

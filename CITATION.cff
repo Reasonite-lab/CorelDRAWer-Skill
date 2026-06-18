@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+authors:
+  - name: "Reasonite-lab"
+    website: "https://github.com/Reasonite-lab"
+title: "CorelDRAWer-Skill"
+version: 0.2.1
+date-released: 2025-06-18
+url: "https://github.com/Reasonite-lab/CorelDRAWer-Skill"
+abstract: "AI-powered geological diagram generation — stratigraphic columns and cross-sections as SVG vector graphics, with CorelDRAW COM/VBA integration."
+keywords:
+  - geology
+  - stratigraphy
+  - svg
+  - coreldraw
+  - diagram
+  - cross-section
+  - visualization
+license: MIT
+repository-code: "https://github.com/Reasonite-lab/CorelDRAWer-Skill"

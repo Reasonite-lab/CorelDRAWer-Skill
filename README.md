@@ -219,4 +219,20 @@ python3 generate_column.py
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE) file.
+
+## Citation
+
+If you use CorelDRAWer-Skill in your research, please cite:
+
+```bibtex
+@software{coreldrawer_skill,
+  author = {Reasonite-lab},
+  title = {CorelDRAWer-Skill: AI-powered geological diagram generation},
+  year = {2025},
+  url = {https://github.com/Reasonite-lab/CorelDRAWer-Skill},
+  version = {0.2.1}
+}
+```
+
+Or use the [CITATION.cff](CITATION.cff) file for Zotero / Endnote import.

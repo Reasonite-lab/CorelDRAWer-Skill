@@ -1119,6 +1119,11 @@ def generate_svg(data, output_path=None, style='default'):
                    f"|  比例尺 1:{ratio:,}")
     add_text(footer_grp, MARGIN_LEFT, TABLE_BOTTOM - 5, footer_text,
              size=2, fill='#666', data_cdr_type='footer-text')
+    # Citation notice
+    cite_y = TABLE_BOTTOM - 8
+    add_text(footer_grp, MARGIN_LEFT, cite_y,
+             "Generated with CorelDRAWer-Skill (github.com/Reasonite-lab/CorelDRAWer-Skill)",
+             size=1.6, fill='#bbb', data_cdr_type='footer-citation')
 
     # ═══════════════════════════════════════════
     # LAYER GROUP: cdr-legend
