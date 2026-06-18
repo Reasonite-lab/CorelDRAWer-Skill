@@ -118,7 +118,7 @@ def add_text(parent, x, y, text, size=2.8, bold=False, anchor='start', fill='#00
     t = ET.SubElement(parent, 'text')
     t.set('x', str(x))
     t.set('y', str(y))
-    t.set('font-family', 'SimHei, Heiti SC, sans-serif')
+    t.set('font-family', extra.pop('font_family', 'SimHei, Heiti SC, sans-serif'))
     t.set('font-size', str(size))
     t.set('font-weight', 'bold' if bold else 'normal')
     t.set('text-anchor', anchor)
@@ -462,19 +462,26 @@ def has_any_age(layers):
 # MAIN SVG GENERATOR
 # ============================================================================
 
-def generate_svg(data, output_path=None):
+def generate_svg(data, output_path=None, style='default'):
     """
     Generate a stratigraphic column SVG from the given data dict.
 
-    Extended fields per layer:
-    - grain: 1-6 (clay to gravel) or grain_profile: [(pos, level), ...]
-    - fossils: ["trilobite", "brachiopod", ...]
-    - structures: ["ripple", "cross_bed", ...]
-    - contact: "disconformity" | "unconformity" | "conformity"
-    - markers: [{"symbol":"star","y_offset":0.5,"label":"S1"}]
-    - age_ma: numeric age in millions of years
-    - curves: optional list of curve tracks, each with {name, data: [[depth,val],...], color, unit, fill}
+    Args:
+        data: layer data with extended fields (grain, fossils, structures, contact, age_ma, curves)
+        output_path: optional file path
+        style: 'default' or 'nature' — Nature uses muted palette, thinner lines, Arial
     """
+    # Nature style settings
+    is_nature = (style == 'nature')
+    FONT_STACK = 'Arial, Helvetica, sans-serif' if is_nature else 'SimHei, Heiti SC, sans-serif'
+    # Nature: thinner lines, muted colors, minimal grid
+    LINE_THIN = 0.08 if is_nature else 0.2
+    LINE_MED = 0.12 if is_nature else 0.35
+    LINE_THICK = 0.2 if is_nature else 0.4
+    TEXT_COLOR = '#333' if is_nature else '#000'
+    MUTED_FILL = '#f8f8f8' if is_nature else '#f5f5f5'
+    GRID_COLOR = '#e8e8e8' if is_nature else '#999'
+
     # Input validation
     if not data.get('layers'):
         raise ValueError("No layers data provided")
@@ -600,8 +607,8 @@ def generate_svg(data, output_path=None):
     })
     title_x = (MARGIN_LEFT + TABLE_RIGHT) / 2
     add_text(title_grp, title_x, TABLE_TOP + 12, title,
-             size=4.5, bold=True, anchor='middle', fill='#000',
-             data_cdr_type='title')
+             size=4.5, bold=True, anchor='middle', fill=TEXT_COLOR,
+             font_family=FONT_STACK, data_cdr_type='title')
     if location:
         add_text(title_grp, title_x, TABLE_TOP + 6, location,
                  size=2.8, bold=False, anchor='middle', fill='#555',
@@ -655,11 +662,11 @@ def generate_svg(data, output_path=None):
         if ci >= len(COL_X):
             break
         add_line(header_grp, COL_X[ci], TABLE_BOTTOM, COL_X[ci], TABLE_TOP,
-                 stroke='#999', sw=0.2, data_cdr_type='col-divider')
+                 stroke=GRID_COLOR, sw=LINE_THIN, data_cdr_type='col-divider')
 
     # Header bottom line
     add_line(header_grp, MARGIN_LEFT, headerB, TABLE_RIGHT, headerB,
-             stroke='#000', sw=0.4, data_cdr_type='header-line')
+             stroke=TEXT_COLOR, sw=LINE_THICK, data_cdr_type='header-line')
 
     # ═══════════════════════════════════════════
     # LAYER GROUP: cdr-body (main column content)
@@ -1088,14 +1095,14 @@ def generate_svg(data, output_path=None):
 
     # Bottom border
     add_line(outline_grp, MARGIN_LEFT, TABLE_BOTTOM, TABLE_RIGHT, TABLE_BOTTOM,
-             stroke='#000', sw=0.4, data_cdr_type='table-bottom')
+             stroke=TEXT_COLOR, sw=LINE_THICK, data_cdr_type='table-bottom')
     # Outer borders
     add_line(outline_grp, MARGIN_LEFT, TABLE_BOTTOM, MARGIN_LEFT, TABLE_TOP,
-             stroke='#000', sw=0.4, data_cdr_type='table-left')
+             stroke=TEXT_COLOR, sw=LINE_THICK, data_cdr_type='table-left')
     add_line(outline_grp, TABLE_RIGHT, TABLE_BOTTOM, TABLE_RIGHT, TABLE_TOP,
-             stroke='#000', sw=0.4, data_cdr_type='table-right')
+             stroke=TEXT_COLOR, sw=LINE_THICK, data_cdr_type='table-right')
     add_line(outline_grp, MARGIN_LEFT, TABLE_TOP, TABLE_RIGHT, TABLE_TOP,
-             stroke='#000', sw=0.4, data_cdr_type='table-top')
+             stroke=TEXT_COLOR, sw=LINE_THICK, data_cdr_type='table-top')
 
     # ═══════════════════════════════════════════
     # LAYER GROUP: cdr-footer
@@ -1214,12 +1221,16 @@ Output: SVG vector graphic with 7 layer groups, data-cdr-* attributes,
 
     data = DEFAULT_DATA
     output_path = None
+    style = 'default'
 
     args = sys.argv[1:]
     i = 0
     while i < len(args):
         a = args[i]
-        if a == '--json' and i + 1 < len(args):
+        if a == '--style' and i + 1 < len(args):
+            style = args[i + 1]
+            i += 2
+        elif a == '--json' and i + 1 < len(args):
             data = json.loads(args[i + 1])
             i += 2
         elif a.endswith('.json'):
@@ -1233,10 +1244,10 @@ Output: SVG vector graphic with 7 layer groups, data-cdr-* attributes,
             i += 1
 
     if output_path:
-        generate_svg(data, output_path)
-        print(f"✅ SVG saved: {output_path}")
+        generate_svg(data, output_path, style=style)
+        print(f"✅ SVG saved: {output_path}  (style: {style})")
     else:
-        svg_content = generate_svg(data)
+        svg_content = generate_svg(data, style=style)
         print(svg_content)
 
 

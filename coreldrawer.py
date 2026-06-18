@@ -21,11 +21,12 @@ def cmd_column(args):
         with open(args.input, 'r', encoding='utf-8') as f:
             data = json.load(f)
     out = args.output or 'output.svg'
+    style = getattr(args, 'style', 'default')
     try:
-        generate_svg(data, out)
+        generate_svg(data, out, style=style)
         n = len(data['layers'])
         total = sum(l['thick'] for l in data['layers'])
-        print(f"✅ Column saved: {out}  ({n} layers, {total:,.0f}m)")
+        print(f"✅ Column saved: {out}  ({n} layers, {total:,.0f}m, style: {style})")
     except (ValueError, KeyError) as e:
         print(f"❌ {e}", file=sys.stderr)
         sys.exit(1)
@@ -89,6 +90,8 @@ def main():
     p = sub.add_parser('column', help='Stratigraphic column')
     p.add_argument('input', nargs='?', help='JSON input')
     p.add_argument('output', nargs='?', help='SVG output')
+    p.add_argument('--style', choices=['default', 'nature'], default='default',
+                   help='Visual style (default or nature)')
 
     p = sub.add_parser('xsection', help='Cross-section')
     p.add_argument('input', nargs='?')
