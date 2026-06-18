@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <!-- Layer gradients -->
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e589a0"/>
+      <stop offset="100%" stop-color="#c16a80"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#adcca3"/>
+      <stop offset="100%" stop-color="#8aab7e"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a9b2a0"/>
+      <stop offset="100%" stop-color="#87907e"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3b3b3"/>
+      <stop offset="100%" stop-color="#8a8a8a"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#595450"/>
+      <stop offset="100%" stop-color="#3a3632"/>
+    </linearGradient>
+    <!-- Drawing pen gradient -->
+    <linearGradient id="penGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#1a252f"/>
+    </linearGradient>
+    <!-- Accent gradient -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="50%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#f39c12"/>
+    </linearGradient>
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- ===== Icon: Stylized Stratigraphic Column + Drawing Pen ===== -->
+  <g transform="translate(30, 20)" filter="url(#shadow)">
+    <!-- Stratified layers forming a stylized column -->
+    <!-- Layer 5: dark base -->
+    <rect x="0" y="120" width="80" height="28" rx="3" fill="url(#g5)"/>
+    <!-- Layer 5 pattern: thin white lines for coal-like texture -->
+    <line x1="5" y1="129" x2="75" y2="129" stroke="#fff" stroke-width="0.8" opacity="0.5"/>
+    <line x1="5" y1="138" x2="75" y2="138" stroke="#fff" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Layer 4: gray limestone -->
+    <rect x="0" y="88" width="80" height="32" rx="2" fill="url(#g4)"/>
+    <!-- Brick pattern hint -->
+    <rect x="8" y="92" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="26" y="92" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="44" y="92" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="62" y="92" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="17" y="100" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="35" y="100" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="53" y="100" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="8" y="108" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="26" y="108" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+    <rect x="44" y="108" width="14" height="6" rx="1" fill="none" stroke="#777" stroke-width="0.4" opacity="0.5"/>
+
+    <!-- Layer 3: green conglomerate -->
+    <rect x="0" y="64" width="80" height="24" rx="2" fill="url(#g2)"/>
+    <!-- Conglomerate circles -->
+    <circle cx="20" cy="72" r="4" fill="none" stroke="#5a7a4e" stroke-width="0.7" opacity="0.6"/>
+    <circle cx="40" cy="78" r="3" fill="none" stroke="#5a7a4e" stroke-width="0.7" opacity="0.6"/>
+    <circle cx="60" cy="71" r="3.5" fill="none" stroke="#5a7a4e" stroke-width="0.7" opacity="0.6"/>
+    <circle cx="15" cy="82" r="2" fill="#5a7a4e" opacity="0.4"/>
+    <circle cx="50" cy="83" r="2.5" fill="#5a7a4e" opacity="0.4"/>
+    <circle cx="70" cy="80" r="2" fill="#5a7a4e" opacity="0.4"/>
+
+    <!-- Layer 2: dolomite rhombic -->
+    <rect x="0" y="38" width="80" height="26" rx="2" fill="url(#g3)"/>
+    <!-- Rhombic cross-hatch -->
+    <line x1="0" y1="38" x2="26" y2="64" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="13" y1="38" x2="39" y2="64" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="26" y1="38" x2="52" y2="64" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="39" y1="38" x2="65" y2="64" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="52" y1="38" x2="78" y2="64" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="65" y1="38" x2="80" y2="53" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="64" x2="26" y2="38" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="13" y1="64" x2="39" y2="38" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="26" y1="64" x2="52" y2="38" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="39" y1="64" x2="65" y2="38" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+    <line x1="52" y1="64" x2="78" y2="38" stroke="#6a7a60" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Layer 1: red sandstone -->
+    <rect x="0" y="8" width="80" height="30" rx="2" fill="url(#g1)"/>
+    <!-- Sandstone dots -->
+    <circle cx="8" cy="16" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="14" cy="14" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="20" cy="18" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="26" cy="15" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="32" cy="20" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="38" cy="16" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="44" cy="19" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="50" cy="14" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="56" cy="17" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="62" cy="21" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="68" cy="15" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="74" cy="18" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="11" cy="26" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="17" cy="30" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="23" cy="27" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="29" cy="32" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="35" cy="26" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="41" cy="33" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="47" cy="28" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="53" cy="31" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="59" cy="25" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="65" cy="29" r="0.6" fill="#8a3040" opacity="0.5"/>
+    <circle cx="71" cy="27" r="0.6" fill="#8a3040" opacity="0.5"/>
+
+    <!-- Fossil symbol on top layer -->
+    <text x="55" y="29" font-size="14" fill="#8a3040" opacity="0.6">🦞</text>
+
+    <!-- Drawing pen/compass intersecting the column -->
+    <g transform="translate(75, -10) rotate(55)">
+      <!-- Pen body -->
+      <rect x="-2" y="0" width="4" height="80" rx="2" fill="url(#penGrad)"/>
+      <!-- Pen tip -->
+      <polygon points="-2,80 2,80 0,95" fill="#1a252f"/>
+      <!-- Pen nib detail -->
+      <line x1="0" y1="80" x2="0" y2="92" stroke="#e74c3c" stroke-width="0.5"/>
+      <!-- Pen cap band -->
+      <rect x="-2.5" y="0" width="5" height="6" rx="1" fill="#e74c3c"/>
+      <rect x="-2.5" y="10" width="5" height="3" rx="1" fill="#e67e22"/>
+    </g>
+
+    <!-- Unconformity marker on bottom of layer 1 -->
+    <polyline points="0,38 10,33 20,38 30,33 40,38 50,33 60,38 70,33 80,38"
+              fill="none" stroke="#e74c3c" stroke-width="0.8" opacity="0.8"/>
+  </g>
+
+  <!-- ===== Text Mark ===== -->
+  <g transform="translate(140, 50)">
+    <!-- Main title -->
+    <text x="0" y="45" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="42" font-weight="900" letter-spacing="-1" fill="#2c3e50">
+      Corel<tspan fill="url(#accent)">DRAW</tspan>er
+    </text>
+    <!-- Subtitle -->
+    <text x="2" y="72" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="500" letter-spacing="4" fill="#7f8c8d">
+      GEOLOGICAL DIAGRAM SKILL
+    </text>
+    <!-- Tagline -->
+    <text x="2" y="95" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="11" font-weight="400" letter-spacing="1" fill="#95a5a6">
+      Describe it. We draw it. Drag into CorelDRAW.
+    </text>
+
+    <!-- Decorative accent line -->
+    <line x1="0" y1="58" x2="120" y2="58" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== Bottom decorative strata line ===== -->
+  <g transform="translate(0, 185)" opacity="0.15">
+    <rect x="0" y="0" width="80" height="4" fill="#e589a0" rx="1"/>
+    <rect x="75" y="4" width="90" height="3" fill="#adcca3" rx="1"/>
+    <rect x="160" y="7" width="110" height="2" fill="#a9b2a0" rx="1"/>
+    <rect x="265" y="9" width="140" height="3" fill="#b3b3b3" rx="1"/>
+    <rect x="400" y="12" width="200" height="4" fill="#595450" rx="1"/>
+  </g>
+</svg>

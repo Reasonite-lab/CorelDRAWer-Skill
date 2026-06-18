@@ -1,5 +1,7 @@
 # CorelDRAWer-Skill 🎨
 
+![Logo](logo.svg)
+
 > AI-powered geological diagram generation — describe what you want, get production-ready SVG vector graphics
 
 [中文文档](README_zh.md) | [Skill Docs](.reasonix/skills/coreldraw-vba/SKILL.md)
