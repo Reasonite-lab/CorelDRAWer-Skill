@@ -37,6 +37,7 @@ AGENTS.md                                  ← This file
 README.md                                  ← English documentation
 README_zh.md                               ← Chinese documentation
 CHANGELOG.md                               ← Version history
+CONTRIBUTING.md                            ← Contribution guide
 LICENSE                                    ← MIT License
 ```
 
