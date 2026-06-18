@@ -1,0 +1,8 @@
+erathem,system,series,formation,symbol,thick,descr,c,m,y,k,pattern,grain,fossils,contact,age_ma
+Cenozoic,Quaternary,Holocene,Alluvium,Qh,15,Yellow-brown sandy gravel,0,10,25,10,conglo,6,,,
+Mesozoic,Cretaceous,Upper,Chalk,K₂c,85,White chalk with flint nodules,0,0,5,15,lime,2,foraminifera,,85
+Mesozoic,Cretaceous,Lower,Greensand,K₁g,45,Green glauconitic sandstone,20,0,15,25,sand,4,,,120
+Mesozoic,Jurassic,Upper,Kimmeridge Clay,J₃k,120,Dark grey mudstone,5,0,10,40,mud,1,ammonite,,155
+Mesozoic,Jurassic,Middle,Corallian Lst,J₂c,35,Oolitic limestone,0,0,0,30,lime,3,,ooid,165
+Paleozoic,Permian,Upper,Zechstein,P₂z,55,Evaporite with halite,0,0,10,5,evaporite,2,,,255
+Paleozoic,Carboniferous,Upper,Coal Measures,C₃c,180,Sandstone-shale-coal cycles,0,15,30,20,sand,4,plant,cross_bed,300
