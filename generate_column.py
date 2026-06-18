@@ -473,6 +473,7 @@ def generate_svg(data, output_path=None):
     - contact: "disconformity" | "unconformity" | "conformity"
     - markers: [{"symbol":"star","y_offset":0.5,"label":"S1"}]
     - age_ma: numeric age in millions of years
+    - curves: optional list of curve tracks, each with {name, data: [[depth,val],...], color, unit, fill}
     """
     # Input validation
     if not data.get('layers'):
@@ -488,11 +489,11 @@ def generate_svg(data, output_path=None):
 
     n_layers = len(layers)
 
-    total_thick = sum(l['thick'] for l in layers)
-    n_layers = len(layers)
-
     draw_h = TABLE_TOP - TABLE_BOTTOM - HEADER_H
     scale_f = draw_h / total_thick if total_thick > 0 else 1
+
+    # Curve tracks (Nature-style right-side panels)
+    curves = data.get('curves', [])
 
     # ============================================
     # ADAPTIVE LAYOUT — show/hide columns dynamically
@@ -544,6 +545,20 @@ def generate_svg(data, output_path=None):
             cur_x += w_actual
 
     TABLE_RIGHT = cur_x
+
+    # Curve track columns (Nature-style right-side panels)
+    CURVE_START_X = TABLE_RIGHT
+    curve_tracks = []  # [(name, start_x, width, color, unit)]
+    if curves:
+        curve_w = 18  # width per curve track
+        curve_gap = 3  # gap between tracks
+        cx = CURVE_START_X + 2
+        for ci, cv in enumerate(curves):
+            curve_tracks.append((cv.get('name', f'Track {ci+1}'), cx, curve_w,
+                                cv.get('color', '#333'), cv.get('unit', ''),
+                                cv.get('data', []), cv.get('fill', False)))
+            cx += curve_w + curve_gap
+        TABLE_RIGHT = cx + 8  # extend table right edge
 
     # Page dimensions
     page_w = TABLE_RIGHT + 48
@@ -964,6 +979,102 @@ def generate_svg(data, output_path=None):
     for start, end, topY, bottomY, val in system_groups:
         add_line(body_grp, MARGIN_LEFT + COL_W[1], topY, TABLE_RIGHT, topY,
                  stroke='#555', sw=0.22, data_cdr_type='system-boundary')
+
+    # ═══════════════════════════════════════════
+    # CURVE TRACKS (Nature-style right-side panels)
+    # ═══════════════════════════════════════════
+    for ct_name, ct_x, ct_w, ct_color, ct_unit, ct_data, ct_fill in curve_tracks:
+        ct_right = ct_x + ct_w
+
+        # Track background
+        add_rect(body_grp, ct_x, TABLE_BOTTOM, ct_w, draw_h + HEADER_H,
+                 fill='#fafafa', stroke='#ddd', sw=0.15, data_cdr_type='curve-bg')
+
+        # Horizontal grid lines (match scale ticks)
+        tick_val = 0
+        while tick_val <= total_thick:
+            gy = headerB - tick_val * scale_f
+            if gy >= TABLE_BOTTOM:
+                add_line(body_grp, ct_x, gy, ct_right, gy,
+                         stroke='#eee', sw=0.08, data_cdr_type='curve-grid')
+            tick_val += tick_interval
+
+        # Vertical grid line at center
+        add_line(body_grp, ct_x + ct_w / 2, headerB, ct_x + ct_w / 2, TABLE_BOTTOM,
+                 stroke='#ddd', sw=0.1, data_cdr_type='curve-vgrid')
+
+        # Track label at top (in header area)
+        add_text(body_grp, ct_x + ct_w / 2, headerB - 3, ct_name,
+                 size=2.2, bold=True, anchor='middle', fill='#333',
+                 data_cdr_type='curve-label')
+        if ct_unit:
+            add_text(body_grp, ct_x + ct_w / 2, headerB - 0.5, ct_unit,
+                     size=1.8, anchor='middle', fill='#999',
+                     data_cdr_type='curve-unit')
+
+        # Draw curve data
+        if ct_data and len(ct_data) >= 2:
+            # Calculate x-range for auto-scaling
+            vals = [p[1] for p in ct_data]
+            vmin, vmax = min(vals), max(vals)
+            if vmin == vmax:
+                vmin -= 1
+                vmax += 1
+            margin_x = ct_w * 0.15
+            usable_w = ct_w - 2 * margin_x
+
+            def curve_x(v):
+                return ct_x + margin_x + (v - vmin) / (vmax - vmin) * usable_w
+
+            def curve_y(d):
+                return headerB - d * scale_f
+
+            # Build path
+            path_parts = []
+            for pi, (depth, val) in enumerate(ct_data):
+                cx_val = curve_x(val)
+                cy_val = curve_y(depth)
+                if cy_val < TABLE_BOTTOM:
+                    cy_val = TABLE_BOTTOM
+                if cy_val > headerB:
+                    cy_val = headerB
+                if pi == 0:
+                    path_parts.append(f'M {cx_val:.1f},{cy_val:.1f}')
+                else:
+                    path_parts.append(f'L {cx_val:.1f},{cy_val:.1f}')
+
+            d_str = ' '.join(path_parts)
+            ET.SubElement(body_grp, 'path', {
+                'd': d_str,
+                'fill': 'none',
+                'stroke': ct_color,
+                'stroke-width': '0.3',
+                'stroke-linejoin': 'round',
+                'data-cdr-type': 'curve-line',
+                'data-cdr-name': ct_name
+            })
+
+            # Optional fill
+            if ct_fill:
+                # Close path at bottom for fill
+                fill_parts = list(path_parts)
+                last_x = curve_x(ct_data[-1][1])
+                first_x = curve_x(ct_data[0][1])
+                fill_parts.append(f'L {last_x:.1f},{headerB:.1f}')
+                fill_parts.append(f'L {first_x:.1f},{headerB:.1f} Z')
+                ET.SubElement(body_grp, 'path', {
+                    'd': ' '.join(fill_parts),
+                    'fill': ct_color,
+                    'opacity': '0.08',
+                    'stroke': 'none',
+                    'data-cdr-type': 'curve-fill'
+                })
+
+            # Min/max labels
+            add_text(body_grp, ct_x + 1, headerB + 3, f'{vmax:.0f}',
+                     size=1.6, anchor='start', fill='#999', data_cdr_type='curve-range')
+            add_text(body_grp, ct_x + 1, TABLE_BOTTOM - 1, f'{vmin:.0f}',
+                     size=1.6, anchor='start', fill='#999', data_cdr_type='curve-range')
 
     # ═══════════════════════════════════════════
     # LAYER GROUP: cdr-outlines

@@ -1,0 +1,29 @@
+{
+  "_ref": "São Luís–Grajaú Basin, Brazilian Equatorial Margin (Ramos et al., 2025, Commun Earth Environ)",
+  "title": "São Luís–Grajaú Basin — Aptian Stratigraphy",
+  "location": "Brazilian Equatorial Margin",
+  "layers": [
+    {"erathem":"Mesozoic","system":"Cretaceous","series":"Upper Aptian","formation":"Upper Carbonate","symbol":"K₁u","thick":85,"descr":"Grey limestone with dolomite interbeds","c":0,"m":0,"y":0,"k":25,"pattern":"lime","grain":2,"fossils":["foraminifera"],"age_ma":113},
+    {"erathem":"Mesozoic","system":"Cretaceous","series":"Upper Aptian","formation":"Marine Shale","symbol":"K₁m","thick":120,"descr":"Dark grey marine shale with TOC-rich intervals","c":0,"m":5,"y":15,"k":55,"pattern":"shale","grain":1,"fossils":["foraminifera","spore"],"age_ma":115},
+    {"erathem":"Mesozoic","system":"Cretaceous","series":"Mid Aptian","formation":"Evaporite-Anhydrite","symbol":"K₁e","thick":45,"descr":"White-grey anhydrite with thin halite layers","c":0,"m":0,"y":5,"k":5,"pattern":"dolo","grain":2,"age_ma":116.4,"contact":"conformity","markers":[{"symbol":"star","y_offset":0.5,"label":"Marine incursion ~116.4 Ma"}]},
+    {"erathem":"Mesozoic","system":"Cretaceous","series":"Lower Aptian","formation":"Pre-Salt Siliciclastic","symbol":"K₁p","thick":160,"descr":"Red-brown fluvial-lacustrine sandstone with conglomerate lenses","c":0,"m":30,"y":40,"k":15,"pattern":"sand","grain":5,"structures":["cross_bed"],"age_ma":118},
+    {"erathem":"Mesozoic","system":"Cretaceous","series":"Barremian","formation":"Rift Basin Fill","symbol":"K₁r","thick":210,"descr":"Variegated conglomerate and coarse sandstone — syn-rift deposits","c":20,"m":10,"y":30,"k":25,"pattern":"conglo","grain":6,"age_ma":125,"contact":"unconformity"},
+    {"erathem":"Precambrian","system":"Proterozoic","series":"—","formation":"Crystalline Basement","symbol":"Pt","thick":80,"descr":"Granite-gneiss basement complex","c":0,"m":20,"y":10,"k":35,"pattern":"granite","grain":6,"age_ma":540}
+  ],
+  "curves": [
+    {
+      "name": "GR",
+      "unit": "API",
+      "color": "#2e7d32",
+      "fill": true,
+      "data": [[0,85],[40,72],[80,95],[120,110],[160,125],[200,135],[240,120],[280,105],[320,80],[360,70],[400,95],[440,135],[480,150],[520,130],[560,110],[600,85],[640,75],[680,78],[700,80]]
+    },
+    {
+      "name": "MS",
+      "unit": "10⁻⁵ SI",
+      "color": "#1565c0",
+      "fill": false,
+      "data": [[0,15],[50,22],[100,35],[150,42],[200,38],[250,28],[300,18],[350,25],[400,45],[450,55],[500,40],[550,30],[600,22],[650,18],[700,20]]
+    }
+  ]
+}
