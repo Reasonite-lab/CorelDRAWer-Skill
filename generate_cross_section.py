@@ -499,23 +499,48 @@ def generate_cross_section(data, output_path=None):
             bh_layers.append((sx, top_y, bottom_y, layer))
         bh_boundaries.append(bh_layers)
 
-    # Correlate layers across boreholes by formation name
-    # Use the first borehole's layer order as reference
-    ref_layers = bh_boundaries[0]
-    all_formation_names = [l[3]['formation'] for l in ref_layers]
+    # Correlate layers across boreholes — try name matching first, fallback to position
+    # Build a correlation map: for each unique formation name, collect (borehole_idx, layer_idx)
+    from collections import OrderedDict
+    fm_correlation = OrderedDict()  # formation_name -> [(bh_idx, layer_idx, top_y, bot_y)]
+    
+    for bh_idx, bh_layers in enumerate(bh_boundaries):
+        for li, (sx, top_y, bottom_y, layer) in enumerate(bh_layers):
+            fm = layer['formation']
+            if fm not in fm_correlation:
+                fm_correlation[fm] = []
+            fm_correlation[fm].append((bh_idx, li, top_y, bottom_y, layer))
+    
+    # If name-matching fails (different names in different BHs), fallback to positional
+    if len(fm_correlation) < len(bh_boundaries[0]):
+        # Positional fallback
+        fm_correlation = OrderedDict()
+        for li, ref_layer in enumerate(bh_boundaries[0]):
+            fm = ref_layer[3]['formation']
+            fm_correlation[fm] = []
+            for bh_idx, bh_layers in enumerate(bh_boundaries):
+                if li < len(bh_layers):
+                    sx, top_y, bottom_y, layer = bh_layers[li]
+                    fm_correlation[fm].append((bh_idx, li, top_y, bottom_y, layer))
+    
+    # Draw each correlated formation as a polygon band
+    for fm_name, entries in fm_correlation.items():
+        if len(entries) < 2:
+            continue  # need at least 2 boreholes to draw a band
+    # Draw each correlated formation as a polygon band
+    for fm_name, entries in fm_correlation.items():
+        if len(entries) < 2:
+            continue  # need at least 2 boreholes to draw a band
 
-    # Draw each correlated layer as a polygon band between boreholes
-    for li, fm_name in enumerate(all_formation_names):
-        # Collect top/bottom points across all boreholes for this formation
+        # Collect top/bottom points sorted by X
+        sorted_entries = sorted(entries, key=lambda e: e[1])  # sort by bh index
         top_points = []
         bot_points = []
-        for bh_idx, bh_layers in enumerate(bh_boundaries):
-            # Find matching layer by index position (fallback if name doesn't match)
-            if li < len(bh_layers):
-                sx, top_y, bottom_y, layer = bh_layers[li]
-                top_points.append((sx, top_y))
-                bot_points.append((sx, bottom_y))
-
+        for bh_idx, li, top_y, bottom_y, layer in sorted_entries:
+            sx = bh_boundaries[bh_idx][li][0]  # get SVG x from bh_boundaries
+            top_points.append((sx, top_y))
+            bot_points.append((sx, bottom_y))
+        
         if len(top_points) >= 2:
             # Build polygon: top line L->R, then bottom line R->L
             pts = []
@@ -524,7 +549,7 @@ def generate_cross_section(data, output_path=None):
             for sx, sy in reversed(bot_points):
                 pts.append(f'{sx:.1f},{sy:.1f}')
 
-            layer = ref_layers[li][3]
+            layer = sorted_entries[0][4]  # layer dict from first entry
             c, m, y, k = layer['c'], layer['m'], layer['y'], layer['k']
             fill_color = cmyk_fill(c, m, y, k)
             pattern_name = layer.get('pattern', 'pure')
