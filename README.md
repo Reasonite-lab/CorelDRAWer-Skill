@@ -123,9 +123,7 @@ Columns automatically show/hide based on available data:
 | 10 | Thickness (m) | ✅ | |
 | 11 | Description | ✅ | |
 
-## 18 Standard Lithology Patterns (GB/T 958)
-
-Based on China University of Geosciences (Wuhan) Zigui field base standards:
+## 29 Standard Lithology Patterns (GB/T 958 + extensions)
 
 | Code | Rock Type | Pattern | Code | Rock Type | Pattern |
 |------|-----------|---------|------|-----------|---------|
@@ -137,7 +135,13 @@ Based on China University of Geosciences (Wuhan) Zigui field base standards:
 | `shale` | Shale | Lines + ticks | `basalt` | Basalt | V-pattern diagonal |
 | `carbShale` | Carbonaceous shale | White dashes | `schist` | Schist | Wavy lines |
 | `lime` | Limestone | Brick grid | `gneiss` | Gneiss | Thick/thin bands |
-| `pure` | Solid color | No pattern | `marble` | Marble | Fine grid |
+| `marble` | Marble | Fine grid | `slate` | Slate | Fine parallel lines |
+| `breccia` | Breccia | Angular fragments | `quartzite` | Quartzite | Mosaic/sutured |
+| `tuff` | Tuff | Fine dots + dashes | `evaporite` | Evaporite | Banded + crystals |
+| `andesite` | Andesite | Porphyritic | `ophiolite` | Ophiolite | Layered mafic |
+| `rhyolite` | Rhyolite | Flow banding | `phosphorite` | Phosphorite | Nodular |
+| `gabbro` | Gabbro | Coarse dark | `serpentinite` | Serpentinite | Mesh/reticulate |
+| `pure` | Solid color | No pattern | | | |
 
 ## Fossil Icons (15 types)
 

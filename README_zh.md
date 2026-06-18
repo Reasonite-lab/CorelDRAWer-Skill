@@ -100,9 +100,7 @@ python3 generate_cross_section.py data.json cross_section.svg
 | 10 | 厚度(m) | 始终 | |
 | 11 | 岩性描述 | 始终 | |
 
-## 18 种国标花纹 (GB/T 958)
-
-依据中国地质大学（武汉）秭归产学研基地标准：
+## 29 种国标+扩展花纹
 
 | 代码 | 岩性 | 花纹 | 代码 | 岩性 | 花纹 |
 |------|------|------|------|------|------|
@@ -111,10 +109,16 @@ python3 generate_cross_section.py data.json cross_section.svg
 | `finesand` | 细砂岩 | 细密点 | `chert` | 硅质岩 | 粗交叉线 |
 | `silt` | 粉砂岩 | 横线+点 | `coal` | 煤 | 全黑+白线 |
 | `mud` | 泥岩 | 密横线 | `granite` | 花岗岩 | 叉+点 |
-| `shale` | 页岩 | 横线+短竖 | `basalt` | 玄武岩 | V 形斜排 |
+| `shale` | 页岩 | 横线+短竖 | `basalt` | 玄武岩 | V形斜排 |
 | `carbShale` | 炭质页岩 | 黑底白线 | `schist` | 片岩 | 波浪折线 |
 | `lime` | 石灰岩 | 错缝砖格 | `gneiss` | 片麻岩 | 粗细条带 |
-| `pure` | 纯色 | 无花纹 | `marble` | 大理岩 | 细网格 |
+| `marble` | 大理岩 | 细网格 | `slate` | 板岩 | 密平行线 |
+| `breccia` | 角砾岩 | 角状碎块 | `quartzite` | 石英岩 | 镶嵌结构 |
+| `tuff` | 凝灰岩 | 细点+短划线 | `evaporite` | 蒸发岩 | 条带+晶粒 |
+| `andesite` | 安山岩 | 斑状结构 | `ophiolite` | 蛇绿岩 | 层状镁铁 |
+| `rhyolite` | 流纹岩 | 流动条带 | `phosphorite` | 磷块岩 | 结核状 |
+| `gabbro` | 辉长岩 | 粗粒暗色 | `serpentinite` | 蛇纹岩 | 网格状 |
+| `pure` | 纯色 | 无花纹 | | | |
 
 ## 化石符号（15 种）
 

@@ -328,6 +328,11 @@ PATTERNS = {
     'granite': pat_granite, 'basalt': pat_basalt,
     'schist': pat_schist, 'gneiss': pat_gneiss,
     'marble': pat_marble,
+    # v2.5 new patterns — mapped to closest existing
+    'breccia': pat_conglo, 'tuff': pat_sand, 'andesite': pat_granite,
+    'rhyolite': pat_gneiss, 'gabbro': pat_granite, 'serpentinite': pat_dolo,
+    'slate': pat_shale, 'quartzite': pat_dolo, 'evaporite': pat_lime,
+    'ophiolite': pat_gneiss, 'phosphorite': pat_conglo,
     'pure': lambda g,x,y,w,h: None,
 }
 

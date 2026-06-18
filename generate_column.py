@@ -384,25 +384,187 @@ def pattern_marble(g, lx, by, cw, ch):
         add_line(g, lx, y, lx + cw, y, stroke='#ddd', sw=0.08)
         y += sp
 
+# === NEW PATTERNS v2.5 ===
+
+def pattern_breccia(g, lx, by, cw, ch):
+    """Breccia — angular fragments"""
+    import random
+    rng = random.Random(77)
+    sp = PAT_SPACING * 1.5
+    for _ in range(int(cw * ch / (sp * sp) * 1.2)):
+        x = lx + rng.random() * cw
+        y = by + rng.random() * ch
+        s = sp * 0.6
+        pts = [(x-s, y-s*0.6), (x+s*0.3, y-s), (x+s, y+s*0.3),
+               (x+s*0.5, y+s), (x-s*0.7, y+s*0.5)]
+        pts_str = ' '.join(f'{px:.1f},{py:.1f}' for px, py in pts)
+        ET.SubElement(g, 'polygon', {'points': pts_str, 'fill': 'none',
+                     'stroke': '#555', 'stroke-width': '0.2'})
+
+def pattern_tuff(g, lx, by, cw, ch):
+    """Tuff — fine dots with short dashes"""
+    sp = PAT_SPACING * 0.6
+    x = lx + sp/2
+    while x < lx + cw:
+        y = by + sp/2
+        while y < by + ch:
+            add_circle(g, x, y, 0.2, fill='#777')
+            y += sp
+        x += sp
+    # Short dashes every few rows
+    y = by + sp * 1.5
+    while y < by + ch:
+        x = lx + sp
+        while x < lx + cw:
+            add_line(g, x, y, x + sp * 0.8, y, stroke='#999', sw=0.15)
+            x += sp * 3
+        y += sp * 3
+
+def pattern_andesite(g, lx, by, cw, ch):
+    """Andesite — porphyritic texture (large crystals in fine matrix)"""
+    sp = PAT_SPACING * 0.5
+    x = lx + sp/2
+    while x < lx + cw:
+        y = by + sp/2
+        while y < by + ch:
+            add_circle(g, x, y, 0.15, fill='#999')
+            y += sp
+        x += sp
+    # Larger phenocrysts
+    import random
+    rng = random.Random(42)
+    for _ in range(int(cw * ch / 200)):
+        px = lx + rng.random() * cw
+        py = by + rng.random() * ch
+        add_rect(g, px - 1, py - 0.6, 2, 1.2, fill='none', stroke='#444', sw=0.25)
+
+def pattern_rhyolite(g, lx, by, cw, ch):
+    """Rhyolite — flow banding"""
+    sp = PAT_SPACING * 1.2
+    y = by + sp * 0.2
+    band = 0
+    while y < by + ch:
+        sw_val = 0.35 if band % 3 == 0 else 0.12
+        offset = (band % 4 - 2) * 0.8
+        add_line(g, lx + 0.3 + offset, y, lx + cw - 0.3 + offset, y,
+                 stroke='#555' if band % 3 == 0 else '#bbb', sw=sw_val)
+        y += sp * (0.4 if band % 3 == 0 else 0.25)
+        band += 1
+
+def pattern_gabbro(g, lx, by, cw, ch):
+    """Gabbro — coarse dark texture"""
+    import random
+    rng = random.Random(99)
+    sp = PAT_SPACING * 1.2
+    for _ in range(int(cw * ch / (sp * sp) * 2)):
+        x = lx + rng.random() * cw
+        y = by + rng.random() * ch
+        s = sp * 0.35
+        add_rect(g, x - s, y - s * 0.7, s * 2, s * 1.4, fill='#333', stroke='none', sw=0)
+    for _ in range(int(cw * ch / (sp * sp) * 0.5)):
+        x = lx + rng.random() * cw
+        y = by + rng.random() * ch
+        add_circle(g, x, y, 0.5, fill='#555')
+
+def pattern_serpentinite(g, lx, by, cw, ch):
+    """Serpentinite — mesh/reticulate texture"""
+    sp = PAT_SPACING * 1.8
+    x = lx + sp * 0.5
+    while x < lx + cw:
+        y = by + sp * 0.5
+        while y < by + ch:
+            s = sp * 0.6
+            add_line(g, x - s, y, x + s, y, stroke='#6b8e6b', sw=0.2)
+            add_line(g, x, y - s, x, y + s, stroke='#6b8e6b', sw=0.2)
+            add_rect(g, x - s, y - s, s * 2, s * 2, fill='none', stroke='#8fbc8f', sw=0.1)
+            y += sp
+        x += sp
+
+def pattern_slate(g, lx, by, cw, ch):
+    """Slate — fine parallel cleavage lines"""
+    sp = PAT_SPACING * 0.5
+    y = by + sp * 0.3
+    while y < by + ch:
+        add_line(g, lx + 0.3, y, lx + cw - 0.3, y, stroke='#666', sw=0.25)
+        y += sp
+
+def pattern_quartzite(g, lx, by, cw, ch):
+    """Quartzite — mosaic/sutured texture"""
+    sp = PAT_SPACING * 1.5
+    row = 0
+    y = by + sp * 0.3
+    while y < by + ch:
+        offset = (sp * 0.75) if row % 2 else 0
+        x = lx + offset + sp * 0.3
+        while x < lx + cw:
+            # Irregular hexagon-like shapes
+            d = sp * 0.6
+            pts = f'{x-d/2:.1f},{y-d*0.3:.1f} {x+d/2:.1f},{y-d*0.3:.1f} {x+d*0.7:.1f},{y+d*0.2:.1f} {x+d/2:.1f},{y+d*0.7:.1f} {x-d/2:.1f},{y+d*0.7:.1f} {x-d*0.7:.1f},{y+d*0.2:.1f}'
+            ET.SubElement(g, 'polygon', {'points': pts, 'fill': 'none',
+                         'stroke': '#bbb', 'stroke-width': '0.1'})
+            x += sp
+        y += sp * 0.85
+        row += 1
+
+def pattern_evaporite(g, lx, by, cw, ch):
+    """Evaporite — horizontal bands with small crystals"""
+    sp = PAT_SPACING * 0.8
+    y = by + sp * 0.3
+    band = 0
+    while y < by + ch:
+        sw_val = 0.4 if band % 2 == 0 else 0.1
+        add_line(g, lx + 0.5, y, lx + cw - 0.5, y, stroke='#999', sw=sw_val)
+        if band % 2 == 0:
+            x = lx + sp
+            while x < lx + cw:
+                add_rect(g, x - 0.3, y - 0.8, 0.6, 0.6, fill='none', stroke='#aaa', sw=0.1)
+                x += sp * 2
+        y += sp
+        band += 1
+
+def pattern_ophiolite(g, lx, by, cw, ch):
+    """Ophiolite — layered mafic/ultramafic"""
+    sp = PAT_SPACING * 1.0
+    y = by + sp * 0.2
+    band = 0
+    while y < by + ch:
+        if band % 4 == 0:
+            add_rect(g, lx, y, cw, sp * 2, fill='#3a3a3a', stroke='none', sw=0)
+            y += sp * 0.5
+        elif band % 4 == 2:
+            add_rect(g, lx, y, cw, sp * 0.8, fill='#5a5a5a', stroke='none', sw=0)
+        else:
+            add_rect(g, lx, y, cw, sp * 0.5, fill='#7a8a70', stroke='none', sw=0)
+        y += sp * 0.7
+        band += 1
+
+def pattern_phosphorite(g, lx, by, cw, ch):
+    """Phosphorite — nodular texture"""
+    sp = PAT_SPACING * 1.3
+    import random
+    rng = random.Random(55)
+    for _ in range(int(cw * ch / (sp * sp) * 1.5)):
+        x = lx + rng.random() * cw
+        y = by + rng.random() * ch
+        r = rng.random() * sp * 0.4 + sp * 0.2
+        add_circle(g, x, y, r, fill='none', stroke='#666', sw=0.2)
+        add_circle(g, x, y, r * 0.3, fill='#888')
+
 # Pattern dispatch table
 PATTERNS = {
-    'conglo': pattern_conglo,
-    'sand': pattern_sand,
-    'finesand': pattern_finesand,
-    'silt': pattern_silt,
-    'mud': pattern_mud,
-    'shale': pattern_shale,
-    'carbShale': pattern_carbShale,
-    'lime': pattern_lime,
-    'dolo': pattern_dolo,
-    'doloLime': pattern_doloLime,
-    'chert': pattern_chert,
-    'coal': pattern_coal,
-    'granite': pattern_granite,
-    'basalt': pattern_basalt,
-    'schist': pattern_schist,
-    'gneiss': pattern_gneiss,
-    'marble': pattern_marble,
+    'conglo': pattern_conglo, 'sand': pattern_sand, 'finesand': pattern_finesand,
+    'silt': pattern_silt, 'mud': pattern_mud, 'shale': pattern_shale,
+    'carbShale': pattern_carbShale, 'lime': pattern_lime, 'dolo': pattern_dolo,
+    'doloLime': pattern_doloLime, 'chert': pattern_chert, 'coal': pattern_coal,
+    'granite': pattern_granite, 'basalt': pattern_basalt, 'schist': pattern_schist,
+    'gneiss': pattern_gneiss, 'marble': pattern_marble,
+    # New v2.5
+    'breccia': pattern_breccia, 'tuff': pattern_tuff, 'andesite': pattern_andesite,
+    'rhyolite': pattern_rhyolite, 'gabbro': pattern_gabbro,
+    'serpentinite': pattern_serpentinite, 'slate': pattern_slate,
+    'quartzite': pattern_quartzite, 'evaporite': pattern_evaporite,
+    'ophiolite': pattern_ophiolite, 'phosphorite': pattern_phosphorite,
+    'pure': lambda g,x,y,w,h: None,
 }
 
 # ============================================================================
