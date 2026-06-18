@@ -1086,6 +1086,21 @@ def generate_svg(data, output_path=None):
 # ============================================================================
 
 def main():
+    if '--help' in sys.argv or '-h' in sys.argv:
+        print("""
+generate_column.py — Stratigraphic Column SVG Generator v2.0
+
+Usage:
+  python3 generate_column.py                        use built-in demo
+  python3 generate_column.py data.json output.svg   generate from JSON
+  python3 generate_column.py --json '{"title":"...","layers":[...]}' output.svg
+
+Output: SVG vector graphic with 7 layer groups, data-cdr-* attributes,
+        11-column adaptive layout, 18 lithology patterns (GB/T 958),
+        15 fossil types, 9 structure symbols.
+""")
+        return
+
     data = DEFAULT_DATA
     output_path = None
 

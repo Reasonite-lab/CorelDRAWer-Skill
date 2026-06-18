@@ -217,14 +217,117 @@ def pat_mud(g, lx, by, w, h):
         add_line(g, lx + 0.3, y, lx + w - 0.3, y, stroke='#555', sw=0.2)
         y += sp
 
+def pat_coal(g, lx, by, w, h):
+    """Coal — solid black with white bedding lines"""
+    add_line(g, lx, by + h/3, lx + w, by + h/3, stroke='#fff', sw=0.4)
+    add_line(g, lx, by + h*2/3, lx + w, by + h*2/3, stroke='#fff', sw=0.4)
+
+def pat_granite(g, lx, by, w, h):
+    """Granite — crosses + dense dots"""
+    import random
+    rng = random.Random(42)
+    sp = PAT_SPACING * 0.8
+    cnt = int(w * h / (sp * sp) * 0.4)
+    for _ in range(cnt):
+        x = lx + rng.random() * w
+        y = by + rng.random() * h
+        gs = sp * 0.3
+        add_line(g, x - gs, y - gs, x + gs, y + gs, stroke='#555', sw=0.15)
+        add_line(g, x - gs, y + gs, x + gs, y - gs, stroke='#555', sw=0.15)
+    x = lx + sp * 0.5
+    while x < lx + w:
+        y = by + sp * 0.5
+        while y < by + h:
+            add_circle(g, x, y, 0.25, fill='#555')
+            y += sp
+        x += sp
+
+def pat_basalt(g, lx, by, w, h):
+    """Basalt — V-pattern diagonal"""
+    sp = PAT_SPACING * 0.9
+    y = by + sp * 0.5
+    while y < by + h:
+        x = lx + sp * 0.3
+        while x < lx + w:
+            vh = sp * 0.35
+            add_line(g, x, y - vh, x + vh, y, stroke='#555', sw=0.18)
+            add_line(g, x + vh, y, x + vh * 2, y - vh, stroke='#555', sw=0.18)
+            x += sp * 1.5
+        y += sp
+
+def pat_schist(g, lx, by, w, h):
+    """Schist — wavy folds"""
+    sp = PAT_SPACING * 0.9
+    dx = lx - w
+    while dx < lx + w * 2:
+        mx = dx + h * 0.5
+        my = by + h * 0.5
+        add_line(g, dx, by, mx, my, stroke='#666', sw=0.2)
+        add_line(g, mx, my, dx + h, by + h, stroke='#666', sw=0.2)
+        dx += sp
+
+def pat_gneiss(g, lx, by, w, h):
+    """Gneiss — alternating thick/thin bands"""
+    sp = PAT_SPACING * 0.8
+    y = by + sp * 0.2
+    band = True
+    while y < by + h:
+        sw_val = 0.3 if band else 0.1
+        col = '#333' if band else '#bbb'
+        add_line(g, lx + 0.3, y, lx + w - 0.3, y, stroke=col, sw=sw_val)
+        band = not band
+        y += sp * (0.6 if band else 0.3)
+
+def pat_marble(g, lx, by, w, h):
+    """Marble — fine grid"""
+    sp = PAT_SPACING * 1.2
+    x = lx + sp * 0.5
+    while x < lx + w:
+        add_line(g, x, by, x, by + h, stroke='#ddd', sw=0.07)
+        x += sp
+    y = by + sp * 0.5
+    while y < by + h:
+        add_line(g, lx, y, lx + w, y, stroke='#ddd', sw=0.07)
+        y += sp
+
+def pat_chert(g, lx, by, w, h):
+    """Chert — bold cross-hatch"""
+    sp = PAT_SPACING * 1.5
+    dx = lx - (w + h)
+    while dx < lx + w + h:
+        add_line(g, dx, by, dx + h, by + h, stroke='#555', sw=0.22)
+        dx += sp
+    dx = lx - (w + h)
+    while dx < lx + w + h:
+        add_line(g, dx, by + h, dx + h, by, stroke='#555', sw=0.22)
+        dx += sp
+
+def pat_doloLime(g, lx, by, w, h):
+    """Dolomitic limestone — brick grid + rhombic"""
+    sp = PAT_SPACING * 1.5
+    bw, bh = sp * 2, sp * 0.7
+    row, y = 0, by + 0.3
+    while y < by + h:
+        x = lx + 0.3 + (bw/2 if row % 2 else 0)
+        while x < lx + w:
+            add_rect(g, x, y, bw-0.4, bh, fill='none', stroke='#bbb', sw=0.1)
+            x += bw
+        y += bh + 0.25
+        row += 1
+    dx = lx - (w + h)
+    while dx < lx + w + h:
+        add_line(g, dx, by, dx + h, by + h, stroke='#ccc', sw=0.08)
+        dx += sp * 2
+
 PATTERNS = {
     'sand': pat_sand, 'conglo': pat_conglo, 'dolo': pat_dolo,
     'lime': pat_lime, 'shale': pat_shale, 'silt': pat_silt,
     'carbShale': pat_carbShale, 'mud': pat_mud,
-    'finesand': pat_sand, 'doloLime': pat_dolo,
-    'chert': pat_dolo, 'coal': lambda g,x,y,w,h: None,
-    'granite': pat_sand, 'basalt': pat_sand,
-    'schist': pat_mud, 'gneiss': pat_mud, 'marble': pat_dolo,
+    'finesand': pat_sand, 'doloLime': pat_doloLime,
+    'chert': pat_chert, 'coal': pat_coal,
+    'granite': pat_granite, 'basalt': pat_basalt,
+    'schist': pat_schist, 'gneiss': pat_gneiss,
+    'marble': pat_marble,
     'pure': lambda g,x,y,w,h: None,
 }
 
@@ -609,6 +712,21 @@ def generate_cross_section(data, output_path=None):
 # ============================================================================
 
 def main():
+    if '--help' in sys.argv or '-h' in sys.argv:
+        print("""
+generate_cross_section.py — Geological Cross-Section SVG Generator v1.0
+
+Usage:
+  python3 generate_cross_section.py                          use built-in demo
+  python3 generate_cross_section.py data.json output.svg     generate from JSON
+  python3 generate_cross_section.py --json '{"title":"...","boreholes":[...]}' out.svg
+
+Output: SVG vector graphic with 5 layer groups, data-cdr-* attributes,
+        surface profile, layer correlation bands, fault rendering,
+        dual scale bars, 18 lithology patterns, legend.
+""")
+        return
+
     data = DEMO_DATA
     output_path = None
 
