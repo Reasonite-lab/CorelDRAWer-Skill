@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-CorelDRAW COM 自动化 v2.0 —— 直接驱动 CorelDRAW 绘制地层柱状图
+CorelDRAW COM Automation v2.0 — directly control CorelDRAW to draw stratigraphic columns
 ══════════════════════════════════════════════════════════
-要求：Windows + CorelDRAW X4+ + Python + pywin32
-安装：pip install pywin32
-用法：
-  python3 cdr_com_auto.py data.json        # 在当前文档中绘制
-  python3 cdr_com_auto.py --com data.json  # 强制 COM 模式
-  python3 cdr_com_auto.py --vba data.json  # 生成 VBA 代码
-  python3 cdr_com_auto.py --svg data.json  # 生成 SVG (委托 generate_column.py)
-  python3 cdr_com_auto.py                  # 使用内置示例数据
+Requires: Windows + CorelDRAW X4+ + Python + pywin32
+Install: pip install pywin32
+Usage:
+  python3 cdr_com_auto.py data.json        # draw in current document
+  python3 cdr_com_auto.py --com data.json  # force COM mode
+  python3 cdr_com_auto.py --vba data.json  # generate VBA code
+  python3 cdr_com_auto.py --svg data.json  # generate SVG (delegates to generate_column.py)
+  python3 cdr_com_auto.py                  # use built-in demo data
 ══════════════════════════════════════════════════════════
 """
 

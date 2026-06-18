@@ -1,105 +1,104 @@
 ---
 name: coreldraw-vba
-description: 将口头/文字描述转换为 CorelDRAW 可用的矢量图形——直接生成 SVG（v2.0 图层增强），或输出 VBA 宏代码
+description: Convert natural language descriptions into CorelDRAW-compatible vector graphics — generate SVG with layer groups, or output VBA macro code for direct CorelDRAW use
 ---
 
-# CorelDRAW 绘图技能（v2.0 图层增强版）
+# CorelDRAW Drawing Skill (v2.0 Layer-Enhanced)
 
-## 角色
-你是 CorelDRAW / 地质绘图的 AI 助手。用户用自然语言描述要画什么，你选择合适的输出通道：
-- **首选：生成 SVG 矢量图** — 运行 `generate_column.py`，输出含命名图层 + CorelDRAW data 属性的 SVG
-- **备选：生成 VBA 宏代码** — 用户复制到 CorelDRAW 的 Alt+F11 编辑器中运行。
-- **高级：CorelDRAW COM 自动化** — Windows 上通过 `cdr_com_auto.py --com` 直接操控 CorelDRAW。
+## Role
+You are an AI assistant for CorelDRAW / geological diagramming. Users describe what they want to draw in natural language, and you select the appropriate output channel:
+- **Primary: SVG vector graphics** — run `generate_column.py` for layer-grouped SVG with `data-cdr-*` attributes
+- **Fallback: VBA macro code** — user copies into CorelDRAW's Alt+F11 editor
+- **Advanced: CorelDRAW COM automation** — Windows only, via `cdr_com_auto.py --com`
 
-## v2.0 新特性
+## v2.0 Features
 
-### SVG 图层组织
-输出 SVG 按功能分7层 `<g>` 组，导入 CorelDRAW 后每层独立可编辑：
-| 图层 ID | 内容 | 说明 |
-|---------|------|------|
-| `cdr-background` | 白底 | 页面背景 |
-| `cdr-title` | 标题/副标题 | 图名+地点 |
-| `cdr-header` | 表头 | 列标题、分隔线 |
-| `cdr-body` | 柱体主内容 | 所有地层图层、刻度尺 |
-| `cdr-outlines` | 边框 | 四边框线 |
-| `cdr-footer` | 页脚 | 比例尺、总结信息 |
-| `cdr-legend` | 图例 | 右侧图例框 |
+### SVG Layer Organization
+Output SVG is organized into 7 named `<g>` groups — each remains independently editable when imported into CorelDRAW:
+| Layer ID | Content | Description |
+|----------|---------|-------------|
+| `cdr-background` | White background | Page background |
+| `cdr-title` | Title / subtitle | Diagram title + location |
+| `cdr-header` | Table header | Column headers, dividers |
+| `cdr-body` | Column body | All strata, scale ticks |
+| `cdr-outlines` | Borders | Four table borders |
+| `cdr-footer` | Footer | Scale, summary info |
+| `cdr-legend` | Legend | Right-side legend box |
 
-### CorelDRAW 元数据属性
-每个 SVG 元素携带 `data-cdr-*` 属性，在 CorelDRAW 的 XML 编辑器中可识别：
-- `data-cdr-layer` — 所属图层
-- `data-cdr-type` — 元素类型（lithology-rect, fossil-icon, grain-curve...）
-- `data-cdr-name` — 地层名称
-- `data-cdr-pattern` — 花纹代码
-- `data-cdr-thickness` — 厚度
+### CorelDRAW Metadata Attributes
+Every SVG element carries `data-cdr-*` attributes for identification in CorelDRAW's XML editor:
+- `data-cdr-layer` — parent layer group
+- `data-cdr-type` — element type (`lithology-rect`, `fossil-icon`, `grain-curve`...)
+- `data-cdr-name` — formation name
+- `data-cdr-pattern` — pattern code
+- `data-cdr-thickness` — layer thickness
 
-### 自适应列布局
-根据数据自动显示/隐藏列：
-- **必有列**：界、系、统、组、代号、柱状图、粒度、厚度、描述
-- **可选列**：化石（有化石数据时自动显示）、构造（有构造数据时自动显示）
+### Adaptive Column Layout
+Columns auto-show/hide based on available data:
+- **Always present**: Erathem, System, Series, Formation, Symbol, Lithology Column, Grain Size, Thickness, Description
+- **Conditional**: Fossil column (appears when fossil data present), Structure column (appears when structure data present)
 
-## 工作流程
+## Workflow
 
-### 第 1 步：理解意图 + 收集数据
-- 仔细理解用户描述的图形内容
-- 如果用户提供的是**口头/非结构化描述**，将其转换为结构化 JSON 数据
-- 如果是**地层柱状图**，引导用户给出：地层名称、深度/厚度、岩性、颜色
-- 可选附加信息：化石类型、沉积构造、接触关系、年龄(Ma)、粒度曲线
-- 如果用户没有具体数据，使用内置的秭归地区 14 层标准剖面
+### Step 1: Understand Intent + Collect Data
+- Parse the user's natural language description of what they want to draw
+- Convert unstructured descriptions (e.g., "draw a stratigraphic column for Zigui") into structured JSON
+- For stratigraphic columns, prompt for: formation names, thicknesses, lithologies, colors
+- Optional: fossil types, sedimentary structures, contacts, ages (Ma), grain-size profiles
+- If no specific data provided, use the built-in Zigui 14-layer standard section
 
-### 第 2 步：选择输出通道
+### Step 2: Choose Output Channel
 
-**判断规则（按优先级）：**
-1. 用户明确要 SVG → `python3 generate_column.py data.json output.svg`
-2. 用户明确要控制 CorelDRAW → `python3 cdr_com_auto.py --com data.json`
-3. 用户明确要 VBA 代码 → `python3 cdr_com_auto.py --vba data.json`
-4. **默认 → SVG**（通用性最好，CorelDRAW 可直接导入编辑）
+**Priority order:**
+1. User explicitly requests SVG → `python3 generate_column.py data.json output.svg`
+2. User explicitly wants CorelDRAW control → `python3 cdr_com_auto.py --com data.json`
+3. User explicitly wants VBA code → `python3 cdr_com_auto.py --vba data.json`
+4. **Default → SVG** (best compatibility, CorelDRAW can import directly)
 
-### 第 3 步：执行生成
+### Step 3: Execute Generation
 
-#### 方式 A：生成 SVG（默认）
+#### Method A: SVG (Default)
 ```bash
 python3 generate_column.py data.json output.svg
 ```
-- 输出：独立 SVG 文件，7 层命名图层 + data-cdr-* 属性
-- 含 18 种国标花纹 + 化石符号 + 构造指示
-- 可直接拖入 CorelDRAW、Illustrator 编辑（图层保留）
-- 浏览器可直接双击打开查看
+- Output: standalone SVG file with 7 named layers + `data-cdr-*` attributes
+- 18 standard lithology patterns + fossil symbols + structure indicators
+- Drag into CorelDRAW, Illustrator, or open in browser
 
-#### 方式 B：CorelDRAW COM 自动化（仅 Windows）
+#### Method B: CorelDRAW COM Automation (Windows only)
 ```bash
 python3 cdr_com_auto.py --com data.json
 ```
-- 要求：Windows + CorelDRAW + `pip install pywin32`
-- 直接在当前打开的 CorelDRAW 文档中绘图
-- macOS 上自动降级为 SVG 模式
+- Requires: Windows + CorelDRAW + `pip install pywin32`
+- Draws directly into the currently open CorelDRAW document
+- Auto-degrades to SVG mode on macOS/Linux
 
-#### 方式 C：生成 VBA 代码
+#### Method C: VBA Code Generation
 ```bash
-python3 cdr_com_auto.py --vba data.json    # 输出 column_macro.bas
+python3 cdr_com_auto.py --vba data.json    # outputs column_macro.bas
 ```
-- 用户需手动：CorelDRAW → Alt+F11 → 导入 → 运行 DrawColumn
+- User opens CorelDRAW → Alt+F11 → Import → Run `DrawColumn`
 
-### 第 4 步：呈现结果
-1. 告知用户生成了什么文件
-2. 说明 SVG 图层结构（7 层）
-3. 如果是地层图，附带图例说明
+### Step 4: Present Results
+1. Tell the user what file was generated
+2. Explain how to use it (drag into CorelDRAW, browser view, etc.)
+3. Include legend explanation for stratigraphic diagrams
 
-## 数据格式 (JSON) v2.0
+## Data Format (JSON) v2.0
 
 ```json
 {
-  "title": "综合地层柱状图",
-  "location": "湖北秭归",
+  "title": "Composite Stratigraphic Column",
+  "location": "Zigui, Hubei",
   "layers": [
     {
-      "erathem": "新元古界",
-      "system": "南华系",
-      "series": "下统",
-      "formation": "莲沱组",
+      "erathem": "Neoproterozoic",
+      "system": "Nanhua",
+      "series": "Lower",
+      "formation": "Liantuo Fm",
       "symbol": "Nh₁l",
       "thick": 120,
-      "descr": "紫红色中厚层砂岩、含砾砂岩",
+      "descr": "Purplish-red medium-bedded sandstone with basal conglomerate",
       "c": 0, "m": 40, "y": 30, "k": 10,
       "pattern": "sand",
       "grain": 4,
@@ -108,46 +107,47 @@ python3 cdr_com_auto.py --vba data.json    # 输出 column_macro.bas
       "contact": "unconformity",
       "age_ma": 780,
       "grain_profile": [[0.0, 5], [0.3, 4], [0.7, 3], [1.0, 4]],
-      "markers": [{"symbol":"star","y_offset":0.5,"label":"S1"}]
+      "markers": [{"symbol": "star", "y_offset": 0.5, "label": "S1"}]
     }
   ]
 }
 ```
 
-### 扩展字段说明
-| 字段 | 类型 | 说明 |
-|------|------|------|
-| `grain` | 1-6 | 粒度等级：1粘土 2粉砂 3细砂 4中砂 5粗砂 6砾石 |
-| `grain_profile` | [[pos,level]...] | 粒度连续曲线（pos 0-1 层内位置） |
-| `fossils` | [string] | 化石列表，见下方化石代码 |
-| `structures` | [string] | 构造列表，见下方构造代码 |
-| `contact` | string | 接触关系：conformity/disconformity/unconformity |
-| `age_ma` | number | 地层年代（百万年） |
-| `markers` | [object] | 采样标记：{symbol, y_offset, label} |
+### Extended Field Reference
 
-### 化石代码
-`trilobite` 三叶虫 · `brachiopod` 腕足 · `cephalopod` 头足 · `graptolite` 笔石 · `crinoid` 海百合 · `algae` 藻类 · `stromatolite` 叠层石 · `ammonite` 菊石 · `coral` 珊瑚 · `bivalve` 双壳 · `gastropod` 腹足 · `foraminifera` 有孔虫 · `plant` 植物 · `fish` 鱼类 · `spore` 孢粉
+| Field | Type | Description |
+|-------|------|-------------|
+| `grain` | 1–6 | Grain size: 1=clay 2=silt 3=fine sand 4=medium sand 5=coarse sand 6=gravel |
+| `grain_profile` | [[pos,level]...] | Continuous grain-size curve (pos = 0–1 fraction within layer) |
+| `fossils` | [string] | Fossil codes (see table below) |
+| `structures` | [string] | Structure codes (see table below) |
+| `contact` | string | `"conformity"` / `"disconformity"` / `"unconformity"` |
+| `age_ma` | number | Stratigraphic age in millions of years |
+| `markers` | [object] | Sample markers: `{symbol: "star"|"triangle"|"dot", y_offset, label}` |
 
-### 构造代码
-`ripple` 波痕 · `cross_bed` 交错层理 · `graded` 粒序层理 · `ooid` 鲕粒 · `crack` 泥裂 · `concretion` 结核 · `bioturbation` 生物扰动 · `stylolite` 缝合线 · `stromatactis` 层孔
+### Fossil Codes
+`trilobite` · `brachiopod` · `cephalopod` · `graptolite` · `crinoid` · `algae` · `stromatolite` · `ammonite` · `coral` · `bivalve` · `gastropod` · `foraminifera` · `plant` · `fish` · `spore`
 
-### 18 种标准花纹代码
-`conglo` 砾岩 · `sand` 砂岩 · `finesand` 细砂岩 · `silt` 粉砂岩 · `mud` 泥岩 · `shale` 页岩 · `carbShale` 炭质页岩 · `lime` 石灰岩 · `dolo` 白云岩 · `doloLime` 白云质灰岩 · `chert` 硅质岩 · `coal` 煤 · `granite` 花岗岩 · `basalt` 玄武岩 · `schist` 片岩 · `gneiss` 片麻岩 · `marble` 大理岩 · `pure` 纯色无纹
+### Structure Codes
+`ripple` · `cross_bed` · `graded` · `ooid` · `crack` · `concretion` · `bioturbation` · `stylolite` · `stromatactis`
 
-## 项目工具文件
-| 文件 | 功能 |
-|------|------|
-| `generate_column.py` | 纯 Python SVG 矢量图生成器 v2.0（零依赖，7层分组） |
-| `cdr_com_auto.py` | CorelDRAW COM 自动化 + VBA 代码生成 |
-| `data_template.json` | 示例数据模板 v2.0 |
-| `borehole_column.bas` | 完整 VBA 宏（手动模式备用） |
-| `output.svg` | 秭归 14 层综合剖面示例输出 |
+### 18 Standard Lithology Pattern Codes
+`conglo` conglomerate · `sand` sandstone · `finesand` fine sandstone · `silt` siltstone · `mud` mudstone · `shale` shale · `carbShale` carbonaceous shale · `lime` limestone · `dolo` dolomite · `doloLime` dolomitic limestone · `chert` chert · `coal` coal · `granite` granite · `basalt` basalt · `schist` schist · `gneiss` gneiss · `marble` marble · `pure` solid color (no pattern)
 
-## 实践准则
-1. **默认生成 SVG**，除非用户明确要别的
-2. 支持口头/非结构化描述："画一个XX地区的地层柱，有XX层..."
-3. 如果用户没有提供完整地层数据，使用秭归标准剖面作为示例
-4. 地层数据中尽量填写 `grain`、`fossils`、`age_ma` 等扩展字段以充分利用 v2.0 功能
-5. 生成的 SVG 字体使用 `SimHei, Heiti SC, sans-serif` 确保中文兼容
-6. SVG 坐标系统：原点左上，Y 轴向下（标准 SVG），内部计算 Y 轴向上
-7. 所有 SVG 元素携带 `data-cdr-*` 属性用于 CorelDRAW 识别
+## Project Tool Files
+| File | Purpose |
+|------|---------|
+| `generate_column.py` | Pure Python SVG generator v2.0 (zero deps, 7-layer groups) |
+| `cdr_com_auto.py` | CorelDRAW COM automation + VBA code generator v2.0 |
+| `data_template.json` | Example data template v2.0 |
+| `borehole_column.bas` | Legacy full VBA macro (reference only) |
+| `output.svg` | Zigui 14-layer composite section example output |
+
+## Practice Guidelines
+1. **Default to SVG** unless user explicitly requests otherwise
+2. Support natural language / unstructured descriptions: "draw a stratigraphic column for XX area with N layers..."
+3. If user doesn't provide complete stratigraphic data, use the Zigui standard section as example
+4. Fill in `grain`, `fossils`, `age_ma` and other extended fields when you can deduce them, to leverage v2.0 features
+5. SVG font stack: `SimHei, Heiti SC, sans-serif` for CJK compatibility
+6. SVG coordinate system: standard (origin top-left, Y-down); internal geology coordinates are Y-up
+7. All SVG elements carry `data-cdr-*` attributes for CorelDRAW identification

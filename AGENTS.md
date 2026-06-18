@@ -1,33 +1,53 @@
-# CorelDRAW VBA Skills Project
+# CorelDRAWer-Skill Project
 
-一个存放 CorelDRAW VBA 宏生成技能的 Reasonix 项目。通过自然语言描述生成 CorelDRAW VBA 宏代码，在 CorelDRAW 中运行即可自动绘图。
+A Reasonix skill project for generating CorelDRAW-compatible geological diagrams. Describe what you want in natural language and get production-ready SVG vector graphics — or VBA macros / COM automation for direct CorelDRAW integration.
 
 ## Project
 
-- **用途**：本项目本身不含代码，仅托管 Reasonix 技能包
-- **核心技能**：`coreldraw-vba` — 将口头/文字描述转为 CorelDRAW VBA 宏
-- **技能位置**：`.reasonix/skills/coreldraw-vba/SKILL.md`
+- **Purpose**: Hosts the `coreldraw-vba` Reasonix skill for AI-assisted geological diagram generation
+- **Core Skill**: `coreldraw-vba` — converts natural language descriptions into stratigraphic column SVGs, VBA macros, or CorelDRAW COM drawings
+- **Skill Location**: `.reasonix/skills/coreldraw-vba/SKILL.md`
 
 ## Commands
 
-本项目无构建/测试命令。唯一操作：
+No build/test commands. The only operation is:
 
-- `/coreldraw-vba` — 调用绘图技能（或在对话中自然描述需求即可自动触发）
+- `/coreldraw-vba` — invoke the drawing skill (or describe your diagram naturally in conversation)
+
+## Output Channels
+
+| Channel | Command | Platform |
+|---------|---------|----------|
+| SVG (default) | `python3 generate_column.py data.json output.svg` | Any |
+| VBA Macro | `python3 cdr_com_auto.py --vba data.json` | Any |
+| COM Automation | `python3 cdr_com_auto.py --com data.json` | Windows only |
 
 ## Architecture
 
 ```
-.reasonix/skills/coreldraw-vba/SKILL.md   ← 绘图技能主体
-AGENTS.md                                  ← 本文件
+.reasonix/skills/coreldraw-vba/SKILL.md   ← Skill definition (v2.0)
+generate_column.py                         ← SVG generator (zero deps)
+cdr_com_auto.py                            ← VBA/COM generator
+data_template.json                         ← Data format template
+borehole_column.bas                        ← Legacy VBA macro (reference)
+AGENTS.md                                  ← This file
+README.md                                  ← English documentation
+README_zh.md                               ← Chinese documentation
 ```
 
 ## Conventions
 
-- 所有 CorelDRAW VBA 代码生成工作使用 `coreldraw-vba` 技能模板
-- 生成代码默认单位：毫米（mm）
-- 默认页面：A4
-- 始终包含撤销分组（`BeginCommandGroup/EndCommandGroup`）和错误处理
+- Default output: SVG with 7 named layer groups and `data-cdr-*` attributes for CorelDRAW
+- All generated code includes undo grouping (`BeginCommandGroup`/`EndCommandGroup`) and error handling
+- Default units: millimeters (mm)
+- Default page: A4 landscape
+- Font: SimHei with Heiti SC / sans-serif fallback (Chinese-compatible)
+- Coordinate system: SVG standard (origin top-left, Y-down), internally Y-up for geology
+- 18 standard lithology patterns per GB/T 958
+- Zero external dependencies for SVG generation
 
 ## Notes
 
-（留空待补充）
+- The `borehole_column.bas` file is a legacy 688-line VBA macro kept for reference; the `cdr_com_auto.py` VBA generator is the recommended replacement (v2.0, 11 columns)
+- Fossil and structure columns are adaptive — they only appear when the input data includes them
+- On macOS/Linux, COM mode automatically falls back to VBA code generation

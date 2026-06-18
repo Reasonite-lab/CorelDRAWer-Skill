@@ -1,105 +1,186 @@
 # CorelDRAWer-Skill 🎨
 
-> 用自然语言生成 CorelDRAW 地质图 — AI 驱动的矢量绘图技能
+> AI-powered geological diagram generation — describe what you want, get production-ready SVG vector graphics
 
-## 这是什么
+[中文文档](README_zh.md) | [Skill Docs](.reasonix/skills/coreldraw-vba/SKILL.md)
 
-一个 **Reasonix 技能**，能将口头/文字描述直接输出为：
-- **SVG 矢量图**（默认）—— 拖入 CorelDRAW 即可编辑，浏览器也能看
-- **CorelDRAW COM 自动化**（Windows）—— 直接操控 CorelDRAW 画图
-- **VBA 宏代码**（传统）—— 复制到 CorelDRAW 编辑器中运行
+## What is this?
 
-## 三种使用方式
+A **Reasonix skill** that turns natural-language descriptions into:
+- **SVG vector graphics** (default) — drag into CorelDRAW, Illustrator, or view in browser
+- **CorelDRAW COM automation** (Windows) — directly control CorelDRAW to draw
+- **VBA macro code** (legacy) — copy-paste into CorelDRAW's Alt+F11 editor
 
-### 🥇 方式一：自然对话 → SVG（推荐）
+## Quick Start
 
-直接在 Reasonix 中说：
+### 🥇 Natural Language → SVG (Recommended)
 
-> "画一张秭归地区综合地层柱状图"
-> "画一个钻孔柱，包含 6 层：0-3m 填土、3-8m 粘土、8-20m 砂岩..."
+Just describe what you need in the Reasonix chat:
 
-AI 会自动：
-1. 理解你的需求，生成结构化数据
-2. 运行 `generate_column.py` 生成 SVG
-3. 输出可直接打开的 SVG 文件
+> *"Draw a stratigraphic column for the Zigui area, Hubei — 14 layers from Nanhua to Ordovician"*  
+> *"Generate a borehole log with 6 layers: 0-3m fill, 3-8m clay, 8-20m sandstone..."*
 
-**SVG 文件可以：**
-- 拖入 **CorelDRAW** 编辑（完美导入，所有矢量元素保留）
-- 拖入 **Illustrator / Inkscape** 编辑
-- 双击在**浏览器**中查看
-- 嵌入 Word / PPT 报告
+The AI will:
+1. Parse your description into structured JSON data
+2. Run `generate_column.py` to produce the SVG
+3. Deliver a ready-to-use SVG file
 
-### 🥈 方式二：命令行调用
+**SVG files can be:**
+- Dragged into **CorelDRAW** for editing (all vector elements preserved)
+- Opened in **Illustrator / Inkscape**
+- Viewed in any **browser**
+- Embedded in Word / PowerPoint reports
+
+### 🥈 Command Line
 
 ```bash
-# 生成 SVG
+# Generate SVG
 python3 generate_column.py data.json output.svg
 
-# 生成 VBA 代码
+# Generate VBA macro
 python3 cdr_com_auto.py --vba data.json
 
-# Windows 上直接画到 CorelDRAW
+# Windows: draw directly into CorelDRAW
 python3 cdr_com_auto.py --com data.json
 ```
 
-### 🥉 方式三：Copy VBA 代码
+### 🥉 VBA Code (Legacy)
 
-AI 也可以生成 VBA 代码（老方式），用户在 CorelDRAW 中 Alt+F11 → 粘贴 → 运行。
+The AI can also generate VBA code. In CorelDRAW: Alt+F11 → Import → Run `DrawColumn`.
 
-## 文件说明
+## v2.0 Features
 
-| 文件 | 用途 |
-|------|------|
-| `generate_column.py` | SVG 矢量图生成器（零依赖，纯 Python 标准库）|
-| `cdr_com_auto.py` | CorelDRAW COM 自动控制 / VBA 代码生成 |
-| `data_template.json` | 地层数据模板，改这个就能换地区 |
-| `borehole_column.bas` | 完整 VBA 宏（备用，688 行）|
-| `output.svg` | 生成的示例 SVG（秭归地区标准剖面）|
-| `.reasonix/skills/coreldraw-vba/SKILL.md` | 技能定义文件 |
+### SVG Layer Groups
+Output SVG is organized into 7 named layers — each editable independently in CorelDRAW:
 
-## 18 种国家标准花纹（GB/T 958）
+| Layer ID | Content |
+|----------|---------|
+| `cdr-background` | White background |
+| `cdr-title` | Title & subtitle |
+| `cdr-header` | Column headers & dividers |
+| `cdr-body` | All stratigraphic layers, scale ticks |
+| `cdr-outlines` | Table borders |
+| `cdr-footer` | Scale bar, summary info |
+| `cdr-legend` | Lithology legend (right side) |
 
-依据中国地质大学（武汉）秭归产学研基地《常用地层图例花纹和符号》：
+### CorelDRAW Metadata
+Every SVG element carries `data-cdr-*` attributes for identification in CorelDRAW's XML editor:
 
-| 代码 | 岩性 | 花纹 | 代码 | 岩性 | 花纹 |
-|------|------|------|------|------|------|
-| `conglo` | 砾岩 | 大圆+散点 | `dolo` | 白云岩 | 菱格交叉线 |
-| `sand` | 砂岩 | 密点 | `doloLime` | 白云质灰岩 | 砖格+菱格 |
-| `finesand` | 细砂岩 | 细密点 | `chert` | 硅质岩 | 粗交叉线 |
-| `silt` | 粉砂岩 | 横线+点 | `coal` | 煤 | 全黑+白线 |
-| `mud` | 泥岩 | 密横线 | `granite` | 花岗岩 | 叉+点 |
-| `shale` | 页岩 | 横线+短竖 | `basalt` | 玄武岩 | V 形斜排 |
-| `carbShale` | 炭质页岩 | 黑底白线 | `schist` | 片岩 | 波浪折线 |
-| `lime` | 石灰岩 | 错缝砖格 | `gneiss` | 片麻岩 | 粗细条带 |
-| `pure` | 纯色 | 无花纹 | `marble` | 大理岩 | 细网格 |
+- `data-cdr-layer` — parent layer group
+- `data-cdr-type` — element type (`lithology-rect`, `fossil-icon`, `grain-curve`...)
+- `data-cdr-name` — formation name
+- `data-cdr-pattern` — pattern code
+- `data-cdr-thickness` — layer thickness
 
-## 示例效果
+### Adaptive Column Layout (11 columns)
+Columns automatically show/hide based on available data:
 
-运行以下命令立即生成秭归地区标准剖面：
+| # | Column | Always? | Notes |
+|---|--------|---------|-------|
+| 1 | Erathem (界) | ✅ | Merged cells |
+| 2 | System (系) | ✅ | Merged cells |
+| 3 | Series (统) | ✅ | Merged cells |
+| 4 | Formation (组) | ✅ | |
+| 5 | Symbol (代号) | ✅ | |
+| 6 | Fossils | ⚡ | Shows when fossil data present |
+| 7 | Lithology Column | ✅ | 18 standard patterns |
+| 8 | Grain Size | ✅ | Triangle + curve + label |
+| 9 | Structures | ⚡ | Shows when structure data present |
+| 10 | Thickness (m) | ✅ | |
+| 11 | Description | ✅ | |
 
-```bash
-python3 generate_column.py
-# 输出: output.svg（14 层，总厚 ~1780m，比例尺自动计算）
-```
+## 18 Standard Lithology Patterns (GB/T 958)
 
-## JSON 数据格式
+Based on China University of Geosciences (Wuhan) Zigui field base standards:
+
+| Code | Rock Type | Pattern | Code | Rock Type | Pattern |
+|------|-----------|---------|------|-----------|---------|
+| `conglo` | Conglomerate | Circles + dots | `dolo` | Dolomite | Rhombic cross-hatch |
+| `sand` | Sandstone | Dense dots | `doloLime` | Dolomitic limestone | Brick + rhombic |
+| `finesand` | Fine sandstone | Fine dots | `chert` | Chert | Bold cross-hatch |
+| `silt` | Siltstone | Lines + dots | `coal` | Coal | Black + white lines |
+| `mud` | Mudstone | Dense lines | `granite` | Granite | Crosses + dots |
+| `shale` | Shale | Lines + ticks | `basalt` | Basalt | V-pattern diagonal |
+| `carbShale` | Carbonaceous shale | White dashes | `schist` | Schist | Wavy lines |
+| `lime` | Limestone | Brick grid | `gneiss` | Gneiss | Thick/thin bands |
+| `pure` | Solid color | No pattern | `marble` | Marble | Fine grid |
+
+## Fossil Icons (15 types)
+
+`trilobite` · `brachiopod` · `cephalopod` · `graptolite` · `crinoid` · `algae` · `stromatolite` · `ammonite` · `coral` · `bivalve` · `gastropod` · `foraminifera` · `plant` · `fish` · `spore`
+
+## Structure Symbols (9 types)
+
+`ripple` · `cross_bed` · `graded` · `ooid` · `crack` · `concretion` · `bioturbation` · `stylolite` · `stromatactis`
+
+## JSON Data Format v2.0
 
 ```json
 {
-  "title": "综合地层柱状图",
-  "location": "湖北秭归",
+  "title": "Composite Stratigraphic Column",
+  "location": "Zigui, Hubei",
   "layers": [
     {
-      "erathem": "新元古界",
-      "system": "南华系", 
-      "series": "下统",
-      "formation": "莲沱组",
+      "erathem": "Neoproterozoic",
+      "system": "Nanhua",
+      "series": "Lower",
+      "formation": "Liantuo Fm",
       "symbol": "Nh₁l",
       "thick": 120,
-      "descr": "紫红色中厚层砂岩",
+      "descr": "Purplish-red medium-bedded sandstone with basal conglomerate",
       "c": 0, "m": 40, "y": 30, "k": 10,
-      "pattern": "sand"
+      "pattern": "sand",
+      "grain": 4,
+      "fossils": [],
+      "structures": [],
+      "contact": "unconformity",
+      "age_ma": 780,
+      "grain_profile": [[0.0, 5], [0.3, 4], [0.7, 3], [1.0, 4]],
+      "markers": [{"symbol": "star", "y_offset": 0.5, "label": "S1"}]
     }
   ]
 }
 ```
+
+### Extended Fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `grain` | 1–6 | Grain size: 1=clay 2=silt 3=fine sand 4=medium sand 5=coarse sand 6=gravel |
+| `grain_profile` | [[pos,level]...] | Continuous grain-size curve (pos 0–1 fraction within layer) |
+| `fossils` | [string] | Fossil codes (see list above) |
+| `structures` | [string] | Structure codes (see list above) |
+| `contact` | string | `"conformity"` / `"disconformity"` / `"unconformity"` |
+| `age_ma` | number | Stratigraphic age in millions of years |
+| `markers` | [object] | Sample markers: `{symbol, y_offset, label}` |
+
+## Example Output
+
+Run immediately to generate the Zigui standard section:
+
+```bash
+python3 generate_column.py
+# Output: output.svg (14 layers, ~1,780m total, auto-calculated scale)
+```
+
+## File Reference
+
+| File | Purpose |
+|------|---------|
+| `generate_column.py` | SVG vector generator (zero dependencies, pure Python stdlib) |
+| `cdr_com_auto.py` | CorelDRAW COM automation / VBA code generator |
+| `data_template.json` | Stratigraphic data template — edit to switch regions |
+| `borehole_column.bas` | Full VBA macro (legacy, 688 lines) |
+| `output.svg` | Example SVG output (Zigui 14-layer standard section) |
+| `.reasonix/skills/coreldraw-vba/SKILL.md` | Skill definition document |
+| `README_zh.md` | Chinese documentation |
+
+## Requirements
+
+- **SVG generation**: Python 3.6+ (no dependencies)
+- **CorelDRAW COM**: Windows + CorelDRAW X4+ + `pip install pywin32`
+- **VBA**: CorelDRAW (any platform), Alt+F11 editor
+
+## License
+
+MIT

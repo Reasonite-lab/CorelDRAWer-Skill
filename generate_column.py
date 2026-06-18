@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 """
-地层柱状图 SVG 矢量图生成器 v2.0
+Stratigraphic Column SVG Vector Generator v2.0
 ══════════════════════════════════════════════════════════
-依据：中国地质大学(武汉)秭归基地《常用地层图例花纹和符号》
-标准：GB/T 958 区域地质图图例
-输出：SVG 矢量图（可直接导入 CorelDRAW、Illustrator、浏览器查看）
+Based on: China University of Geosciences (Wuhan) Zigui field base standards
+Standard: GB/T 958 — Regional Geological Map Legend
+Output: SVG vector graphics (import-ready for CorelDRAW, Illustrator, browser)
 
-新增 v2.0:
-- SVG 图层分组（cdr-background/header/body/scale/legend/footer）
-- CorelDRAW data-cdr-* 属性
-- 连续粒度曲线 + 渐变填充
-- 化石符号列
-- 沉积构造指示列
-- 可选年龄(Ma)列
+New in v2.0:
+- SVG layer groups (cdr-background/header/body/scale/legend/footer)
+- CorelDRAW data-cdr-* attributes
+- Continuous grain-size curve + gradient fill
+- Fossil symbol column (15 types)
+- Sedimentary structure column (9 types)
+- Optional age (Ma) column
 
-用法：
+Usage:
   python3 generate_column.py data.json output.svg
-  python3 generate_column.py                    # 使用内置示例数据
+  python3 generate_column.py                    # use built-in demo data
 
-依赖：无（纯 Python 标准库）
+Dependencies: none (pure Python stdlib)
 ══════════════════════════════════════════════════════════
 """
 
@@ -56,7 +56,8 @@ DEFAULT_DATA = {
 # ============================================================================
 # LAYOUT — extended 11-column format
 # ============================================================================
-# Columns: 1界 2系 3统 4组 5代号 6化石 7柱状图 8粒度 9构造 10厚度 11描述
+# Columns: 1=Erathem 2=System 3=Series 4=Formation 5=Symbol 6=Fossils
+#          7=Lithology 8=Grain 9=Structures 10=Thickness 11=Description
 #                          flexible widths based on available data
 
 MARGIN_LEFT   = 8
@@ -405,7 +406,7 @@ PATTERNS = {
 }
 
 # ============================================================================
-# FOSSIL / STRUCTURE SYMBOLS
+# FOSSIL + STRUCTURE SYMBOLS (displayed as Unicode in SVG)
 # ============================================================================
 
 FOSSIL_ICONS = {
@@ -491,34 +492,34 @@ def generate_svg(data, output_path=None):
     show_age = has_any_age(layers)
 
     # Dynamic column X/W calculations
-    # Base columns: 界/系/统/组/代号 — always present
-    # Optional: 化石/年龄 — added if data present
-    # Fixed: 柱状图/粒度/构造/厚度/描述
+    # Base columns: Erathem/System/Series/Formation/Symbol — always present
+    # Optional: Fossils — added if data present
+    # Fixed: Lithology/Grain/Structures/Thickness/Description
 
     cur_x = MARGIN_LEFT
     col_defs = []  # list of (label, width, optional?)
 
-    # Column 1: 界
+    # Column 1: Erathem
     col_defs.append(('界', 13, False))
-    # Column 2: 系
+    # Column 2: System
     col_defs.append(('系', 13, False))
-    # Column 3: 统
+    # Column 3: Series
     col_defs.append(('统', 13, False))
-    # Column 4: 组
+    # Column 4: Formation
     col_defs.append(('组', 18, False))
-    # Column 5: 代号
+    # Column 5: Symbol
     col_defs.append(('代号', 12, False))
-    # Column 6: 化石 (optional)
+    # Column 6: Fossils (optional)
     col_defs.append(('化石', 7 if show_fossils else 0, not show_fossils))
-    # Column 7: 柱状图
+    # Column 7: Lithology
     col_defs.append(('岩 性 柱', 40, False))
-    # Column 8: 粒度
+    # Column 8: Grain Size
     col_defs.append(('粒度', 15, False))  # wider for curve
-    # Column 9: 构造 (optional)
+    # Column 9: Structures (optional)
     col_defs.append(('构造', 7 if show_structures else 0, not show_structures))
-    # Column 10: 厚度
+    # Column 10: Thickness
     col_defs.append(('厚度\n(m)', 10, False))
-    # Column 11: 描述
+    # Column 11: Description
     col_defs.append(('岩 性 描 述', 65, False))
 
     # Recalculate COL_X and COL_W from col_defs
