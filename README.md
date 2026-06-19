@@ -225,6 +225,14 @@ python3 generate_column.py
 
 MIT — see [LICENSE](LICENSE) file.
 
+## Sponsor
+
+If this tool helps your research, consider buying me a coffee ☕
+
+<p align="center">
+  <img src="sponsor_qr.jpg" width="200" alt="Sponsor QR">
+</p>
+
 ## Citation
 
 If you use CorelDRAWer-Skill in your research, please cite:

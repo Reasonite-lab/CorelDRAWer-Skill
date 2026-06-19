@@ -200,6 +200,14 @@ python3 generate_column.py
 
 MIT
 
+## 打赏
+
+如果这个工具帮到了你的研究，请作者喝杯咖啡 ☕
+
+<p align="center">
+  <img src="sponsor_qr.jpg" width="200" alt="打赏二维码">
+</p>
+
 ## 引用
 
 使用 CorelDRAWer-Skill 请引用：
