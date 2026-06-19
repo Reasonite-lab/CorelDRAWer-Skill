@@ -20,8 +20,17 @@ def cmd_column(args):
     if args.input:
         with open(args.input, 'r', encoding='utf-8') as f:
             data = json.load(f)
-    out = args.output or 'output.svg'
+    fmt = getattr(args, 'format', 'svg')
     style = getattr(args, 'style', 'default')
+
+    if fmt == 'dxf':
+        from dxf_export import generate_dxf
+        out = args.output or data.get('title', 'column').replace(' ', '_') + '.dxf'
+        generate_dxf(data, out)
+        print(f"✅ DXF saved: {out}  (import into CorelDRAW)")
+        return
+
+    out = args.output or 'output.svg'
     try:
         generate_svg(data, out, style=style)
         n = len(data['layers'])
@@ -89,9 +98,11 @@ def main():
 
     p = sub.add_parser('column', help='Stratigraphic column')
     p.add_argument('input', nargs='?', help='JSON input')
-    p.add_argument('output', nargs='?', help='SVG output')
+    p.add_argument('output', nargs='?', help='SVG/DXF output')
     p.add_argument('--style', choices=['default', 'nature'], default='default',
                    help='Visual style (default or nature)')
+    p.add_argument('--format', choices=['svg', 'dxf'], default='svg',
+                   help='Output format (svg or dxf)')
 
     p = sub.add_parser('xsection', help='Cross-section')
     p.add_argument('input', nargs='?')
