@@ -1,0 +1,1513 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 321 333" width="321mm" height="333mm" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:cdr="http://www.corel.com/coreldraw/2024">
+  <ns0:defs>
+    <ns0:clipPath id="clip_0">
+      <ns0:rect x="84.3" y="245.15714285714284" width="37.2" height="30.842857142857145" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clip_1">
+      <ns0:rect x="84.3" y="201.6142857142857" width="37.2" height="43.542857142857144" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clip_2">
+      <ns0:rect x="84.3" y="185.28571428571428" width="37.2" height="16.32857142857143" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clip_3">
+      <ns0:rect x="84.3" y="127.22857142857141" width="37.2" height="58.057142857142864" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clip_4">
+      <ns0:rect x="84.3" y="51.02857142857141" width="37.2" height="76.2" />
+    </ns0:clipPath>
+    <ns0:clipPath id="clip_5">
+      <ns0:rect x="84.3" y="21.99999999999998" width="37.2" height="29.028571428571432" />
+    </ns0:clipPath>
+    <ns0:clipPath id="lgclip_0">
+      <ns0:rect x="281" y="230.5" width="6" height="6" />
+    </ns0:clipPath>
+    <ns0:clipPath id="lgclip_1">
+      <ns0:rect x="281" y="237.5" width="6" height="6" />
+    </ns0:clipPath>
+    <ns0:clipPath id="lgclip_2">
+      <ns0:rect x="281" y="244.5" width="6" height="6" />
+    </ns0:clipPath>
+    <ns0:clipPath id="lgclip_3">
+      <ns0:rect x="281" y="251.5" width="6" height="6" />
+    </ns0:clipPath>
+    <ns0:clipPath id="lgclip_4">
+      <ns0:rect x="281" y="258.5" width="6" height="6" />
+    </ns0:clipPath>
+    <ns0:clipPath id="lgclip_5">
+      <ns0:rect x="281" y="265.5" width="6" height="6" />
+    </ns0:clipPath>
+  </ns0:defs>
+  <ns0:g id="cdr-background" ns1:groupmode="layer" ns1:label="Background" data-cdr-layer="background">
+    <ns0:rect x="0" y="0" width="321" height="333" fill="#fff" stroke="none" stroke-width="0" />
+  </ns0:g>
+  <ns0:g id="cdr-title" ns1:groupmode="layer" ns1:label="Title" data-cdr-layer="title">
+    <ns0:text x="140.5" y="302" font-family="Arial, Helvetica, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#333" data-cdr-type="title">São Luís–Grajaú Basin — Aptian Stratigraphy</ns0:text>
+    <ns0:text x="140.5" y="296" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="normal" text-anchor="middle" fill="#555" data-cdr-type="subtitle">Brazilian Equatorial Margin</ns0:text>
+  </ns0:g>
+  <ns0:g id="cdr-header" ns1:groupmode="layer" ns1:label="Header" data-cdr-layer="header">
+    <ns0:rect x="8" y="276" width="265" height="14" fill="#f5f5f5" stroke="#000" stroke-width="0.4" data-cdr-type="header-bg" />
+    <ns0:text x="14.5" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">界</ns0:text>
+    <ns0:text x="27.5" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">系</ns0:text>
+    <ns0:text x="40.5" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">统</ns0:text>
+    <ns0:text x="56.0" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">组</ns0:text>
+    <ns0:text x="71.0" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">代号</ns0:text>
+    <ns0:text x="80.5" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">化石</ns0:text>
+    <ns0:text x="104.0" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">岩 性 柱</ns0:text>
+    <ns0:text x="131.5" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">粒度</ns0:text>
+    <ns0:text x="142.5" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">构造</ns0:text>
+    <ns0:text x="151.0" y="279.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">厚度</ns0:text>
+    <ns0:text x="151.0" y="286.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">(m)</ns0:text>
+    <ns0:text x="188.5" y="283.0" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">岩 性 描 述</ns0:text>
+    <ns0:line x1="21" y1="22" x2="21" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="34" y1="22" x2="34" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="47" y1="22" x2="47" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="65" y1="22" x2="65" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="77" y1="22" x2="77" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="84" y1="22" x2="84" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="124" y1="22" x2="124" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="139" y1="22" x2="139" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="146" y1="22" x2="146" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="156" y1="22" x2="156" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider" />
+    <ns0:line x1="8" y1="276" x2="273" y2="276" stroke="#333" stroke-width="0.2" data-cdr-type="header-line" />
+  </ns0:g>
+  <ns0:g id="cdr-body" ns1:groupmode="layer" ns1:label="Column Body" data-cdr-layer="body">
+    <ns0:line x1="84" y1="276.0" x2="122" y2="276.0" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick" />
+    <ns0:text x="121" y="274.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888" data-cdr-type="scale-label">0</ns0:text>
+    <ns0:line x1="84" y1="239.71428571428572" x2="122" y2="239.71428571428572" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick" />
+    <ns0:line x1="84" y1="203.42857142857144" x2="122" y2="203.42857142857144" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick" />
+    <ns0:text x="121" y="201.92857142857144" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888" data-cdr-type="scale-label">200</ns0:text>
+    <ns0:line x1="84" y1="167.14285714285714" x2="122" y2="167.14285714285714" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick" />
+    <ns0:line x1="84" y1="130.85714285714286" x2="122" y2="130.85714285714286" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick" />
+    <ns0:text x="121" y="129.35714285714286" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888" data-cdr-type="scale-label">400</ns0:text>
+    <ns0:line x1="84" y1="94.57142857142856" x2="122" y2="94.57142857142856" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick" />
+    <ns0:line x1="84" y1="58.28571428571428" x2="122" y2="58.28571428571428" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick" />
+    <ns0:text x="121" y="56.78571428571428" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888" data-cdr-type="scale-label">600</ns0:text>
+    <ns0:line x1="84" y1="22" x2="84" y2="276" stroke="#ccc" stroke-width="0.1" data-cdr-type="scale-ruler" />
+    <ns0:rect x="8" y="51.02857142857141" width="13" height="224.9714285714286" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="erathem" data-cdr-value="Mesozoic" />
+    <ns0:text x="14.5" y="163.5142857142857" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="erathem">Mesozoic</ns0:text>
+    <ns0:rect x="8" y="21.99999999999998" width="13" height="29.028571428571432" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="erathem" data-cdr-value="Precambrian" />
+    <ns0:text x="14.5" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="erathem">Precambrian</ns0:text>
+    <ns0:rect x="21" y="51.02857142857141" width="13" height="224.9714285714286" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="system" data-cdr-value="Cretaceous" />
+    <ns0:text x="27.5" y="163.5142857142857" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="system">Cretaceous</ns0:text>
+    <ns0:rect x="21" y="21.99999999999998" width="13" height="29.028571428571432" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="system" data-cdr-value="Proterozoic" />
+    <ns0:text x="27.5" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="system">Proterozoic</ns0:text>
+    <ns0:rect x="34" y="201.6142857142857" width="13" height="74.3857142857143" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Upper Aptian" />
+    <ns0:text x="40.5" y="238.80714285714285" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Upper Aptian</ns0:text>
+    <ns0:rect x="34" y="185.28571428571428" width="13" height="16.328571428571422" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Mid Aptian" />
+    <ns0:text x="40.5" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Mid Aptian</ns0:text>
+    <ns0:rect x="34" y="127.22857142857141" width="13" height="58.057142857142864" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Lower Aptian" />
+    <ns0:text x="40.5" y="156.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Lower Aptian</ns0:text>
+    <ns0:rect x="34" y="51.02857142857141" width="13" height="76.2" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Barremian" />
+    <ns0:text x="40.5" y="89.1285714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Barremian</ns0:text>
+    <ns0:rect x="34" y="21.99999999999998" width="13" height="29.028571428571432" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="—" />
+    <ns0:text x="40.5" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">—</ns0:text>
+    <ns0:g id="layer_0" data-cdr-type="layer" data-cdr-name="Upper Carbonate" data-cdr-pattern="lime" data-cdr-thickness="85" data-cdr-color="#bfbfbf" data-cdr-index="0">
+      <ns0:rect x="84.3" y="245.15714285714284" width="37.2" height="30.842857142857145" fill="#bfbfbf" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect" />
+      <ns0:g clip-path="url(#clip_0)">
+        <ns0:rect x="84.6" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="245.45714285714286" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="87.0" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="91.8" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="96.6" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="101.39999999999999" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="106.19999999999999" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="110.99999999999999" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="115.79999999999998" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="120.59999999999998" y="247.62714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="84.6" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="249.79714285714283" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="87.0" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="91.8" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="96.6" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="101.39999999999999" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="106.19999999999999" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="110.99999999999999" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="115.79999999999998" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="120.59999999999998" y="251.96714285714282" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="84.6" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="254.1371428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="87.0" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="91.8" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="96.6" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="101.39999999999999" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="106.19999999999999" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="110.99999999999999" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="115.79999999999998" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="120.59999999999998" y="256.3071428571428" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="84.6" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="258.47714285714284" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="87.0" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="91.8" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="96.6" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="101.39999999999999" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="106.19999999999999" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="110.99999999999999" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="115.79999999999998" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="120.59999999999998" y="260.64714285714285" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="84.6" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="262.81714285714287" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="87.0" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="91.8" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="96.6" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="101.39999999999999" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="106.19999999999999" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="110.99999999999999" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="115.79999999999998" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="120.59999999999998" y="264.9871428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="84.6" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="267.1571428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="87.0" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="91.8" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="96.6" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="101.39999999999999" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="106.19999999999999" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="110.99999999999999" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="115.79999999999998" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="120.59999999999998" y="269.3271428571429" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="84.6" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="271.49714285714293" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="87.0" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="91.8" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="96.6" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="101.39999999999999" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="106.19999999999999" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="110.99999999999999" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="115.79999999999998" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="120.59999999999998" y="273.66714285714295" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="84.6" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="89.39999999999999" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="94.19999999999999" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="98.99999999999999" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="103.79999999999998" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="108.59999999999998" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="113.39999999999998" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+        <ns0:rect x="118.19999999999997" y="275.83714285714296" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+      </ns0:g>
+      <ns0:text x="48" y="260.5785714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Upper Carbonate</ns0:text>
+      <ns0:text x="66" y="260.5785714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">K₁u</ns0:text>
+      <ns0:text x="80.5" y="260.5785714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="foraminifera">⭕</ns0:text>
+      <ns0:polygon points="125.5,245.15714285714284 129.5,245.15714285714284 129.5,276 125.5,276" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle" />
+      <ns0:text x="131.5" y="260.5785714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粉砂</ns0:text>
+      <ns0:text x="147" y="260.5785714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">85.0</ns0:text>
+      <ns0:text x="157" y="260.5785714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Grey limestone with dolomite interbeds</ns0:text>
+      <ns0:text x="123.0" y="260.5785714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">113</ns0:text>
+    </ns0:g>
+    <ns0:line x1="8" y1="276" x2="273" y2="276" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator" />
+    <ns0:g id="layer_1" data-cdr-type="layer" data-cdr-name="Marine Shale" data-cdr-pattern="shale" data-cdr-thickness="120" data-cdr-color="#726d61" data-cdr-index="1">
+      <ns0:rect x="84.3" y="201.6142857142857" width="37.2" height="43.542857142857144" fill="#726d61" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect" />
+      <ns0:g clip-path="url(#clip_1)">
+        <ns0:line x1="84.6" y1="202.2862857142857" x2="121.2" y2="202.2862857142857" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="201.6142857142857" x2="86.092" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="201.6142857142857" x2="89.452" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="201.6142857142857" x2="92.812" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="201.6142857142857" x2="96.172" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="201.6142857142857" x2="99.532" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="201.6142857142857" x2="102.892" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="201.6142857142857" x2="106.252" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="201.6142857142857" x2="109.612" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="201.6142857142857" x2="112.972" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="201.6142857142857" x2="116.332" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="201.6142857142857" x2="119.692" y2="202.9582857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="204.5262857142857" x2="121.2" y2="204.5262857142857" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="203.8542857142857" x2="86.092" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="203.8542857142857" x2="89.452" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="203.8542857142857" x2="92.812" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="203.8542857142857" x2="96.172" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="203.8542857142857" x2="99.532" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="203.8542857142857" x2="102.892" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="203.8542857142857" x2="106.252" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="203.8542857142857" x2="109.612" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="203.8542857142857" x2="112.972" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="203.8542857142857" x2="116.332" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="203.8542857142857" x2="119.692" y2="205.1982857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="206.76628571428571" x2="121.2" y2="206.76628571428571" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="84.6" y1="209.00628571428572" x2="121.2" y2="209.00628571428572" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="208.33428571428573" x2="86.092" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="208.33428571428573" x2="89.452" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="208.33428571428573" x2="92.812" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="208.33428571428573" x2="96.172" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="208.33428571428573" x2="99.532" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="208.33428571428573" x2="102.892" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="208.33428571428573" x2="106.252" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="208.33428571428573" x2="109.612" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="208.33428571428573" x2="112.972" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="208.33428571428573" x2="116.332" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="208.33428571428573" x2="119.692" y2="209.67828571428572" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="211.24628571428573" x2="121.2" y2="211.24628571428573" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="210.57428571428574" x2="86.092" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="210.57428571428574" x2="89.452" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="210.57428571428574" x2="92.812" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="210.57428571428574" x2="96.172" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="210.57428571428574" x2="99.532" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="210.57428571428574" x2="102.892" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="210.57428571428574" x2="106.252" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="210.57428571428574" x2="109.612" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="210.57428571428574" x2="112.972" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="210.57428571428574" x2="116.332" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="210.57428571428574" x2="119.692" y2="211.91828571428573" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="213.48628571428574" x2="121.2" y2="213.48628571428574" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="84.6" y1="215.72628571428575" x2="121.2" y2="215.72628571428575" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="215.05428571428575" x2="86.092" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="215.05428571428575" x2="89.452" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="215.05428571428575" x2="92.812" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="215.05428571428575" x2="96.172" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="215.05428571428575" x2="99.532" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="215.05428571428575" x2="102.892" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="215.05428571428575" x2="106.252" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="215.05428571428575" x2="109.612" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="215.05428571428575" x2="112.972" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="215.05428571428575" x2="116.332" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="215.05428571428575" x2="119.692" y2="216.39828571428575" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="217.96628571428576" x2="121.2" y2="217.96628571428576" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="217.29428571428576" x2="86.092" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="217.29428571428576" x2="89.452" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="217.29428571428576" x2="92.812" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="217.29428571428576" x2="96.172" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="217.29428571428576" x2="99.532" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="217.29428571428576" x2="102.892" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="217.29428571428576" x2="106.252" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="217.29428571428576" x2="109.612" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="217.29428571428576" x2="112.972" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="217.29428571428576" x2="116.332" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="217.29428571428576" x2="119.692" y2="218.63828571428576" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="220.20628571428577" x2="121.2" y2="220.20628571428577" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="84.6" y1="222.44628571428578" x2="121.2" y2="222.44628571428578" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="221.77428571428578" x2="86.092" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="221.77428571428578" x2="89.452" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="221.77428571428578" x2="92.812" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="221.77428571428578" x2="96.172" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="221.77428571428578" x2="99.532" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="221.77428571428578" x2="102.892" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="221.77428571428578" x2="106.252" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="221.77428571428578" x2="109.612" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="221.77428571428578" x2="112.972" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="221.77428571428578" x2="116.332" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="221.77428571428578" x2="119.692" y2="223.11828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="224.6862857142858" x2="121.2" y2="224.6862857142858" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="224.0142857142858" x2="86.092" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="224.0142857142858" x2="89.452" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="224.0142857142858" x2="92.812" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="224.0142857142858" x2="96.172" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="224.0142857142858" x2="99.532" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="224.0142857142858" x2="102.892" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="224.0142857142858" x2="106.252" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="224.0142857142858" x2="109.612" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="224.0142857142858" x2="112.972" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="224.0142857142858" x2="116.332" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="224.0142857142858" x2="119.692" y2="225.35828571428578" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="226.9262857142858" x2="121.2" y2="226.9262857142858" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="84.6" y1="229.1662857142858" x2="121.2" y2="229.1662857142858" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="228.4942857142858" x2="86.092" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="228.4942857142858" x2="89.452" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="228.4942857142858" x2="92.812" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="228.4942857142858" x2="96.172" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="228.4942857142858" x2="99.532" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="228.4942857142858" x2="102.892" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="228.4942857142858" x2="106.252" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="228.4942857142858" x2="109.612" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="228.4942857142858" x2="112.972" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="228.4942857142858" x2="116.332" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="228.4942857142858" x2="119.692" y2="229.8382857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="231.40628571428581" x2="121.2" y2="231.40628571428581" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="230.73428571428582" x2="86.092" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="230.73428571428582" x2="89.452" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="230.73428571428582" x2="92.812" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="230.73428571428582" x2="96.172" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="230.73428571428582" x2="99.532" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="230.73428571428582" x2="102.892" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="230.73428571428582" x2="106.252" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="230.73428571428582" x2="109.612" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="230.73428571428582" x2="112.972" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="230.73428571428582" x2="116.332" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="230.73428571428582" x2="119.692" y2="232.0782857142858" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="233.64628571428582" x2="121.2" y2="233.64628571428582" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="84.6" y1="235.88628571428583" x2="121.2" y2="235.88628571428583" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="235.21428571428584" x2="86.092" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="235.21428571428584" x2="89.452" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="235.21428571428584" x2="92.812" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="235.21428571428584" x2="96.172" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="235.21428571428584" x2="99.532" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="235.21428571428584" x2="102.892" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="235.21428571428584" x2="106.252" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="235.21428571428584" x2="109.612" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="235.21428571428584" x2="112.972" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="235.21428571428584" x2="116.332" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="235.21428571428584" x2="119.692" y2="236.55828571428583" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="238.12628571428584" x2="121.2" y2="238.12628571428584" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="237.45428571428585" x2="86.092" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="237.45428571428585" x2="89.452" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="237.45428571428585" x2="92.812" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="237.45428571428585" x2="96.172" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="237.45428571428585" x2="99.532" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="237.45428571428585" x2="102.892" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="237.45428571428585" x2="106.252" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="237.45428571428585" x2="109.612" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="237.45428571428585" x2="112.972" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="237.45428571428585" x2="116.332" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="237.45428571428585" x2="119.692" y2="238.79828571428584" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="240.36628571428585" x2="121.2" y2="240.36628571428585" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="84.6" y1="242.60628571428586" x2="121.2" y2="242.60628571428586" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="241.93428571428586" x2="86.092" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="241.93428571428586" x2="89.452" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="241.93428571428586" x2="92.812" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="241.93428571428586" x2="96.172" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="241.93428571428586" x2="99.532" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="241.93428571428586" x2="102.892" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="241.93428571428586" x2="106.252" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="241.93428571428586" x2="109.612" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="241.93428571428586" x2="112.972" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="241.93428571428586" x2="116.332" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="241.93428571428586" x2="119.692" y2="243.27828571428586" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.6" y1="244.84628571428587" x2="121.2" y2="244.84628571428587" stroke="#555" stroke-width="0.22" />
+        <ns0:line x1="86.092" y1="244.17428571428587" x2="86.092" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="89.452" y1="244.17428571428587" x2="89.452" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.812" y1="244.17428571428587" x2="92.812" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.172" y1="244.17428571428587" x2="96.172" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.532" y1="244.17428571428587" x2="99.532" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="102.892" y1="244.17428571428587" x2="102.892" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="106.252" y1="244.17428571428587" x2="106.252" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="109.612" y1="244.17428571428587" x2="109.612" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="112.972" y1="244.17428571428587" x2="112.972" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="116.332" y1="244.17428571428587" x2="116.332" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.692" y1="244.17428571428587" x2="119.692" y2="245.51828571428587" stroke="#999" stroke-width="0.15" />
+      </ns0:g>
+      <ns0:text x="48" y="223.38571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Marine Shale</ns0:text>
+      <ns0:text x="66" y="223.38571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">K₁m</ns0:text>
+      <ns0:text x="80.5" y="221.63571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="foraminifera">⭕</ns0:text>
+      <ns0:text x="80.5" y="225.13571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="spore">🔸</ns0:text>
+      <ns0:polygon points="125.5,201.6142857142857 127.5,201.6142857142857 127.5,245.15714285714284 125.5,245.15714285714284" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle" />
+      <ns0:text x="131.5" y="223.38571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粘土</ns0:text>
+      <ns0:text x="147" y="223.38571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">120.0</ns0:text>
+      <ns0:text x="157" y="223.38571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Dark grey marine shale with TOC-rich intervals</ns0:text>
+      <ns0:text x="123.0" y="223.38571428571427" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">115</ns0:text>
+    </ns0:g>
+    <ns0:line x1="8" y1="245.15714285714284" x2="273" y2="245.15714285714284" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator" />
+    <ns0:g id="layer_2" data-cdr-type="layer" data-cdr-name="Evaporite-Anhydrite" data-cdr-pattern="dolo" data-cdr-thickness="45" data-cdr-color="#f2f2e6" data-cdr-index="2">
+      <ns0:rect x="84.3" y="185.28571428571428" width="37.2" height="16.32857142857143" fill="#f2f2e6" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect" />
+      <ns0:g clip-path="url(#clip_2)">
+        <ns0:line x1="30.771428571428565" y1="185.28571428571428" x2="47.099999999999994" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="34.61142857142856" y1="185.28571428571428" x2="50.93999999999999" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="38.451428571428565" y1="185.28571428571428" x2="54.779999999999994" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="42.29142857142857" y1="185.28571428571428" x2="58.62" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="46.13142857142857" y1="185.28571428571428" x2="62.46" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="49.971428571428575" y1="185.28571428571428" x2="66.30000000000001" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="53.81142857142858" y1="185.28571428571428" x2="70.14000000000001" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="57.65142857142858" y1="185.28571428571428" x2="73.98000000000002" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="61.491428571428585" y1="185.28571428571428" x2="77.82000000000002" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="65.33142857142859" y1="185.28571428571428" x2="81.66000000000003" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="69.17142857142859" y1="185.28571428571428" x2="85.50000000000003" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="73.0114285714286" y1="185.28571428571428" x2="89.34000000000003" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="76.8514285714286" y1="185.28571428571428" x2="93.18000000000004" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="80.6914285714286" y1="185.28571428571428" x2="97.02000000000004" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.5314285714286" y1="185.28571428571428" x2="100.86000000000004" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="88.37142857142861" y1="185.28571428571428" x2="104.70000000000005" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.21142857142861" y1="185.28571428571428" x2="108.54000000000005" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.05142857142862" y1="185.28571428571428" x2="112.38000000000005" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.89142857142862" y1="185.28571428571428" x2="116.22000000000006" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="103.73142857142862" y1="185.28571428571428" x2="120.06000000000006" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="107.57142857142863" y1="185.28571428571428" x2="123.90000000000006" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="111.41142857142863" y1="185.28571428571428" x2="127.74000000000007" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="115.25142857142863" y1="185.28571428571428" x2="131.58000000000007" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.09142857142864" y1="185.28571428571428" x2="135.42000000000007" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="122.93142857142864" y1="185.28571428571428" x2="139.26000000000008" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="126.77142857142864" y1="185.28571428571428" x2="143.10000000000008" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="130.61142857142863" y1="185.28571428571428" x2="146.94000000000005" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="134.45142857142864" y1="185.28571428571428" x2="150.78000000000006" y2="201.6142857142857" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="30.771428571428565" y1="201.6142857142857" x2="47.099999999999994" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="34.61142857142856" y1="201.6142857142857" x2="50.93999999999999" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="38.451428571428565" y1="201.6142857142857" x2="54.779999999999994" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="42.29142857142857" y1="201.6142857142857" x2="58.62" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="46.13142857142857" y1="201.6142857142857" x2="62.46" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="49.971428571428575" y1="201.6142857142857" x2="66.30000000000001" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="53.81142857142858" y1="201.6142857142857" x2="70.14000000000001" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="57.65142857142858" y1="201.6142857142857" x2="73.98000000000002" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="61.491428571428585" y1="201.6142857142857" x2="77.82000000000002" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="65.33142857142859" y1="201.6142857142857" x2="81.66000000000003" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="69.17142857142859" y1="201.6142857142857" x2="85.50000000000003" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="73.0114285714286" y1="201.6142857142857" x2="89.34000000000003" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="76.8514285714286" y1="201.6142857142857" x2="93.18000000000004" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="80.6914285714286" y1="201.6142857142857" x2="97.02000000000004" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="84.5314285714286" y1="201.6142857142857" x2="100.86000000000004" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="88.37142857142861" y1="201.6142857142857" x2="104.70000000000005" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="92.21142857142861" y1="201.6142857142857" x2="108.54000000000005" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="96.05142857142862" y1="201.6142857142857" x2="112.38000000000005" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="99.89142857142862" y1="201.6142857142857" x2="116.22000000000006" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="103.73142857142862" y1="201.6142857142857" x2="120.06000000000006" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="107.57142857142863" y1="201.6142857142857" x2="123.90000000000006" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="111.41142857142863" y1="201.6142857142857" x2="127.74000000000007" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="115.25142857142863" y1="201.6142857142857" x2="131.58000000000007" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="119.09142857142864" y1="201.6142857142857" x2="135.42000000000007" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="122.93142857142864" y1="201.6142857142857" x2="139.26000000000008" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="126.77142857142864" y1="201.6142857142857" x2="143.10000000000008" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="130.61142857142863" y1="201.6142857142857" x2="146.94000000000005" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+        <ns0:line x1="134.45142857142864" y1="201.6142857142857" x2="150.78000000000006" y2="185.28571428571428" stroke="#999" stroke-width="0.15" />
+      </ns0:g>
+      <ns0:text x="48" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Evaporite-Anhydrite</ns0:text>
+      <ns0:text x="66" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">K₁e</ns0:text>
+      <ns0:polygon points="125.5,185.28571428571428 129.5,185.28571428571428 129.5,201.6142857142857 125.5,201.6142857142857" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle" />
+      <ns0:text x="131.5" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粉砂</ns0:text>
+      <ns0:text x="147" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">45.0</ns0:text>
+      <ns0:text x="157" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">White-grey anhydrite with thin halite layers</ns0:text>
+      <ns0:text x="81.3" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="3" font-weight="bold" text-anchor="middle" fill="#c0392b" data-cdr-type="sample-marker">★</ns0:text>
+      <ns0:text x="77.3" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="end" fill="#c0392b" data-cdr-type="sample-label">Marine incursion ~116.4 Ma</ns0:text>
+      <ns0:text x="123.0" y="193.45" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">116.4</ns0:text>
+    </ns0:g>
+    <ns0:line x1="8" y1="201.6142857142857" x2="273" y2="201.6142857142857" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator" />
+    <ns0:g id="layer_3" data-cdr-type="layer" data-cdr-name="Pre-Salt Siliciclastic" data-cdr-pattern="sand" data-cdr-thickness="160" data-cdr-color="#d89782" data-cdr-index="3">
+      <ns0:rect x="84.3" y="127.22857142857141" width="37.2" height="58.057142857142864" fill="#d89782" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect" />
+      <ns0:g clip-path="url(#clip_3)">
+        <ns0:circle cx="85.42" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="85.42" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="87.66" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="89.89999999999999" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="92.13999999999999" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="94.37999999999998" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="96.61999999999998" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="98.85999999999997" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="101.09999999999997" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="103.33999999999996" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="105.57999999999996" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="107.81999999999995" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="110.05999999999995" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="112.29999999999994" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="114.53999999999994" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="116.77999999999993" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="119.01999999999992" cy="184.34857142857163" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="128.3485714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="130.5885714285714" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="132.82857142857142" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="135.06857142857143" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="137.30857142857144" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="139.54857142857145" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="141.78857142857146" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="144.02857142857147" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="146.26857142857148" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="148.50857142857149" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="150.7485714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="152.9885714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="155.2285714285715" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="157.46857142857152" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="159.70857142857153" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="161.94857142857154" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="164.18857142857155" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="166.42857142857156" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="168.66857142857157" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="170.90857142857158" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="173.14857142857159" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="175.3885714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="177.6285714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="179.8685714285716" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="182.10857142857162" r="0.35" fill="#555" />
+        <ns0:circle cx="121.25999999999992" cy="184.34857142857163" r="0.35" fill="#555" />
+      </ns0:g>
+      <ns0:text x="48" y="156.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Pre-Salt Siliciclastic</ns0:text>
+      <ns0:text x="66" y="156.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">K₁p</ns0:text>
+      <ns0:polygon points="125.5,127.22857142857141 135.5,127.22857142857141 135.5,185.28571428571428 125.5,185.28571428571428" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle" />
+      <ns0:text x="131.5" y="156.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粗砂</ns0:text>
+      <ns0:text x="142.5" y="155.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#c0392b" data-cdr-type="structure-icon" data-cdr-structure="cross_bed">⧵</ns0:text>
+      <ns0:text x="147" y="156.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">160.0</ns0:text>
+      <ns0:text x="157" y="156.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Red-brown fluvial-lacustrine sandstone with conglomerate lenses</ns0:text>
+      <ns0:text x="123.0" y="156.25714285714284" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">118</ns0:text>
+    </ns0:g>
+    <ns0:line x1="8" y1="185.28571428571428" x2="273" y2="185.28571428571428" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator" />
+    <ns0:g id="layer_4" data-cdr-type="layer" data-cdr-name="Rift Basin Fill" data-cdr-pattern="conglo" data-cdr-thickness="210" data-cdr-color="#99ac85" data-cdr-index="4">
+      <ns0:rect x="84.3" y="51.02857142857141" width="37.2" height="76.2" fill="#99ac85" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect" />
+      <ns0:g clip-path="url(#clip_4)">
+        <ns0:circle cx="88.332" cy="55.06057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="60.820571428571405" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="66.5805714285714" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="72.34057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="78.10057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="83.86057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="89.62057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="95.38057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="101.14057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="106.90057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="112.66057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="118.42057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="88.332" cy="124.18057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="55.06057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="60.820571428571405" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="66.5805714285714" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="72.34057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="78.10057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="83.86057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="89.62057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="95.38057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="101.14057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="106.90057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="112.66057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="118.42057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="94.092" cy="124.18057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="55.06057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="60.820571428571405" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="66.5805714285714" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="72.34057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="78.10057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="83.86057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="89.62057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="95.38057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="101.14057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="106.90057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="112.66057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="118.42057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="99.852" cy="124.18057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="55.06057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="60.820571428571405" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="66.5805714285714" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="72.34057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="78.10057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="83.86057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="89.62057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="95.38057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="101.14057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="106.90057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="112.66057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="118.42057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="105.61200000000001" cy="124.18057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="55.06057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="60.820571428571405" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="66.5805714285714" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="72.34057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="78.10057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="83.86057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="89.62057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="95.38057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="101.14057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="106.90057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="112.66057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="118.42057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="111.37200000000001" cy="124.18057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="55.06057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="60.820571428571405" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="66.5805714285714" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="72.34057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="78.10057142857141" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="83.86057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="89.62057142857142" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="95.38057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="101.14057142857143" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="106.90057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="112.66057142857144" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="118.42057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="117.13200000000002" cy="124.18057142857145" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+        <ns0:circle cx="93.51599999999999" cy="60.24457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="66.00457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="71.76457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="77.52457142857142" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="83.28457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="89.04457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="94.80457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="100.56457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="106.32457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="112.08457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="117.84457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="93.51599999999999" cy="123.60457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="60.24457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="66.00457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="71.76457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="77.52457142857142" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="83.28457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="89.04457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="94.80457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="100.56457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="106.32457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="112.08457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="117.84457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="99.276" cy="123.60457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="60.24457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="66.00457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="71.76457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="77.52457142857142" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="83.28457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="89.04457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="94.80457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="100.56457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="106.32457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="112.08457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="117.84457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="105.036" cy="123.60457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="60.24457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="66.00457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="71.76457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="77.52457142857142" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="83.28457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="89.04457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="94.80457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="100.56457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="106.32457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="112.08457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="117.84457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="110.796" cy="123.60457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="60.24457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="66.00457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="71.76457142857141" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="77.52457142857142" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="83.28457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="89.04457142857143" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="94.80457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="100.56457142857144" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="106.32457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="112.08457142857145" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="117.84457142857146" r="0.4" fill="#555" />
+        <ns0:circle cx="116.55600000000001" cy="123.60457142857146" r="0.4" fill="#555" />
+      </ns0:g>
+      <ns0:text x="48" y="89.1285714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Rift Basin Fill</ns0:text>
+      <ns0:text x="66" y="89.1285714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">K₁r</ns0:text>
+      <ns0:polygon points="125.5,51.02857142857141 137.5,51.02857142857141 137.5,127.22857142857141 125.5,127.22857142857141" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle" />
+      <ns0:text x="131.5" y="89.1285714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">砾石</ns0:text>
+      <ns0:text x="147" y="89.1285714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">210.0</ns0:text>
+      <ns0:text x="157" y="89.1285714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Variegated conglomerate and coarse sandstone — syn-rift deposits</ns0:text>
+      <ns0:path d="M 98.9,49.52857142857141 L 100.9,52.02857142857141 L 102.9,49.52857142857141 L 104.9,52.02857142857141 L 106.9,49.52857142857141" fill="none" stroke="#c0392b" stroke-width="0.35" data-cdr-type="contact-unconformity" />
+      <ns0:text x="123.0" y="89.1285714285714" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">125</ns0:text>
+    </ns0:g>
+    <ns0:line x1="8" y1="127.22857142857141" x2="273" y2="127.22857142857141" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator" />
+    <ns0:g id="layer_5" data-cdr-type="layer" data-cdr-name="Crystalline Basement" data-cdr-pattern="granite" data-cdr-thickness="80" data-cdr-color="#a58495" data-cdr-index="5">
+      <ns0:rect x="84.3" y="21.99999999999998" width="37.2" height="29.028571428571432" fill="#a58495" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect" />
+      <ns0:g clip-path="url(#clip_5)">
+        <ns0:line x1="85.12792587725512" y1="23.410904696085534" x2="87.36792587725513" y2="25.650904696085536" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="85.12792587725512" y1="25.650904696085536" x2="87.36792587725513" y2="23.410904696085534" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.32939360853881" y1="24.00638396278438" x2="100.56939360853882" y2="26.246383962784382" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.32939360853881" y1="26.246383962784382" x2="100.56939360853882" y2="24.00638396278438" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="116.70459825980303" y1="21.98754642171311" x2="118.94459825980304" y2="24.22754642171311" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="116.70459825980303" y1="24.22754642171311" x2="118.94459825980304" y2="21.98754642171311" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="103.12671588926207" y1="30.523224619595258" x2="105.36671588926208" y2="32.763224619595256" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="103.12671588926207" y1="32.763224619595256" x2="105.36671588926208" y2="30.523224619595258" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="114.87762222417251" y1="25.51477128770059" x2="117.11762222417252" y2="27.754771287700592" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="114.87762222417251" y1="27.754771287700592" x2="117.11762222417252" y2="25.51477128770059" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.72445964446504" y1="30.569632484086224" x2="97.96445964446505" y2="32.80963248408622" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.72445964446504" y1="32.80963248408622" x2="97.96445964446505" y2="30.569632484086224" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="92.30007671365513" y1="20.928493783899704" x2="94.54007671365514" y2="23.168493783899706" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="92.30007671365513" y1="23.168493783899706" x2="94.54007671365514" y2="20.928493783899704" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="99.40945951504611" y1="23.423294735612252" x2="101.64945951504612" y2="25.663294735612254" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="99.40945951504611" y1="25.663294735612254" x2="101.64945951504612" y2="23.423294735612252" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="105.41070007895324" y1="22.90842836692939" x2="107.65070007895325" y2="25.14842836692939" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="105.41070007895324" y1="25.14842836692939" x2="107.65070007895325" y2="22.90842836692939" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="94.91507382297411" y1="33.894138732567264" x2="97.15507382297412" y2="36.13413873256726" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="94.91507382297411" y1="36.13413873256726" x2="97.15507382297412" y2="33.894138732567264" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="116.86082986498334" y1="23.57282269601572" x2="119.10082986498335" y2="25.812822696015722" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="116.86082986498334" y1="25.812822696015722" x2="119.10082986498335" y2="23.57282269601572" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.46891239685183" y1="43.814656967672626" x2="90.70891239685184" y2="46.05465696767262" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.46891239685183" y1="46.05465696767262" x2="90.70891239685184" y2="43.814656967672626" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="83.96997826319199" y1="47.329398767421864" x2="86.209978263192" y2="49.56939876742186" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="83.96997826319199" y1="49.56939876742186" x2="86.209978263192" y2="47.329398767421864" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="104.51078078733049" y1="28.581910072735646" x2="106.7507807873305" y2="30.821910072735648" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="104.51078078733049" y1="30.821910072735648" x2="106.7507807873305" y2="28.581910072735646" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="114.34756036405899" y1="43.19701324113322" x2="116.587560364059" y2="45.437013241133215" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="114.34756036405899" y1="45.437013241133215" x2="116.587560364059" y2="43.19701324113322" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.95679228340188" y1="44.146301050077284" x2="98.19679228340189" y2="46.38630105007728" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.95679228340188" y1="46.38630105007728" x2="98.19679228340189" y2="44.146301050077284" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.87528390877934" y1="38.55557047456005" x2="93.11528390877935" y2="40.795570474560044" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.87528390877934" y1="40.795570474560044" x2="93.11528390877935" y2="38.55557047456005" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.78718822040469" y1="44.37394117251729" x2="105.0271882204047" y2="46.613941172517286" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.78718822040469" y1="46.613941172517286" x2="105.0271882204047" y2="44.37394117251729" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="94.90778926243475" y1="32.440284625468145" x2="97.14778926243476" y2="34.68028462546814" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="94.90778926243475" y1="34.68028462546814" x2="97.14778926243476" y2="32.440284625468145" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.79718214479796" y1="35.76446194302542" x2="114.03718214479797" y2="38.00446194302541" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.79718214479796" y1="38.00446194302541" x2="114.03718214479797" y2="35.76446194302542" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="108.65594453418942" y1="39.41048332955389" x2="110.89594453418943" y2="41.650483329553886" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="108.65594453418942" y1="41.650483329553886" x2="110.89594453418943" y2="39.41048332955389" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="107.97966387592233" y1="46.71828993329978" x2="110.21966387592234" y2="48.958289933299774" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="107.97966387592233" y1="48.958289933299774" x2="110.21966387592234" y2="46.71828993329978" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="101.26427668934058" y1="40.28473558438848" x2="103.50427668934059" y2="42.52473558438847" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="101.26427668934058" y1="42.52473558438847" x2="103.50427668934059" y2="40.28473558438848" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="97.11220470379638" y1="21.804307647113106" x2="99.35220470379639" y2="24.044307647113108" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="97.11220470379638" y1="24.044307647113108" x2="99.35220470379639" y2="21.804307647113106" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.23524199315004" y1="26.14766727341945" x2="113.47524199315005" y2="28.387667273419453" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.23524199315004" y1="28.387667273419453" x2="113.47524199315005" y2="26.14766727341945" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="113.6910748609385" y1="47.40183561297305" x2="115.93107486093851" y2="49.64183561297305" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="113.6910748609385" y1="49.64183561297305" x2="115.93107486093851" y2="47.40183561297305" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="107.66035865532015" y1="25.818540510675486" x2="109.90035865532016" y2="28.05854051067549" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="107.66035865532015" y1="28.05854051067549" x2="109.90035865532016" y2="25.818540510675486" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.71328088385147" y1="32.23578285669837" x2="97.95328088385148" y2="34.475782856698366" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.71328088385147" y1="34.475782856698366" x2="97.95328088385148" y2="32.23578285669837" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="85.90641694620113" y1="34.13929552356218" x2="88.14641694620114" y2="36.37929552356218" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="85.90641694620113" y1="36.37929552356218" x2="88.14641694620114" y2="34.13929552356218" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="104.50186873979176" y1="30.63667991139402" x2="106.74186873979177" y2="32.87667991139402" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="104.50186873979176" y1="32.87667991139402" x2="106.74186873979177" y2="30.63667991139402" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.21310154830444" y1="23.439080332711214" x2="92.45310154830445" y2="25.679080332711216" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.21310154830444" y1="25.679080332711216" x2="92.45310154830445" y2="23.439080332711214" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="106.55341184558549" y1="21.25241071430441" x2="108.7934118455855" y2="23.492410714304413" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="106.55341184558549" y1="23.492410714304413" x2="108.7934118455855" y2="21.25241071430441" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.27118901125307" y1="27.53130973462766" x2="98.51118901125308" y2="29.77130973462766" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.27118901125307" y1="29.77130973462766" x2="98.51118901125308" y2="27.53130973462766" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.97030665336163" y1="41.88691327820425" x2="105.21030665336164" y2="44.12691327820424" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.97030665336163" y1="44.12691327820424" x2="105.21030665336164" y2="41.88691327820425" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="117.00050185368819" y1="39.42347579059973" x2="119.2405018536882" y2="41.663475790599726" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="117.00050185368819" y1="41.663475790599726" x2="119.2405018536882" y2="39.42347579059973" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="120.07470331077126" y1="48.865260544592665" x2="122.31470331077126" y2="51.10526054459266" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="120.07470331077126" y1="51.10526054459266" x2="122.31470331077126" y2="48.865260544592665" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="106.61565440174193" y1="27.654490143758213" x2="108.85565440174194" y2="29.894490143758215" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="106.61565440174193" y1="29.894490143758215" x2="108.85565440174194" y2="27.654490143758213" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="101.17778715432505" y1="26.035176178945335" x2="103.41778715432505" y2="28.275176178945337" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="101.17778715432505" y1="28.275176178945337" x2="103.41778715432505" y2="26.035176178945335" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="120.08082914794487" y1="33.78319768204168" x2="122.32082914794488" y2="36.023197682041676" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="120.08082914794487" y1="36.023197682041676" x2="122.32082914794488" y2="33.78319768204168" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.1413858786241" y1="22.161026677215606" x2="113.38138587862412" y2="24.401026677215608" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.1413858786241" y1="24.401026677215608" x2="113.38138587862412" y2="22.161026677215606" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.19186674368277" y1="26.487651473229445" x2="90.43186674368278" y2="28.727651473229447" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.19186674368277" y1="28.727651473229447" x2="90.43186674368278" y2="26.487651473229445" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="92.71667931943138" y1="31.09943688391058" x2="94.95667931943139" y2="33.33943688391058" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="92.71667931943138" y1="33.33943688391058" x2="94.95667931943139" y2="31.09943688391058" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="93.29579050655515" y1="33.48619659858445" x2="95.53579050655516" y2="35.726196598584444" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="93.29579050655515" y1="35.726196598584444" x2="95.53579050655516" y2="33.48619659858445" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.81729218254401" y1="24.033107652380185" x2="101.05729218254402" y2="26.273107652380187" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.81729218254401" y1="26.273107652380187" x2="101.05729218254402" y2="24.033107652380185" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="85.50904642361338" y1="31.18692657367784" x2="87.7490464236134" y2="33.42692657367784" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="85.50904642361338" y1="33.42692657367784" x2="87.7490464236134" y2="31.18692657367784" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="86.48294726106587" y1="33.45518625426272" x2="88.72294726106588" y2="35.695186254262715" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="86.48294726106587" y1="35.695186254262715" x2="88.72294726106588" y2="33.45518625426272" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="83.49847718955073" y1="36.43353814012197" x2="85.73847718955074" y2="38.67353814012196" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="83.49847718955073" y1="38.67353814012196" x2="85.73847718955074" y2="36.43353814012197" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="85.91360452899994" y1="41.03180598098349" x2="88.15360452899995" y2="43.27180598098349" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="85.91360452899994" y1="43.27180598098349" x2="88.15360452899995" y2="41.03180598098349" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.216510335534" y1="49.483249876758286" x2="100.456510335534" y2="51.72324987675828" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.216510335534" y1="51.72324987675828" x2="100.456510335534" y2="49.483249876758286" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="92.94648873354865" y1="34.59631177867301" x2="95.18648873354866" y2="36.83631177867301" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="92.94648873354865" y1="36.83631177867301" x2="95.18648873354866" y2="34.59631177867301" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.1103158141008" y1="30.5996522620526" x2="113.35031581410081" y2="32.8396522620526" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="111.1103158141008" y1="32.8396522620526" x2="113.35031581410081" y2="30.5996522620526" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.13925316873991" y1="39.432970977821775" x2="98.37925316873992" y2="41.67297097782177" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.13925316873991" y1="41.67297097782177" x2="98.37925316873992" y2="39.432970977821775" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="119.25232207429065" y1="46.53777772379588" x2="121.49232207429066" y2="48.77777772379587" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="119.25232207429065" y1="48.77777772379587" x2="121.49232207429066" y2="46.53777772379588" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.76820688120998" y1="41.714325539136986" x2="101.00820688120999" y2="43.95432553913698" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="98.76820688120998" y1="43.95432553913698" x2="101.00820688120999" y2="41.714325539136986" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="108.44073260125674" y1="31.68181066297227" x2="110.68073260125675" y2="33.92181066297227" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="108.44073260125674" y1="33.92181066297227" x2="110.68073260125675" y2="31.68181066297227" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="91.92063987494289" y1="23.155157194042403" x2="94.1606398749429" y2="25.395157194042405" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="91.92063987494289" y1="25.395157194042405" x2="94.1606398749429" y2="23.155157194042403" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="115.87541245210039" y1="22.539250309252704" x2="118.1154124521004" y2="24.779250309252706" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="115.87541245210039" y1="24.779250309252706" x2="118.1154124521004" y2="22.539250309252704" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.47549584093808" y1="36.48391312987938" x2="104.71549584093809" y2="38.72391312987938" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.47549584093808" y1="38.72391312987938" x2="104.71549584093809" y2="36.48391312987938" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.6163794922118" y1="39.92076069780984" x2="90.85637949221181" y2="42.160760697809835" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.6163794922118" y1="42.160760697809835" x2="90.85637949221181" y2="39.92076069780984" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="117.24862280094958" y1="43.41003135260632" x2="119.48862280094959" y2="45.65003135260631" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="117.24862280094958" y1="45.65003135260631" x2="119.48862280094959" y2="43.41003135260632" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="97.6604447182101" y1="24.551242233574214" x2="99.90044471821011" y2="26.791242233574216" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="97.6604447182101" y1="26.791242233574216" x2="99.90044471821011" y2="24.551242233574214" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="119.4473798632871" y1="35.890775498296364" x2="121.6873798632871" y2="38.13077549829636" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="119.4473798632871" y1="38.13077549829636" x2="121.6873798632871" y2="35.890775498296364" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="106.6017756584661" y1="44.16894490998211" x2="108.8417756584661" y2="46.408944909982104" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="106.6017756584661" y1="46.408944909982104" x2="108.8417756584661" y2="44.16894490998211" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="97.54835725961014" y1="22.68139019685602" x2="99.78835725961015" y2="24.921390196856024" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="97.54835725961014" y1="24.921390196856024" x2="99.78835725961015" y2="22.68139019685602" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.23978742924592" y1="40.28406546357318" x2="90.47978742924593" y2="42.52406546357317" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="88.23978742924592" y1="42.52406546357317" x2="90.47978742924593" y2="40.28406546357318" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.18287630505657" y1="46.16612694532957" x2="98.42287630505658" y2="48.40612694532957" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.18287630505657" y1="48.40612694532957" x2="98.42287630505658" y2="46.16612694532957" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="110.71411972812616" y1="49.340747801065994" x2="112.95411972812617" y2="51.58074780106599" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="110.71411972812616" y1="51.58074780106599" x2="112.95411972812617" y2="49.340747801065994" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="108.06063798235903" y1="29.69904776008487" x2="110.30063798235904" y2="31.939047760084872" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="108.06063798235903" y1="31.939047760084872" x2="110.30063798235904" y2="29.69904776008487" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="112.60926067415507" y1="21.700290366478168" x2="114.84926067415508" y2="23.94029036647817" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="112.60926067415507" y1="23.94029036647817" x2="114.84926067415508" y2="21.700290366478168" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.58317670766007" y1="46.17534235960927" x2="104.82317670766008" y2="48.41534235960926" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.58317670766007" y1="48.41534235960926" x2="104.82317670766008" y2="46.17534235960927" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.3275520156675" y1="24.86769833979179" x2="104.5675520156675" y2="27.107698339791792" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.3275520156675" y1="27.107698339791792" x2="104.5675520156675" y2="24.86769833979179" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="101.78455739719959" y1="36.713858997895734" x2="104.0245573971996" y2="38.95385899789573" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="101.78455739719959" y1="38.95385899789573" x2="104.0245573971996" y2="36.713858997895734" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.90682039712695" y1="46.81509991920595" x2="99.14682039712696" y2="49.055099919205944" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="96.90682039712695" y1="49.055099919205944" x2="99.14682039712696" y2="46.81509991920595" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.83100763927605" y1="28.76855458853348" x2="98.07100763927606" y2="31.00855458853348" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.83100763927605" y1="31.00855458853348" x2="98.07100763927606" y2="28.76855458853348" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.0144153094925" y1="26.78069725953649" x2="104.25441530949252" y2="29.02069725953649" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="102.0144153094925" y1="29.02069725953649" x2="104.25441530949252" y2="26.78069725953649" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.16052883625929" y1="32.438311538124296" x2="97.4005288362593" y2="34.67831153812429" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.16052883625929" y1="34.67831153812429" x2="97.4005288362593" y2="32.438311538124296" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="118.08336457953126" y1="23.21278862821725" x2="120.32336457953127" y2="25.452788628217252" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="118.08336457953126" y1="25.452788628217252" x2="120.32336457953127" y2="23.21278862821725" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.51192912333363" y1="26.67118097216846" x2="92.75192912333364" y2="28.911180972168463" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.51192912333363" y1="28.911180972168463" x2="92.75192912333364" y2="26.67118097216846" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="120.20385850807762" y1="46.738904024838284" x2="122.44385850807762" y2="48.97890402483828" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="120.20385850807762" y1="48.97890402483828" x2="122.44385850807762" y2="46.738904024838284" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.40287456079491" y1="37.270242340441854" x2="92.64287456079492" y2="39.51024234044185" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="90.40287456079491" y1="39.51024234044185" x2="92.64287456079492" y2="37.270242340441854" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="86.34572109404048" y1="30.08287582812153" x2="88.5857210940405" y2="32.32287582812153" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="86.34572109404048" y1="32.32287582812153" x2="88.5857210940405" y2="30.08287582812153" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.8705659335009" y1="36.48814027948103" x2="98.11056593350091" y2="38.728140279481025" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="95.8705659335009" y1="38.728140279481025" x2="98.11056593350091" y2="36.48814027948103" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="117.75272475903455" y1="44.36467833962259" x2="119.99272475903456" y2="46.60467833962259" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="117.75272475903455" y1="46.60467833962259" x2="119.99272475903456" y2="44.36467833962259" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="103.05162299333952" y1="43.69878100214752" x2="105.29162299333953" y2="45.938781002147515" stroke="#555" stroke-width="0.18" />
+        <ns0:line x1="103.05162299333952" y1="45.938781002147515" x2="105.29162299333953" y2="43.69878100214752" stroke="#555" stroke-width="0.18" />
+        <ns0:circle cx="85.89999999999999" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="85.89999999999999" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="89.1" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="92.3" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="95.5" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="98.7" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="101.9" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="105.10000000000001" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="108.30000000000001" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="111.50000000000001" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="114.70000000000002" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="117.90000000000002" cy="49.199999999999996" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="23.59999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="26.79999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="29.99999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="33.19999999999998" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="36.399999999999984" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="39.59999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="42.79999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="45.99999999999999" r="0.3" fill="#555" />
+        <ns0:circle cx="121.10000000000002" cy="49.199999999999996" r="0.3" fill="#555" />
+      </ns0:g>
+      <ns0:text x="48" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Crystalline Basement</ns0:text>
+      <ns0:text x="66" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">Pt</ns0:text>
+      <ns0:polygon points="125.5,21.99999999999998 137.5,21.99999999999998 137.5,51.02857142857141 125.5,51.02857142857141" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle" />
+      <ns0:text x="131.5" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">砾石</ns0:text>
+      <ns0:text x="147" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">80.0</ns0:text>
+      <ns0:text x="157" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Granite-gneiss basement complex</ns0:text>
+      <ns0:text x="123.0" y="36.51428571428569" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">540</ns0:text>
+    </ns0:g>
+    <ns0:line x1="8" y1="51.02857142857141" x2="273" y2="51.02857142857141" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator" />
+    <ns0:line x1="8" y1="276" x2="273" y2="276" stroke="#000" stroke-width="0.35" data-cdr-type="erathem-boundary" />
+    <ns0:line x1="8" y1="51.02857142857141" x2="273" y2="51.02857142857141" stroke="#000" stroke-width="0.35" data-cdr-type="erathem-boundary" />
+    <ns0:line x1="21" y1="276" x2="273" y2="276" stroke="#555" stroke-width="0.22" data-cdr-type="system-boundary" />
+    <ns0:line x1="21" y1="51.02857142857141" x2="273" y2="51.02857142857141" stroke="#555" stroke-width="0.22" data-cdr-type="system-boundary" />
+    <ns0:rect x="223" y="22" width="18" height="268" fill="#fafafa" stroke="#ddd" stroke-width="0.15" data-cdr-type="curve-bg" />
+    <ns0:line x1="223" y1="276.0" x2="241" y2="276.0" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="223" y1="239.71428571428572" x2="241" y2="239.71428571428572" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="223" y1="203.42857142857144" x2="241" y2="203.42857142857144" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="223" y1="167.14285714285714" x2="241" y2="167.14285714285714" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="223" y1="130.85714285714286" x2="241" y2="130.85714285714286" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="223" y1="94.57142857142856" x2="241" y2="94.57142857142856" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="223" y1="58.28571428571428" x2="241" y2="58.28571428571428" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="232.0" y1="276" x2="232.0" y2="22" stroke="#ddd" stroke-width="0.1" data-cdr-type="curve-vgrid" />
+    <ns0:text x="232.0" y="273" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="middle" fill="#333" data-cdr-type="curve-label">GR</ns0:text>
+    <ns0:text x="232.0" y="275.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="curve-unit">API</ns0:text>
+    <ns0:path d="M 228.1,276.0 L 226.0,261.5 L 229.6,247.0 L 232.0,232.5 L 234.4,217.9 L 235.9,203.4 L 233.6,188.9 L 231.2,174.4 L 227.3,159.9 L 225.7,145.4 L 229.6,130.9 L 235.9,116.3 L 238.3,101.8 L 235.1,87.3 L 232.0,72.8 L 228.1,58.3 L 226.5,43.8 L 227.0,29.3 L 227.3,22.0" fill="none" stroke="#2e7d32" stroke-width="0.3" stroke-linejoin="round" data-cdr-type="curve-line" data-cdr-name="GR" />
+    <ns0:path d="M 228.1,276.0 L 226.0,261.5 L 229.6,247.0 L 232.0,232.5 L 234.4,217.9 L 235.9,203.4 L 233.6,188.9 L 231.2,174.4 L 227.3,159.9 L 225.7,145.4 L 229.6,130.9 L 235.9,116.3 L 238.3,101.8 L 235.1,87.3 L 232.0,72.8 L 228.1,58.3 L 226.5,43.8 L 227.0,29.3 L 227.3,22.0 L 227.3,276.0 L 228.1,276.0 Z" fill="#2e7d32" opacity="0.08" stroke="none" data-cdr-type="curve-fill" />
+    <ns0:text x="224" y="279" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#999" data-cdr-type="curve-range">150</ns0:text>
+    <ns0:text x="224" y="21" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#999" data-cdr-type="curve-range">70</ns0:text>
+    <ns0:rect x="244" y="22" width="18" height="268" fill="#fafafa" stroke="#ddd" stroke-width="0.15" data-cdr-type="curve-bg" />
+    <ns0:line x1="244" y1="276.0" x2="262" y2="276.0" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="244" y1="239.71428571428572" x2="262" y2="239.71428571428572" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="244" y1="203.42857142857144" x2="262" y2="203.42857142857144" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="244" y1="167.14285714285714" x2="262" y2="167.14285714285714" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="244" y1="130.85714285714286" x2="262" y2="130.85714285714286" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="244" y1="94.57142857142856" x2="262" y2="94.57142857142856" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="244" y1="58.28571428571428" x2="262" y2="58.28571428571428" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid" />
+    <ns0:line x1="253.0" y1="276" x2="253.0" y2="22" stroke="#ddd" stroke-width="0.1" data-cdr-type="curve-vgrid" />
+    <ns0:text x="253.0" y="273" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.2" font-weight="bold" text-anchor="middle" fill="#333" data-cdr-type="curve-label">MS</ns0:text>
+    <ns0:text x="253.0" y="275.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="curve-unit">10⁻⁵ SI</ns0:text>
+    <ns0:path d="M 246.7,276.0 L 248.9,257.9 L 253.0,239.7 L 255.2,221.6 L 253.9,203.4 L 250.8,185.3 L 247.6,167.1 L 249.8,149.0 L 256.1,130.9 L 259.3,112.7 L 254.6,94.6 L 251.4,76.4 L 248.9,58.3 L 247.6,40.1 L 248.3,22.0" fill="none" stroke="#1565c0" stroke-width="0.3" stroke-linejoin="round" data-cdr-type="curve-line" data-cdr-name="MS" />
+    <ns0:text x="245" y="279" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#999" data-cdr-type="curve-range">55</ns0:text>
+    <ns0:text x="245" y="21" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#999" data-cdr-type="curve-range">15</ns0:text>
+  </ns0:g>
+  <ns0:g id="cdr-outlines" ns1:groupmode="layer" ns1:label="Outlines" data-cdr-layer="outlines">
+    <ns0:line x1="8" y1="22" x2="273" y2="22" stroke="#333" stroke-width="0.2" data-cdr-type="table-bottom" />
+    <ns0:line x1="8" y1="22" x2="8" y2="290" stroke="#333" stroke-width="0.2" data-cdr-type="table-left" />
+    <ns0:line x1="273" y1="22" x2="273" y2="290" stroke="#333" stroke-width="0.2" data-cdr-type="table-right" />
+    <ns0:line x1="8" y1="290" x2="273" y2="290" stroke="#333" stroke-width="0.2" data-cdr-type="table-top" />
+  </ns0:g>
+  <ns0:g id="cdr-footer" ns1:groupmode="layer" ns1:label="Footer" data-cdr-layer="footer">
+    <ns0:text x="8" y="17" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#666" data-cdr-type="footer-text">São Luís–Grajaú Basin — Aptian Stratigraphy  |  总厚 700m  |  6 层  |  比例尺 1:2,755</ns0:text>
+    <ns0:text x="8" y="14" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#bbb" data-cdr-type="footer-citation">Generated with CorelDRAWer-Skill (github.com/Reasonite-lab/CorelDRAWer-Skill)</ns0:text>
+  </ns0:g>
+  <ns0:g id="cdr-legend" ns1:groupmode="layer" ns1:label="Legend" data-cdr-layer="legend">
+    <ns0:rect x="277" y="224.0" width="38" height="52.0" fill="#fff" stroke="#666" stroke-width="0.25" data-cdr-type="legend-box" />
+    <ns0:text x="296.0" y="229.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2.5" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="legend-title">图  例</ns0:text>
+    <ns0:line x1="280" y1="232.0" x2="312" y2="232.0" stroke="#ccc" stroke-width="0.15" data-cdr-type="legend-separator" />
+    <ns0:rect x="281" y="230.5" width="6" height="6" fill="#bfbfbf" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch" />
+    <ns0:g clip-path="url(#lgclip_0)">
+      <ns0:rect x="281.3" y="230.8" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+      <ns0:rect x="286.1" y="230.8" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+      <ns0:rect x="283.7" y="232.97" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+      <ns0:rect x="281.3" y="235.14" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+      <ns0:rect x="286.1" y="235.14" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16" />
+    </ns0:g>
+    <ns0:text x="290" y="233.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Upper Carbonate</ns0:text>
+    <ns0:rect x="281" y="237.5" width="6" height="6" fill="#726d61" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch" />
+    <ns0:g clip-path="url(#lgclip_1)">
+      <ns0:line x1="281.3" y1="238.172" x2="286.7" y2="238.172" stroke="#555" stroke-width="0.22" />
+      <ns0:line x1="282.792" y1="237.5" x2="282.792" y2="238.844" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="286.152" y1="237.5" x2="286.152" y2="238.844" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="281.3" y1="240.412" x2="286.7" y2="240.412" stroke="#555" stroke-width="0.22" />
+      <ns0:line x1="282.792" y1="239.74" x2="282.792" y2="241.084" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="286.152" y1="239.74" x2="286.152" y2="241.084" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="281.3" y1="242.65200000000002" x2="286.7" y2="242.65200000000002" stroke="#555" stroke-width="0.22" />
+    </ns0:g>
+    <ns0:text x="290" y="240.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Marine Shale</ns0:text>
+    <ns0:rect x="281" y="244.5" width="6" height="6" fill="#f2f2e6" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch" />
+    <ns0:g clip-path="url(#lgclip_2)">
+      <ns0:line x1="269" y1="244.5" x2="275" y2="250.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="272.84" y1="244.5" x2="278.84" y2="250.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="276.67999999999995" y1="244.5" x2="282.67999999999995" y2="250.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="280.5199999999999" y1="244.5" x2="286.5199999999999" y2="250.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="284.3599999999999" y1="244.5" x2="290.3599999999999" y2="250.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="288.1999999999999" y1="244.5" x2="294.1999999999999" y2="250.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="292.03999999999985" y1="244.5" x2="298.03999999999985" y2="250.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="269" y1="250.5" x2="275" y2="244.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="272.84" y1="250.5" x2="278.84" y2="244.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="276.67999999999995" y1="250.5" x2="282.67999999999995" y2="244.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="280.5199999999999" y1="250.5" x2="286.5199999999999" y2="244.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="284.3599999999999" y1="250.5" x2="290.3599999999999" y2="244.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="288.1999999999999" y1="250.5" x2="294.1999999999999" y2="244.5" stroke="#999" stroke-width="0.15" />
+      <ns0:line x1="292.03999999999985" y1="250.5" x2="298.03999999999985" y2="244.5" stroke="#999" stroke-width="0.15" />
+    </ns0:g>
+    <ns0:text x="290" y="247.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Evaporite-Anhydrite</ns0:text>
+    <ns0:rect x="281" y="251.5" width="6" height="6" fill="#d89782" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch" />
+    <ns0:g clip-path="url(#lgclip_3)">
+      <ns0:circle cx="282.12" cy="252.62" r="0.35" fill="#555" />
+      <ns0:circle cx="282.12" cy="254.86" r="0.35" fill="#555" />
+      <ns0:circle cx="282.12" cy="257.1" r="0.35" fill="#555" />
+      <ns0:circle cx="284.36" cy="252.62" r="0.35" fill="#555" />
+      <ns0:circle cx="284.36" cy="254.86" r="0.35" fill="#555" />
+      <ns0:circle cx="284.36" cy="257.1" r="0.35" fill="#555" />
+      <ns0:circle cx="286.6" cy="252.62" r="0.35" fill="#555" />
+      <ns0:circle cx="286.6" cy="254.86" r="0.35" fill="#555" />
+      <ns0:circle cx="286.6" cy="257.1" r="0.35" fill="#555" />
+    </ns0:g>
+    <ns0:text x="290" y="254.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Pre-Salt Siliciclastic</ns0:text>
+    <ns0:rect x="281" y="258.5" width="6" height="6" fill="#99ac85" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch" />
+    <ns0:g clip-path="url(#lgclip_4)">
+      <ns0:circle cx="285.032" cy="262.532" r="1.5" fill="none" stroke="#000" stroke-width="0.2" />
+    </ns0:g>
+    <ns0:text x="290" y="261.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Rift Basin Fill</ns0:text>
+    <ns0:rect x="281" y="265.5" width="6" height="6" fill="#a58495" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch" />
+    <ns0:g clip-path="url(#lgclip_5)">
+      <ns0:line x1="280.19418159310567" y1="264.9031200651358" x2="282.4341815931057" y2="267.1431200651358" stroke="#555" stroke-width="0.18" />
+      <ns0:line x1="280.19418159310567" y1="267.1431200651358" x2="282.4341815931057" y2="264.9031200651358" stroke="#555" stroke-width="0.18" />
+      <ns0:line x1="282.32345058202236" y1="265.02620140963063" x2="284.56345058202237" y2="267.26620140963064" stroke="#555" stroke-width="0.18" />
+      <ns0:line x1="282.32345058202236" y1="267.26620140963064" x2="284.56345058202237" y2="265.02620140963063" stroke="#555" stroke-width="0.18" />
+      <ns0:circle cx="282.6" cy="267.1" r="0.3" fill="#555" />
+      <ns0:circle cx="282.6" cy="270.3" r="0.3" fill="#555" />
+      <ns0:circle cx="285.8" cy="267.1" r="0.3" fill="#555" />
+      <ns0:circle cx="285.8" cy="270.3" r="0.3" fill="#555" />
+    </ns0:g>
+    <ns0:text x="290" y="268.5" font-family="Arial, Helvetica, SimHei, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Crystalline Basement</ns0:text>
+  </ns0:g>
+<desc>Generated by CorelDRAWer-Skill for CorelDRAW import</desc></ns0:svg>
