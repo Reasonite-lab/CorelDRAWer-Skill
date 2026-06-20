@@ -1,0 +1,26 @@
+{
+  "_ref": "Synthesized from s43247-026-03625-6 (Shuram Excursion) and s43247-026-03678-7 (Early Cambrian euxinia)",
+  "title": "Ediacaran-Cambrian Chemostratigraphy — South China",
+  "location": "Yangtze Platform, South China",
+  "layers": [
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Stage 3","formation":"Shuijingtuo Fm","symbol":"∈₂s","thick":95,"descr":"Black shale, euxinic, Ni-Mo enrichment layer at base","c":0,"m":5,"y":10,"k":65,"pattern":"carbShale","grain":1,"fossils":["trilobite","spore"],"age_ma":518,"structures":["concretion"]},
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Stage 2","formation":"Yanjiahe Fm","symbol":"∈₁y","thick":35,"descr":"Siliceous shale, small shelly fossils, barite layers","c":0,"m":0,"y":5,"k":50,"pattern":"shale","grain":1,"fossils":["brachiopod","algae"],"age_ma":529,"markers":[{"symbol":"star","y_offset":0.2,"label":"SSF FAD"}]},
+    {"erathem":"Paleozoic","system":"Cambrian","series":"Fortunian","formation":"Yanjiahe Fm","symbol":"∈₁y","thick":20,"descr":"Phosphatic limestone with Anabarites, Protohertzina","c":0,"m":0,"y":0,"k":45,"pattern":"phosphorite","grain":2,"fossils":["foraminifera"],"age_ma":538},
+    {"erathem":"Proterozoic","system":"Ediacaran","series":"Terminal","formation":"Dengying Fm","symbol":"Z₂dy","thick":120,"descr":"Massive dolomite, Cloudina, Sinotubulites, δ¹³C plateau ~+4‰","c":5,"m":0,"y":8,"k":10,"pattern":"dolo","grain":2,"fossils":["stromatolite"],"age_ma":543,"contact":"unconformity"},
+    {"erathem":"Proterozoic","system":"Ediacaran","series":"Terminal","formation":"Dengying Fm","symbol":"Z₂dy","thick":230,"descr":"Light grey thick-bedded peritidal dolomite, chert nodules","c":0,"m":0,"y":3,"k":8,"pattern":"dolo","grain":2,"age_ma":548},
+    {"erathem":"Proterozoic","system":"Ediacaran","series":"Middle","formation":"Doushantuo Fm","symbol":"Z₁d","thick":75,"descr":"Black shale, Doushantuo-Pertatataka acritarchs, Shuram δ¹³C nadir −10‰","c":0,"m":5,"y":15,"k":55,"pattern":"shale","grain":1,"fossils":["algae","spore"],"age_ma":565,"markers":[{"symbol":"star","y_offset":0.5,"label":"Shuram −10‰"}]},
+    {"erathem":"Proterozoic","system":"Ediacaran","series":"Middle","formation":"Doushantuo Fm","symbol":"Z₁d","thick":85,"descr":"Grey dolomitic limestone, small acanthomorphs, δ¹³C rising","c":0,"m":0,"y":5,"k":20,"pattern":"doloLime","grain":2,"age_ma":580},
+    {"erathem":"Proterozoic","system":"Ediacaran","series":"Lower","formation":"Doushantuo Fm","symbol":"Z₁d","thick":15,"descr":"Pink cap dolomite, tepee structures, barite fans","c":0,"m":0,"y":8,"k":10,"pattern":"dolo","grain":2,"structures":["crack"],"age_ma":632},
+    {"erathem":"Proterozoic","system":"Cryogenian","series":"Upper","formation":"Nantuo Fm","symbol":"Nh₂n","thick":55,"descr":"Massive green-grey diamictite, Marinoan glaciation","c":50,"m":20,"y":50,"k":30,"pattern":"conglo","grain":6,"age_ma":635,"contact":"unconformity"},
+    {"erathem":"Proterozoic","system":"Cryogenian","series":"Upper","formation":"Nantuo Fm","symbol":"Nh₂n","thick":40,"descr":"Sandy diamictite with dropstones","c":30,"m":10,"y":25,"k":25,"pattern":"conglo","grain":5,"age_ma":645}
+  ],
+  "curves": [
+    {
+      "name": "δ¹³C",
+      "unit": "‰ VPDB",
+      "color": "#1565c0",
+      "fill": false,
+      "data": [[0,-3],[30,-2],[60,-1],[90,0],[120,1],[150,2],[180,3],[210,4],[240,3.5],[270,3],[300,2],[320,1],[340,0],[360,-2],[380,-4],[400,-6],[420,-8],[440,-10],[460,-9],[480,-7],[500,-5],[520,-3],[540,-1],[560,0],[580,1],[600,2],[620,3],[640,4],[660,5],[680,4],[700,3],[720,2],[740,1],[760,0],[770,0]]
+    }
+  ]
+}
