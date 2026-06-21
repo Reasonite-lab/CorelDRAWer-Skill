@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 293 333" width="293mm" height="333mm" version="1.1">
+  <defs>
+    <clipPath id="clip_0">
+      <rect x="84.3" y="266.9688888888889" width="37.2" height="9.03111111111111"/>
+    </clipPath>
+    <clipPath id="clip_1">
+      <rect x="84.3" y="250.03555555555556" width="37.2" height="16.933333333333334"/>
+    </clipPath>
+    <clipPath id="clip_2">
+      <rect x="84.3" y="246.53555555555556" width="37.2" height="3.5"/>
+    </clipPath>
+    <clipPath id="clip_3">
+      <rect x="84.3" y="218.31333333333333" width="37.2" height="28.22222222222222"/>
+    </clipPath>
+    <clipPath id="clip_4">
+      <rect x="84.3" y="173.15777777777777" width="37.2" height="45.15555555555555"/>
+    </clipPath>
+    <clipPath id="clip_5">
+      <rect x="84.3" y="111.06888888888888" width="37.2" height="62.08888888888889"/>
+    </clipPath>
+    <clipPath id="clip_6">
+      <rect x="84.3" y="20.757777777777775" width="37.2" height="90.3111111111111"/>
+    </clipPath>
+    <clipPath id="lgclip_0">
+      <rect x="253" y="244.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_1">
+      <rect x="253" y="251.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_2">
+      <rect x="253" y="258.5" width="6" height="6"/>
+    </clipPath>
+    <clipPath id="lgclip_3">
+      <rect x="253" y="265.5" width="6" height="6"/>
+    </clipPath>
+  </defs>
+  <g id="cdr-background" inkscape:groupmode="layer" inkscape:label="Background" data-cdr-layer="background">
+    <rect x="0" y="0" width="293" height="333" fill="#fff" stroke="none" stroke-width="0"/>
+  </g>
+  <g id="cdr-title" inkscape:groupmode="layer" inkscape:label="Title" data-cdr-layer="title">
+    <text x="126.5" y="302" font-family="Arial, Helvetica, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#333" data-cdr-type="title">Late Devonian Kellwasser Crisis — Rhenish Massif</text>
+    <text x="126.5" y="296" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="normal" text-anchor="middle" fill="#555" data-cdr-type="subtitle">Steinbruch Schmidt, Germany</text>
+  </g>
+  <g id="cdr-header" inkscape:groupmode="layer" inkscape:label="Header" data-cdr-layer="header">
+    <rect x="8" y="276" width="237" height="14" fill="#f5f5f5" stroke="#000" stroke-width="0.4" data-cdr-type="header-bg"/>
+    <text x="14.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">界</text>
+    <text x="27.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">系</text>
+    <text x="40.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">统</text>
+    <text x="56.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">组</text>
+    <text x="71.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">代号</text>
+    <text x="80.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">化石</text>
+    <text x="104.0" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">岩 性 柱</text>
+    <text x="131.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">粒度</text>
+    <text x="144.0" y="279.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">厚度</text>
+    <text x="144.0" y="286.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">(m)</text>
+    <text x="181.5" y="283.0" font-family="SimHei, Heiti SC, sans-serif" font-size="2.8" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="header-text">岩 性 描 述</text>
+    <line x1="21" y1="22" x2="21" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="34" y1="22" x2="34" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="47" y1="22" x2="47" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="65" y1="22" x2="65" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="77" y1="22" x2="77" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="84" y1="22" x2="84" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="124" y1="22" x2="124" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="139" y1="22" x2="139" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="149" y1="22" x2="149" y2="290" stroke="#e8e8e8" stroke-width="0.08" data-cdr-type="col-divider"/>
+    <line x1="8" y1="276" x2="245" y2="276" stroke="#333" stroke-width="0.2" data-cdr-type="header-line"/>
+  </g>
+  <g id="cdr-body" inkscape:groupmode="layer" inkscape:label="Column Body" data-cdr-layer="body">
+    <line x1="84" y1="276.0" x2="122" y2="276.0" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick"/>
+    <text x="121" y="274.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888" data-cdr-type="scale-label">0</text>
+    <line x1="84" y1="163.11111111111111" x2="122" y2="163.11111111111111" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick"/>
+    <line x1="84" y1="50.22222222222223" x2="122" y2="50.22222222222223" stroke="#aaa" stroke-width="0.15" data-cdr-type="scale-tick"/>
+    <text x="121" y="48.72222222222223" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="end" fill="#888" data-cdr-type="scale-label">200</text>
+    <line x1="84" y1="22" x2="84" y2="276" stroke="#ccc" stroke-width="0.1" data-cdr-type="scale-ruler"/>
+    <rect x="8" y="20.757777777777775" width="13" height="255.2422222222222" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="erathem" data-cdr-value="Paleozoic"/>
+    <text x="14.5" y="148.3788888888889" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="erathem">Paleozoic</text>
+    <rect x="21" y="266.9688888888889" width="13" height="9.031111111111102" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="system" data-cdr-value="Carboniferous"/>
+    <text x="27.5" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="system">Carboniferous</text>
+    <rect x="21" y="20.757777777777775" width="13" height="246.2111111111111" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="system" data-cdr-value="Devonian"/>
+    <text x="27.5" y="143.86333333333334" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="system">Devonian</text>
+    <rect x="34" y="266.9688888888889" width="13" height="9.031111111111102" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Lower"/>
+    <text x="40.5" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Lower</text>
+    <rect x="34" y="218.31333333333333" width="13" height="48.655555555555566" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Upper"/>
+    <text x="40.5" y="242.64111111111112" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Upper</text>
+    <rect x="34" y="111.06888888888888" width="13" height="107.24444444444445" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Middle"/>
+    <text x="40.5" y="164.6911111111111" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Middle</text>
+    <rect x="34" y="20.757777777777775" width="13" height="90.3111111111111" fill="#fafaf8" stroke="none" stroke-width="0" data-cdr-type="merge-cell" data-cdr-field="series" data-cdr-value="Lower"/>
+    <text x="40.5" y="65.91333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="2.4" font-weight="normal" text-anchor="middle" fill="#222" data-cdr-type="merge-label" data-cdr-field="series">Lower</text>
+    <g id="layer_0" data-cdr-type="layer" data-cdr-name="Hangenberg Shale" data-cdr-pattern="carbShale" data-cdr-thickness="8" data-cdr-color="#4c4c4c" data-cdr-index="0">
+      <rect x="84.3" y="266.9688888888889" width="37.2" height="9.03111111111111" fill="#4c4c4c" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect"/>
+      <g clip-path="url(#clip_0)">
+        <line x1="84.6" y1="267.6408888888889" x2="121.2" y2="267.6408888888889" stroke="#eee" stroke-width="0.18"/>
+        <line x1="84.6" y1="269.88088888888893" x2="121.2" y2="269.88088888888893" stroke="#eee" stroke-width="0.18"/>
+        <line x1="84.6" y1="272.12088888888894" x2="121.2" y2="272.12088888888894" stroke="#eee" stroke-width="0.18"/>
+        <line x1="84.6" y1="274.36088888888895" x2="121.2" y2="274.36088888888895" stroke="#eee" stroke-width="0.18"/>
+      </g>
+      <text x="48" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Hangenberg Shale</text>
+      <text x="66" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">C₁h</text>
+      <polygon points="125.5,266.9688888888889 127.5,266.9688888888889 127.5,276 125.5,276" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle"/>
+      <text x="131.5" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粘土</text>
+      <text x="140" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">8.0</text>
+      <text x="150" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Black shale, Hangenberg Event</text>
+      <text x="123.0" y="271.4844444444444" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">359</text>
+    </g>
+    <line x1="8" y1="276" x2="245" y2="276" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator"/>
+    <g id="layer_1" data-cdr-type="layer" data-cdr-name="Wocklum Limestone" data-cdr-pattern="lime" data-cdr-thickness="15" data-cdr-color="#b2b2b2" data-cdr-index="1">
+      <rect x="84.3" y="250.03555555555556" width="37.2" height="16.933333333333334" fill="#b2b2b2" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect"/>
+      <g clip-path="url(#clip_1)">
+        <rect x="84.6" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="250.33555555555557" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="252.50555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="254.67555555555555" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="256.84555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="259.0155555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="261.1855555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="263.3555555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="265.5255555555556" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      </g>
+      <text x="48" y="258.50222222222226" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Wocklum Limestone</text>
+      <text x="66" y="258.50222222222226" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">D₃w</text>
+      <text x="80.5" y="260.25222222222226" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="brachiopod">🦪</text>
+      <polygon points="125.5,250.03555555555556 129.5,250.03555555555556 129.5,266.9688888888889 125.5,266.9688888888889" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle"/>
+      <text x="131.5" y="258.50222222222226" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粉砂</text>
+      <text x="140" y="258.50222222222226" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">15.0</text>
+      <text x="150" y="258.50222222222226" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Grey nodular limestone</text>
+      <text x="123.0" y="258.50222222222226" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">365</text>
+    </g>
+    <line x1="8" y1="266.9688888888889" x2="245" y2="266.9688888888889" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator"/>
+    <g id="layer_2" data-cdr-type="layer" data-cdr-name="Kellwasser Horizon" data-cdr-pattern="carbShale" data-cdr-thickness="2" data-cdr-color="#262626" data-cdr-index="2">
+      <rect x="84.3" y="246.53555555555556" width="37.2" height="3.5" fill="#262626" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect"/>
+      <g clip-path="url(#clip_2)">
+        <line x1="84.6" y1="247.20755555555556" x2="121.2" y2="247.20755555555556" stroke="#eee" stroke-width="0.18"/>
+        <line x1="84.6" y1="249.44755555555557" x2="121.2" y2="249.44755555555557" stroke="#eee" stroke-width="0.18"/>
+      </g>
+      <text x="48" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Kellwasser Horizon</text>
+      <text x="66" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">D₃k</text>
+      <polygon points="125.5,246.53555555555556 127.5,246.53555555555556 127.5,250.03555555555556 125.5,250.03555555555556" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle"/>
+      <text x="131.5" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粘土</text>
+      <text x="140" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">2.0</text>
+      <text x="150" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Black bituminous shale, Upper Kellwasser δ¹³C +4‰</text>
+      <text x="81.3" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="3" font-weight="bold" text-anchor="middle" fill="#c0392b" data-cdr-type="sample-marker">★</text>
+      <text x="77.3" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="end" fill="#c0392b" data-cdr-type="sample-label">Kellwasser</text>
+      <text x="123.0" y="248.28555555555556" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">372</text>
+    </g>
+    <line x1="8" y1="250.03555555555556" x2="245" y2="250.03555555555556" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator"/>
+    <g id="layer_3" data-cdr-type="layer" data-cdr-name="Adorf Limestone" data-cdr-pattern="lime" data-cdr-thickness="25" data-cdr-color="#a5a5a5" data-cdr-index="3">
+      <rect x="84.3" y="218.31333333333333" width="37.2" height="28.22222222222222" fill="#a5a5a5" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect"/>
+      <g clip-path="url(#clip_3)">
+        <rect x="84.6" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="218.61333333333334" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="220.78333333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="222.95333333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="225.1233333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="227.2933333333333" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="229.46333333333328" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="231.63333333333327" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="233.80333333333326" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="235.97333333333324" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="238.14333333333323" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="240.31333333333322" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="242.4833333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="244.6533333333332" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      </g>
+      <text x="48" y="232.42444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Adorf Limestone</text>
+      <text x="66" y="232.42444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">D₃a</text>
+      <text x="80.5" y="230.67444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="cephalopod">🐙</text>
+      <text x="80.5" y="237.67444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="trilobite">🦞</text>
+      <polygon points="125.5,218.31333333333333 129.5,218.31333333333333 129.5,246.53555555555556 125.5,246.53555555555556" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle"/>
+      <text x="131.5" y="232.42444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粉砂</text>
+      <text x="140" y="232.42444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">25.0</text>
+      <text x="150" y="232.42444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Dark grey cephalopod limestone</text>
+      <text x="123.0" y="232.42444444444445" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">378</text>
+    </g>
+    <line x1="8" y1="246.53555555555556" x2="245" y2="246.53555555555556" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator"/>
+    <g id="layer_4" data-cdr-type="layer" data-cdr-name="Stringocephalus Limestone" data-cdr-pattern="lime" data-cdr-thickness="40" data-cdr-color="#ccccc1" data-cdr-index="4">
+      <rect x="84.3" y="173.15777777777777" width="37.2" height="45.15555555555555" fill="#ccccc1" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect"/>
+      <g clip-path="url(#clip_4)">
+        <rect x="84.6" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="173.45777777777778" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="175.62777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="177.79777777777775" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="179.96777777777774" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="182.13777777777773" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="184.30777777777772" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="186.4777777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="188.6477777777777" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="190.81777777777768" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="192.98777777777767" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="195.15777777777765" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="197.32777777777764" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="199.49777777777763" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="201.66777777777762" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="203.8377777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="206.0077777777776" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="208.17777777777758" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="210.34777777777757" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="212.51777777777755" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="87.0" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="91.8" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="96.6" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="101.39999999999999" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="106.19999999999999" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="110.99999999999999" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="115.79999999999998" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="120.59999999999998" y="214.68777777777754" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="84.6" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="89.39999999999999" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="94.19999999999999" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="98.99999999999999" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="103.79999999999998" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="108.59999999999998" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="113.39999999999998" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+        <rect x="118.19999999999997" y="216.85777777777753" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      </g>
+      <text x="48" y="195.73555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Stringocephalus Limestone</text>
+      <text x="66" y="195.73555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">D₂s</text>
+      <text x="80.5" y="193.98555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="brachiopod">🦪</text>
+      <text x="80.5" y="197.48555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="coral">🪸</text>
+      <text x="80.5" y="200.98555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="crinoid">🌸</text>
+      <polygon points="125.5,173.15777777777777 131.5,173.15777777777777 131.5,218.31333333333333 125.5,218.31333333333333" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle"/>
+      <text x="131.5" y="195.73555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">细砂</text>
+      <text x="140" y="195.73555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">40.0</text>
+      <text x="150" y="195.73555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Massive reef limestone, Stringocephalus</text>
+      <text x="123.0" y="195.73555555555555" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">385</text>
+    </g>
+    <line x1="8" y1="218.31333333333333" x2="245" y2="218.31333333333333" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator"/>
+    <g id="layer_5" data-cdr-type="layer" data-cdr-name="Wissenbach Shale" data-cdr-pattern="shale" data-cdr-thickness="55" data-cdr-color="#8c857e" data-cdr-index="5">
+      <rect x="84.3" y="111.06888888888888" width="37.2" height="62.08888888888889" fill="#8c857e" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect"/>
+      <g clip-path="url(#clip_5)">
+        <line x1="84.6" y1="111.74088888888888" x2="121.2" y2="111.74088888888888" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="111.06888888888888" x2="86.092" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="111.06888888888888" x2="89.452" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="111.06888888888888" x2="92.812" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="111.06888888888888" x2="96.172" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="111.06888888888888" x2="99.532" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="111.06888888888888" x2="102.892" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="111.06888888888888" x2="106.252" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="111.06888888888888" x2="109.612" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="111.06888888888888" x2="112.972" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="111.06888888888888" x2="116.332" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="111.06888888888888" x2="119.692" y2="112.41288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="113.98088888888887" x2="121.2" y2="113.98088888888887" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="113.30888888888887" x2="86.092" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="113.30888888888887" x2="89.452" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="113.30888888888887" x2="92.812" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="113.30888888888887" x2="96.172" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="113.30888888888887" x2="99.532" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="113.30888888888887" x2="102.892" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="113.30888888888887" x2="106.252" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="113.30888888888887" x2="109.612" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="113.30888888888887" x2="112.972" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="113.30888888888887" x2="116.332" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="113.30888888888887" x2="119.692" y2="114.65288888888887" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="116.22088888888887" x2="121.2" y2="116.22088888888887" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="118.46088888888886" x2="121.2" y2="118.46088888888886" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="117.78888888888886" x2="86.092" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="117.78888888888886" x2="89.452" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="117.78888888888886" x2="92.812" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="117.78888888888886" x2="96.172" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="117.78888888888886" x2="99.532" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="117.78888888888886" x2="102.892" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="117.78888888888886" x2="106.252" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="117.78888888888886" x2="109.612" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="117.78888888888886" x2="112.972" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="117.78888888888886" x2="116.332" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="117.78888888888886" x2="119.692" y2="119.13288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="120.70088888888885" x2="121.2" y2="120.70088888888885" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="120.02888888888886" x2="86.092" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="120.02888888888886" x2="89.452" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="120.02888888888886" x2="92.812" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="120.02888888888886" x2="96.172" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="120.02888888888886" x2="99.532" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="120.02888888888886" x2="102.892" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="120.02888888888886" x2="106.252" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="120.02888888888886" x2="109.612" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="120.02888888888886" x2="112.972" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="120.02888888888886" x2="116.332" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="120.02888888888886" x2="119.692" y2="121.37288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="122.94088888888885" x2="121.2" y2="122.94088888888885" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="125.18088888888884" x2="121.2" y2="125.18088888888884" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="124.50888888888885" x2="86.092" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="124.50888888888885" x2="89.452" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="124.50888888888885" x2="92.812" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="124.50888888888885" x2="96.172" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="124.50888888888885" x2="99.532" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="124.50888888888885" x2="102.892" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="124.50888888888885" x2="106.252" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="124.50888888888885" x2="109.612" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="124.50888888888885" x2="112.972" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="124.50888888888885" x2="116.332" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="124.50888888888885" x2="119.692" y2="125.85288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="127.42088888888884" x2="121.2" y2="127.42088888888884" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="126.74888888888884" x2="86.092" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="126.74888888888884" x2="89.452" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="126.74888888888884" x2="92.812" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="126.74888888888884" x2="96.172" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="126.74888888888884" x2="99.532" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="126.74888888888884" x2="102.892" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="126.74888888888884" x2="106.252" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="126.74888888888884" x2="109.612" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="126.74888888888884" x2="112.972" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="126.74888888888884" x2="116.332" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="126.74888888888884" x2="119.692" y2="128.09288888888884" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="129.66088888888885" x2="121.2" y2="129.66088888888885" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="131.90088888888886" x2="121.2" y2="131.90088888888886" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="131.22888888888886" x2="86.092" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="131.22888888888886" x2="89.452" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="131.22888888888886" x2="92.812" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="131.22888888888886" x2="96.172" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="131.22888888888886" x2="99.532" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="131.22888888888886" x2="102.892" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="131.22888888888886" x2="106.252" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="131.22888888888886" x2="109.612" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="131.22888888888886" x2="112.972" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="131.22888888888886" x2="116.332" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="131.22888888888886" x2="119.692" y2="132.57288888888885" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="134.14088888888887" x2="121.2" y2="134.14088888888887" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="133.46888888888887" x2="86.092" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="133.46888888888887" x2="89.452" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="133.46888888888887" x2="92.812" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="133.46888888888887" x2="96.172" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="133.46888888888887" x2="99.532" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="133.46888888888887" x2="102.892" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="133.46888888888887" x2="106.252" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="133.46888888888887" x2="109.612" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="133.46888888888887" x2="112.972" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="133.46888888888887" x2="116.332" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="133.46888888888887" x2="119.692" y2="134.81288888888886" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="136.38088888888888" x2="121.2" y2="136.38088888888888" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="138.62088888888889" x2="121.2" y2="138.62088888888889" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="137.9488888888889" x2="86.092" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="137.9488888888889" x2="89.452" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="137.9488888888889" x2="92.812" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="137.9488888888889" x2="96.172" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="137.9488888888889" x2="99.532" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="137.9488888888889" x2="102.892" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="137.9488888888889" x2="106.252" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="137.9488888888889" x2="109.612" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="137.9488888888889" x2="112.972" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="137.9488888888889" x2="116.332" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="137.9488888888889" x2="119.692" y2="139.29288888888888" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="140.8608888888889" x2="121.2" y2="140.8608888888889" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="140.1888888888889" x2="86.092" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="140.1888888888889" x2="89.452" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="140.1888888888889" x2="92.812" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="140.1888888888889" x2="96.172" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="140.1888888888889" x2="99.532" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="140.1888888888889" x2="102.892" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="140.1888888888889" x2="106.252" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="140.1888888888889" x2="109.612" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="140.1888888888889" x2="112.972" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="140.1888888888889" x2="116.332" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="140.1888888888889" x2="119.692" y2="141.5328888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="143.1008888888889" x2="121.2" y2="143.1008888888889" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="145.3408888888889" x2="121.2" y2="145.3408888888889" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="144.66888888888892" x2="86.092" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="144.66888888888892" x2="89.452" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="144.66888888888892" x2="92.812" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="144.66888888888892" x2="96.172" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="144.66888888888892" x2="99.532" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="144.66888888888892" x2="102.892" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="144.66888888888892" x2="106.252" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="144.66888888888892" x2="109.612" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="144.66888888888892" x2="112.972" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="144.66888888888892" x2="116.332" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="144.66888888888892" x2="119.692" y2="146.0128888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="147.58088888888892" x2="121.2" y2="147.58088888888892" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="146.90888888888892" x2="86.092" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="146.90888888888892" x2="89.452" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="146.90888888888892" x2="92.812" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="146.90888888888892" x2="96.172" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="146.90888888888892" x2="99.532" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="146.90888888888892" x2="102.892" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="146.90888888888892" x2="106.252" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="146.90888888888892" x2="109.612" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="146.90888888888892" x2="112.972" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="146.90888888888892" x2="116.332" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="146.90888888888892" x2="119.692" y2="148.25288888888892" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="149.82088888888893" x2="121.2" y2="149.82088888888893" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="152.06088888888894" x2="121.2" y2="152.06088888888894" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="151.38888888888894" x2="86.092" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="151.38888888888894" x2="89.452" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="151.38888888888894" x2="92.812" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="151.38888888888894" x2="96.172" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="151.38888888888894" x2="99.532" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="151.38888888888894" x2="102.892" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="151.38888888888894" x2="106.252" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="151.38888888888894" x2="109.612" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="151.38888888888894" x2="112.972" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="151.38888888888894" x2="116.332" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="151.38888888888894" x2="119.692" y2="152.73288888888894" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="154.30088888888895" x2="121.2" y2="154.30088888888895" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="153.62888888888895" x2="86.092" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="153.62888888888895" x2="89.452" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="153.62888888888895" x2="92.812" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="153.62888888888895" x2="96.172" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="153.62888888888895" x2="99.532" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="153.62888888888895" x2="102.892" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="153.62888888888895" x2="106.252" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="153.62888888888895" x2="109.612" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="153.62888888888895" x2="112.972" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="153.62888888888895" x2="116.332" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="153.62888888888895" x2="119.692" y2="154.97288888888895" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="156.54088888888896" x2="121.2" y2="156.54088888888896" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="158.78088888888897" x2="121.2" y2="158.78088888888897" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="158.10888888888897" x2="86.092" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="158.10888888888897" x2="89.452" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="158.10888888888897" x2="92.812" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="158.10888888888897" x2="96.172" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="158.10888888888897" x2="99.532" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="158.10888888888897" x2="102.892" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="158.10888888888897" x2="106.252" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="158.10888888888897" x2="109.612" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="158.10888888888897" x2="112.972" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="158.10888888888897" x2="116.332" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="158.10888888888897" x2="119.692" y2="159.45288888888896" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="161.02088888888898" x2="121.2" y2="161.02088888888898" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="160.34888888888898" x2="86.092" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="160.34888888888898" x2="89.452" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="160.34888888888898" x2="92.812" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="160.34888888888898" x2="96.172" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="160.34888888888898" x2="99.532" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="160.34888888888898" x2="102.892" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="160.34888888888898" x2="106.252" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="160.34888888888898" x2="109.612" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="160.34888888888898" x2="112.972" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="160.34888888888898" x2="116.332" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="160.34888888888898" x2="119.692" y2="161.69288888888897" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="163.26088888888899" x2="121.2" y2="163.26088888888899" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="165.500888888889" x2="121.2" y2="165.500888888889" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="164.828888888889" x2="86.092" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="164.828888888889" x2="89.452" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="164.828888888889" x2="92.812" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="164.828888888889" x2="96.172" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="164.828888888889" x2="99.532" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="164.828888888889" x2="102.892" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="164.828888888889" x2="106.252" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="164.828888888889" x2="109.612" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="164.828888888889" x2="112.972" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="164.828888888889" x2="116.332" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="164.828888888889" x2="119.692" y2="166.172888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="167.740888888889" x2="121.2" y2="167.740888888889" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="167.068888888889" x2="86.092" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="167.068888888889" x2="89.452" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="167.068888888889" x2="92.812" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="167.068888888889" x2="96.172" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="167.068888888889" x2="99.532" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="167.068888888889" x2="102.892" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="167.068888888889" x2="106.252" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="167.068888888889" x2="109.612" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="167.068888888889" x2="112.972" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="167.068888888889" x2="116.332" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="167.068888888889" x2="119.692" y2="168.412888888889" stroke="#999" stroke-width="0.15"/>
+        <line x1="84.6" y1="169.980888888889" x2="121.2" y2="169.980888888889" stroke="#555" stroke-width="0.22"/>
+        <line x1="84.6" y1="172.22088888888902" x2="121.2" y2="172.22088888888902" stroke="#555" stroke-width="0.22"/>
+        <line x1="86.092" y1="171.54888888888902" x2="86.092" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="89.452" y1="171.54888888888902" x2="89.452" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="92.812" y1="171.54888888888902" x2="92.812" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="96.172" y1="171.54888888888902" x2="96.172" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="99.532" y1="171.54888888888902" x2="99.532" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="102.892" y1="171.54888888888902" x2="102.892" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="106.252" y1="171.54888888888902" x2="106.252" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="109.612" y1="171.54888888888902" x2="109.612" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="112.972" y1="171.54888888888902" x2="112.972" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="116.332" y1="171.54888888888902" x2="116.332" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+        <line x1="119.692" y1="171.54888888888902" x2="119.692" y2="172.89288888888902" stroke="#999" stroke-width="0.15"/>
+      </g>
+      <text x="48" y="142.11333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Wissenbach Shale</text>
+      <text x="66" y="142.11333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">D₂w</text>
+      <text x="80.5" y="140.36333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="trilobite">🦞</text>
+      <text x="80.5" y="143.86333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="brachiopod">🦪</text>
+      <polygon points="125.5,111.06888888888888 127.5,111.06888888888888 127.5,173.15777777777777 125.5,173.15777777777777" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle"/>
+      <text x="131.5" y="142.11333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粘土</text>
+      <text x="140" y="142.11333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">55.0</text>
+      <text x="150" y="142.11333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Dark grey shale with limestone nodules</text>
+      <text x="123.0" y="142.11333333333332" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">392</text>
+    </g>
+    <line x1="8" y1="173.15777777777777" x2="245" y2="173.15777777777777" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator"/>
+    <g id="layer_6" data-cdr-type="layer" data-cdr-name="Hunsrück Slate" data-cdr-pattern="slate" data-cdr-thickness="80" data-cdr-color="#727272" data-cdr-index="6">
+      <rect x="84.3" y="20.757777777777775" width="37.2" height="90.3111111111111" fill="#727272" stroke="#555" stroke-width="0.15" data-cdr-type="lithology-rect"/>
+      <g clip-path="url(#clip_6)">
+        <line x1="84.6" y1="21.237777777777776" x2="121.2" y2="21.237777777777776" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="22.837777777777777" x2="121.2" y2="22.837777777777777" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="24.43777777777778" x2="121.2" y2="24.43777777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="26.03777777777778" x2="121.2" y2="26.03777777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="27.63777777777778" x2="121.2" y2="27.63777777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="29.237777777777783" x2="121.2" y2="29.237777777777783" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="30.837777777777784" x2="121.2" y2="30.837777777777784" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="32.43777777777778" x2="121.2" y2="32.43777777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="34.037777777777784" x2="121.2" y2="34.037777777777784" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="35.637777777777785" x2="121.2" y2="35.637777777777785" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="37.23777777777779" x2="121.2" y2="37.23777777777779" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="38.83777777777779" x2="121.2" y2="38.83777777777779" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="40.43777777777779" x2="121.2" y2="40.43777777777779" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="42.03777777777779" x2="121.2" y2="42.03777777777779" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="43.63777777777779" x2="121.2" y2="43.63777777777779" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="45.237777777777794" x2="121.2" y2="45.237777777777794" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="46.837777777777795" x2="121.2" y2="46.837777777777795" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="48.4377777777778" x2="121.2" y2="48.4377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="50.0377777777778" x2="121.2" y2="50.0377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="51.6377777777778" x2="121.2" y2="51.6377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="53.2377777777778" x2="121.2" y2="53.2377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="54.8377777777778" x2="121.2" y2="54.8377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="56.437777777777804" x2="121.2" y2="56.437777777777804" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="58.037777777777805" x2="121.2" y2="58.037777777777805" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="59.637777777777806" x2="121.2" y2="59.637777777777806" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="61.23777777777781" x2="121.2" y2="61.23777777777781" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="62.83777777777781" x2="121.2" y2="62.83777777777781" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="64.43777777777781" x2="121.2" y2="64.43777777777781" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="66.0377777777778" x2="121.2" y2="66.0377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="67.6377777777778" x2="121.2" y2="67.6377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="69.2377777777778" x2="121.2" y2="69.2377777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="70.83777777777779" x2="121.2" y2="70.83777777777779" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="72.43777777777778" x2="121.2" y2="72.43777777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="74.03777777777778" x2="121.2" y2="74.03777777777778" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="75.63777777777777" x2="121.2" y2="75.63777777777777" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="77.23777777777777" x2="121.2" y2="77.23777777777777" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="78.83777777777776" x2="121.2" y2="78.83777777777776" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="80.43777777777775" x2="121.2" y2="80.43777777777775" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="82.03777777777775" x2="121.2" y2="82.03777777777775" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="83.63777777777774" x2="121.2" y2="83.63777777777774" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="85.23777777777774" x2="121.2" y2="85.23777777777774" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="86.83777777777773" x2="121.2" y2="86.83777777777773" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="88.43777777777773" x2="121.2" y2="88.43777777777773" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="90.03777777777772" x2="121.2" y2="90.03777777777772" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="91.63777777777771" x2="121.2" y2="91.63777777777771" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="93.23777777777771" x2="121.2" y2="93.23777777777771" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="94.8377777777777" x2="121.2" y2="94.8377777777777" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="96.4377777777777" x2="121.2" y2="96.4377777777777" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="98.03777777777769" x2="121.2" y2="98.03777777777769" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="99.63777777777769" x2="121.2" y2="99.63777777777769" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="101.23777777777768" x2="121.2" y2="101.23777777777768" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="102.83777777777767" x2="121.2" y2="102.83777777777767" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="104.43777777777767" x2="121.2" y2="104.43777777777767" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="106.03777777777766" x2="121.2" y2="106.03777777777766" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="107.63777777777766" x2="121.2" y2="107.63777777777766" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="109.23777777777765" x2="121.2" y2="109.23777777777765" stroke="#666" stroke-width="0.25"/>
+        <line x1="84.6" y1="110.83777777777765" x2="121.2" y2="110.83777777777765" stroke="#666" stroke-width="0.25"/>
+      </g>
+      <text x="48" y="65.91333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="formation-text">Hunsrück Slate</text>
+      <text x="66" y="65.91333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="start" fill="#000" data-cdr-type="symbol-text">D₁h</text>
+      <text x="80.5" y="64.16333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="trilobite">🦞</text>
+      <text x="80.5" y="67.66333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="crinoid">🌸</text>
+      <text x="80.5" y="71.16333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="3.5" font-weight="normal" text-anchor="middle" fill="#333" data-cdr-type="fossil-icon" data-cdr-fossil="fish">🐟</text>
+      <polygon points="125.5,20.757777777777775 127.5,20.757777777777775 127.5,111.06888888888888 125.5,111.06888888888888" fill="#aaa" opacity="0.5" data-cdr-type="grain-triangle"/>
+      <text x="131.5" y="65.91333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="grain-label">粘土</text>
+      <text x="140" y="65.91333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#222" data-cdr-type="thickness-text">80.0</text>
+      <text x="150" y="65.91333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="description-text">Dark grey slate with exceptional preservation</text>
+      <text x="123.0" y="65.91333333333333" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="start" fill="#e67e22" data-cdr-type="age-ma">405</text>
+    </g>
+    <line x1="8" y1="111.06888888888888" x2="245" y2="111.06888888888888" stroke="#bbb" stroke-width="0.12" data-cdr-type="row-separator"/>
+    <line x1="8" y1="276" x2="245" y2="276" stroke="#000" stroke-width="0.35" data-cdr-type="erathem-boundary"/>
+    <line x1="21" y1="276" x2="245" y2="276" stroke="#555" stroke-width="0.22" data-cdr-type="system-boundary"/>
+    <line x1="21" y1="266.9688888888889" x2="245" y2="266.9688888888889" stroke="#555" stroke-width="0.22" data-cdr-type="system-boundary"/>
+    <rect x="216" y="22" width="18" height="268" fill="#fafafa" stroke="#ddd" stroke-width="0.15" data-cdr-type="curve-bg"/>
+    <line x1="216" y1="276.0" x2="234" y2="276.0" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid"/>
+    <line x1="216" y1="163.11111111111111" x2="234" y2="163.11111111111111" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid"/>
+    <line x1="216" y1="50.22222222222223" x2="234" y2="50.22222222222223" stroke="#eee" stroke-width="0.08" data-cdr-type="curve-grid"/>
+    <line x1="225.0" y1="276" x2="225.0" y2="22" stroke="#ddd" stroke-width="0.1" data-cdr-type="curve-vgrid"/>
+    <text x="225.0" y="273" font-family="SimHei, Heiti SC, sans-serif" font-size="2.2" font-weight="bold" text-anchor="middle" fill="#333" data-cdr-type="curve-label">δ¹³C</text>
+    <text x="225.0" y="275.5" font-family="SimHei, Heiti SC, sans-serif" font-size="1.8" font-weight="normal" text-anchor="middle" fill="#999" data-cdr-type="curve-unit">‰ VPDB</text>
+    <path d="M 225.9,276.0 L 227.7,242.1 L 229.5,208.3 L 231.3,174.4 L 229.5,151.8 L 227.7,129.2 L 225.0,106.7 L 222.3,89.7 L 220.5,84.1 L 218.7,78.4 L 220.5,72.8 L 222.3,61.5 L 225.0,50.2 L 225.9,33.3 L 226.8,22.0" fill="none" stroke="#1565c0" stroke-width="0.3" stroke-linejoin="round" data-cdr-type="curve-line" data-cdr-name="δ¹³C"/>
+    <text x="217" y="279" font-family="SimHei, Heiti SC, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#999" data-cdr-type="curve-range">5</text>
+    <text x="217" y="21" font-family="SimHei, Heiti SC, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#999" data-cdr-type="curve-range">-2</text>
+  </g>
+  <g id="cdr-outlines" inkscape:groupmode="layer" inkscape:label="Outlines" data-cdr-layer="outlines">
+    <line x1="8" y1="22" x2="245" y2="22" stroke="#333" stroke-width="0.2" data-cdr-type="table-bottom"/>
+    <line x1="8" y1="22" x2="8" y2="290" stroke="#333" stroke-width="0.2" data-cdr-type="table-left"/>
+    <line x1="245" y1="22" x2="245" y2="290" stroke="#333" stroke-width="0.2" data-cdr-type="table-right"/>
+    <line x1="8" y1="290" x2="245" y2="290" stroke="#333" stroke-width="0.2" data-cdr-type="table-top"/>
+  </g>
+  <g id="cdr-footer" inkscape:groupmode="layer" inkscape:label="Footer" data-cdr-layer="footer">
+    <text x="8" y="17" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#666" data-cdr-type="footer-text">Late Devonian Kellwasser Crisis — Rhenish Massif  |  总厚 225m  |  7 层  |  比例尺 1:885</text>
+    <text x="8" y="14" font-family="SimHei, Heiti SC, sans-serif" font-size="1.6" font-weight="normal" text-anchor="start" fill="#bbb" data-cdr-type="footer-citation">Generated with CorelDRAWer-Skill (github.com/Reasonite-lab/CorelDRAWer-Skill)</text>
+  </g>
+  <g id="cdr-legend" inkscape:groupmode="layer" inkscape:label="Legend" data-cdr-layer="legend">
+    <rect x="249" y="238.0" width="38" height="38.0" fill="#fff" stroke="#666" stroke-width="0.25" data-cdr-type="legend-box"/>
+    <text x="268.0" y="243.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2.5" font-weight="bold" text-anchor="middle" fill="#000" data-cdr-type="legend-title">图  例</text>
+    <line x1="252" y1="246.0" x2="284" y2="246.0" stroke="#ccc" stroke-width="0.15" data-cdr-type="legend-separator"/>
+    <rect x="253" y="244.5" width="6" height="6" fill="#4c4c4c" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch"/>
+    <g clip-path="url(#lgclip_0)">
+      <line x1="253.3" y1="245.172" x2="258.7" y2="245.172" stroke="#eee" stroke-width="0.18"/>
+      <line x1="253.3" y1="247.412" x2="258.7" y2="247.412" stroke="#eee" stroke-width="0.18"/>
+      <line x1="253.3" y1="249.65200000000002" x2="258.7" y2="249.65200000000002" stroke="#eee" stroke-width="0.18"/>
+    </g>
+    <text x="262" y="247.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Hangenberg Shale</text>
+    <rect x="253" y="251.5" width="6" height="6" fill="#b2b2b2" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch"/>
+    <g clip-path="url(#lgclip_1)">
+      <rect x="253.3" y="251.8" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="258.1" y="251.8" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="255.70000000000002" y="253.97" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="253.3" y="256.14" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+      <rect x="258.1" y="256.14" width="4.4" height="1.92" fill="none" stroke="#666" stroke-width="0.16"/>
+    </g>
+    <text x="262" y="254.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Wocklum Limestone</text>
+    <rect x="253" y="258.5" width="6" height="6" fill="#8c857e" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch"/>
+    <g clip-path="url(#lgclip_2)">
+      <line x1="253.3" y1="259.172" x2="258.7" y2="259.172" stroke="#555" stroke-width="0.22"/>
+      <line x1="254.792" y1="258.5" x2="254.792" y2="259.84400000000005" stroke="#999" stroke-width="0.15"/>
+      <line x1="258.152" y1="258.5" x2="258.152" y2="259.84400000000005" stroke="#999" stroke-width="0.15"/>
+      <line x1="253.3" y1="261.41200000000003" x2="258.7" y2="261.41200000000003" stroke="#555" stroke-width="0.22"/>
+      <line x1="254.792" y1="260.74" x2="254.792" y2="262.08400000000006" stroke="#999" stroke-width="0.15"/>
+      <line x1="258.152" y1="260.74" x2="258.152" y2="262.08400000000006" stroke="#999" stroke-width="0.15"/>
+      <line x1="253.3" y1="263.65200000000004" x2="258.7" y2="263.65200000000004" stroke="#555" stroke-width="0.22"/>
+    </g>
+    <text x="262" y="261.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Wissenbach Shale</text>
+    <rect x="253" y="265.5" width="6" height="6" fill="#727272" stroke="#888" stroke-width="0.12" data-cdr-type="legend-swatch"/>
+    <g clip-path="url(#lgclip_3)">
+      <line x1="253.3" y1="265.98" x2="258.7" y2="265.98" stroke="#666" stroke-width="0.25"/>
+      <line x1="253.3" y1="267.58000000000004" x2="258.7" y2="267.58000000000004" stroke="#666" stroke-width="0.25"/>
+      <line x1="253.3" y1="269.18000000000006" x2="258.7" y2="269.18000000000006" stroke="#666" stroke-width="0.25"/>
+      <line x1="253.3" y1="270.7800000000001" x2="258.7" y2="270.7800000000001" stroke="#666" stroke-width="0.25"/>
+    </g>
+    <text x="262" y="268.5" font-family="SimHei, Heiti SC, sans-serif" font-size="2" font-weight="normal" text-anchor="start" fill="#333" data-cdr-type="legend-label">Hunsrück Slate</text>
+  </g>
+</svg>

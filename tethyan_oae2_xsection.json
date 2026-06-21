@@ -1,0 +1,121 @@
+{
+  "title": "Tethyan OAE 2 Cross-Section — Umbria-Marche to Adriatic",
+  "orientation": "SW → NE",
+  "vertical_exaggeration": 10,
+  "boreholes": [
+    {
+      "id": "Bottaccione",
+      "x": 0,
+      "elevation": 480,
+      "depth": 80,
+      "layers": [
+        {
+          "formation": "Scaglia Rossa (limestone)",
+          "thick": 30,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 15,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Bonarelli (OAE 2 shale)",
+          "thick": 2,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 85,
+          "pattern": "carbShale"
+        },
+        {
+          "formation": "Scaglia Bianca (limestone)",
+          "thick": 48,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 8,
+          "pattern": "lime"
+        }
+      ]
+    },
+    {
+      "id": "Furlo",
+      "x": 25000,
+      "elevation": 350,
+      "depth": 60,
+      "layers": [
+        {
+          "formation": "Scaglia Rossa (limestone)",
+          "thick": 25,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 15,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Bonarelli (OAE 2 shale)",
+          "thick": 1.5,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 85,
+          "pattern": "carbShale"
+        },
+        {
+          "formation": "Scaglia Bianca (limestone)",
+          "thick": 33.5,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 8,
+          "pattern": "lime"
+        }
+      ]
+    },
+    {
+      "id": "Monte Nerone",
+      "x": 50000,
+      "elevation": 800,
+      "depth": 90,
+      "layers": [
+        {
+          "formation": "Scaglia Rossa (limestone)",
+          "thick": 35,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 15,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Bonarelli (OAE 2 shale)",
+          "thick": 2.5,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 85,
+          "pattern": "carbShale"
+        },
+        {
+          "formation": "Scaglia Bianca (limestone)",
+          "thick": 52.5,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 8,
+          "pattern": "lime"
+        }
+      ]
+    }
+  ],
+  "faults": [
+    {
+      "x": 15000,
+      "dip": 55,
+      "direction": "NE",
+      "type": "normal",
+      "throw": 60
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Early Jurassic Toarcian OAE — Yorkshire Coast",
+  "location": "Whitby, Yorkshire, UK",
+  "layers": [
+    {
+      "erathem": "Mesozoic",
+      "system": "Jurassic",
+      "series": "Middle",
+      "formation": "Ravenscar Group",
+      "symbol": "J₂r",
+      "thick": 35,
+      "descr": "Fluvial sandstone, plant remains",
+      "c": 0,
+      "m": 15,
+      "y": 30,
+      "k": 10,
+      "pattern": "sand",
+      "grain": 4,
+      "structures": [
+        "cross_bed"
+      ],
+      "fossils": [
+        "plant"
+      ],
+      "age_ma": 172
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Jurassic",
+      "series": "Lower",
+      "formation": "Blea Wyke Sandstone",
+      "symbol": "J₁b",
+      "thick": 20,
+      "descr": "Yellow-brown bioturbated sandstone",
+      "c": 0,
+      "m": 10,
+      "y": 25,
+      "k": 8,
+      "pattern": "sand",
+      "grain": 3,
+      "structures": [
+        "bioturbation"
+      ],
+      "age_ma": 180
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Jurassic",
+      "series": "Lower",
+      "formation": "Whitby Mudstone",
+      "symbol": "J₁w",
+      "thick": 45,
+      "descr": "Grey fossiliferous mudstone, jet",
+      "c": 0,
+      "m": 0,
+      "y": 5,
+      "k": 50,
+      "pattern": "mud",
+      "grain": 1,
+      "fossils": [
+        "ammonite",
+        "bivalve",
+        "fish"
+      ],
+      "age_ma": 183
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Jurassic",
+      "series": "Lower",
+      "formation": "Jet Rock",
+      "symbol": "J₁j",
+      "thick": 8,
+      "descr": "Laminated black shale, Toarcian OAE, δ¹³C −6‰",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 80,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "ammonite"
+      ],
+      "age_ma": 183,
+      "markers": [
+        {
+          "symbol": "star",
+          "y_offset": 0.5,
+          "label": "T-OAE"
+        }
+      ]
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Jurassic",
+      "series": "Lower",
+      "formation": "Grey Shales",
+      "symbol": "J₁g",
+      "thick": 30,
+      "descr": "Grey silty shale with concretions",
+      "c": 0,
+      "m": 0,
+      "y": 5,
+      "k": 40,
+      "pattern": "shale",
+      "grain": 1,
+      "structures": [
+        "concretion"
+      ],
+      "age_ma": 188
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Jurassic",
+      "series": "Lower",
+      "formation": "Cleveland Ironstone",
+      "symbol": "J₁c",
+      "thick": 15,
+      "descr": "Sideritic mudstone, ooidal ironstone",
+      "c": 0,
+      "m": 10,
+      "y": 40,
+      "k": 30,
+      "pattern": "mud",
+      "grain": 2,
+      "structures": [
+        "ooid"
+      ],
+      "fossils": [
+        "ammonite",
+        "bivalve"
+      ],
+      "age_ma": 190
+    }
+  ]
+}

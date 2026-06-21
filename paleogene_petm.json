@@ -1,0 +1,195 @@
+{
+  "title": "Paleocene-Eocene Thermal Maximum — Bighorn Basin",
+  "location": "Wyoming, USA",
+  "layers": [
+    {
+      "erathem": "Cenozoic",
+      "system": "Paleogene",
+      "series": "Eocene",
+      "formation": "Willwood Fm",
+      "symbol": "T₂w",
+      "thick": 60,
+      "descr": "Variegated paleosol mudstone",
+      "c": 0,
+      "m": 5,
+      "y": 20,
+      "k": 15,
+      "pattern": "mud",
+      "grain": 1,
+      "fossils": [
+        "plant",
+        "fish"
+      ],
+      "age_ma": 53
+    },
+    {
+      "erathem": "Cenozoic",
+      "system": "Paleogene",
+      "series": "Eocene",
+      "formation": "Willwood Fm",
+      "symbol": "T₂w",
+      "thick": 25,
+      "descr": "Red paleosol with carbon isotope excursion",
+      "c": 0,
+      "m": 20,
+      "y": 30,
+      "k": 10,
+      "pattern": "mud",
+      "grain": 1,
+      "age_ma": 55.5
+    },
+    {
+      "erathem": "Cenozoic",
+      "system": "Paleogene",
+      "series": "Eocene",
+      "formation": "PETM Interval",
+      "symbol": "T₁p",
+      "thick": 3,
+      "descr": "Carbonaceous shale, CIE −4‰, mammal turnover",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 70,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "plant",
+        "spore"
+      ],
+      "age_ma": 55.8,
+      "markers": [
+        {
+          "symbol": "star",
+          "y_offset": 0.5,
+          "label": "PETM"
+        }
+      ]
+    },
+    {
+      "erathem": "Cenozoic",
+      "system": "Paleogene",
+      "series": "Paleocene",
+      "formation": "Fort Union Fm",
+      "symbol": "T₁f",
+      "thick": 45,
+      "descr": "Grey sandstone, coal beds",
+      "c": 0,
+      "m": 10,
+      "y": 25,
+      "k": 15,
+      "pattern": "sand",
+      "grain": 3,
+      "age_ma": 58
+    },
+    {
+      "erathem": "Cenozoic",
+      "system": "Paleogene",
+      "series": "Paleocene",
+      "formation": "Fort Union Fm",
+      "symbol": "T₁f",
+      "thick": 55,
+      "descr": "Drab mudstone with lignite",
+      "c": 0,
+      "m": 5,
+      "y": 20,
+      "k": 30,
+      "pattern": "mud",
+      "grain": 1,
+      "age_ma": 62,
+      "contact": "disconformity"
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Cretaceous",
+      "series": "Upper",
+      "formation": "Lance Fm",
+      "symbol": "K₂l",
+      "thick": 40,
+      "descr": "Fluvial sandstone, dinosaur bones",
+      "c": 0,
+      "m": 15,
+      "y": 30,
+      "k": 12,
+      "pattern": "sand",
+      "grain": 4,
+      "fossils": [
+        "trilobite"
+      ],
+      "age_ma": 66
+    }
+  ],
+  "curves": [
+    {
+      "name": "δ¹³C",
+      "unit": "‰ VPDB",
+      "color": "#1565c0",
+      "fill": false,
+      "data": [
+        [
+          0,
+          -8
+        ],
+        [
+          30,
+          -6
+        ],
+        [
+          60,
+          -4
+        ],
+        [
+          90,
+          -2
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          140,
+          2
+        ],
+        [
+          150,
+          1.5
+        ],
+        [
+          160,
+          0
+        ],
+        [
+          170,
+          -1
+        ],
+        [
+          175,
+          -2
+        ],
+        [
+          180,
+          -3
+        ],
+        [
+          185,
+          -4
+        ],
+        [
+          190,
+          -3
+        ],
+        [
+          200,
+          -2
+        ],
+        [
+          210,
+          -1
+        ],
+        [
+          228,
+          0
+        ]
+      ]
+    }
+  ]
+}

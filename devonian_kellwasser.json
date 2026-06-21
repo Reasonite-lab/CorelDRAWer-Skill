@@ -1,0 +1,224 @@
+{
+  "title": "Late Devonian Kellwasser Crisis — Rhenish Massif",
+  "location": "Steinbruch Schmidt, Germany",
+  "layers": [
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Lower",
+      "formation": "Hangenberg Shale",
+      "symbol": "C₁h",
+      "thick": 8,
+      "descr": "Black shale, Hangenberg Event",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 70,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "conodont"
+      ],
+      "age_ma": 359
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Devonian",
+      "series": "Upper",
+      "formation": "Wocklum Limestone",
+      "symbol": "D₃w",
+      "thick": 15,
+      "descr": "Grey nodular limestone",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 30,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "conodont",
+        "brachiopod"
+      ],
+      "age_ma": 365
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Devonian",
+      "series": "Upper",
+      "formation": "Kellwasser Horizon",
+      "symbol": "D₃k",
+      "thick": 2,
+      "descr": "Black bituminous shale, Upper Kellwasser δ¹³C +4‰",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 85,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "conodont"
+      ],
+      "age_ma": 372,
+      "markers": [
+        {
+          "symbol": "star",
+          "y_offset": 0.5,
+          "label": "Kellwasser"
+        }
+      ]
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Devonian",
+      "series": "Upper",
+      "formation": "Adorf Limestone",
+      "symbol": "D₃a",
+      "thick": 25,
+      "descr": "Dark grey cephalopod limestone",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 35,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "cephalopod",
+        "conodont",
+        "trilobite"
+      ],
+      "age_ma": 378
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Devonian",
+      "series": "Middle",
+      "formation": "Stringocephalus Limestone",
+      "symbol": "D₂s",
+      "thick": 40,
+      "descr": "Massive reef limestone, Stringocephalus",
+      "c": 0,
+      "m": 0,
+      "y": 5,
+      "k": 20,
+      "pattern": "lime",
+      "grain": 3,
+      "fossils": [
+        "brachiopod",
+        "coral",
+        "crinoid"
+      ],
+      "age_ma": 385
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Devonian",
+      "series": "Middle",
+      "formation": "Wissenbach Shale",
+      "symbol": "D₂w",
+      "thick": 55,
+      "descr": "Dark grey shale with limestone nodules",
+      "c": 0,
+      "m": 5,
+      "y": 10,
+      "k": 45,
+      "pattern": "shale",
+      "grain": 1,
+      "fossils": [
+        "trilobite",
+        "brachiopod"
+      ],
+      "age_ma": 392
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Devonian",
+      "series": "Lower",
+      "formation": "Hunsrück Slate",
+      "symbol": "D₁h",
+      "thick": 80,
+      "descr": "Dark grey slate with exceptional preservation",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 55,
+      "pattern": "slate",
+      "grain": 1,
+      "fossils": [
+        "trilobite",
+        "crinoid",
+        "fish"
+      ],
+      "age_ma": 405
+    }
+  ],
+  "curves": [
+    {
+      "name": "δ¹³C",
+      "unit": "‰ VPDB",
+      "color": "#1565c0",
+      "fill": false,
+      "data": [
+        [
+          0,
+          2
+        ],
+        [
+          30,
+          3
+        ],
+        [
+          60,
+          4
+        ],
+        [
+          90,
+          5
+        ],
+        [
+          110,
+          4
+        ],
+        [
+          130,
+          3
+        ],
+        [
+          150,
+          1.5
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          170,
+          -1
+        ],
+        [
+          175,
+          -2
+        ],
+        [
+          180,
+          -1
+        ],
+        [
+          190,
+          0
+        ],
+        [
+          200,
+          1.5
+        ],
+        [
+          215,
+          2
+        ],
+        [
+          225,
+          2.5
+        ]
+      ]
+    }
+  ]
+}
