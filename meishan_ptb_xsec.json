@@ -1,0 +1,148 @@
+{
+  "title": "Meishan P-Tr Boundary — Shelf to Basin Transect",
+  "orientation": "NW → SE",
+  "vertical_exaggeration": 6,
+  "boreholes": [
+    {
+      "id": "Meishan A",
+      "x": 0,
+      "elevation": 120,
+      "depth": 80,
+      "layers": [
+        {
+          "formation": "Yinkeng (PTB)",
+          "thick": 8,
+          "c": 0,
+          "m": 5,
+          "y": 15,
+          "k": 10,
+          "pattern": "mud"
+        },
+        {
+          "formation": "Changxing (bioclastic)",
+          "thick": 30,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 35,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Longtan (sandstone)",
+          "thick": 20,
+          "c": 0,
+          "m": 15,
+          "y": 30,
+          "k": 20,
+          "pattern": "sand"
+        },
+        {
+          "formation": "Gufeng (siliceous shale)",
+          "thick": 22,
+          "c": 0,
+          "m": 0,
+          "y": 10,
+          "k": 60,
+          "pattern": "carbShale"
+        }
+      ]
+    },
+    {
+      "id": "Meishan D",
+      "x": 3000,
+      "elevation": 100,
+      "depth": 100,
+      "layers": [
+        {
+          "formation": "Yinkeng (PTB)",
+          "thick": 15,
+          "c": 0,
+          "m": 5,
+          "y": 15,
+          "k": 10,
+          "pattern": "mud"
+        },
+        {
+          "formation": "Changxing (bioclastic)",
+          "thick": 35,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 35,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Longtan (sandstone)",
+          "thick": 25,
+          "c": 0,
+          "m": 15,
+          "y": 30,
+          "k": 20,
+          "pattern": "sand"
+        },
+        {
+          "formation": "Gufeng (siliceous shale)",
+          "thick": 25,
+          "c": 0,
+          "m": 0,
+          "y": 10,
+          "k": 60,
+          "pattern": "carbShale"
+        }
+      ]
+    },
+    {
+      "id": "Chaohu",
+      "x": 6000,
+      "elevation": 80,
+      "depth": 120,
+      "layers": [
+        {
+          "formation": "Yinkeng (PTB)",
+          "thick": 20,
+          "c": 0,
+          "m": 5,
+          "y": 15,
+          "k": 10,
+          "pattern": "mud"
+        },
+        {
+          "formation": "Changxing (bioclastic)",
+          "thick": 40,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 35,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Longtan (sandstone)",
+          "thick": 30,
+          "c": 0,
+          "m": 15,
+          "y": 30,
+          "k": 20,
+          "pattern": "sand"
+        },
+        {
+          "formation": "Gufeng (siliceous shale)",
+          "thick": 30,
+          "c": 0,
+          "m": 0,
+          "y": 10,
+          "k": 60,
+          "pattern": "carbShale"
+        }
+      ]
+    }
+  ],
+  "faults": [
+    {
+      "x": 2000,
+      "dip": 70,
+      "direction": "SE",
+      "type": "reverse",
+      "throw": 50
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "title": "Ordovician GOBE Transect — Yangtze Platform",
+  "orientation": "NW → SE",
+  "vertical_exaggeration": 4,
+  "boreholes": [
+    {
+      "id": "Yichang",
+      "x": 0,
+      "elevation": 200,
+      "depth": 280,
+      "layers": [
+        {
+          "formation": "Wufeng/Hirnantian",
+          "thick": 8,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 55,
+          "pattern": "shale"
+        },
+        {
+          "formation": "Pagoda (nodular lmst)",
+          "thick": 20,
+          "c": 0,
+          "m": 30,
+          "y": 20,
+          "k": 10,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Dawan (bioclastic)",
+          "thick": 55,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 25,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Honghuayuan (calcarenite)",
+          "thick": 35,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 30,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Fenxiang (shale)",
+          "thick": 25,
+          "c": 5,
+          "m": 0,
+          "y": 10,
+          "k": 25,
+          "pattern": "shale"
+        },
+        {
+          "formation": "Sanyoudong (dolomite)",
+          "thick": 120,
+          "c": 0,
+          "m": 0,
+          "y": 3,
+          "k": 8,
+          "pattern": "dolo"
+        }
+      ]
+    },
+    {
+      "id": "Huanghuachang",
+      "x": 8000,
+      "elevation": 150,
+      "depth": 250,
+      "layers": [
+        {
+          "formation": "Wufeng/Hirnantian",
+          "thick": 6,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 55,
+          "pattern": "shale"
+        },
+        {
+          "formation": "Pagoda (nodular lmst)",
+          "thick": 18,
+          "c": 0,
+          "m": 30,
+          "y": 20,
+          "k": 10,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Dawan (bioclastic)",
+          "thick": 50,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 25,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Honghuayuan (calcarenite)",
+          "thick": 30,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 30,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Fenxiang (shale)",
+          "thick": 20,
+          "c": 5,
+          "m": 0,
+          "y": 10,
+          "k": 25,
+          "pattern": "shale"
+        },
+        {
+          "formation": "Sanyoudong (dolomite)",
+          "thick": 100,
+          "c": 0,
+          "m": 0,
+          "y": 3,
+          "k": 8,
+          "pattern": "dolo"
+        }
+      ]
+    },
+    {
+      "id": "Songzi",
+      "x": 15000,
+      "elevation": 100,
+      "depth": 200,
+      "layers": [
+        {
+          "formation": "Wufeng/Hirnantian",
+          "thick": 4,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 55,
+          "pattern": "shale"
+        },
+        {
+          "formation": "Pagoda (nodular lmst)",
+          "thick": 15,
+          "c": 0,
+          "m": 30,
+          "y": 20,
+          "k": 10,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Dawan (bioclastic)",
+          "thick": 40,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 25,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Honghuayuan (calcarenite)",
+          "thick": 25,
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 30,
+          "pattern": "lime"
+        },
+        {
+          "formation": "Fenxiang (shale)",
+          "thick": 18,
+          "c": 5,
+          "m": 0,
+          "y": 10,
+          "k": 25,
+          "pattern": "shale"
+        },
+        {
+          "formation": "Sanyoudong (dolomite)",
+          "thick": 80,
+          "c": 0,
+          "m": 0,
+          "y": 3,
+          "k": 8,
+          "pattern": "dolo"
+        }
+      ]
+    }
+  ],
+  "faults": [
+    {
+      "x": 5000,
+      "dip": 60,
+      "direction": "SE",
+      "type": "normal",
+      "throw": 40
+    }
+  ]
+}
