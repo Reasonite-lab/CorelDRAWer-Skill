@@ -201,6 +201,36 @@ python3 generate_column.py
 # Output: output.svg (14 layers, ~1,780m total, auto-calculated scale)
 ```
 
+### Gallery — Stratigraphic Columns
+
+| Period | Title | Format |
+|--------|-------|--------|
+| Ediacaran-Cambrian | Yangtze Shuram Excursion δ¹³C | SVG + DXF |
+| Cambrian | Zigui 14-layer Standard Section | SVG |
+| Ordovician | GOBE Biodiversification, Yangtze | SVG + DXF |
+| Devonian | Kellwasser Crisis, Rhenish Massif | SVG + DXF |
+| Carboniferous-Permian | Meishan GSSP Extended δ¹³C | SVG + DXF |
+| Triassic-Jurassic | Toarcian OAE, Yorkshire | SVG + DXF |
+| Cretaceous | OAE 1a/2, Tethyan Reference | SVG + DXF |
+| Cretaceous | São Luís Basin, GR+MS curves | SVG + DXF |
+| Paleogene | PETM, Bighorn Basin | SVG + DXF |
+| Snowball Earth | Nantuo-Doushantuo Cap Carbonate | SVG |
+| Ediacaran | Adelaide Rift Complex | SVG |
+
+### Gallery — Cross-Sections
+
+| Title | Boreholes | Faults |
+|-------|-----------|--------|
+| Three Gorges Transect | 3 | 1 |
+| Adelaide Rift | 3 | 1 |
+| Tethyan OAE 2 | 3 | 1 |
+| Cap Carbonate Platform-Basin | 3 | 2 |
+| Ordovician GOBE Yangtze | 3 | 1 |
+| Meishan P-Tr Boundary | 3 | 1 |
+| Snowball Earth Platform-Basin | 3 | 2 |
+
+All generated with `python3 coreldrawer.py column --style nature` or `python3 coreldrawer.py xsection`.
+
 ## File Reference
 
 | File | Purpose |

@@ -1,0 +1,128 @@
+{
+  "title": "Marinoan Snowball Earth — Cap Carbonate Transect",
+  "orientation": "Platform → Basin",
+  "vertical_exaggeration": 8,
+  "boreholes": [
+    {
+      "id": "Jiulongwan",
+      "x": 0,
+      "elevation": 800,
+      "depth": 250,
+      "layers": [
+        {
+          "formation": "Dengying (dolomite)",
+          "thick": 200,
+          "c": 0,
+          "m": 0,
+          "y": 3,
+          "k": 8,
+          "pattern": "dolo"
+        },
+        {
+          "formation": "Doushantuo cap (dolomite)",
+          "thick": 15,
+          "c": 0,
+          "m": 0,
+          "y": 5,
+          "k": 10,
+          "pattern": "dolo"
+        },
+        {
+          "formation": "Nantuo diamictite",
+          "thick": 30,
+          "c": 50,
+          "m": 20,
+          "y": 50,
+          "k": 30,
+          "pattern": "conglo"
+        }
+      ]
+    },
+    {
+      "id": "Wangji",
+      "x": 5000,
+      "elevation": 500,
+      "depth": 550,
+      "layers": [
+        {
+          "formation": "Dengying (dolomite)",
+          "thick": 350,
+          "c": 0,
+          "m": 0,
+          "y": 3,
+          "k": 8,
+          "pattern": "dolo"
+        },
+        {
+          "formation": "Doushantuo cap",
+          "thick": 80,
+          "c": 5,
+          "m": 0,
+          "y": 10,
+          "k": 20,
+          "pattern": "doloLime"
+        },
+        {
+          "formation": "Nantuo diamictite",
+          "thick": 55,
+          "c": 50,
+          "m": 20,
+          "y": 50,
+          "k": 30,
+          "pattern": "conglo"
+        }
+      ]
+    },
+    {
+      "id": "Basin",
+      "x": 10000,
+      "elevation": 300,
+      "depth": 600,
+      "layers": [
+        {
+          "formation": "Dengying (dolomite)",
+          "thick": 250,
+          "c": 0,
+          "m": 0,
+          "y": 3,
+          "k": 8,
+          "pattern": "dolo"
+        },
+        {
+          "formation": "Doushantuo shale",
+          "thick": 180,
+          "c": 0,
+          "m": 5,
+          "y": 15,
+          "k": 45,
+          "pattern": "shale"
+        },
+        {
+          "formation": "Nantuo diamictite",
+          "thick": 80,
+          "c": 50,
+          "m": 20,
+          "y": 50,
+          "k": 30,
+          "pattern": "conglo"
+        }
+      ]
+    }
+  ],
+  "faults": [
+    {
+      "x": 3000,
+      "dip": 50,
+      "direction": "SE",
+      "type": "normal",
+      "throw": 200
+    },
+    {
+      "x": 7000,
+      "dip": 45,
+      "direction": "SE",
+      "type": "normal",
+      "throw": 120
+    }
+  ]
+}
