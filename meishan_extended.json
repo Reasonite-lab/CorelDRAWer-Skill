@@ -1,0 +1,224 @@
+{
+  "title": "Permian-Triassic Boundary — Meishan GSSP Extended",
+  "location": "Meishan, Zhejiang, South China",
+  "layers": [
+    {
+      "erathem": "Mesozoic",
+      "system": "Triassic",
+      "series": "Lower",
+      "formation": "Helongshan Fm",
+      "symbol": "T₁h",
+      "thick": 25,
+      "descr": "Thin-bedded argillaceous limestone",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 20,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "ammonite",
+        "conodont"
+      ],
+      "age_ma": 250
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Triassic",
+      "series": "Lower",
+      "formation": "Yinkeng Fm",
+      "symbol": "T₁y",
+      "thick": 8,
+      "descr": "Yellow-green calcareous mudstone, H. parvus FAD",
+      "c": 0,
+      "m": 5,
+      "y": 15,
+      "k": 10,
+      "pattern": "mud",
+      "grain": 1,
+      "fossils": [
+        "ammonite",
+        "bivalve",
+        "conodont"
+      ],
+      "age_ma": 251.9,
+      "markers": [
+        {
+          "symbol": "star",
+          "y_offset": 0.5,
+          "label": "GSSP"
+        }
+      ]
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Permian",
+      "series": "Upper",
+      "formation": "Changxing Fm",
+      "symbol": "P₃c",
+      "thick": 18,
+      "descr": "Dark grey bioclastic limestone, abundant fusulinids",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 35,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "foraminifera",
+        "brachiopod",
+        "conodont"
+      ],
+      "age_ma": 253,
+      "contact": "conformity"
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Permian",
+      "series": "Upper",
+      "formation": "Changxing Fm",
+      "symbol": "P₃c",
+      "thick": 12,
+      "descr": "Black cherty limestone with ammonoids",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 45,
+      "pattern": "chert",
+      "grain": 1,
+      "fossils": [
+        "ammonite",
+        "conodont"
+      ],
+      "age_ma": 254
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Permian",
+      "series": "Upper",
+      "formation": "Longtan Fm",
+      "symbol": "P₃l",
+      "thick": 35,
+      "descr": "Sandstone, mudstone, coal seams — paralic facies",
+      "c": 0,
+      "m": 15,
+      "y": 30,
+      "k": 20,
+      "pattern": "sand",
+      "grain": 3,
+      "structures": [
+        "cross_bed"
+      ],
+      "age_ma": 257,
+      "contact": "disconformity"
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Permian",
+      "series": "Middle",
+      "formation": "Gufeng Fm",
+      "symbol": "P₂g",
+      "thick": 22,
+      "descr": "Black siliceous shale with phosphate nodules",
+      "c": 0,
+      "m": 0,
+      "y": 10,
+      "k": 60,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "ammonite"
+      ],
+      "structures": [
+        "concretion"
+      ],
+      "age_ma": 265
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Permian",
+      "series": "Lower",
+      "formation": "Qixia Fm",
+      "symbol": "P₁q",
+      "thick": 45,
+      "descr": "Dark grey bituminous limestone with chert",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 30,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "coral",
+        "brachiopod"
+      ],
+      "age_ma": 280
+    }
+  ],
+  "curves": [
+    {
+      "name": "δ¹³C",
+      "unit": "‰ VPDB",
+      "color": "#1565c0",
+      "fill": false,
+      "data": [
+        [
+          0,
+          2
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          30,
+          4
+        ],
+        [
+          45,
+          5
+        ],
+        [
+          60,
+          4
+        ],
+        [
+          75,
+          3
+        ],
+        [
+          90,
+          2
+        ],
+        [
+          105,
+          1
+        ],
+        [
+          120,
+          0
+        ],
+        [
+          130,
+          -1
+        ],
+        [
+          140,
+          -2
+        ],
+        [
+          150,
+          -3
+        ],
+        [
+          160,
+          -5
+        ],
+        [
+          165,
+          -2
+        ]
+      ]
+    }
+  ]
+}
