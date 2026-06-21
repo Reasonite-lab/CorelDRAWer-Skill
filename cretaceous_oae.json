@@ -1,0 +1,219 @@
+{
+  "title": "Cretaceous Oceanic Anoxic Events — Tethyan Reference",
+  "location": "Umbria-Marche, Italy",
+  "layers": [
+    {
+      "erathem": "Mesozoic",
+      "system": "Cretaceous",
+      "series": "Upper",
+      "formation": "Scaglia Bianca",
+      "symbol": "K₂s",
+      "thick": 45,
+      "descr": "White pelagic limestone, OAE 3",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 8,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "foraminifera"
+      ],
+      "age_ma": 85
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Cretaceous",
+      "series": "Upper",
+      "formation": "Bonarelli Level",
+      "symbol": "K₂b",
+      "thick": 1.5,
+      "descr": "Black shale, OAE 2 — Cenomanian-Turonian δ¹³C excursion +5‰",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 85,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "foraminifera",
+        "fish"
+      ],
+      "age_ma": 93.9,
+      "markers": [
+        {
+          "symbol": "star",
+          "y_offset": 0.3,
+          "label": "OAE 2"
+        }
+      ]
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Cretaceous",
+      "series": "Upper",
+      "formation": "Scaglia Bianca",
+      "symbol": "K₂s",
+      "thick": 35,
+      "descr": "White foraminiferal limestone",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 10,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "foraminifera"
+      ],
+      "age_ma": 96
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Cretaceous",
+      "series": "Lower",
+      "formation": "Marne a Fucoidi",
+      "symbol": "K₁m",
+      "thick": 25,
+      "descr": "Varicolored marl, OAE 1d",
+      "c": 0,
+      "m": 5,
+      "y": 15,
+      "k": 20,
+      "pattern": "mud",
+      "grain": 1,
+      "fossils": [
+        "foraminifera",
+        "ammonite"
+      ],
+      "age_ma": 100
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Cretaceous",
+      "series": "Lower",
+      "formation": "Selli Level",
+      "symbol": "K₁s",
+      "thick": 2,
+      "descr": "Black shale, OAE 1a — Early Aptian δ¹³C excursion −3‰",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 80,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "foraminifera"
+      ],
+      "age_ma": 120,
+      "markers": [
+        {
+          "symbol": "star",
+          "y_offset": 0.5,
+          "label": "OAE 1a"
+        }
+      ]
+    },
+    {
+      "erathem": "Mesozoic",
+      "system": "Cretaceous",
+      "series": "Lower",
+      "formation": "Maiolica Fm",
+      "symbol": "K₁m",
+      "thick": 60,
+      "descr": "White nannofossil limestone",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 5,
+      "pattern": "lime",
+      "grain": 1,
+      "age_ma": 130
+    }
+  ],
+  "curves": [
+    {
+      "name": "δ¹³C",
+      "unit": "‰ VPDB",
+      "color": "#1565c0",
+      "fill": false,
+      "data": [
+        [
+          0,
+          2
+        ],
+        [
+          20,
+          2.5
+        ],
+        [
+          40,
+          3
+        ],
+        [
+          50,
+          2
+        ],
+        [
+          60,
+          1.5
+        ],
+        [
+          70,
+          1
+        ],
+        [
+          80,
+          -1
+        ],
+        [
+          90,
+          -2
+        ],
+        [
+          95,
+          -3
+        ],
+        [
+          100,
+          -2
+        ],
+        [
+          110,
+          0
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          130,
+          1.5
+        ],
+        [
+          140,
+          2
+        ],
+        [
+          150,
+          3
+        ],
+        [
+          155,
+          4
+        ],
+        [
+          160,
+          5
+        ],
+        [
+          165,
+          3
+        ],
+        [
+          168,
+          2
+        ]
+      ]
+    }
+  ]
+}

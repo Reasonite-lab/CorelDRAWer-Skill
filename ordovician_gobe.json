@@ -1,0 +1,145 @@
+{
+  "title": "Great Ordovician Biodiversification Event — Yangtze Platform",
+  "location": "Yichang, Hubei, South China",
+  "layers": [
+    {
+      "erathem": "Paleozoic",
+      "system": "Silurian",
+      "series": "Lower",
+      "formation": "Longmaxi Fm",
+      "symbol": "S₁l",
+      "thick": 30,
+      "descr": "Black graptolitic shale",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 60,
+      "pattern": "carbShale",
+      "grain": 1,
+      "fossils": [
+        "graptolite"
+      ],
+      "age_ma": 443
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Ordovician",
+      "series": "Upper",
+      "formation": "Wufeng Fm",
+      "symbol": "O₃w",
+      "thick": 8,
+      "descr": "Black shale, Hirnantian glaciation",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 55,
+      "pattern": "shale",
+      "grain": 1,
+      "fossils": [
+        "graptolite",
+        "brachiopod"
+      ],
+      "age_ma": 445,
+      "markers": [
+        {
+          "symbol": "star",
+          "y_offset": 0.5,
+          "label": "Hirnantian"
+        }
+      ]
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Ordovician",
+      "series": "Upper",
+      "formation": "Pagoda Fm",
+      "symbol": "O₃p",
+      "thick": 20,
+      "descr": "Red nodular limestone, Sinoceras",
+      "c": 0,
+      "m": 30,
+      "y": 20,
+      "k": 10,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "cephalopod",
+        "trilobite"
+      ],
+      "age_ma": 455
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Ordovician",
+      "series": "Middle",
+      "formation": "Dawan Fm",
+      "symbol": "O₂d",
+      "thick": 55,
+      "descr": "Grey bioclastic limestone, Yangtzeella",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 25,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "brachiopod",
+        "trilobite",
+        "crinoid"
+      ],
+      "age_ma": 468
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Ordovician",
+      "series": "Middle",
+      "formation": "Honghuayuan Fm",
+      "symbol": "O₂h",
+      "thick": 35,
+      "descr": "Grey thick-bedded calcarenite",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 30,
+      "pattern": "lime",
+      "grain": 3,
+      "age_ma": 475
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Ordovician",
+      "series": "Lower",
+      "formation": "Fenxiang Fm",
+      "symbol": "O₁f",
+      "thick": 25,
+      "descr": "Green-grey shale with limestone interbeds",
+      "c": 5,
+      "m": 0,
+      "y": 10,
+      "k": 25,
+      "pattern": "shale",
+      "grain": 1,
+      "fossils": [
+        "graptolite"
+      ],
+      "age_ma": 480,
+      "contact": "conformity"
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Cambrian",
+      "series": "Upper",
+      "formation": "Sanyoudong Fm",
+      "symbol": "∈₃s",
+      "thick": 120,
+      "descr": "Massive dolomite",
+      "c": 0,
+      "m": 0,
+      "y": 3,
+      "k": 8,
+      "pattern": "dolo",
+      "grain": 2,
+      "age_ma": 490
+    }
+  ]
+}
