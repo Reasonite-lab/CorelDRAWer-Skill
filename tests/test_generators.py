@@ -272,6 +272,40 @@ class TestVBAGenerator(unittest.TestCase):
         self.assertIn('trilobite', vba)
 
 
+class TestDXF(unittest.TestCase):
+    """Tests for dxf_export.py."""
+
+    def test_dxf_generates(self):
+        """DXF should produce valid DXF with layers."""
+        from dxf_export import generate_dxf
+        import tempfile, os
+        with tempfile.NamedTemporaryFile(suffix=".dxf", delete=False) as f:
+            path = f.name
+        try:
+            generate_dxf(DEFAULT_DATA, path)
+            with open(path) as f:
+                content = f.read()
+                self.assertIn("SECTION", content)
+                self.assertIn("EOF", content)
+        finally:
+            os.unlink(path)
+
+    def test_cross_section_two_bh(self):
+        """Cross-section with fault should render correctly."""
+        data = {
+            "title": "Test",
+            "boreholes": [
+                {"id": "A", "x": 0, "elevation": 100, "depth": 20,
+                 "layers": [{"formation": "F1", "thick": 20, "c": 0, "m": 0, "y": 0, "k": 10, "pattern": "sand"}]},
+                {"id": "B", "x": 100, "elevation": 90, "depth": 20,
+                 "layers": [{"formation": "F1", "thick": 20, "c": 0, "m": 0, "y": 0, "k": 10, "pattern": "sand"}]}
+            ],
+            "faults": [{"x": 50, "dip": 60, "direction": "E", "type": "normal", "throw": 10}]
+        }
+        result = generate_cross_section(data)
+        self.assertIn("fault-line", result)
+
+
 class TestCLI(unittest.TestCase):
     """Tests for the coreldrawer.py unified CLI."""
 
