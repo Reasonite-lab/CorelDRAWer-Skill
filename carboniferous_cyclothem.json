@@ -1,0 +1,162 @@
+{
+  "title": "Carboniferous Cyclothem — Midcontinent USA",
+  "location": "Kansas City, USA",
+  "layers": [
+    {
+      "erathem": "Paleozoic",
+      "system": "Permian",
+      "series": "Lower",
+      "formation": "Admire Group",
+      "symbol": "P₁a",
+      "thick": 15,
+      "descr": "Variegated shale, continental",
+      "c": 0,
+      "m": 10,
+      "y": 25,
+      "k": 15,
+      "pattern": "shale",
+      "grain": 1,
+      "age_ma": 295
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Upper",
+      "formation": "Wabaunsee Group",
+      "symbol": "C₃w",
+      "thick": 25,
+      "descr": "Cyclic limestone-shale, regressive",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 30,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "brachiopod",
+        "crinoid"
+      ],
+      "age_ma": 300
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Upper",
+      "formation": "Shawnee Group",
+      "symbol": "C₃s",
+      "thick": 30,
+      "descr": "Fusulinid limestone, maximum transgression",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 25,
+      "pattern": "lime",
+      "grain": 2,
+      "fossils": [
+        "foraminifera",
+        "coral",
+        "brachiopod"
+      ],
+      "age_ma": 303
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Upper",
+      "formation": "Douglas Group",
+      "symbol": "C₃d",
+      "thick": 20,
+      "descr": "Sandstone-shale, transgressive",
+      "c": 0,
+      "m": 10,
+      "y": 25,
+      "k": 10,
+      "pattern": "sand",
+      "grain": 4,
+      "structures": [
+        "cross_bed"
+      ],
+      "age_ma": 305
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Middle",
+      "formation": "Lansing Group",
+      "symbol": "C₂l",
+      "thick": 35,
+      "descr": "Oolitic limestone, phylloid algal mounds",
+      "c": 0,
+      "m": 0,
+      "y": 5,
+      "k": 20,
+      "pattern": "lime",
+      "grain": 3,
+      "structures": [
+        "ooid"
+      ],
+      "fossils": [
+        "algae",
+        "coral"
+      ],
+      "age_ma": 307
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Middle",
+      "formation": "Kansas City Group",
+      "symbol": "C₂k",
+      "thick": 40,
+      "descr": "Cherty limestone with shale partings",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 35,
+      "pattern": "chert",
+      "grain": 2,
+      "fossils": [
+        "brachiopod",
+        "crinoid",
+        "bryozoa"
+      ],
+      "age_ma": 310
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Lower",
+      "formation": "Cherokee Group",
+      "symbol": "C₁c",
+      "thick": 50,
+      "descr": "Cyclic sandstone-shale-coal, deltaic",
+      "c": 0,
+      "m": 5,
+      "y": 15,
+      "k": 40,
+      "pattern": "sand",
+      "grain": 3,
+      "age_ma": 315,
+      "contact": "disconformity"
+    },
+    {
+      "erathem": "Paleozoic",
+      "system": "Carboniferous",
+      "series": "Lower",
+      "formation": "Kinderhookian",
+      "symbol": "C₁k",
+      "thick": 25,
+      "descr": "Dark shale, anoxic, basal transgression",
+      "c": 0,
+      "m": 0,
+      "y": 0,
+      "k": 55,
+      "pattern": "shale",
+      "grain": 1,
+      "fossils": [
+        "conodont"
+      ],
+      "age_ma": 355
+    }
+  ]
+}
