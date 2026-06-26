@@ -13,8 +13,15 @@ os.makedirs(PDF_DIR, exist_ok=True)
 os.makedirs(FIG_DIR, exist_ok=True)
 
 def doi_to_slug(doi):
+    # Remove 10.1038/ prefix
     suffix = doi.replace("10.1038/", "")
     return re.sub(r'[^a-zA-Z0-9_-]', '_', suffix)
+
+def doi_to_pdf_url(doi):
+    """Convert any Nature DOI to its PDF URL."""
+    suffix = doi.replace("10.1038/", "")
+    # Handle different Nature journal URL patterns
+    return f"https://www.nature.com/articles/{suffix}.pdf"
 
 def download_pdf(doi):
     slug = doi_to_slug(doi)
@@ -23,7 +30,7 @@ def download_pdf(doi):
         print(f"  📄 Already cached: {pdf_path}")
         return pdf_path
 
-    url = f"https://www.nature.com/articles/{doi.replace('10.1038/', '')}.pdf"
+    url = doi_to_pdf_url(doi)
     print(f"  📥 Downloading: {doi}")
     result = subprocess.run(
         ["curl", "-L", "-s", "--max-time", "90", "-o", pdf_path,
