@@ -181,7 +181,8 @@ python3 generate_cross_section.py /tmp/data.json output.svg
 
 | Channel | Command | When to Use |
 |---------|---------|-------------|
-| **SVG** | `python3 generate_column.py` or `generate_cross_section.py` | Default, always |
+| **SVG** | `python3 generate_column.py data.json output.svg [--style nature]` | Default, always |
+|          | `python3 generate_cross_section.py data.json output.svg [--style nature]` | Cross-sections |
 | **VBA** | `python3 coreldrawer.py vba data.json` | User asks for VBA / Windows unavailable |
 | **COM** | `python3 coreldrawer.py com data.json` | Windows + CorelDRAW installed |
 

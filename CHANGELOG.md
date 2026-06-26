@@ -1,5 +1,19 @@
 # Changelog
 
+## [v0.2.2] — 2025-06-26
+
+### Added
+- **Nature Figure batch download** (`batch_fetch_nature.py`): curl-based batch PDF download + figure extraction
+  - 25 new Nature papers, 617 total figures extracted
+  - `strat_ref_figures/` — 107 curated stratigraphic reference images in 7 categories
+- **Cross-section Nature style**: `generate_cross_section.py --style nature`
+  - Arial font, thin lines (0.06–0.15 mm), muted colors (#333/#666/#999)
+  - Unified CLI: `coreldrawer.py xsection data.json out.svg --style nature`
+- **Enhanced column Nature style** (`generate_column.py --style nature`):
+  - Font size hierarchy (FONT_TITLE/FONT_HEADER/FONT_BODY/FONT_SMALL)
+  - 3-level text colors, refined line weights
+- **Nature style templates**: `nature_strat_template.svg`, `nature_xsec_template.svg`
+
 ## [v0.2.1] — 2025-06-19
 
 ### Added
