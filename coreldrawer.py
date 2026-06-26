@@ -48,11 +48,12 @@ def cmd_xsection(args):
         with open(args.input, 'r', encoding='utf-8') as f:
             data = json.load(f)
     out = args.output or 'cross_section.svg'
+    style = getattr(args, 'style', 'default')
     try:
-        generate_cross_section(data, out)
+        generate_cross_section(data, out, style=style)
         n = len(data['boreholes'])
         f = len(data.get('faults', []))
-        print(f"✅ Cross-section saved: {out}  ({n} boreholes, {f} faults)")
+        print(f"✅ Cross-section saved: {out}  ({n} boreholes, {f} faults, style: {style})")
     except (ValueError, KeyError) as e:
         print(f"❌ {e}", file=sys.stderr)
         sys.exit(1)
@@ -107,6 +108,8 @@ def main():
     p = sub.add_parser('xsection', help='Cross-section')
     p.add_argument('input', nargs='?')
     p.add_argument('output', nargs='?')
+    p.add_argument('--style', choices=['default', 'nature'], default='default',
+                   help='Visual style (default or nature)')
 
     p = sub.add_parser('vba', help='VBA macro')
     p.add_argument('input', nargs='?')

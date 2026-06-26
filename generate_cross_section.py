@@ -96,11 +96,12 @@ def add_line(parent, x1, y1, x2, y2, stroke='#000', sw=0.2, **extra):
     a.update(extra)
     return _append(parent, 'line', a)
 
-def add_text(parent, x, y, text, size=3, bold=False, anchor='start', fill='#000', **extra):
+def add_text(parent, x, y, text, size=3, bold=False, anchor='start', fill='#000',
+             font_family=None, **extra):
     t = ET.SubElement(parent, 'text')
     t.set('x', str(x))
     t.set('y', str(y))
-    t.set('font-family', 'SimHei, Heiti SC, sans-serif')
+    t.set('font-family', font_family or 'SimHei, Heiti SC, sans-serif')
     t.set('font-size', str(size))
     t.set('font-weight', 'bold' if bold else 'normal')
     t.set('text-anchor', anchor)
@@ -341,25 +342,41 @@ PATTERNS = {
 # MAIN GENERATOR
 # ============================================================================
 
-def generate_cross_section(data, output_path=None):
+def generate_cross_section(data, output_path=None, style='default'):
     """
     Generate a geological cross-section SVG from borehole data.
 
-    data format:
-    {
-        "title": "Cross-Section A-A'",
-        "orientation": "NW → SE",
-        "vertical_exaggeration": 5,
-        "boreholes": [
-            {"id": "ZK001", "x": 0, "elevation": 520, "depth": 180,
-             "layers": [{"formation": "...", "thick": N, "c":0, "m":0, "y":0, "k":0, "pattern":"..."}, ...]},
-            ...
-        ],
-        "faults": [
-            {"x": 200, "dip": 72, "direction": "NE", "type": "normal", "throw": 40}
-        ]
-    }
+    Args:
+        data: borehole data dict
+        output_path: optional output file path
+        style: 'default' or 'nature' — Nature uses Arial, thinner lines, muted colors
     """
+    # Style settings
+    is_nature = (style == 'nature')
+    if is_nature:
+        FONT_STACK = 'Arial, Helvetica, sans-serif'
+        LINE_THIN = 0.06
+        LINE_MED = 0.1
+        LINE_THICK = 0.15
+        TEXT_COLOR = '#333'
+        TEXT_SECONDARY = '#666'
+        TEXT_MUTED = '#999'
+        GRID_COLOR = '#e8e8e8'
+        FONT_TITLE = 4.5
+        FONT_BODY = 3.0
+        FONT_SMALL = 2.5
+    else:
+        FONT_STACK = 'SimHei, Heiti SC, sans-serif'
+        LINE_THIN = 0.2
+        LINE_MED = 0.35
+        LINE_THICK = 0.4
+        TEXT_COLOR = '#000'
+        TEXT_SECONDARY = '#333'
+        TEXT_MUTED = '#666'
+        GRID_COLOR = '#ccc'
+        FONT_TITLE = 5.0
+        FONT_BODY = 3.5
+        FONT_SMALL = 3.0
     # Input validation
     if not data.get('boreholes'):
         raise ValueError("No boreholes data provided")
@@ -429,14 +446,14 @@ def generate_cross_section(data, output_path=None):
     # Title
     title_g = ET.SubElement(svg, 'g', {'id': 'cdr-title', 'data-cdr-layer': 'title'})
     cx = MARGIN + section_width / 2
-    add_text(title_g, cx, 20, title, size=5, bold=True, anchor='middle', fill='#000',
-             data_cdr_type='title')
+    add_text(title_g, cx, 20, title, size=FONT_TITLE, bold=True, anchor='middle', fill=TEXT_COLOR,
+             font_family=FONT_STACK, data_cdr_type='title')
     if orientation:
-        add_text(title_g, cx, 28, orientation, size=3, anchor='middle', fill='#666',
-                 data_cdr_type='orientation')
+        add_text(title_g, cx, 28, orientation, size=FONT_BODY, anchor='middle', fill=TEXT_SECONDARY,
+                 font_family=FONT_STACK, data_cdr_type='orientation')
     ve_text = f"Vertical exaggeration: {vx}×"
-    add_text(title_g, cx, 35, ve_text, size=2.5, anchor='middle', fill='#999',
-             data_cdr_type='ve-note')
+    add_text(title_g, cx, 35, ve_text, size=FONT_SMALL, anchor='middle', fill=TEXT_MUTED,
+             font_family=FONT_STACK, data_cdr_type='ve-note')
 
     # Body layer
     body = ET.SubElement(svg, 'g', {'id': 'cdr-body', 'data-cdr-layer': 'body'})
@@ -482,8 +499,8 @@ def generate_cross_section(data, output_path=None):
                  data_cdr_type='borehole-line')
         # Borehole collar marker
         add_circle(body, sx, sy, 2.5, fill='#c0392b', stroke='#fff', sw=0.5)
-        add_text(body, sx, sy - 5, bh['id'], size=3, bold=True, anchor='middle',
-                 fill='#c0392b', data_cdr_type='borehole-label')
+        add_text(body, sx, sy - 5, bh['id'], size=FONT_BODY if not is_nature else FONT_SMALL, bold=True, anchor='middle',
+                 fill=TEXT_COLOR if is_nature else '#c0392b', data_cdr_type='borehole-label')
 
     # ============================
     # Layer correlation & drawing
@@ -601,8 +618,8 @@ def generate_cross_section(data, output_path=None):
             mid_x = sum(p[0] for p in top_points) / len(top_points)
             mid_y = (sum(p[1] for p in top_points) + sum(p[1] for p in bot_points)) / (2 * len(top_points))
             fm_label = layer['formation']
-            add_text(layer_g, mid_x, mid_y, fm_label, size=2.5, anchor='middle',
-                     fill='#222', data_cdr_type='formation-label')
+            add_text(layer_g, mid_x, mid_y, fm_label, size=FONT_SMALL, anchor='middle',
+                     fill=TEXT_SECONDARY, font_family=FONT_STACK, data_cdr_type='formation-label')
 
     # ============================
     # Faults
@@ -659,8 +676,8 @@ def generate_cross_section(data, output_path=None):
     add_line(body, scale_bar_x + scale_len_svg, scale_bar_y - 4, scale_bar_x + scale_len_svg, scale_bar_y + 4,
              stroke='#000', sw=0.5)
     add_text(body, scale_bar_x + scale_len_svg / 2, scale_bar_y - 5,
-             f"{scale_len_m}m", size=2.8, anchor='middle', fill='#000',
-             data_cdr_type='scale-label')
+             f"{scale_len_m}m", size=FONT_BODY, anchor='middle', fill=TEXT_COLOR,
+             font_family=FONT_STACK, data_cdr_type='scale-label')
 
     # Vertical scale
     v_scale_bar_x = scale_bar_x + scale_len_svg + 30
@@ -673,8 +690,8 @@ def generate_cross_section(data, output_path=None):
     add_line(body, v_scale_bar_x - 4, scale_bar_y - v_scale_len_svg, v_scale_bar_x + 4, scale_bar_y - v_scale_len_svg,
              stroke='#000', sw=0.5)
     add_text(body, v_scale_bar_x + 8, scale_bar_y - v_scale_len_svg / 2,
-             f"{v_scale_len_m}m", size=2.8, anchor='start', fill='#000',
-             data_cdr_type='vscale-label')
+             f"{v_scale_len_m}m", size=FONT_BODY, anchor='start', fill=TEXT_COLOR,
+             font_family=FONT_STACK, data_cdr_type='vscale-label')
 
     # ============================
     # Legend
@@ -699,30 +716,30 @@ def generate_cross_section(data, output_path=None):
         add_rect(legend_g, lgX, lgY, lgW, lgH,
                  fill='#fff', stroke='#666', sw=0.3, data_cdr_type='legend-box')
         add_text(legend_g, lgX + lgW/2, lgY + 8, 'Legend',
-                 size=3.5, bold=True, anchor='middle', fill='#000',
-                 data_cdr_type='legend-title')
+                 size=FONT_BODY, bold=True, anchor='middle', fill=TEXT_COLOR,
+                 font_family=FONT_STACK, data_cdr_type='legend-title')
         add_line(legend_g, lgX + 5, lgY + 14, lgX + lgW - 5, lgY + 14,
-                 stroke='#ccc', sw=0.15)
+                 stroke=GRID_COLOR, sw=LINE_THIN)
 
         for j, (fm, ldata) in enumerate(unique_fms.items()):
             iy = lgY + 20 + j * itemH
             c, m, y, k = ldata['c'], ldata['m'], ldata['y'], ldata['k']
             fc = cmyk_fill(c, m, y, k)
             swatchX, swatchY = lgX + 8, iy - 4.5
-            add_rect(legend_g, swatchX, swatchY, 9, 9, fill=fc, stroke='#888', sw=0.15,
+            add_rect(legend_g, swatchX, swatchY, 9, 9, fill=fc, stroke=TEXT_MUTED, sw=LINE_THIN,
                      data_cdr_type='legend-swatch')
-            add_text(legend_g, lgX + 20, iy, fm, size=2.5, fill='#333',
-                     data_cdr_type='legend-label')
+            add_text(legend_g, lgX + 20, iy, fm, size=FONT_SMALL, fill=TEXT_SECONDARY,
+                     font_family=FONT_STACK, data_cdr_type='legend-label')
 
     # Footer
     footer_g = ET.SubElement(svg, 'g', {'id': 'cdr-footer', 'data-cdr-layer': 'footer'})
     n_bh = len(boreholes)
     footer_text = f"{title}  |  {n_bh} boreholes  |  V.E. = {vx}×"
-    add_text(footer_g, MARGIN, page_h - 8, footer_text, size=2.2, fill='#888',
-             data_cdr_type='footer-text')
+    add_text(footer_g, MARGIN, page_h - 8, footer_text, size=FONT_SMALL, fill=TEXT_MUTED,
+             font_family=FONT_STACK, data_cdr_type='footer-text')
     add_text(footer_g, MARGIN, page_h - 12,
              "Generated with CorelDRAWer-Skill (github.com/Reasonite-lab/CorelDRAWer-Skill)",
-             size=1.6, fill='#ccc', data_cdr_type='footer-citation')
+             size=FONT_SMALL - 0.5, fill=TEXT_MUTED, font_family=FONT_STACK, data_cdr_type='footer-citation')
 
     # Output
     rough = ET.tostring(svg, encoding='unicode')
@@ -762,12 +779,16 @@ Output: SVG vector graphic with 5 layer groups, data-cdr-* attributes,
 
     data = DEMO_DATA
     output_path = None
+    style = 'default'
 
     args = sys.argv[1:]
     i = 0
     while i < len(args):
         a = args[i]
-        if a == '--json' and i + 1 < len(args):
+        if a == '--style' and i + 1 < len(args):
+            style = args[i + 1]
+            i += 2
+        elif a == '--json' and i + 1 < len(args):
             data = json.loads(args[i + 1])
             i += 2
         elif a.endswith('.json'):
@@ -781,10 +802,10 @@ Output: SVG vector graphic with 5 layer groups, data-cdr-* attributes,
             i += 1
 
     if output_path:
-        generate_cross_section(data, output_path)
-        print(f"✅ Cross-section saved: {output_path}")
+        generate_cross_section(data, output_path, style=style)
+        print(f"✅ Cross-section saved: {output_path}  (style: {style})")
     else:
-        result = generate_cross_section(data)
+        result = generate_cross_section(data, style=style)
         print(result)
 
 
