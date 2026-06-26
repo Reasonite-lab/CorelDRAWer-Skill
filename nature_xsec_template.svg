@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nature Communications Earth & Environment — Geological Cross-Section Template
+=============================================================================
+This SVG template captures the visual design patterns observed in Nature
+cross-section figures.
+
+Key design patterns:
+- A4 landscape layout (297 × 210 mm)
+- Minimal, clean lines with subtle fill colors
+- Surface topography as shaded area at top
+- Boreholes as thin vertical lines with lithology fills
+- Faults as red dashed lines with dip labels
+- Dual scale bars (horizontal + vertical)
+- Vertical exaggeration note
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 297 210" width="297mm" height="210mm" version="1.1">
+
+  <defs>
+    <style>
+      .title { font: bold 5pt 'Arial', 'Helvetica', sans-serif; fill: #222; }
+      .subtitle { font: 3.5pt 'Arial', 'Helvetica', sans-serif; fill: #555; }
+      .label { font: 3pt 'Arial', 'Helvetica', sans-serif; fill: #444; }
+      .annotation { font: 2.5pt 'Arial', 'Helvetica', sans-serif; fill: #888; }
+      .small { font: 2.2pt 'Arial', 'Helvetica', sans-serif; fill: #999; }
+      .line-frame { stroke: #555; stroke-width: 0.12; fill: none; }
+      .line-thin { stroke: #888; stroke-width: 0.08; fill: none; }
+      .line-fault { stroke: #c0392b; stroke-width: 0.12; stroke-dasharray: 1.5,1; fill: none; }
+      .fill-surface { fill: #e8e4d8; }
+      .fill-borehole { fill: #f5f5f0; }
+    </style>
+  </defs>
+
+  <g id="bg"><rect x="0" y="0" width="297" height="210" fill="#fff"/></g>
+
+  <g id="title">
+    <text x="12" y="12" class="title">Geological cross-section A–A′ through the Zigui area</text>
+    <text x="12" y="17" class="subtitle">Vertical exaggeration ×5 · NW → SE · Datum: Mean sea level</text>
+  </g>
+
+  <!-- Surface topography -->
+  <g id="surface">
+    <path d="M 30,55 Q 60,45 90,52 Q 120,60 150,50 Q 180,42 210,55 Q 240,62 270,50 L 270,80 L 30,80 Z"
+          class="fill-surface" stroke="#888" stroke-width="0.08"/>
+    <text x="145" y="48" class="annotation">Surface</text>
+  </g>
+
+  <!-- Boreholes -->
+  <g id="boreholes">
+    <!-- ZK001 -->
+    <line x1="70" y1="52" x2="70" y2="120" class="line-frame"/>
+    <rect x="66" y="60" width="8" height="20" fill="#e8d5c4" stroke="none"/>
+    <rect x="66" y="80" width="8" height="25" fill="#d4d4d4" stroke="none"/>
+    <rect x="66" y="105" width="8" height="15" fill="#c8c8c8" stroke="none"/>
+    <text x="62" y="125" class="label">ZK001</text>
+
+    <!-- ZK002 -->
+    <line x1="130" y1="50" x2="130" y2="130" class="line-frame"/>
+    <rect x="126" y="55" width="8" height="15" fill="#e8d5c4" stroke="none"/>
+    <rect x="126" y="70" width="8" height="30" fill="#d4d4d4" stroke="none"/>
+    <rect x="126" y="100" width="8" height="30" fill="#c8c8c8" stroke="none"/>
+    <text x="122" y="135" class="label">ZK002</text>
+
+    <!-- ZK003 -->
+    <line x1="200" y1="55" x2="200" y2="110" class="line-frame"/>
+    <rect x="196" y="60" width="8" height="15" fill="#e8d5c4" stroke="none"/>
+    <rect x="196" y="75" width="8" height="20" fill="#e8e8d8" stroke="none"/>
+    <rect x="196" y="95" width="8" height="15" fill="#d4d4d4" stroke="none"/>
+    <text x="192" y="115" class="label">ZK003</text>
+  </g>
+
+  <!-- Layer boundaries -->
+  <g id="boundaries">
+    <path d="M 30,80 Q 70,78 70,80 Q 100,82 130,78 Q 160,75 200,78 Q 230,80 270,78"
+          class="line-thin"/>
+    <path d="M 30,105 Q 70,108 70,105 Q 100,102 130,107 Q 160,110 200,103 Q 230,100 270,105"
+          class="line-thin"/>
+    <path d="M 30,130 Q 70,135 70,130 Q 100,128 130,133 Q 160,138 200,132 Q 230,125 270,130"
+          class="line-thin"/>
+  </g>
+
+  <!-- Fault -->
+  <g id="faults">
+    <line x1="160" y1="48" x2="155" y2="145" class="line-fault"/>
+    <!-- Dip arrow -->
+    <line x1="155" y1="80" x2="148" y2="92" stroke="#c0392b" stroke-width="0.08"
+          marker-end="url(#arrowhead)"/>
+    <text x="140" y="76" class="annotation" fill="#c0392b">72°</text>
+    <text x="145" y="100" class="annotation" fill="#c0392b">normal</text>
+  </g>
+
+  <!-- Scale bars -->
+  <g id="scale">
+    <text x="12" y="170" class="annotation">Horizontal scale</text>
+    <line x1="12" y1="173" x2="60" y2="173" class="line-frame"/>
+    <line x1="12" y1="170" x2="12" y2="176" class="line-frame"/>
+    <line x1="36" y1="170" x2="36" y2="176" class="line-thin"/>
+    <line x1="60" y1="170" x2="60" y2="176" class="line-frame"/>
+    <text x="12" y="180" class="small">0</text>
+    <text x="30" y="180" class="small">1 km</text>
+    <text x="55" y="180" class="small">2 km</text>
+
+    <text x="180" y="170" class="annotation">Vertical scale</text>
+    <line x1="180" y1="173" x2="228" y2="173" class="line-frame"/>
+    <line x1="180" y1="170" x2="180" y2="176" class="line-frame"/>
+    <line x1="204" y1="170" x2="204" y2="176" class="line-thin"/>
+    <line x1="228" y1="170" x2="228" y2="176" class="line-frame"/>
+    <text x="180" y="180" class="small">0</text>
+    <text x="196" y="180" class="small">50 m</text>
+    <text x="218" y="180" class="small">100 m</text>
+  </g>
+
+  <!-- Lithology legend -->
+  <g id="legend">
+    <text x="12" y="190" class="label">Legend</text>
+    <rect x="14" y="193" width="6" height="3" fill="#e8d5c4"/>
+    <text x="22" y="195" class="small">Sandstone</text>
+    <rect x="14" y="198" width="6" height="3" fill="#d4d4d4"/>
+    <text x="22" y="200" class="small">Limestone</text>
+    <rect x="14" y="203" width="6" height="3" fill="#c8c8c8"/>
+    <text x="22" y="205" class="small">Shale</text>
+  </g>
+</svg>

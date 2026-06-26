@@ -635,14 +635,37 @@ def generate_svg(data, output_path=None, style='default'):
     """
     # Nature style settings
     is_nature = (style == 'nature')
-    FONT_STACK = 'Arial, Helvetica, sans-serif' if is_nature else 'SimHei, Heiti SC, sans-serif'
-    # Nature: thinner lines, muted colors, minimal grid
-    LINE_THIN = 0.08 if is_nature else 0.2
-    LINE_MED = 0.12 if is_nature else 0.35
-    LINE_THICK = 0.2 if is_nature else 0.4
-    TEXT_COLOR = '#333' if is_nature else '#000'
-    MUTED_FILL = '#f8f8f8' if is_nature else '#f5f5f5'
-    GRID_COLOR = '#e8e8e8' if is_nature else '#999'
+
+    if is_nature:
+        # Nature Communications style: thin lines, muted colors, Arial
+        FONT_STACK = 'Arial, Helvetica, sans-serif'
+        LINE_THIN = 0.06
+        LINE_MED = 0.1
+        LINE_THICK = 0.15
+        TEXT_COLOR = '#333'
+        TEXT_SECONDARY = '#666'
+        TEXT_MUTED = '#999'
+        MUTED_FILL = '#fafaf8'
+        GRID_COLOR = '#e8e8e8'
+        FONT_TITLE = 4.5
+        FONT_HEADER = 3.0
+        FONT_BODY = 2.6
+        FONT_SMALL = 2.2
+    else:
+        # Default Chinese style: clear lines, SimHei, higher contrast
+        FONT_STACK = 'SimHei, Heiti SC, sans-serif'
+        LINE_THIN = 0.2
+        LINE_MED = 0.35
+        LINE_THICK = 0.4
+        TEXT_COLOR = '#000'
+        TEXT_SECONDARY = '#333'
+        TEXT_MUTED = '#666'
+        MUTED_FILL = '#f5f5f5'
+        GRID_COLOR = '#999'
+        FONT_TITLE = 5.0
+        FONT_HEADER = 3.5
+        FONT_BODY = 3.0
+        FONT_SMALL = 2.5
 
     # Input validation
     if not data.get('layers'):
@@ -770,11 +793,11 @@ def generate_svg(data, output_path=None, style='default'):
     })
     title_x = (MARGIN_LEFT + TABLE_RIGHT) / 2
     add_text(title_grp, title_x, TABLE_TOP + 12, title,
-             size=4.5, bold=True, anchor='middle', fill=TEXT_COLOR,
+             size=FONT_TITLE, bold=True, anchor='middle', fill=TEXT_COLOR,
              font_family=FONT_STACK, data_cdr_type='title')
     if location:
         add_text(title_grp, title_x, TABLE_TOP + 6, location,
-                 size=2.8, bold=False, anchor='middle', fill='#555',
+                 size=FONT_SMALL, bold=False, anchor='middle', fill=TEXT_SECONDARY,
                  data_cdr_type='subtitle')
 
     # ═══════════════════════════════════════════
@@ -791,7 +814,7 @@ def generate_svg(data, output_path=None, style='default'):
     headerB = TABLE_TOP - HEADER_H
 
     add_rect(header_grp, MARGIN_LEFT, headerB, TABLE_RIGHT - MARGIN_LEFT, HEADER_H,
-             fill='#f5f5f5', stroke='#000', sw=0.4, data_cdr_type='header-bg')
+             fill=MUTED_FILL, stroke=TEXT_COLOR, sw=LINE_THICK, data_cdr_type='header-bg')
 
     # Map col_defs to actual column indices
     # The actual col index in COL_X depends on which optional cols are hidden
@@ -813,11 +836,11 @@ def generate_svg(data, output_path=None, style='default'):
         lines = label.split('\n')
         for li, line_text in enumerate(lines):
             ly = midY - (len(lines) - 1) * 3.5 + li * 7
-            size = 2.8
+            size = FONT_HEADER
             if '粒度' in label:
-                size = 2.4
+                size = FONT_SMALL
             add_text(header_grp, cx, ly, line_text, size=size,
-                     bold=True, anchor='middle', fill='#000',
+                     bold=True, anchor='middle', fill=TEXT_COLOR,
                      data_cdr_type='header-text')
 
     # Vertical column lines
@@ -868,7 +891,7 @@ def generate_svg(data, output_path=None, style='default'):
                      stroke='#aaa', sw=0.15, data_cdr_type='scale-tick')
             if tick_val % (tick_interval * 2) == 0:
                 add_text(body_grp, tickRight - 1, tickY - 1.5, str(tick_val),
-                         size=2.2, anchor='end', fill='#888', data_cdr_type='scale-label')
+                         size=FONT_SMALL, anchor='end', fill=TEXT_MUTED, data_cdr_type='scale-label')
         tick_val += tick_interval
 
     add_line(body_grp, tickX, TABLE_BOTTOM, tickX, headerB,
@@ -921,7 +944,7 @@ def generate_svg(data, output_path=None, style='default'):
                          data_cdr_value=val)
                 midY = (topY + bottomY) / 2
                 add_text(body_grp, COL_X[col_idx] + COL_W[col_idx]/2, midY, val,
-                         size=2.4, bold=False, anchor='middle', fill='#222',
+                         size=FONT_BODY, bold=False, anchor='middle', fill=TEXT_COLOR,
                          data_cdr_type='merge-label',
                          data_cdr_field=col_key)
 
@@ -994,13 +1017,13 @@ def generate_svg(data, output_path=None, style='default'):
         fm = layer.get('formation', '')
         if fm:
             add_text(layer_g, COL_X[col_form] + 1, midY_, fm,
-                     size=2.2, fill='#222', data_cdr_type='formation-text')
+                     size=FONT_BODY, fill=TEXT_SECONDARY, data_cdr_type='formation-text')
 
         # === Symbol (col 代号) ===
         sym = layer.get('symbol', '')
         if sym:
             add_text(layer_g, COL_X[col_sym] + 1, midY_, sym,
-                     size=2.2, bold=True, fill='#000', data_cdr_type='symbol-text')
+                     size=FONT_BODY, bold=True, fill=TEXT_COLOR, data_cdr_type='symbol-text')
 
         # === Fossil column ===
         if col_fossil and show_fossils:
@@ -1012,7 +1035,7 @@ def generate_svg(data, output_path=None, style='default'):
                     if fname in FOSSIL_ICONS:
                         fy = midY_ + (fi - min(len(fossils[:3]), 2) / 2 + 0.5) * 3.5
                         add_text(layer_g, fcx, fy, FOSSIL_ICONS[fname],
-                                 size=3.5, anchor='middle', fill='#333',
+                                 size=FONT_HEADER, anchor='middle', fill=TEXT_SECONDARY,
                                  data_cdr_type='fossil-icon',
                                  data_cdr_fossil=fname)
 
@@ -1065,7 +1088,7 @@ def generate_svg(data, output_path=None, style='default'):
             if grain_val and grain_val in grain_labels:
                 gcx = COL_X[col_grain] + COL_W[col_grain] / 2
                 add_text(layer_g, gcx, midY_, grain_labels[grain_val],
-                         size=1.8, anchor='middle', fill='#999',
+                         size=FONT_SMALL, anchor='middle', fill=TEXT_MUTED,
                          data_cdr_type='grain-label')
 
         # === Structure column ===
@@ -1082,15 +1105,15 @@ def generate_svg(data, output_path=None, style='default'):
                                  data_cdr_structure=sname)
 
         # === Thickness ===
-        add_text(layer_g, COL_X[col_thick] + 1, midY_,
-                 f"{layer['thick']:.1f}", size=2.2, fill='#222',
-                 data_cdr_type='thickness-text')
+            add_text(layer_g, COL_X[col_thick] + 1, midY_,
+                     f"{layer['thick']:.1f}", size=FONT_BODY, fill=TEXT_SECONDARY,
+                     data_cdr_type='thickness-text')
 
         # === Description ===
         descr = layer.get('descr', '')
         if descr:
             add_text(layer_g, COL_X[col_descr] + 1, midY_, descr,
-                     size=2, fill='#333', data_cdr_type='description-text')
+                     size=FONT_SMALL, fill=TEXT_SECONDARY, data_cdr_type='description-text')
 
         # === Contact symbol (at bottom of layer) ===
         contact = layer.get('contact', '')
@@ -1281,12 +1304,12 @@ def generate_svg(data, output_path=None, style='default'):
     footer_text = (f"{title}  |  总厚 {total_thick:,.0f}m  |  {n_layers} 层  "
                    f"|  比例尺 1:{ratio:,}")
     add_text(footer_grp, MARGIN_LEFT, TABLE_BOTTOM - 5, footer_text,
-             size=2, fill='#666', data_cdr_type='footer-text')
+             size=FONT_SMALL, fill=TEXT_SECONDARY, data_cdr_type='footer-text')
     # Citation notice
     cite_y = TABLE_BOTTOM - 8
     add_text(footer_grp, MARGIN_LEFT, cite_y,
              "Generated with CorelDRAWer-Skill (github.com/Reasonite-lab/CorelDRAWer-Skill)",
-             size=1.6, fill='#bbb', data_cdr_type='footer-citation')
+             size=FONT_SMALL - 0.5, fill=TEXT_MUTED, data_cdr_type='footer-citation')
 
     # ═══════════════════════════════════════════
     # LAYER GROUP: cdr-legend

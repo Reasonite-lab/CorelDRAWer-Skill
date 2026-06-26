@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nature Communications Earth & Environment — Stratigraphic Column Template
+=======================================================================
+This SVG template captures the visual design patterns observed in Nature
+Communications Earth & Environment stratigraphic figures.
+
+Key design patterns:
+- A4 portrait layout (210 × 297 mm)
+- Arial/Helvetica font family (English), clean sans-serif
+- Thin lines (0.08–0.2 mm stroke-width)
+- Muted, professional color palette (30-60% gray, limited accent colors)
+- Minimal grid lines (light gray #e8e8e8)
+- Clean typography with hierarchical sizing
+- Left-aligned column layout with well-spaced data tracks
+- Open access / CC-BY notice in footer
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 210 297" width="210mm" height="297mm" version="1.1">
+
+  <defs>
+    <!-- Nature-style muted color palette -->
+    <!-- Text hierarchy -->
+    <style>
+      .title { font: bold 5pt 'Arial', 'Helvetica', sans-serif; fill: #222; }
+      .subtitle { font: 3.5pt 'Arial', 'Helvetica', sans-serif; fill: #555; }
+      .col-header { font: 3pt 'Arial', 'Helvetica', sans-serif; fill: #333; }
+      .data-text { font: 2.8pt 'Arial', 'Helvetica', sans-serif; fill: #444; }
+      .annotation { font: 2.5pt 'Arial', 'Helvetica', sans-serif; fill: #888; }
+      .small-label { font: 2.2pt 'Arial', 'Helvetica', sans-serif; fill: #999; }
+
+      /* Nature line styles */
+      .line-thin { stroke: #666; stroke-width: 0.08; fill: none; }
+      .line-med  { stroke: #555; stroke-width: 0.12; fill: none; }
+      .line-thick { stroke: #444; stroke-width: 0.2; fill: none; }
+      .grid-line { stroke: #e8e8e8; stroke-width: 0.06; fill: none; }
+
+      /* Nature fill palette */
+      .fill-bg { fill: #ffffff; }
+      .fill-header { fill: #fafaf8; }
+      .fill-muted { fill: #f5f5f5; }
+    </style>
+  </defs>
+
+  <!-- LAYER 1: Background -->
+  <g id="bg" data-cdr-layer="background">
+    <rect x="0" y="0" width="210" height="297" fill="#fff"/>
+  </g>
+
+  <!-- LAYER 2: Title -->
+  <g id="title" data-cdr-layer="title">
+    <text x="12" y="12" class="title">Stratigraphic column of the Zigui area, Hubei Province, China</text>
+    <text x="12" y="17" class="subtitle">Modified from field survey data · Vertical scale is thickness in meters</text>
+  </g>
+
+  <!-- LAYER 3: Column Headers (Nature: minimal borders, muted) -->
+  <g id="headers" data-cdr-layer="headers">
+    <!-- Header background -->
+    <rect x="12" y="22" width="180" height="8" class="fill-header"/>
+
+    <!-- Header text (Nature: compact, uppercase, small) -->
+    <text x="13" y="28" class="col-header">System</text>
+    <text x="31" y="28" class="col-header">Series</text>
+    <text x="48" y="28" class="col-header">Formation</text>
+    <text x="76" y="28" class="col-header">Symbol</text>
+    <text x="96" y="28" class="col-header">Lithology</text>
+    <text x="137" y="28" class="col-header">Grain</text>
+    <text x="155" y="28" class="col-header">Thick.</text>
+    <text x="168" y="28" class="col-header">Age (Ma)</text>
+
+    <!-- Grid lines (Nature: minimal, thin) -->
+    <line x1="12" y1="22" x2="12" y2="280" class="line-med"/>
+    <line x1="12" y1="30" x2="192" y2="30" class="line-thin"/>
+  </g>
+
+  <!-- LAYER 4: Body — Example stratigraphic layers (Nature-style) -->
+  <g id="body" data-cdr-layer="body">
+    <!-- Layer 1: Sandstone -->
+    <rect x="88" y="32" width="42" height="40" fill="#e8d5c4" stroke="#555" stroke-width="0.08"/>
+    <!-- Sand pattern dots -->
+    <circle cx="95" cy="42" r="0.6" fill="#999"/>
+    <circle cx="105" cy="48" r="0.6" fill="#999"/>
+    <circle cx="115" cy="38" r="0.6" fill="#999"/>
+    <circle cx="100" cy="55" r="0.6" fill="#999"/>
+    <circle cx="120" cy="60" r="0.6" fill="#999"/>
+    <circle cx="92" cy="65" r="0.6" fill="#999"/>
+
+    <text x="13" y="45" class="data-text">Cambrian</text>
+    <text x="31" y="45" class="data-text">Lower</text>
+    <text x="48" y="45" class="data-text">Shuijingtuo</text>
+    <text x="76" y="45" class="data-text">∈₁s</text>
+    <text x="155" y="45" class="data-text">95</text>
+    <text x="168" y="45" class="data-text">541</text>
+
+    <!-- Grain size triangle -->
+    <polygon points="145,70 150,72 140,72" fill="#666"/>
+    <text x="137" y="67" class="small-label">clay</text>
+    <text x="148" y="67" class="small-label">sand</text>
+
+    <!-- Layer 2: Limestone -->
+    <rect x="88" y="72" width="42" height="35" fill="#d4d4d4" stroke="#555" stroke-width="0.08"/>
+    <!-- Limestone brick pattern -->
+    <line x1="95" y1="80" x2="125" y2="80" class="line-thin"/>
+    <line x1="90" y1="90" x2="128" y2="90" class="line-thin"/>
+    <line x1="100" y1="72" x2="100" y2="80" class="line-thin"/>
+    <line x1="115" y1="80" x2="115" y2="90" class="line-thin"/>
+
+    <text x="48" y="90" class="data-text">Tianheban</text>
+    <text x="76" y="90" class="data-text">∈₁t</text>
+    <text x="155" y="90" class="data-text">80</text>
+    <text x="168" y="90" class="data-text">509</text>
+
+    <!-- Layer 3: Dolomite -->
+    <rect x="88" y="107" width="42" height="45" fill="#e8e8d8" stroke="#555" stroke-width="0.08"/>
+
+    <text x="48" y="125" class="data-text">Shilongdong</text>
+    <text x="76" y="125" class="data-text">∈₁sl</text>
+    <text x="155" y="125" class="data-text">110</text>
+    <text x="168" y="125" class="data-text">500</text>
+
+    <!-- Contact types (Nature: subtle markers) -->
+    <!-- Conformity -->
+    <line x1="88" y1="107" x2="130" y2="107" class="line-med"/>
+    <!-- Unconformity (sawtooth) -->
+    <polyline points="88,152 90,150 92,152 94,150 96,152 98,150 100,152 102,150 104,152 106,150 108,152 110,150 112,152 114,150 116,152 118,150 120,152 122,150 124,152 126,150 130,152"
+              class="line-med"/>
+  </g>
+
+  <!-- LAYER 5: Outlines and border frame -->
+  <g id="outlines" data-cdr-layer="outlines">
+    <!-- Table frame (Nature: thin border) -->
+    <rect x="12" y="22" width="180" height="258" class="line-thick"/>
+    <line x1="28" y1="22" x2="28" y2="280" class="line-thin"/>
+    <line x1="44" y1="22" x2="44" y2="280" class="line-thin"/>
+    <line x1="72" y1="22" x2="72" y2="280" class="line-thin"/>
+    <line x1="86" y1="22" x2="86" y2="280" class="line-thin"/>
+    <line x1="132" y1="22" x2="132" y2="280" class="line-thin"/>
+    <line x1="150" y1="22" x2="150" y2="280" class="line-thin"/>
+    <line x1="164" y1="22" x2="164" y2="280" class="line-thin"/>
+  </g>
+
+  <!-- LAYER 6: Footer — Scale and notes (Nature-style) -->
+  <g id="footer" data-cdr-layer="footer">
+    <text x="12" y="288" class="annotation">Data source: Field measurements and published literature</text>
+    <text x="12" y="293" class="small-label">© 2024 · Open Access · CC-BY 4.0</text>
+  </g>
+
+  <!-- LAYER 7: Legend (Nature-style compact) -->
+  <g id="legend" data-cdr-layer="legend">
+    <text x="12" y="200" class="col-header">Legend</text>
+
+    <!-- Lithology patterns -->
+    <rect x="14" y="204" width="8" height="4" fill="#e8d5c4" stroke="#555" stroke-width="0.08"/>
+    <text x="24" y="207" class="data-text">Sandstone</text>
+
+    <rect x="14" y="210" width="8" height="4" fill="#d4d4d4" stroke="#555" stroke-width="0.08"/>
+    <text x="24" y="213" class="data-text">Limestone</text>
+
+    <rect x="14" y="216" width="8" height="4" fill="#e8e8d8" stroke="#555" stroke-width="0.08"/>
+    <text x="24" y="219" class="data-text">Dolomite</text>
+  </g>
+</svg>
